@@ -1,0 +1,633 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN control_for_4bit_input ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 10640 23940 ) ;
+
+ROW CORE_ROW_0 CoreSite 0 0 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_1 CoreSite 0 1260 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_2 CoreSite 0 2520 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_3 CoreSite 0 3780 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_4 CoreSite 0 5040 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_5 CoreSite 0 6300 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_6 CoreSite 0 7560 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_7 CoreSite 0 8820 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_8 CoreSite 0 10080 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_9 CoreSite 0 11340 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_10 CoreSite 0 12600 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_11 CoreSite 0 13860 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_12 CoreSite 0 15120 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_13 CoreSite 0 16380 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_14 CoreSite 0 17640 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_15 CoreSite 0 18900 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_16 CoreSite 0 20160 N DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_17 CoreSite 0 21420 FS DO 56 BY 1 STEP 190 0 ;
+ROW CORE_ROW_18 CoreSite 0 22680 N DO 56 BY 1 STEP 190 0 ;
+
+TRACKS X 95 DO 55 STEP 190 LAYER metal3 ;
+TRACKS Y 70 DO 170 STEP 140 LAYER metal3 ;
+TRACKS Y 210 DO 84 STEP 280 LAYER metal4 ;
+TRACKS X 285 DO 36 STEP 285 LAYER metal4 ;
+TRACKS X 285 DO 36 STEP 285 LAYER metal5 ;
+TRACKS Y 210 DO 84 STEP 280 LAYER metal5 ;
+TRACKS Y 210 DO 84 STEP 280 LAYER metal6 ;
+TRACKS X 285 DO 36 STEP 285 LAYER metal6 ;
+
+PINS 18 ;
+  - busy + NET busy 
+    + DIRECTION OUTPUT 
+    + PLACED ( 2780 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - cim_data_enable + NET cim_data_enable 
+    + DIRECTION OUTPUT 
+    + PLACED ( 7910 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - clk + NET clk 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16205 ) N 
+    + LAYER metal2 ( 0 0 ) ( 10640 70 ) ; 
+  - clk_b + NET clk_b 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 8645 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - clk_out + NET clk_out 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 1085 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in_msb + NET in_msb 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 16485 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - pe + NET pe 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 22085 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - r_w_cim<0> + NET r_w_cim<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - r_w_cim<1> + NET r_w_cim<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 14035 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - rd_data_enable + NET rd_data_enable 
+    + DIRECTION OUTPUT 
+    + PLACED ( 5345 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - rst + NET rst 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17815 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - rst_b + NET rst_b 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 15225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - se + NET se 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 19705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - spe + NET spe 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 19005 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - start + NET start 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16555 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - wl_enable + NET wl_enable 
+    + DIRECTION OUTPUT 
+    + PLACED ( 215 23800 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - ysr + NET ysr 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 21245 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - ysw + NET ysw 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10570 23345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+END PINS
+
+COMPONENTS 85 ;
+  - _063_ inverter
+    + PLACED ( 7410 11340 ) FS ;
+  - _064_ inverter
+    + PLACED ( 570 10080 ) N ;
+  - _065_ inverter
+    + PLACED ( 0 15120 ) N ;
+  - _066_ inverter
+    + PLACED ( 7600 13860 ) FS ;
+  - _067_ inverter
+    + PLACED ( 6840 12600 ) N ;
+  - _068_ inverter
+    + PLACED ( 7790 11340 ) FS ;
+  - _069_ inverter
+    + PLACED ( 2470 13860 ) FS ;
+  - _070_ inverter
+    + PLACED ( 8740 7560 ) N ;
+  - _071_ nor2
+    + PLACED ( 7790 12600 ) N ;
+  - _072_ nand2
+    + PLACED ( 6270 12600 ) N ;
+  - _073_ nor2
+    + PLACED ( 8170 11340 ) FS ;
+  - _074_ xor2
+    + PLACED ( 8360 12600 ) N ;
+  - _075_ nand2
+    + PLACED ( 1710 12600 ) N ;
+  - _076_ inverter
+    + PLACED ( 570 13860 ) FS ;
+  - _077_ xor2
+    + PLACED ( 2850 10080 ) N ;
+  - _078_ nand2
+    + PLACED ( 5130 12600 ) N ;
+  - _079_ inverter
+    + PLACED ( 9310 13860 ) FS ;
+  - _080_ nor2
+    + PLACED ( 3420 12600 ) N ;
+  - _081_ nand2
+    + PLACED ( 4560 12600 ) N ;
+  - _082_ nor2
+    + PLACED ( 3610 13860 ) FS ;
+  - _083_ inverter
+    + PLACED ( 1520 13860 ) FS ;
+  - _084_ xor2
+    + PLACED ( 4180 13860 ) FS ;
+  - _085_ nand2
+    + PLACED ( 5700 12600 ) N ;
+  - _086_ nor2
+    + PLACED ( 6840 11340 ) FS ;
+  - _087_ nand2
+    + PLACED ( 7220 12600 ) N ;
+  - _088_ inverter
+    + PLACED ( 8930 20160 ) N ;
+  - _089_ nor2
+    + PLACED ( 6270 11340 ) FS ;
+  - _090_ nand2
+    + PLACED ( 9690 12600 ) N ;
+  - _091_ inverter
+    + PLACED ( 10260 12600 ) N ;
+  - _092_ nand2
+    + PLACED ( 8740 18900 ) FS ;
+  - _093_ nand2
+    + PLACED ( 8170 13860 ) FS ;
+  - _094_ nand2
+    + PLACED ( 7790 20160 ) N ;
+  - _095_ nor2
+    + PLACED ( 3040 16380 ) FS ;
+  - _096_ nand2
+    + PLACED ( 3610 16380 ) FS ;
+  - _097_ nand2
+    + PLACED ( 8360 20160 ) N ;
+  - _098_ nor2
+    + PLACED ( 570 12600 ) N ;
+  - _099_ nand2
+    + PLACED ( 0 8820 ) FS ;
+  - _100_ nor2
+    + PLACED ( 1140 8820 ) FS ;
+  - _101_ nand2
+    + PLACED ( 950 10080 ) N ;
+  - _102_ nor2
+    + PLACED ( 570 8820 ) FS ;
+  - _103_ nor2
+    + PLACED ( 1710 8820 ) FS ;
+  - _104_ nor2
+    + PLACED ( 3420 8820 ) FS ;
+  - _105_ nand2
+    + PLACED ( 2850 13860 ) FS ;
+  - _106_ nor2
+    + PLACED ( 3990 12600 ) N ;
+  - _107_ nor2
+    + PLACED ( 4370 8820 ) FS ;
+  - _108_ nor2
+    + PLACED ( 3990 17640 ) N ;
+  - _109_ nor2
+    + PLACED ( 1900 13860 ) FS ;
+  - _110_ nand2
+    + PLACED ( 950 13860 ) FS ;
+  - _111_ nor2
+    + PLACED ( 0 13860 ) FS ;
+  - _112_ nor2
+    + PLACED ( 0 10080 ) N ;
+  - _113_ nor2
+    + PLACED ( 380 15120 ) N ;
+  - _114_ nor2
+    + PLACED ( 190 17640 ) N ;
+  - _115_ nand2
+    + PLACED ( 2280 12600 ) N ;
+  - _116_ inverter
+    + PLACED ( 3800 11340 ) FS ;
+  - _117_ nand2
+    + PLACED ( 1140 12600 ) N ;
+  - _118_ nor2
+    + PLACED ( 3230 11340 ) FS ;
+  - _119_ nor2
+    + PLACED ( 2850 12600 ) N ;
+  - _120_ nand2
+    + PLACED ( 2280 8820 ) FS ;
+  - _121_ nand2
+    + PLACED ( 2850 8820 ) FS ;
+  - _122_ inverter
+    + PLACED ( 3990 8820 ) FS ;
+  - _123_ nor2
+    + PLACED ( 4940 8820 ) FS ;
+  - _124_ nand2
+    + PLACED ( 2090 10080 ) N ;
+  - _125_ nand2
+    + PLACED ( 1520 10080 ) N ;
+  - _126_ inverter
+    + PLACED ( 1330 17640 ) N ;
+  - _127_ nor2
+    + PLACED ( 760 17640 ) N ;
+  - _128_ inverter
+    + PLACED ( 4750 20160 ) N ;
+  - _129_ inverter
+    + PLACED ( 4370 2520 ) N ;
+  - _130_ tieh
+    + PLACED ( 3610 17640 ) N ;
+  - _131_ tieh
+    + PLACED ( 3990 2520 ) N ;
+  - _132_ tieh
+    + PLACED ( 5890 15120 ) N ;
+  - _133_ tieh
+    + PLACED ( 4370 10080 ) N ;
+  - _134_ tieh
+    + PLACED ( 1710 17640 ) N ;
+  - _135_ tieh
+    + PLACED ( 950 22680 ) N ;
+  - _136_ tieh
+    + PLACED ( 3420 6300 ) FS ;
+  - _137_ tieh
+    + PLACED ( 4750 2520 ) N ;
+  - _138_ tieh
+    + PLACED ( 5130 20160 ) N ;
+  - _139_ dff
+    + PLACED ( 5130 21420 ) FS ;
+  - _140_ dff
+    + PLACED ( 5320 1260 ) FS ;
+  - _141_ dff
+    + PLACED ( 4180 3780 ) FS ;
+  - _142_ dff
+    + PLACED ( 5700 16380 ) FS ;
+  - _143_ dff
+    + PLACED ( 5510 8820 ) FS ;
+  - _144_ dff
+    + PLACED ( 950 15120 ) N ;
+  - _145_ dff
+    + PLACED ( 190 21420 ) FS ;
+  - _146_ dff
+    + PLACED ( 3800 6300 ) FS ;
+  - _147_ dff
+    + PLACED ( 4560 17640 ) N ;
+END COMPONENTS
+
+NETS 92 ;
+  - busy
+    ( PIN busy )
+    ( _085_ out )
+    ( _098_ in_1 ) ;
+  - cim_data_enable
+    ( PIN cim_data_enable )
+    ( PIN clk_out )
+    ( _140_ out ) ;
+  - clk
+    ( PIN clk )
+    ( _070_ in )
+    ( _128_ in )
+    ( _129_ in )
+    ( _141_ clk )
+    ( _142_ clk )
+    ( _143_ clk )
+    ( _144_ clk )
+    ( _145_ clk )
+    ( _146_ clk )
+    ( _147_ clk ) ;
+  - clk_b
+    ( PIN clk_b )
+    ( _070_ out ) ;
+  - in_msb
+    ( PIN in_msb )
+    ( _139_ out ) ;
+  - pe
+    ( PIN pe )
+    ( _079_ out ) ;
+  - r_w_cim<0>
+    ( PIN r_w_cim<0> )
+    ( _064_ in )
+    ( _100_ in_0 )
+    ( _101_ in_0 ) ;
+  - r_w_cim<1>
+    ( PIN r_w_cim<1> )
+    ( _099_ in_0 )
+    ( _102_ in_0 ) ;
+  - rd_data_enable
+    ( PIN rd_data_enable )
+    ( _091_ out )
+    ( PIN se ) ;
+  - rst
+    ( PIN rst )
+    ( _069_ in )
+    ( _104_ in_0 )
+    ( _107_ in_0 )
+    ( _108_ in_0 )
+    ( _114_ in_0 )
+    ( _123_ in_0 )
+    ( _127_ in_0 ) ;
+  - rst_b
+    ( PIN rst_b )
+    ( _096_ out )
+    ( _108_ in_1 ) ;
+  - spe
+    ( PIN spe )
+    ( _097_ out ) ;
+  - start
+    ( PIN start )
+    ( _065_ in ) ;
+  - wl_enable
+    ( PIN wl_enable )
+    ( _094_ out ) ;
+  - ysr
+    ( PIN ysr )
+    ( _092_ out ) ;
+  - ysw
+    ( PIN ysw )
+    ( _088_ out ) ;
+  - _000_
+    ( _107_ out )
+    ( _140_ in ) ;
+  - _001_<0>
+    ( _114_ out )
+    ( _145_ in ) ;
+  - _001_<1>
+    ( _118_ out )
+    ( _146_ in ) ;
+  - _001_<2>
+    ( _119_ out )
+    ( _147_ in ) ;
+  - _002_
+    ( _108_ out )
+    ( _139_ in ) ;
+  - _003_<0>
+    ( _123_ out )
+    ( _143_ in ) ;
+  - _003_<1>
+    ( _127_ out )
+    ( _144_ in ) ;
+  - _004_<0>
+    ( _104_ out )
+    ( _141_ in ) ;
+  - _004_<1>
+    ( _106_ out )
+    ( _142_ in ) ;
+  - _005_
+    ( _128_ out )
+    ( _139_ clk ) ;
+  - _006_
+    ( _129_ out )
+    ( _140_ clk ) ;
+  - _007_
+    ( _063_ out )
+    ( _089_ in_0 ) ;
+  - _008_
+    ( _064_ out )
+    ( _112_ in_0 ) ;
+  - _009_
+    ( _065_ out )
+    ( _098_ in_0 ) ;
+  - _010_
+    ( _066_ out )
+    ( _071_ in_0 ) ;
+  - _011_
+    ( _067_ out )
+    ( _072_ in_1 )
+    ( _073_ in_1 ) ;
+  - _012_
+    ( _068_ out )
+    ( _086_ in_1 ) ;
+  - _013_
+    ( _069_ out )
+    ( _105_ in_0 )
+    ( _117_ in_0 ) ;
+  - _014_
+    ( _071_ out )
+    ( _093_ in_0 ) ;
+  - _015_
+    ( _072_ out )
+    ( _106_ in_0 ) ;
+  - _016_
+    ( _073_ out )
+    ( _090_ in_0 ) ;
+  - _017_
+    ( _074_ out )
+    ( _078_ in_0 )
+    ( _087_ in_0 ) ;
+  - _018_
+    ( _075_ out )
+    ( _076_ in )
+    ( _109_ in_0 ) ;
+  - _019_
+    ( _076_ out )
+    ( _110_ in_0 ) ;
+  - _020_
+    ( _077_ out )
+    ( _078_ in_1 )
+    ( _105_ in_1 ) ;
+  - _021_
+    ( _078_ out )
+    ( _079_ in )
+    ( _085_ in_0 ) ;
+  - _022_
+    ( _080_ out )
+    ( _081_ in_1 )
+    ( _082_ in_1 )
+    ( _084_ in_1 ) ;
+  - _023_
+    ( _081_ out )
+    ( _107_ in_1 ) ;
+  - _024_
+    ( _082_ out )
+    ( _083_ in )
+    ( _110_ in_1 ) ;
+  - _025_
+    ( _083_ out )
+    ( _109_ in_1 ) ;
+  - _026_
+    ( _084_ out )
+    ( _085_ in_1 ) ;
+  - _027_
+    ( _086_ out )
+    ( _087_ in_1 ) ;
+  - _028_
+    ( _087_ out )
+    ( _088_ in )
+    ( _092_ in_0 )
+    ( _094_ in_0 ) ;
+  - _029_
+    ( _089_ out )
+    ( _090_ in_1 )
+    ( _093_ in_1 ) ;
+  - _030_
+    ( _090_ out )
+    ( _091_ in )
+    ( _092_ in_1 )
+    ( _097_ in_0 ) ;
+  - _031_
+    ( _093_ out )
+    ( _094_ in_1 )
+    ( _097_ in_1 ) ;
+  - _032_
+    ( _095_ out )
+    ( _096_ in_1 ) ;
+  - _033_
+    ( _098_ out )
+    ( _099_ in_1 )
+    ( _101_ in_1 ) ;
+  - _034_
+    ( _099_ out )
+    ( _100_ in_1 )
+    ( _112_ in_1 )
+    ( _120_ in_1 )
+    ( _125_ in_0 ) ;
+  - _035_
+    ( _100_ out )
+    ( _103_ in_0 ) ;
+  - _036_
+    ( _101_ out )
+    ( _102_ in_1 )
+    ( _121_ in_0 )
+    ( _124_ in_1 ) ;
+  - _037_
+    ( _102_ out )
+    ( _103_ in_1 ) ;
+  - _038_
+    ( _103_ out )
+    ( _104_ in_1 ) ;
+  - _039_
+    ( _105_ out )
+    ( _106_ in_1 ) ;
+  - _040_
+    ( _109_ out )
+    ( _117_ in_1 ) ;
+  - _041_
+    ( _110_ out )
+    ( _111_ in_1 ) ;
+  - _042_
+    ( _111_ out )
+    ( _113_ in_0 ) ;
+  - _043_
+    ( _112_ out )
+    ( _113_ in_1 ) ;
+  - _044_
+    ( _113_ out )
+    ( _114_ in_1 ) ;
+  - _045_
+    ( _115_ out )
+    ( _116_ in )
+    ( _119_ in_0 ) ;
+  - _046_
+    ( _116_ out )
+    ( _118_ in_0 ) ;
+  - _047_
+    ( _117_ out )
+    ( _118_ in_1 )
+    ( _119_ in_1 ) ;
+  - _048_
+    ( _120_ out )
+    ( _121_ in_1 ) ;
+  - _049_
+    ( _121_ out )
+    ( _122_ in ) ;
+  - _050_
+    ( _122_ out )
+    ( _123_ in_1 ) ;
+  - _051_
+    ( _124_ out )
+    ( _125_ in_1 ) ;
+  - _052_
+    ( _125_ out )
+    ( _126_ in ) ;
+  - _053_
+    ( _126_ out )
+    ( _127_ in_1 ) ;
+  - _054_
+    ( _130_ out )
+    ( _147_ rst_b ) ;
+  - _055_
+    ( _131_ out )
+    ( _141_ rst_b ) ;
+  - _056_
+    ( _132_ out )
+    ( _142_ rst_b ) ;
+  - _057_
+    ( _133_ out )
+    ( _143_ rst_b ) ;
+  - _058_
+    ( _134_ out )
+    ( _144_ rst_b ) ;
+  - _059_
+    ( _135_ out )
+    ( _145_ rst_b ) ;
+  - _060_
+    ( _136_ out )
+    ( _146_ rst_b ) ;
+  - _061_
+    ( _137_ out )
+    ( _140_ rst_b ) ;
+  - _062_
+    ( _138_ out )
+    ( _139_ rst_b ) ;
+  - cim_state_reg<0>
+    ( _080_ in_1 )
+    ( _096_ in_0 )
+    ( _111_ in_0 )
+    ( _115_ in_1 )
+    ( _145_ out ) ;
+  - cim_state_reg<1>
+    ( _080_ in_0 )
+    ( _095_ in_1 )
+    ( _115_ in_0 )
+    ( _146_ out ) ;
+  - cim_state_reg<2>
+    ( _081_ in_0 )
+    ( _082_ in_0 )
+    ( _084_ in_0 )
+    ( _095_ in_0 )
+    ( _147_ out ) ;
+  - r_w_cim_reg<0>
+    ( _063_ in )
+    ( _075_ in_0 )
+    ( _077_ in_0 )
+    ( _086_ in_0 )
+    ( _120_ in_0 )
+    ( _143_ out ) ;
+  - r_w_cim_reg<1>
+    ( _068_ in )
+    ( _075_ in_1 )
+    ( _077_ in_1 )
+    ( _089_ in_1 )
+    ( _124_ in_0 )
+    ( _144_ out ) ;
+  - rw_state_reg<0>
+    ( _066_ in )
+    ( _072_ in_0 )
+    ( _073_ in_0 )
+    ( _074_ in_0 )
+    ( _141_ out ) ;
+  - rw_state_reg<1>
+    ( _067_ in )
+    ( _071_ in_1 )
+    ( _074_ in_1 )
+    ( _142_ out ) ;
+  - clk_out
+    ( PIN cim_data_enable )
+    ( PIN clk_out )
+    ( _140_ out ) ;
+  - se
+    ( PIN rd_data_enable )
+    ( _091_ out )
+    ( PIN se ) ;
+END NETS
+
+END DESIGN

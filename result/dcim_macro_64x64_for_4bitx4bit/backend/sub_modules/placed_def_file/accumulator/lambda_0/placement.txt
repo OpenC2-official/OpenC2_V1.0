@@ -1,0 +1,160 @@
+initialization: 
+wirelength_0 =  615.195173295636
+objective_0 =  30557.65204766021
+overflow_ratio_0 =  0.7955253854404545 
+
+iteration 0: 
+wirelength_0 =  643.8221503318441
+objective_0 =  27773.886974315665
+overflow_ratio_0 =  0.7760204657041346 
+
+iteration 1: 
+wirelength_0 =  678.7709454768391
+objective_0 =  23649.22459409499
+overflow_ratio_1 =  0.7358865497486203 
+
+iteration 2: 
+wirelength_0 =  714.2154248801318
+objective_0 =  19414.015625562133
+overflow_ratio_2 =  0.6919172397688618 
+
+iteration 3: 
+wirelength_0 =  749.7663352897524
+objective_0 =  15740.751622243739
+overflow_ratio_3 =  0.6493029209252243 
+
+iteration 4: 
+wirelength_0 =  785.1390310056793
+objective_0 =  12679.590848411272
+overflow_ratio_4 =  0.6003494989480422 
+
+iteration 5: 
+wirelength_0 =  822.4291355737213
+objective_0 =  10209.233809716936
+overflow_ratio_5 =  0.5521014229670747 
+
+iteration 6: 
+wirelength_0 =  862.1943459937504
+objective_0 =  8258.84679975713
+overflow_ratio_6 =  0.5070188705015394 
+
+iteration 7: 
+wirelength_0 =  901.5831082104701
+objective_0 =  6748.416290093968
+overflow_ratio_7 =  0.45848868359347145 
+
+iteration 8: 
+wirelength_0 =  938.3440627476652
+objective_0 =  5586.148271845306
+overflow_ratio_8 =  0.4144275326142076 
+
+iteration 9: 
+wirelength_0 =  968.5602696070164
+objective_0 =  4687.181289942566
+overflow_ratio_9 =  0.3714813708935328 
+
+iteration 10: 
+wirelength_0 =  995.6311167576122
+objective_0 =  3955.3420480902237
+overflow_ratio_10 =  0.3272091069536473 
+
+iteration 11: 
+wirelength_0 =  1020.0095255852892
+objective_0 =  3352.255404291969
+overflow_ratio_11 =  0.2834227457897878 
+
+iteration 12: 
+wirelength_0 =  1040.3486904952892
+objective_0 =  2865.4604358905153
+overflow_ratio_12 =  0.24145022048994969 
+
+iteration 13: 
+wirelength_0 =  1054.9544823148976
+objective_0 =  2470.019275705103
+overflow_ratio_13 =  0.20545255915316482 
+
+iteration 14: 
+wirelength_0 =  1065.6321535274146
+objective_0 =  2151.8593543690486
+overflow_ratio_14 =  0.1730254012727291 
+
+iteration 15: 
+wirelength_0 =  1070.3170867575354
+objective_0 =  1909.8042625615813
+overflow_ratio_15 =  0.14483985932802898 
+
+iteration 16: 
+wirelength_0 =  1066.398746401943
+objective_0 =  1743.8396843014102
+overflow_ratio_16 =  0.1240983658092205 
+
+iteration 17: 
+wirelength_0 =  1056.8267915808847
+objective_0 =  1627.6660527235897
+overflow_ratio_17 =  0.11189561239726324 
+
+iteration 18: 
+wirelength_0 =  1048.6845999082002
+objective_0 =  1556.6505205074193
+overflow_ratio_18 =  0.10442856335327226 
+
+iteration 19: 
+wirelength_0 =  1034.88232762274
+objective_0 =  1492.4412208706294
+overflow_ratio_19 =  0.09856397079077517 
+
+iteration 20: 
+wirelength_0 =  1020.8636132481952
+objective_0 =  1454.3330323783216
+overflow_ratio_20 =  0.09817683687745285 
+
+iteration 21: 
+wirelength_0 =  1004.8908221481809
+objective_0 =  1420.2783472645135
+overflow_ratio_21 =  0.09786187097734092 
+
+iteration 22: 
+wirelength_0 =  988.6287517141875
+objective_0 =  1383.9086458118452
+overflow_ratio_22 =  0.09579697347133148 
+
+iteration 23: 
+wirelength_0 =  970.8666513102844
+objective_0 =  1341.7971862810327
+overflow_ratio_23 =  0.092070640653554 
+
+iteration 24: 
+wirelength_0 =  952.6960853037073
+objective_0 =  1299.7649378542842
+overflow_ratio_24 =  0.08886730376507235 
+
+iteration 25: 
+wirelength_0 =  938.6064315698144
+objective_0 =  1258.318665002923
+overflow_ratio_25 =  0.0835076325217076 
+
+iteration 26: 
+wirelength_0 =  930.4287565130528
+objective_0 =  1225.6951050867294
+overflow_ratio_26 =  0.08001630185651486 
+
+iteration 27: 
+wirelength_0 =  923.1743963214574
+objective_0 =  1187.325642568074
+overflow_ratio_27 =  0.0750059937980115 
+
+iteration 28: 
+wirelength_0 =  905.2656045276618
+objective_0 =  1152.4448884165904
+overflow_ratio_28 =  0.07037467754667928 
+
+iteration 29: 
+wirelength_0 =  892.4136269104853
+objective_0 =  1139.0544400569902
+overflow_ratio_29 =  0.06915986226984633 
+
+iteration 30: 
+wirelength_0 =  883.4869986096323
+objective_0 =  1143.7093884354954
+overflow_ratio_30 =  0.07216386788091217 
+

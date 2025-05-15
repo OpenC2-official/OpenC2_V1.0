@@ -1,0 +1,872 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN accumulator_10bit_to_14bit ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 23370 17640 ) ;
+
+ROW CORE_ROW_0 CoreSite 0 0 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_1 CoreSite 0 1260 FS DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_2 CoreSite 0 2520 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_3 CoreSite 0 3780 FS DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_4 CoreSite 0 5040 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_5 CoreSite 0 6300 FS DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_6 CoreSite 0 7560 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_7 CoreSite 0 8820 FS DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_8 CoreSite 0 10080 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_9 CoreSite 0 11340 FS DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_10 CoreSite 0 12600 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_11 CoreSite 0 13860 FS DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_12 CoreSite 0 15120 N DO 123 BY 1 STEP 190 0 ;
+ROW CORE_ROW_13 CoreSite 0 16380 FS DO 123 BY 1 STEP 190 0 ;
+
+TRACKS X 95 DO 122 STEP 190 LAYER metal3 ;
+TRACKS Y 70 DO 125 STEP 140 LAYER metal3 ;
+TRACKS Y 210 DO 62 STEP 280 LAYER metal4 ;
+TRACKS X 285 DO 81 STEP 285 LAYER metal4 ;
+TRACKS X 285 DO 81 STEP 285 LAYER metal5 ;
+TRACKS Y 210 DO 62 STEP 280 LAYER metal5 ;
+TRACKS Y 210 DO 62 STEP 280 LAYER metal6 ;
+TRACKS X 285 DO 81 STEP 285 LAYER metal6 ;
+
+PINS 32 ;
+  - clk_out + NET clk_out 
+    + DIRECTION INPUT 
+    + PLACED ( 0 1085 ) N 
+    + LAYER metal2 ( 0 0 ) ( 23370 70 ) ; 
+  - clk_psum + NET clk_psum 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16205 ) N 
+    + LAYER metal2 ( 0 0 ) ( 23370 70 ) ; 
+  - clk_shift + NET clk_shift 
+    + DIRECTION INPUT 
+    + PLACED ( 0 8645 ) N 
+    + LAYER metal2 ( 0 0 ) ( 23370 70 ) ; 
+  - in<0> + NET in<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 20545 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<1> + NET in<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 19120 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<2> + NET in<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 17695 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<3> + NET in<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 16270 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<4> + NET in<4> 
+    + DIRECTION INPUT 
+    + PLACED ( 14845 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<5> + NET in<5> 
+    + DIRECTION INPUT 
+    + PLACED ( 13420 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<6> + NET in<6> 
+    + DIRECTION INPUT 
+    + PLACED ( 11995 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<7> + NET in<7> 
+    + DIRECTION INPUT 
+    + PLACED ( 10570 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<8> + NET in<8> 
+    + DIRECTION INPUT 
+    + PLACED ( 9145 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<9> + NET in<9> 
+    + DIRECTION INPUT 
+    + PLACED ( 7720 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in_msb + NET in_msb 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16485 ) N 
+    + LAYER metal2 ( 0 0 ) ( 23370 70 ) ; 
+  - out<0> + NET out<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 20165 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<10> + NET out<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 5915 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<11> + NET out<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 4490 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<12> + NET out<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 3065 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<13> + NET out<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1640 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<1> + NET out<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 18740 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<2> + NET out<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 17315 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<3> + NET out<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 15890 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<4> + NET out<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 14465 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<5> + NET out<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 13040 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<6> + NET out<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 11615 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<7> + NET out<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10190 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<8> + NET out<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 8765 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - out<9> + NET out<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 7340 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - rst_b + NET rst_b 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 23370 70 ) ; 
+  - sign_in + NET sign_in 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 23370 70 ) ; 
+  - sign_out + NET sign_out 
+    + DIRECTION OUTPUT 
+    + PLACED ( 23015 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - sign_weight + NET sign_weight 
+    + DIRECTION INPUT 
+    + PLACED ( 23015 17500 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+END PINS
+
+COMPONENTS 98 ;
+  - adder.fa_0 full_adder
+    + PLACED ( 10260 11340 ) FS ;
+  - adder.fa_1 full_adder
+    + PLACED ( 7980 10080 ) N ;
+  - adder.fa_10 full_adder
+    + PLACED ( 12160 5040 ) N ;
+  - adder.fa_11 full_adder
+    + PLACED ( 11970 6300 ) FS ;
+  - adder.fa_12 full_adder
+    + PLACED ( 0 8820 ) FS ;
+  - adder.fa_13 full_adder
+    + PLACED ( 0 5040 ) N ;
+  - adder.fa_2 full_adder
+    + PLACED ( 7220 11340 ) FS ;
+  - adder.fa_3 full_adder
+    + PLACED ( 4940 10080 ) N ;
+  - adder.fa_4 full_adder
+    + PLACED ( 4940 7560 ) N ;
+  - adder.fa_5 full_adder
+    + PLACED ( 4940 3780 ) FS ;
+  - adder.fa_6 full_adder
+    + PLACED ( 7980 3780 ) FS ;
+  - adder.fa_7 full_adder
+    + PLACED ( 8550 5040 ) N ;
+  - adder.fa_8 full_adder
+    + PLACED ( 15200 5040 ) N ;
+  - adder.fa_9 full_adder
+    + PLACED ( 14630 3780 ) FS ;
+  - dff_out.dff_0 dff
+    + PLACED ( 4940 0 ) N ;
+  - dff_out.dff_1 dff
+    + PLACED ( 9880 0 ) N ;
+  - dff_out.dff_10 dff
+    + PLACED ( 15200 10080 ) N ;
+  - dff_out.dff_11 dff
+    + PLACED ( 9880 15120 ) N ;
+  - dff_out.dff_12 dff
+    + PLACED ( 18430 6300 ) FS ;
+  - dff_out.dff_13 dff
+    + PLACED ( 0 7560 ) N ;
+  - dff_out.dff_2 dff
+    + PLACED ( 0 10080 ) N ;
+  - dff_out.dff_3 dff
+    + PLACED ( 0 11340 ) FS ;
+  - dff_out.dff_4 dff
+    + PLACED ( 7030 16380 ) FS ;
+  - dff_out.dff_5 dff
+    + PLACED ( 11020 1260 ) FS ;
+  - dff_out.dff_6 dff
+    + PLACED ( 17100 13860 ) FS ;
+  - dff_out.dff_7 dff
+    + PLACED ( 0 3780 ) FS ;
+  - dff_out.dff_8 dff
+    + PLACED ( 15960 1260 ) FS ;
+  - dff_out.dff_9 dff
+    + PLACED ( 12160 13860 ) FS ;
+  - dff_psum.dff_0 dff
+    + PLACED ( 7220 13860 ) FS ;
+  - dff_psum.dff_1 dff
+    + PLACED ( 0 15120 ) N ;
+  - dff_psum.dff_2 dff
+    + PLACED ( 0 0 ) N ;
+  - dff_psum.dff_3 dff
+    + PLACED ( 18430 11340 ) FS ;
+  - dff_psum.dff_4 dff
+    + PLACED ( 16910 16380 ) FS ;
+  - dff_psum.dff_5 dff
+    + PLACED ( 14820 15120 ) N ;
+  - dff_psum.dff_6 dff
+    + PLACED ( 0 13860 ) FS ;
+  - dff_psum.dff_7 dff
+    + PLACED ( 18430 7560 ) N ;
+  - dff_psum.dff_8 dff
+    + PLACED ( 18430 0 ) N ;
+  - dff_psum.dff_9 dff
+    + PLACED ( 8740 12600 ) N ;
+  - dff_shift.dff_0 dff
+    + PLACED ( 14250 12600 ) N ;
+  - dff_shift.dff_1 dff
+    + PLACED ( 4940 15120 ) N ;
+  - dff_shift.dff_10 dff
+    + PLACED ( 0 6300 ) FS ;
+  - dff_shift.dff_11 dff
+    + PLACED ( 0 2520 ) N ;
+  - dff_shift.dff_12 dff
+    + PLACED ( 17670 3780 ) FS ;
+  - dff_shift.dff_2 dff
+    + PLACED ( 0 1260 ) FS ;
+  - dff_shift.dff_3 dff
+    + PLACED ( 4940 2520 ) N ;
+  - dff_shift.dff_4 dff
+    + PLACED ( 9880 2520 ) N ;
+  - dff_shift.dff_5 dff
+    + PLACED ( 11970 16380 ) FS ;
+  - dff_shift.dff_6 dff
+    + PLACED ( 18430 8820 ) FS ;
+  - dff_shift.dff_7 dff
+    + PLACED ( 18240 5040 ) N ;
+  - dff_shift.dff_8 dff
+    + PLACED ( 14820 2520 ) N ;
+  - dff_shift.dff_9 dff
+    + PLACED ( 0 12600 ) N ;
+  - inv_acc inverter
+    + PLACED ( 7980 7560 ) N ;
+  - inv_sign_out inverter
+    + PLACED ( 11210 7560 ) N ;
+  - inverse_mux.in_0_0 nand2
+    + PLACED ( 13680 12600 ) N ;
+  - inverse_mux.in_0_1 nand2
+    + PLACED ( 9690 8820 ) FS ;
+  - inverse_mux.in_0_2 nand2
+    + PLACED ( 8740 6300 ) FS ;
+  - inverse_mux.in_0_3 nand2
+    + PLACED ( 12540 10080 ) N ;
+  - inverse_mux.in_0_4 nand2
+    + PLACED ( 13870 11340 ) FS ;
+  - inverse_mux.in_0_5 nand2
+    + PLACED ( 13110 10080 ) N ;
+  - inverse_mux.in_0_6 nand2
+    + PLACED ( 8740 7560 ) N ;
+  - inverse_mux.in_0_7 nand2
+    + PLACED ( 11400 6300 ) FS ;
+  - inverse_mux.in_0_8 nand2
+    + PLACED ( 13300 7560 ) N ;
+  - inverse_mux.in_0_9 nand2
+    + PLACED ( 14440 7560 ) N ;
+  - inverse_mux.in_1_0 nand2
+    + PLACED ( 14440 11340 ) FS ;
+  - inverse_mux.in_1_1 nand2
+    + PLACED ( 10640 8820 ) FS ;
+  - inverse_mux.in_1_2 nand2
+    + PLACED ( 8170 6300 ) FS ;
+  - inverse_mux.in_1_3 nand2
+    + PLACED ( 11590 10080 ) N ;
+  - inverse_mux.in_1_4 nand2
+    + PLACED ( 13300 11340 ) FS ;
+  - inverse_mux.in_1_5 nand2
+    + PLACED ( 8550 8820 ) FS ;
+  - inverse_mux.in_1_6 nand2
+    + PLACED ( 9690 7560 ) N ;
+  - inverse_mux.in_1_7 nand2
+    + PLACED ( 10450 6300 ) FS ;
+  - inverse_mux.in_1_8 nand2
+    + PLACED ( 13870 7560 ) N ;
+  - inverse_mux.in_1_9 nand2
+    + PLACED ( 14630 8820 ) FS ;
+  - inverse_mux.inv_in_0 inverter
+    + PLACED ( 15010 11340 ) FS ;
+  - inverse_mux.inv_in_1 inverter
+    + PLACED ( 10260 8820 ) FS ;
+  - inverse_mux.inv_in_2 inverter
+    + PLACED ( 8360 7560 ) N ;
+  - inverse_mux.inv_in_3 inverter
+    + PLACED ( 11210 8820 ) FS ;
+  - inverse_mux.inv_in_4 inverter
+    + PLACED ( 14250 10080 ) N ;
+  - inverse_mux.inv_in_5 inverter
+    + PLACED ( 12160 10080 ) N ;
+  - inverse_mux.inv_in_6 inverter
+    + PLACED ( 9310 7560 ) N ;
+  - inverse_mux.inv_in_7 inverter
+    + PLACED ( 11020 6300 ) FS ;
+  - inverse_mux.inv_in_8 inverter
+    + PLACED ( 15200 8820 ) FS ;
+  - inverse_mux.inv_in_9 inverter
+    + PLACED ( 14250 8820 ) FS ;
+  - inverse_mux.inv_sign inverter
+    + PLACED ( 10260 7560 ) N ;
+  - inverse_mux.out_0 nand2
+    + PLACED ( 14630 10080 ) N ;
+  - inverse_mux.out_1 nand2
+    + PLACED ( 9120 8820 ) FS ;
+  - inverse_mux.out_2 nand2
+    + PLACED ( 7600 6300 ) FS ;
+  - inverse_mux.out_3 nand2
+    + PLACED ( 11020 10080 ) N ;
+  - inverse_mux.out_4 nand2
+    + PLACED ( 13680 10080 ) N ;
+  - inverse_mux.out_5 nand2
+    + PLACED ( 9310 6300 ) FS ;
+  - inverse_mux.out_6 nand2
+    + PLACED ( 9880 6300 ) FS ;
+  - inverse_mux.out_7 nand2
+    + PLACED ( 11590 5040 ) N ;
+  - inverse_mux.out_8 nand2
+    + PLACED ( 15010 6300 ) FS ;
+  - inverse_mux.out_9 nand2
+    + PLACED ( 11590 8820 ) FS ;
+  - mux mux_2_1
+    + PLACED ( 15010 7560 ) N ;
+  - nand_acc nand2
+    + PLACED ( 7980 8820 ) FS ;
+  - nor_sign_out nor2
+    + PLACED ( 10640 7560 ) N ;
+  - tie_low tiel
+    + PLACED ( 6840 11340 ) FS ;
+END COMPONENTS
+
+NETS 129 ;
+  - clk_out
+    ( PIN clk_out )
+    ( dff_out.dff_0 clk )
+    ( dff_out.dff_1 clk )
+    ( dff_out.dff_10 clk )
+    ( dff_out.dff_11 clk )
+    ( dff_out.dff_12 clk )
+    ( dff_out.dff_13 clk )
+    ( dff_out.dff_2 clk )
+    ( dff_out.dff_3 clk )
+    ( dff_out.dff_4 clk )
+    ( dff_out.dff_5 clk )
+    ( dff_out.dff_6 clk )
+    ( dff_out.dff_7 clk )
+    ( dff_out.dff_8 clk )
+    ( dff_out.dff_9 clk ) ;
+  - clk_psum
+    ( PIN clk_psum )
+    ( dff_psum.dff_0 clk )
+    ( dff_psum.dff_1 clk )
+    ( dff_psum.dff_2 clk )
+    ( dff_psum.dff_3 clk )
+    ( dff_psum.dff_4 clk )
+    ( dff_psum.dff_5 clk )
+    ( dff_psum.dff_6 clk )
+    ( dff_psum.dff_7 clk )
+    ( dff_psum.dff_8 clk )
+    ( dff_psum.dff_9 clk ) ;
+  - clk_shift
+    ( PIN clk_shift )
+    ( dff_shift.dff_0 clk )
+    ( dff_shift.dff_1 clk )
+    ( dff_shift.dff_10 clk )
+    ( dff_shift.dff_11 clk )
+    ( dff_shift.dff_12 clk )
+    ( dff_shift.dff_2 clk )
+    ( dff_shift.dff_3 clk )
+    ( dff_shift.dff_4 clk )
+    ( dff_shift.dff_5 clk )
+    ( dff_shift.dff_6 clk )
+    ( dff_shift.dff_7 clk )
+    ( dff_shift.dff_8 clk )
+    ( dff_shift.dff_9 clk ) ;
+  - in<0>
+    ( PIN in<0> )
+    ( dff_psum.dff_0 in ) ;
+  - in<1>
+    ( PIN in<1> )
+    ( dff_psum.dff_1 in ) ;
+  - in<2>
+    ( PIN in<2> )
+    ( dff_psum.dff_2 in ) ;
+  - in<3>
+    ( PIN in<3> )
+    ( dff_psum.dff_3 in ) ;
+  - in<4>
+    ( PIN in<4> )
+    ( dff_psum.dff_4 in ) ;
+  - in<5>
+    ( PIN in<5> )
+    ( dff_psum.dff_5 in ) ;
+  - in<6>
+    ( PIN in<6> )
+    ( dff_psum.dff_6 in ) ;
+  - in<7>
+    ( PIN in<7> )
+    ( dff_psum.dff_7 in ) ;
+  - in<8>
+    ( PIN in<8> )
+    ( dff_psum.dff_8 in ) ;
+  - in<9>
+    ( PIN in<9> )
+    ( dff_psum.dff_9 in ) ;
+  - in_msb
+    ( PIN in_msb )
+    ( nand_acc in_1 ) ;
+  - out<0>
+    ( PIN out<0> )
+    ( dff_out.dff_0 out ) ;
+  - out<10>
+    ( PIN out<10> )
+    ( dff_out.dff_10 out ) ;
+  - out<11>
+    ( PIN out<11> )
+    ( dff_out.dff_11 out ) ;
+  - out<12>
+    ( PIN out<12> )
+    ( dff_out.dff_12 out ) ;
+  - out<13>
+    ( PIN out<13> )
+    ( dff_out.dff_13 out ) ;
+  - out<1>
+    ( PIN out<1> )
+    ( dff_out.dff_1 out ) ;
+  - out<2>
+    ( PIN out<2> )
+    ( dff_out.dff_2 out ) ;
+  - out<3>
+    ( PIN out<3> )
+    ( dff_out.dff_3 out ) ;
+  - out<4>
+    ( PIN out<4> )
+    ( dff_out.dff_4 out ) ;
+  - out<5>
+    ( PIN out<5> )
+    ( dff_out.dff_5 out ) ;
+  - out<6>
+    ( PIN out<6> )
+    ( dff_out.dff_6 out ) ;
+  - out<7>
+    ( PIN out<7> )
+    ( dff_out.dff_7 out ) ;
+  - out<8>
+    ( PIN out<8> )
+    ( dff_out.dff_8 out ) ;
+  - out<9>
+    ( PIN out<9> )
+    ( dff_out.dff_9 out ) ;
+  - rst_b
+    ( PIN rst_b )
+    ( dff_out.dff_0 rst_b )
+    ( dff_out.dff_1 rst_b )
+    ( dff_out.dff_10 rst_b )
+    ( dff_out.dff_11 rst_b )
+    ( dff_out.dff_12 rst_b )
+    ( dff_out.dff_13 rst_b )
+    ( dff_out.dff_2 rst_b )
+    ( dff_out.dff_3 rst_b )
+    ( dff_out.dff_4 rst_b )
+    ( dff_out.dff_5 rst_b )
+    ( dff_out.dff_6 rst_b )
+    ( dff_out.dff_7 rst_b )
+    ( dff_out.dff_8 rst_b )
+    ( dff_out.dff_9 rst_b )
+    ( dff_psum.dff_0 rst_b )
+    ( dff_psum.dff_1 rst_b )
+    ( dff_psum.dff_2 rst_b )
+    ( dff_psum.dff_3 rst_b )
+    ( dff_psum.dff_4 rst_b )
+    ( dff_psum.dff_5 rst_b )
+    ( dff_psum.dff_6 rst_b )
+    ( dff_psum.dff_7 rst_b )
+    ( dff_psum.dff_8 rst_b )
+    ( dff_psum.dff_9 rst_b )
+    ( dff_shift.dff_0 rst_b )
+    ( dff_shift.dff_1 rst_b )
+    ( dff_shift.dff_10 rst_b )
+    ( dff_shift.dff_11 rst_b )
+    ( dff_shift.dff_12 rst_b )
+    ( dff_shift.dff_2 rst_b )
+    ( dff_shift.dff_3 rst_b )
+    ( dff_shift.dff_4 rst_b )
+    ( dff_shift.dff_5 rst_b )
+    ( dff_shift.dff_6 rst_b )
+    ( dff_shift.dff_7 rst_b )
+    ( dff_shift.dff_8 rst_b )
+    ( dff_shift.dff_9 rst_b ) ;
+  - sign_in
+    ( PIN sign_in )
+    ( nand_acc in_0 )
+    ( nor_sign_out in_1 ) ;
+  - sign_out
+    ( PIN sign_out )
+    ( inv_sign_out out ) ;
+  - sign_weight
+    ( PIN sign_weight )
+    ( mux s )
+    ( nor_sign_out in_0 ) ;
+  - adder.a_0_to_9<0>
+    ( adder.fa_0 a )
+    ( inverse_mux.out_0 out ) ;
+  - adder.a_0_to_9<1>
+    ( adder.fa_1 a )
+    ( inverse_mux.out_1 out ) ;
+  - adder.a_0_to_9<2>
+    ( adder.fa_2 a )
+    ( inverse_mux.out_2 out ) ;
+  - adder.a_0_to_9<3>
+    ( adder.fa_3 a )
+    ( inverse_mux.out_3 out ) ;
+  - adder.a_0_to_9<4>
+    ( adder.fa_4 a )
+    ( inverse_mux.out_4 out ) ;
+  - adder.a_0_to_9<5>
+    ( adder.fa_5 a )
+    ( inverse_mux.out_5 out ) ;
+  - adder.a_0_to_9<6>
+    ( adder.fa_6 a )
+    ( inverse_mux.out_6 out ) ;
+  - adder.a_0_to_9<7>
+    ( adder.fa_7 a )
+    ( inverse_mux.out_7 out ) ;
+  - adder.a_0_to_9<8>
+    ( adder.fa_8 a )
+    ( inverse_mux.out_8 out ) ;
+  - adder.a_0_to_9<9>
+    ( adder.fa_9 a )
+    ( inverse_mux.out_9 out )
+    ( mux in_1 ) ;
+  - adder.a_10
+    ( adder.fa_10 a )
+    ( adder.fa_11 a )
+    ( adder.fa_12 a )
+    ( adder.fa_13 a )
+    ( mux out ) ;
+  - adder.b_0
+    ( adder.fa_0 b )
+    ( tie_low out ) ;
+  - adder.b_1_to_13<0>
+    ( adder.fa_1 b )
+    ( dff_shift.dff_0 out ) ;
+  - adder.b_1_to_13<10>
+    ( adder.fa_11 b )
+    ( dff_shift.dff_10 out ) ;
+  - adder.b_1_to_13<11>
+    ( adder.fa_12 b )
+    ( dff_shift.dff_11 out ) ;
+  - adder.b_1_to_13<12>
+    ( adder.fa_13 b )
+    ( dff_shift.dff_12 out ) ;
+  - adder.b_1_to_13<1>
+    ( adder.fa_2 b )
+    ( dff_shift.dff_1 out ) ;
+  - adder.b_1_to_13<2>
+    ( adder.fa_3 b )
+    ( dff_shift.dff_2 out ) ;
+  - adder.b_1_to_13<3>
+    ( adder.fa_4 b )
+    ( dff_shift.dff_3 out ) ;
+  - adder.b_1_to_13<4>
+    ( adder.fa_5 b )
+    ( dff_shift.dff_4 out ) ;
+  - adder.b_1_to_13<5>
+    ( adder.fa_6 b )
+    ( dff_shift.dff_5 out ) ;
+  - adder.b_1_to_13<6>
+    ( adder.fa_7 b )
+    ( dff_shift.dff_6 out ) ;
+  - adder.b_1_to_13<7>
+    ( adder.fa_8 b )
+    ( dff_shift.dff_7 out ) ;
+  - adder.b_1_to_13<8>
+    ( adder.fa_9 b )
+    ( dff_shift.dff_8 out ) ;
+  - adder.b_1_to_13<9>
+    ( adder.fa_10 b )
+    ( dff_shift.dff_9 out ) ;
+  - adder.c<0>
+    ( adder.fa_0 cout )
+    ( adder.fa_1 cin ) ;
+  - adder.c<10>
+    ( adder.fa_10 cout )
+    ( adder.fa_11 cin ) ;
+  - adder.c<11>
+    ( adder.fa_11 cout )
+    ( adder.fa_12 cin ) ;
+  - adder.c<12>
+    ( adder.fa_12 cout )
+    ( adder.fa_13 cin ) ;
+  - adder.c<13>
+    ( adder.fa_13 cout ) ;
+  - adder.c<1>
+    ( adder.fa_1 cout )
+    ( adder.fa_2 cin ) ;
+  - adder.c<2>
+    ( adder.fa_2 cout )
+    ( adder.fa_3 cin ) ;
+  - adder.c<3>
+    ( adder.fa_3 cout )
+    ( adder.fa_4 cin ) ;
+  - adder.c<4>
+    ( adder.fa_4 cout )
+    ( adder.fa_5 cin ) ;
+  - adder.c<5>
+    ( adder.fa_5 cout )
+    ( adder.fa_6 cin ) ;
+  - adder.c<6>
+    ( adder.fa_6 cout )
+    ( adder.fa_7 cin ) ;
+  - adder.c<7>
+    ( adder.fa_7 cout )
+    ( adder.fa_8 cin ) ;
+  - adder.c<8>
+    ( adder.fa_8 cout )
+    ( adder.fa_9 cin ) ;
+  - adder.c<9>
+    ( adder.fa_10 cin )
+    ( adder.fa_9 cout ) ;
+  - adder.c_in
+    ( adder.fa_0 cin )
+    ( inv_acc out )
+    ( inverse_mux.in_1_0 in_1 )
+    ( inverse_mux.in_1_1 in_1 )
+    ( inverse_mux.in_1_2 in_1 )
+    ( inverse_mux.in_1_3 in_1 )
+    ( inverse_mux.in_1_4 in_1 )
+    ( inverse_mux.in_1_5 in_1 )
+    ( inverse_mux.in_1_6 in_1 )
+    ( inverse_mux.in_1_7 in_1 )
+    ( inverse_mux.in_1_8 in_1 )
+    ( inverse_mux.in_1_9 in_1 )
+    ( inverse_mux.inv_sign in )
+    ( mux in_0 ) ;
+  - adder.s<0>
+    ( adder.fa_0 s )
+    ( dff_out.dff_0 in )
+    ( dff_shift.dff_0 in ) ;
+  - adder.s<10>
+    ( adder.fa_10 s )
+    ( dff_out.dff_10 in )
+    ( dff_shift.dff_10 in ) ;
+  - adder.s<11>
+    ( adder.fa_11 s )
+    ( dff_out.dff_11 in )
+    ( dff_shift.dff_11 in ) ;
+  - adder.s<12>
+    ( adder.fa_12 s )
+    ( dff_out.dff_12 in )
+    ( dff_shift.dff_12 in ) ;
+  - adder.s<13>
+    ( adder.fa_13 s )
+    ( dff_out.dff_13 in ) ;
+  - adder.s<1>
+    ( adder.fa_1 s )
+    ( dff_out.dff_1 in )
+    ( dff_shift.dff_1 in ) ;
+  - adder.s<2>
+    ( adder.fa_2 s )
+    ( dff_out.dff_2 in )
+    ( dff_shift.dff_2 in ) ;
+  - adder.s<3>
+    ( adder.fa_3 s )
+    ( dff_out.dff_3 in )
+    ( dff_shift.dff_3 in ) ;
+  - adder.s<4>
+    ( adder.fa_4 s )
+    ( dff_out.dff_4 in )
+    ( dff_shift.dff_4 in ) ;
+  - adder.s<5>
+    ( adder.fa_5 s )
+    ( dff_out.dff_5 in )
+    ( dff_shift.dff_5 in ) ;
+  - adder.s<6>
+    ( adder.fa_6 s )
+    ( dff_out.dff_6 in )
+    ( dff_shift.dff_6 in ) ;
+  - adder.s<7>
+    ( adder.fa_7 s )
+    ( dff_out.dff_7 in )
+    ( dff_shift.dff_7 in ) ;
+  - adder.s<8>
+    ( adder.fa_8 s )
+    ( dff_out.dff_8 in )
+    ( dff_shift.dff_8 in ) ;
+  - adder.s<9>
+    ( adder.fa_9 s )
+    ( dff_out.dff_9 in )
+    ( dff_shift.dff_9 in ) ;
+  - dff_psum.out<0>
+    ( dff_psum.dff_0 out )
+    ( inverse_mux.in_0_0 in_0 )
+    ( inverse_mux.inv_in_0 in ) ;
+  - dff_psum.out<1>
+    ( dff_psum.dff_1 out )
+    ( inverse_mux.in_0_1 in_0 )
+    ( inverse_mux.inv_in_1 in ) ;
+  - dff_psum.out<2>
+    ( dff_psum.dff_2 out )
+    ( inverse_mux.in_0_2 in_0 )
+    ( inverse_mux.inv_in_2 in ) ;
+  - dff_psum.out<3>
+    ( dff_psum.dff_3 out )
+    ( inverse_mux.in_0_3 in_0 )
+    ( inverse_mux.inv_in_3 in ) ;
+  - dff_psum.out<4>
+    ( dff_psum.dff_4 out )
+    ( inverse_mux.in_0_4 in_0 )
+    ( inverse_mux.inv_in_4 in ) ;
+  - dff_psum.out<5>
+    ( dff_psum.dff_5 out )
+    ( inverse_mux.in_0_5 in_0 )
+    ( inverse_mux.inv_in_5 in ) ;
+  - dff_psum.out<6>
+    ( dff_psum.dff_6 out )
+    ( inverse_mux.in_0_6 in_0 )
+    ( inverse_mux.inv_in_6 in ) ;
+  - dff_psum.out<7>
+    ( dff_psum.dff_7 out )
+    ( inverse_mux.in_0_7 in_0 )
+    ( inverse_mux.inv_in_7 in ) ;
+  - dff_psum.out<8>
+    ( dff_psum.dff_8 out )
+    ( inverse_mux.in_0_8 in_0 )
+    ( inverse_mux.inv_in_8 in ) ;
+  - dff_psum.out<9>
+    ( dff_psum.dff_9 out )
+    ( inverse_mux.in_0_9 in_0 )
+    ( inverse_mux.inv_in_9 in ) ;
+  - inverse_mux.in_0<0>
+    ( inverse_mux.in_0_0 out )
+    ( inverse_mux.out_0 in_0 ) ;
+  - inverse_mux.in_0<1>
+    ( inverse_mux.in_0_1 out )
+    ( inverse_mux.out_1 in_0 ) ;
+  - inverse_mux.in_0<2>
+    ( inverse_mux.in_0_2 out )
+    ( inverse_mux.out_2 in_0 ) ;
+  - inverse_mux.in_0<3>
+    ( inverse_mux.in_0_3 out )
+    ( inverse_mux.out_3 in_0 ) ;
+  - inverse_mux.in_0<4>
+    ( inverse_mux.in_0_4 out )
+    ( inverse_mux.out_4 in_0 ) ;
+  - inverse_mux.in_0<5>
+    ( inverse_mux.in_0_5 out )
+    ( inverse_mux.out_5 in_0 ) ;
+  - inverse_mux.in_0<6>
+    ( inverse_mux.in_0_6 out )
+    ( inverse_mux.out_6 in_0 ) ;
+  - inverse_mux.in_0<7>
+    ( inverse_mux.in_0_7 out )
+    ( inverse_mux.out_7 in_0 ) ;
+  - inverse_mux.in_0<8>
+    ( inverse_mux.in_0_8 out )
+    ( inverse_mux.out_8 in_0 ) ;
+  - inverse_mux.in_0<9>
+    ( inverse_mux.in_0_9 out )
+    ( inverse_mux.out_9 in_0 ) ;
+  - inverse_mux.in_1<0>
+    ( inverse_mux.in_1_0 out )
+    ( inverse_mux.out_0 in_1 ) ;
+  - inverse_mux.in_1<1>
+    ( inverse_mux.in_1_1 out )
+    ( inverse_mux.out_1 in_1 ) ;
+  - inverse_mux.in_1<2>
+    ( inverse_mux.in_1_2 out )
+    ( inverse_mux.out_2 in_1 ) ;
+  - inverse_mux.in_1<3>
+    ( inverse_mux.in_1_3 out )
+    ( inverse_mux.out_3 in_1 ) ;
+  - inverse_mux.in_1<4>
+    ( inverse_mux.in_1_4 out )
+    ( inverse_mux.out_4 in_1 ) ;
+  - inverse_mux.in_1<5>
+    ( inverse_mux.in_1_5 out )
+    ( inverse_mux.out_5 in_1 ) ;
+  - inverse_mux.in_1<6>
+    ( inverse_mux.in_1_6 out )
+    ( inverse_mux.out_6 in_1 ) ;
+  - inverse_mux.in_1<7>
+    ( inverse_mux.in_1_7 out )
+    ( inverse_mux.out_7 in_1 ) ;
+  - inverse_mux.in_1<8>
+    ( inverse_mux.in_1_8 out )
+    ( inverse_mux.out_8 in_1 ) ;
+  - inverse_mux.in_1<9>
+    ( inverse_mux.in_1_9 out )
+    ( inverse_mux.out_9 in_1 ) ;
+  - inverse_mux.in_b<0>
+    ( inverse_mux.in_1_0 in_0 )
+    ( inverse_mux.inv_in_0 out ) ;
+  - inverse_mux.in_b<1>
+    ( inverse_mux.in_1_1 in_0 )
+    ( inverse_mux.inv_in_1 out ) ;
+  - inverse_mux.in_b<2>
+    ( inverse_mux.in_1_2 in_0 )
+    ( inverse_mux.inv_in_2 out ) ;
+  - inverse_mux.in_b<3>
+    ( inverse_mux.in_1_3 in_0 )
+    ( inverse_mux.inv_in_3 out ) ;
+  - inverse_mux.in_b<4>
+    ( inverse_mux.in_1_4 in_0 )
+    ( inverse_mux.inv_in_4 out ) ;
+  - inverse_mux.in_b<5>
+    ( inverse_mux.in_1_5 in_0 )
+    ( inverse_mux.inv_in_5 out ) ;
+  - inverse_mux.in_b<6>
+    ( inverse_mux.in_1_6 in_0 )
+    ( inverse_mux.inv_in_6 out ) ;
+  - inverse_mux.in_b<7>
+    ( inverse_mux.in_1_7 in_0 )
+    ( inverse_mux.inv_in_7 out ) ;
+  - inverse_mux.in_b<8>
+    ( inverse_mux.in_1_8 in_0 )
+    ( inverse_mux.inv_in_8 out ) ;
+  - inverse_mux.in_b<9>
+    ( inverse_mux.in_1_9 in_0 )
+    ( inverse_mux.inv_in_9 out ) ;
+  - inverse_mux.sign_b
+    ( inverse_mux.in_0_0 in_1 )
+    ( inverse_mux.in_0_1 in_1 )
+    ( inverse_mux.in_0_2 in_1 )
+    ( inverse_mux.in_0_3 in_1 )
+    ( inverse_mux.in_0_4 in_1 )
+    ( inverse_mux.in_0_5 in_1 )
+    ( inverse_mux.in_0_6 in_1 )
+    ( inverse_mux.in_0_7 in_1 )
+    ( inverse_mux.in_0_8 in_1 )
+    ( inverse_mux.in_0_9 in_1 )
+    ( inverse_mux.inv_sign out ) ;
+  - sign_in_msb_b
+    ( inv_acc in )
+    ( nand_acc out ) ;
+  - sign_out_b
+    ( inv_sign_out in )
+    ( nor_sign_out out ) ;
+END NETS
+
+END DESIGN

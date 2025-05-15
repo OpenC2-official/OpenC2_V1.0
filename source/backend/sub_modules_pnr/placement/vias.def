@@ -1,0 +1,58 @@
+VIAS 7 ;
+- Via7Array-0_1
+ + VIARULE Via7Array-0
+ + CUTSIZE 400 400
+ + LAYERS metal7 via7 metal8
+ + CUTSPACING 440 440
+ + ENCLOSURE 300 0 300 0
+ + ROWCOL 1 1
+ ;
+- Via6Array-0_1
+ + VIARULE Via6Array-0
+ + CUTSIZE 140 140
+ + LAYERS metal6 via6 metal7
+ + CUTSPACING 160 160
+ + ENCLOSURE 130 130 130 130
+ + ROWCOL 1 3
+ ;
+- Via5Array-0_1
+ + VIARULE Via5Array-0
+ + CUTSIZE 140 140
+ + LAYERS metal5 via5 metal6
+ + CUTSPACING 160 160
+ + ENCLOSURE 130 15 130 15
+ + ROWCOL 1 3
+ ;
+- Via4Array-0_1
+ + VIARULE Via4Array-0
+ + CUTSIZE 140 140
+ + LAYERS metal4 via4 metal5
+ + CUTSPACING 160 160
+ + ENCLOSURE 130 15 130 15
+ + ROWCOL 1 3
+ ;
+- Via3Array-0_1
+ + VIARULE Via3Array-0
+ + CUTSIZE 70 70
+ + LAYERS metal3 via3 metal4
+ + CUTSPACING 90 90
+ + ENCLOSURE 65 50 65 50
+ + ROWCOL 1 6
+ ;
+- Via2Array-0_1
+ + VIARULE Via2Array-0
+ + CUTSIZE 70 70
+ + LAYERS metal2 via2 metal3
+ + CUTSPACING 90 90
+ + ENCLOSURE 65 50 65 50
+ + ROWCOL 1 6
+ ;
+- Via1Array-1_1
+ + VIARULE Via1Array-1
+ + CUTSIZE 70 70
+ + LAYERS metal1 via1 metal2
+ + CUTSPACING 80 80
+ + ENCLOSURE 15 50 15 50
+ + ROWCOL 1 7
+ ;
+END VIAS

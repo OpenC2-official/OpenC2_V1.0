@@ -1,0 +1,10 @@
+read_verilog results/dcim_macro_64x64_for_4bitx4bit/frontend/verilog_file/sub_modules/synthesis/control_rtl_for_4bit_input.v
+hierarchy -check -top control_for_4bit_input
+proc; opt; memory; opt; fsm; opt
+techmap; opt
+dfflibmap -liberty library/lib/std_cell_lib.lib
+abc -liberty library/lib/std_cell_lib.lib
+hilomap -hicell tieh out -locell tiel out
+insbuf -buf buffer in out
+clean
+write_verilog results/dcim_macro_64x64_for_4bitx4bit/frontend/verilog_file/sub_modules/synthesis/control_gate_for_4bit_input.v

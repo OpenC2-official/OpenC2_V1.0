@@ -1,0 +1,40 @@
+import math
+import os
+from module_generator import generate_adder_sign_extension_module
+from module_generator import generate_adder_tree_module
+
+def generate_adder_tree(weight_bit_width, input_num): 
+    ### parameters
+    log_input_num = int(math.log(input_num, 2))
+    psum_bit_width = weight_bit_width + log_input_num
+    ### modules
+    verilog_file_code = ''
+    # verilog_file_code += '`include "std_cell_lib.v"\n\n'
+    # adders
+    for i in range(weight_bit_width, psum_bit_width):
+        verilog_file_code += generate_adder_sign_extension_module(i)
+    # top: adder_tree
+    verilog_file_code += generate_adder_tree_module(weight_bit_width, input_num)
+    ### return verilog file code
+    return verilog_file_code
+
+    ### write verilog file
+    os.chdir(output_path)
+    file_name = f"adder_tree_{weight_bit_width}bit_to_{psum_bit_width}bit.v"
+    with open(file_name, "w") as f:
+        f.write(verilog_file_code)
+    print(f"Generate {file_name}")
+
+# input_num = 16
+# weight_bit_width = 4
+# output_path = "verilog_file"
+
+# log_input_num = int(math.log(input_num, 2))
+# psum_bit_width = weight_bit_width + log_input_num
+
+# os.chdir(output_path)
+# file_name = f"adder_tree_{weight_bit_width}bit_to_{psum_bit_width}bit.v"
+# verilog_file_code = generate_adder_tree(weight_bit_width, input_num)
+# with open(file_name, "w") as f:
+#     f.write(verilog_file_code)
+# print(f"Generated {file_name}")

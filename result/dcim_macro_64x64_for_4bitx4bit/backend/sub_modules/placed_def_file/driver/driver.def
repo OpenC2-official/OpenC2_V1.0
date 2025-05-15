@@ -1,0 +1,2204 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN driver_64x64 ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 1900 80640 ) ;
+
+ROW CORE_ROW_0 CoreSite 0 0 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_1 CoreSite 0 1260 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_2 CoreSite 0 2520 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_3 CoreSite 0 3780 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_4 CoreSite 0 5040 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_5 CoreSite 0 6300 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_6 CoreSite 0 7560 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_7 CoreSite 0 8820 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_8 CoreSite 0 10080 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_9 CoreSite 0 11340 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_10 CoreSite 0 12600 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_11 CoreSite 0 13860 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_12 CoreSite 0 15120 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_13 CoreSite 0 16380 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_14 CoreSite 0 17640 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_15 CoreSite 0 18900 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_16 CoreSite 0 20160 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_17 CoreSite 0 21420 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_18 CoreSite 0 22680 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_19 CoreSite 0 23940 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_20 CoreSite 0 25200 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_21 CoreSite 0 26460 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_22 CoreSite 0 27720 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_23 CoreSite 0 28980 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_24 CoreSite 0 30240 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_25 CoreSite 0 31500 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_26 CoreSite 0 32760 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_27 CoreSite 0 34020 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_28 CoreSite 0 35280 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_29 CoreSite 0 36540 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_30 CoreSite 0 37800 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_31 CoreSite 0 39060 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_32 CoreSite 0 40320 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_33 CoreSite 0 41580 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_34 CoreSite 0 42840 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_35 CoreSite 0 44100 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_36 CoreSite 0 45360 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_37 CoreSite 0 46620 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_38 CoreSite 0 47880 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_39 CoreSite 0 49140 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_40 CoreSite 0 50400 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_41 CoreSite 0 51660 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_42 CoreSite 0 52920 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_43 CoreSite 0 54180 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_44 CoreSite 0 55440 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_45 CoreSite 0 56700 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_46 CoreSite 0 57960 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_47 CoreSite 0 59220 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_48 CoreSite 0 60480 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_49 CoreSite 0 61740 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_50 CoreSite 0 63000 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_51 CoreSite 0 64260 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_52 CoreSite 0 65520 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_53 CoreSite 0 66780 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_54 CoreSite 0 68040 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_55 CoreSite 0 69300 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_56 CoreSite 0 70560 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_57 CoreSite 0 71820 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_58 CoreSite 0 73080 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_59 CoreSite 0 74340 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_60 CoreSite 0 75600 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_61 CoreSite 0 76860 N DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_62 CoreSite 0 78120 FS DO 10 BY 1 STEP 190 0 ;
+ROW CORE_ROW_63 CoreSite 0 79380 N DO 10 BY 1 STEP 190 0 ;
+
+TRACKS X 95 DO 9 STEP 190 LAYER metal3 ;
+TRACKS Y 70 DO 575 STEP 140 LAYER metal3 ;
+TRACKS Y 210 DO 287 STEP 280 LAYER metal4 ;
+TRACKS X 285 DO 5 STEP 285 LAYER metal4 ;
+TRACKS X 285 DO 5 STEP 285 LAYER metal5 ;
+TRACKS Y 210 DO 287 STEP 280 LAYER metal5 ;
+TRACKS Y 210 DO 287 STEP 280 LAYER metal6 ;
+TRACKS X 285 DO 5 STEP 285 LAYER metal6 ;
+
+PINS 128 ;
+  - in<0> + NET in<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 80465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<10> + NET in<10> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 67865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<11> + NET in<11> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 65625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<12> + NET in<12> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 65345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<13> + NET in<13> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 63105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<14> + NET in<14> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 62825 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<15> + NET in<15> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 60585 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<16> + NET in<16> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 60305 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<17> + NET in<17> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 58065 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<18> + NET in<18> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 57785 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<19> + NET in<19> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 55545 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<1> + NET in<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 78225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<20> + NET in<20> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 55265 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<21> + NET in<21> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 53025 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<22> + NET in<22> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 52745 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<23> + NET in<23> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 50505 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<24> + NET in<24> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 50225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<25> + NET in<25> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 47985 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<26> + NET in<26> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 47705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<27> + NET in<27> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 45465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<28> + NET in<28> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 45185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<29> + NET in<29> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 42945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<2> + NET in<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 77945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<30> + NET in<30> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 42665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<31> + NET in<31> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 40425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<32> + NET in<32> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 40145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<33> + NET in<33> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 37905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<34> + NET in<34> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 37625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<35> + NET in<35> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 35385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<36> + NET in<36> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 35105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<37> + NET in<37> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 32865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<38> + NET in<38> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 32585 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<39> + NET in<39> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 30345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<3> + NET in<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<40> + NET in<40> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 30065 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<41> + NET in<41> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 27825 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<42> + NET in<42> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 27545 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<43> + NET in<43> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 25305 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<44> + NET in<44> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 25025 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<45> + NET in<45> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 22785 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<46> + NET in<46> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 22505 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<47> + NET in<47> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 20265 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<48> + NET in<48> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 19985 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<49> + NET in<49> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17745 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<4> + NET in<4> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<50> + NET in<50> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<51> + NET in<51> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<52> + NET in<52> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 14945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<53> + NET in<53> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 12705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<54> + NET in<54> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 12425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<55> + NET in<55> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 10185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<56> + NET in<56> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 9905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<57> + NET in<57> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 7665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<58> + NET in<58> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 7385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<59> + NET in<59> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 5145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<5> + NET in<5> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 73185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<60> + NET in<60> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 4865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<61> + NET in<61> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 2625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<62> + NET in<62> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 2345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<63> + NET in<63> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<6> + NET in<6> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 72905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<7> + NET in<7> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 70665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<8> + NET in<8> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 70385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - in<9> + NET in<9> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 68145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<0> + NET out<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 80465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<10> + NET out<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 67865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<11> + NET out<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 65625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<12> + NET out<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 65345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<13> + NET out<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 63105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<14> + NET out<14> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 62825 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<15> + NET out<15> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 60585 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<16> + NET out<16> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 60305 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<17> + NET out<17> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 58065 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<18> + NET out<18> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 57785 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<19> + NET out<19> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 55545 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<1> + NET out<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 78225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<20> + NET out<20> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 55265 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<21> + NET out<21> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 53025 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<22> + NET out<22> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 52745 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<23> + NET out<23> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 50505 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<24> + NET out<24> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 50225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<25> + NET out<25> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 47985 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<26> + NET out<26> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 47705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<27> + NET out<27> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 45465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<28> + NET out<28> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 45185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<29> + NET out<29> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 42945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<2> + NET out<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 77945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<30> + NET out<30> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 42665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<31> + NET out<31> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 40425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<32> + NET out<32> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 40145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<33> + NET out<33> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 37905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<34> + NET out<34> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 37625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<35> + NET out<35> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 35385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<36> + NET out<36> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 35105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<37> + NET out<37> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 32865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<38> + NET out<38> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 32585 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<39> + NET out<39> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 30345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<3> + NET out<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 75705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<40> + NET out<40> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 30065 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<41> + NET out<41> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 27825 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<42> + NET out<42> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 27545 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<43> + NET out<43> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 25305 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<44> + NET out<44> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 25025 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<45> + NET out<45> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 22785 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<46> + NET out<46> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 22505 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<47> + NET out<47> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 20265 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<48> + NET out<48> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 19985 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<49> + NET out<49> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 17745 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<4> + NET out<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 75425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<50> + NET out<50> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 17465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<51> + NET out<51> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 15225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<52> + NET out<52> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 14945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<53> + NET out<53> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 12705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<54> + NET out<54> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 12425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<55> + NET out<55> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 10185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<56> + NET out<56> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 9905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<57> + NET out<57> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 7665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<58> + NET out<58> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 7385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<59> + NET out<59> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 5145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<5> + NET out<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 73185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<60> + NET out<60> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 4865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<61> + NET out<61> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 2625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<62> + NET out<62> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 2345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<63> + NET out<63> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<6> + NET out<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 72905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<7> + NET out<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 70665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<8> + NET out<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 70385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+  - out<9> + NET out<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1830 68145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 70 70 ) ; 
+END PINS
+
+COMPONENTS 320 ;
+  - inv4_stage1_0.inv_0 inverter
+    + PLACED ( 380 79380 ) N ;
+  - inv4_stage1_0.inv_1 inverter
+    + PLACED ( 760 79380 ) N ;
+  - inv4_stage1_0.inv_2 inverter
+    + PLACED ( 1140 79380 ) N ;
+  - inv4_stage1_0.inv_3 inverter
+    + PLACED ( 1520 79380 ) N ;
+  - inv4_stage1_1.inv_0 inverter
+    + PLACED ( 380 78120 ) FS ;
+  - inv4_stage1_1.inv_1 inverter
+    + PLACED ( 760 78120 ) FS ;
+  - inv4_stage1_1.inv_2 inverter
+    + PLACED ( 1140 78120 ) FS ;
+  - inv4_stage1_1.inv_3 inverter
+    + PLACED ( 1520 78120 ) FS ;
+  - inv4_stage1_10.inv_0 inverter
+    + PLACED ( 380 66780 ) N ;
+  - inv4_stage1_10.inv_1 inverter
+    + PLACED ( 760 66780 ) N ;
+  - inv4_stage1_10.inv_2 inverter
+    + PLACED ( 1140 66780 ) N ;
+  - inv4_stage1_10.inv_3 inverter
+    + PLACED ( 1520 66780 ) N ;
+  - inv4_stage1_11.inv_0 inverter
+    + PLACED ( 380 65520 ) FS ;
+  - inv4_stage1_11.inv_1 inverter
+    + PLACED ( 760 65520 ) FS ;
+  - inv4_stage1_11.inv_2 inverter
+    + PLACED ( 1140 65520 ) FS ;
+  - inv4_stage1_11.inv_3 inverter
+    + PLACED ( 1520 65520 ) FS ;
+  - inv4_stage1_12.inv_0 inverter
+    + PLACED ( 380 64260 ) N ;
+  - inv4_stage1_12.inv_1 inverter
+    + PLACED ( 760 64260 ) N ;
+  - inv4_stage1_12.inv_2 inverter
+    + PLACED ( 1140 64260 ) N ;
+  - inv4_stage1_12.inv_3 inverter
+    + PLACED ( 1520 64260 ) N ;
+  - inv4_stage1_13.inv_0 inverter
+    + PLACED ( 380 63000 ) FS ;
+  - inv4_stage1_13.inv_1 inverter
+    + PLACED ( 760 63000 ) FS ;
+  - inv4_stage1_13.inv_2 inverter
+    + PLACED ( 1140 63000 ) FS ;
+  - inv4_stage1_13.inv_3 inverter
+    + PLACED ( 1520 63000 ) FS ;
+  - inv4_stage1_14.inv_0 inverter
+    + PLACED ( 380 61740 ) N ;
+  - inv4_stage1_14.inv_1 inverter
+    + PLACED ( 760 61740 ) N ;
+  - inv4_stage1_14.inv_2 inverter
+    + PLACED ( 1140 61740 ) N ;
+  - inv4_stage1_14.inv_3 inverter
+    + PLACED ( 1520 61740 ) N ;
+  - inv4_stage1_15.inv_0 inverter
+    + PLACED ( 380 60480 ) FS ;
+  - inv4_stage1_15.inv_1 inverter
+    + PLACED ( 760 60480 ) FS ;
+  - inv4_stage1_15.inv_2 inverter
+    + PLACED ( 1140 60480 ) FS ;
+  - inv4_stage1_15.inv_3 inverter
+    + PLACED ( 1520 60480 ) FS ;
+  - inv4_stage1_16.inv_0 inverter
+    + PLACED ( 380 59220 ) N ;
+  - inv4_stage1_16.inv_1 inverter
+    + PLACED ( 760 59220 ) N ;
+  - inv4_stage1_16.inv_2 inverter
+    + PLACED ( 1140 59220 ) N ;
+  - inv4_stage1_16.inv_3 inverter
+    + PLACED ( 1520 59220 ) N ;
+  - inv4_stage1_17.inv_0 inverter
+    + PLACED ( 380 57960 ) FS ;
+  - inv4_stage1_17.inv_1 inverter
+    + PLACED ( 760 57960 ) FS ;
+  - inv4_stage1_17.inv_2 inverter
+    + PLACED ( 1140 57960 ) FS ;
+  - inv4_stage1_17.inv_3 inverter
+    + PLACED ( 1520 57960 ) FS ;
+  - inv4_stage1_18.inv_0 inverter
+    + PLACED ( 380 56700 ) N ;
+  - inv4_stage1_18.inv_1 inverter
+    + PLACED ( 760 56700 ) N ;
+  - inv4_stage1_18.inv_2 inverter
+    + PLACED ( 1140 56700 ) N ;
+  - inv4_stage1_18.inv_3 inverter
+    + PLACED ( 1520 56700 ) N ;
+  - inv4_stage1_19.inv_0 inverter
+    + PLACED ( 380 55440 ) FS ;
+  - inv4_stage1_19.inv_1 inverter
+    + PLACED ( 760 55440 ) FS ;
+  - inv4_stage1_19.inv_2 inverter
+    + PLACED ( 1140 55440 ) FS ;
+  - inv4_stage1_19.inv_3 inverter
+    + PLACED ( 1520 55440 ) FS ;
+  - inv4_stage1_2.inv_0 inverter
+    + PLACED ( 380 76860 ) N ;
+  - inv4_stage1_2.inv_1 inverter
+    + PLACED ( 760 76860 ) N ;
+  - inv4_stage1_2.inv_2 inverter
+    + PLACED ( 1140 76860 ) N ;
+  - inv4_stage1_2.inv_3 inverter
+    + PLACED ( 1520 76860 ) N ;
+  - inv4_stage1_20.inv_0 inverter
+    + PLACED ( 380 54180 ) N ;
+  - inv4_stage1_20.inv_1 inverter
+    + PLACED ( 760 54180 ) N ;
+  - inv4_stage1_20.inv_2 inverter
+    + PLACED ( 1140 54180 ) N ;
+  - inv4_stage1_20.inv_3 inverter
+    + PLACED ( 1520 54180 ) N ;
+  - inv4_stage1_21.inv_0 inverter
+    + PLACED ( 380 52920 ) FS ;
+  - inv4_stage1_21.inv_1 inverter
+    + PLACED ( 760 52920 ) FS ;
+  - inv4_stage1_21.inv_2 inverter
+    + PLACED ( 1140 52920 ) FS ;
+  - inv4_stage1_21.inv_3 inverter
+    + PLACED ( 1520 52920 ) FS ;
+  - inv4_stage1_22.inv_0 inverter
+    + PLACED ( 380 51660 ) N ;
+  - inv4_stage1_22.inv_1 inverter
+    + PLACED ( 760 51660 ) N ;
+  - inv4_stage1_22.inv_2 inverter
+    + PLACED ( 1140 51660 ) N ;
+  - inv4_stage1_22.inv_3 inverter
+    + PLACED ( 1520 51660 ) N ;
+  - inv4_stage1_23.inv_0 inverter
+    + PLACED ( 380 50400 ) FS ;
+  - inv4_stage1_23.inv_1 inverter
+    + PLACED ( 760 50400 ) FS ;
+  - inv4_stage1_23.inv_2 inverter
+    + PLACED ( 1140 50400 ) FS ;
+  - inv4_stage1_23.inv_3 inverter
+    + PLACED ( 1520 50400 ) FS ;
+  - inv4_stage1_24.inv_0 inverter
+    + PLACED ( 380 49140 ) N ;
+  - inv4_stage1_24.inv_1 inverter
+    + PLACED ( 760 49140 ) N ;
+  - inv4_stage1_24.inv_2 inverter
+    + PLACED ( 1140 49140 ) N ;
+  - inv4_stage1_24.inv_3 inverter
+    + PLACED ( 1520 49140 ) N ;
+  - inv4_stage1_25.inv_0 inverter
+    + PLACED ( 380 47880 ) FS ;
+  - inv4_stage1_25.inv_1 inverter
+    + PLACED ( 760 47880 ) FS ;
+  - inv4_stage1_25.inv_2 inverter
+    + PLACED ( 1140 47880 ) FS ;
+  - inv4_stage1_25.inv_3 inverter
+    + PLACED ( 1520 47880 ) FS ;
+  - inv4_stage1_26.inv_0 inverter
+    + PLACED ( 380 46620 ) N ;
+  - inv4_stage1_26.inv_1 inverter
+    + PLACED ( 760 46620 ) N ;
+  - inv4_stage1_26.inv_2 inverter
+    + PLACED ( 1140 46620 ) N ;
+  - inv4_stage1_26.inv_3 inverter
+    + PLACED ( 1520 46620 ) N ;
+  - inv4_stage1_27.inv_0 inverter
+    + PLACED ( 380 45360 ) FS ;
+  - inv4_stage1_27.inv_1 inverter
+    + PLACED ( 760 45360 ) FS ;
+  - inv4_stage1_27.inv_2 inverter
+    + PLACED ( 1140 45360 ) FS ;
+  - inv4_stage1_27.inv_3 inverter
+    + PLACED ( 1520 45360 ) FS ;
+  - inv4_stage1_28.inv_0 inverter
+    + PLACED ( 380 44100 ) N ;
+  - inv4_stage1_28.inv_1 inverter
+    + PLACED ( 760 44100 ) N ;
+  - inv4_stage1_28.inv_2 inverter
+    + PLACED ( 1140 44100 ) N ;
+  - inv4_stage1_28.inv_3 inverter
+    + PLACED ( 1520 44100 ) N ;
+  - inv4_stage1_29.inv_0 inverter
+    + PLACED ( 380 42840 ) FS ;
+  - inv4_stage1_29.inv_1 inverter
+    + PLACED ( 760 42840 ) FS ;
+  - inv4_stage1_29.inv_2 inverter
+    + PLACED ( 1140 42840 ) FS ;
+  - inv4_stage1_29.inv_3 inverter
+    + PLACED ( 1520 42840 ) FS ;
+  - inv4_stage1_3.inv_0 inverter
+    + PLACED ( 380 75600 ) FS ;
+  - inv4_stage1_3.inv_1 inverter
+    + PLACED ( 760 75600 ) FS ;
+  - inv4_stage1_3.inv_2 inverter
+    + PLACED ( 1140 75600 ) FS ;
+  - inv4_stage1_3.inv_3 inverter
+    + PLACED ( 1520 75600 ) FS ;
+  - inv4_stage1_30.inv_0 inverter
+    + PLACED ( 380 41580 ) N ;
+  - inv4_stage1_30.inv_1 inverter
+    + PLACED ( 760 41580 ) N ;
+  - inv4_stage1_30.inv_2 inverter
+    + PLACED ( 1140 41580 ) N ;
+  - inv4_stage1_30.inv_3 inverter
+    + PLACED ( 1520 41580 ) N ;
+  - inv4_stage1_31.inv_0 inverter
+    + PLACED ( 380 40320 ) FS ;
+  - inv4_stage1_31.inv_1 inverter
+    + PLACED ( 760 40320 ) FS ;
+  - inv4_stage1_31.inv_2 inverter
+    + PLACED ( 1140 40320 ) FS ;
+  - inv4_stage1_31.inv_3 inverter
+    + PLACED ( 1520 40320 ) FS ;
+  - inv4_stage1_32.inv_0 inverter
+    + PLACED ( 380 39060 ) N ;
+  - inv4_stage1_32.inv_1 inverter
+    + PLACED ( 760 39060 ) N ;
+  - inv4_stage1_32.inv_2 inverter
+    + PLACED ( 1140 39060 ) N ;
+  - inv4_stage1_32.inv_3 inverter
+    + PLACED ( 1520 39060 ) N ;
+  - inv4_stage1_33.inv_0 inverter
+    + PLACED ( 380 37800 ) FS ;
+  - inv4_stage1_33.inv_1 inverter
+    + PLACED ( 760 37800 ) FS ;
+  - inv4_stage1_33.inv_2 inverter
+    + PLACED ( 1140 37800 ) FS ;
+  - inv4_stage1_33.inv_3 inverter
+    + PLACED ( 1520 37800 ) FS ;
+  - inv4_stage1_34.inv_0 inverter
+    + PLACED ( 380 36540 ) N ;
+  - inv4_stage1_34.inv_1 inverter
+    + PLACED ( 760 36540 ) N ;
+  - inv4_stage1_34.inv_2 inverter
+    + PLACED ( 1140 36540 ) N ;
+  - inv4_stage1_34.inv_3 inverter
+    + PLACED ( 1520 36540 ) N ;
+  - inv4_stage1_35.inv_0 inverter
+    + PLACED ( 380 35280 ) FS ;
+  - inv4_stage1_35.inv_1 inverter
+    + PLACED ( 760 35280 ) FS ;
+  - inv4_stage1_35.inv_2 inverter
+    + PLACED ( 1140 35280 ) FS ;
+  - inv4_stage1_35.inv_3 inverter
+    + PLACED ( 1520 35280 ) FS ;
+  - inv4_stage1_36.inv_0 inverter
+    + PLACED ( 380 34020 ) N ;
+  - inv4_stage1_36.inv_1 inverter
+    + PLACED ( 760 34020 ) N ;
+  - inv4_stage1_36.inv_2 inverter
+    + PLACED ( 1140 34020 ) N ;
+  - inv4_stage1_36.inv_3 inverter
+    + PLACED ( 1520 34020 ) N ;
+  - inv4_stage1_37.inv_0 inverter
+    + PLACED ( 380 32760 ) FS ;
+  - inv4_stage1_37.inv_1 inverter
+    + PLACED ( 760 32760 ) FS ;
+  - inv4_stage1_37.inv_2 inverter
+    + PLACED ( 1140 32760 ) FS ;
+  - inv4_stage1_37.inv_3 inverter
+    + PLACED ( 1520 32760 ) FS ;
+  - inv4_stage1_38.inv_0 inverter
+    + PLACED ( 380 31500 ) N ;
+  - inv4_stage1_38.inv_1 inverter
+    + PLACED ( 760 31500 ) N ;
+  - inv4_stage1_38.inv_2 inverter
+    + PLACED ( 1140 31500 ) N ;
+  - inv4_stage1_38.inv_3 inverter
+    + PLACED ( 1520 31500 ) N ;
+  - inv4_stage1_39.inv_0 inverter
+    + PLACED ( 380 30240 ) FS ;
+  - inv4_stage1_39.inv_1 inverter
+    + PLACED ( 760 30240 ) FS ;
+  - inv4_stage1_39.inv_2 inverter
+    + PLACED ( 1140 30240 ) FS ;
+  - inv4_stage1_39.inv_3 inverter
+    + PLACED ( 1520 30240 ) FS ;
+  - inv4_stage1_4.inv_0 inverter
+    + PLACED ( 380 74340 ) N ;
+  - inv4_stage1_4.inv_1 inverter
+    + PLACED ( 760 74340 ) N ;
+  - inv4_stage1_4.inv_2 inverter
+    + PLACED ( 1140 74340 ) N ;
+  - inv4_stage1_4.inv_3 inverter
+    + PLACED ( 1520 74340 ) N ;
+  - inv4_stage1_40.inv_0 inverter
+    + PLACED ( 380 28980 ) N ;
+  - inv4_stage1_40.inv_1 inverter
+    + PLACED ( 760 28980 ) N ;
+  - inv4_stage1_40.inv_2 inverter
+    + PLACED ( 1140 28980 ) N ;
+  - inv4_stage1_40.inv_3 inverter
+    + PLACED ( 1520 28980 ) N ;
+  - inv4_stage1_41.inv_0 inverter
+    + PLACED ( 380 27720 ) FS ;
+  - inv4_stage1_41.inv_1 inverter
+    + PLACED ( 760 27720 ) FS ;
+  - inv4_stage1_41.inv_2 inverter
+    + PLACED ( 1140 27720 ) FS ;
+  - inv4_stage1_41.inv_3 inverter
+    + PLACED ( 1520 27720 ) FS ;
+  - inv4_stage1_42.inv_0 inverter
+    + PLACED ( 380 26460 ) N ;
+  - inv4_stage1_42.inv_1 inverter
+    + PLACED ( 760 26460 ) N ;
+  - inv4_stage1_42.inv_2 inverter
+    + PLACED ( 1140 26460 ) N ;
+  - inv4_stage1_42.inv_3 inverter
+    + PLACED ( 1520 26460 ) N ;
+  - inv4_stage1_43.inv_0 inverter
+    + PLACED ( 380 25200 ) FS ;
+  - inv4_stage1_43.inv_1 inverter
+    + PLACED ( 760 25200 ) FS ;
+  - inv4_stage1_43.inv_2 inverter
+    + PLACED ( 1140 25200 ) FS ;
+  - inv4_stage1_43.inv_3 inverter
+    + PLACED ( 1520 25200 ) FS ;
+  - inv4_stage1_44.inv_0 inverter
+    + PLACED ( 380 23940 ) N ;
+  - inv4_stage1_44.inv_1 inverter
+    + PLACED ( 760 23940 ) N ;
+  - inv4_stage1_44.inv_2 inverter
+    + PLACED ( 1140 23940 ) N ;
+  - inv4_stage1_44.inv_3 inverter
+    + PLACED ( 1520 23940 ) N ;
+  - inv4_stage1_45.inv_0 inverter
+    + PLACED ( 380 22680 ) FS ;
+  - inv4_stage1_45.inv_1 inverter
+    + PLACED ( 760 22680 ) FS ;
+  - inv4_stage1_45.inv_2 inverter
+    + PLACED ( 1140 22680 ) FS ;
+  - inv4_stage1_45.inv_3 inverter
+    + PLACED ( 1520 22680 ) FS ;
+  - inv4_stage1_46.inv_0 inverter
+    + PLACED ( 380 21420 ) N ;
+  - inv4_stage1_46.inv_1 inverter
+    + PLACED ( 760 21420 ) N ;
+  - inv4_stage1_46.inv_2 inverter
+    + PLACED ( 1140 21420 ) N ;
+  - inv4_stage1_46.inv_3 inverter
+    + PLACED ( 1520 21420 ) N ;
+  - inv4_stage1_47.inv_0 inverter
+    + PLACED ( 380 20160 ) FS ;
+  - inv4_stage1_47.inv_1 inverter
+    + PLACED ( 760 20160 ) FS ;
+  - inv4_stage1_47.inv_2 inverter
+    + PLACED ( 1140 20160 ) FS ;
+  - inv4_stage1_47.inv_3 inverter
+    + PLACED ( 1520 20160 ) FS ;
+  - inv4_stage1_48.inv_0 inverter
+    + PLACED ( 380 18900 ) N ;
+  - inv4_stage1_48.inv_1 inverter
+    + PLACED ( 760 18900 ) N ;
+  - inv4_stage1_48.inv_2 inverter
+    + PLACED ( 1140 18900 ) N ;
+  - inv4_stage1_48.inv_3 inverter
+    + PLACED ( 1520 18900 ) N ;
+  - inv4_stage1_49.inv_0 inverter
+    + PLACED ( 380 17640 ) FS ;
+  - inv4_stage1_49.inv_1 inverter
+    + PLACED ( 760 17640 ) FS ;
+  - inv4_stage1_49.inv_2 inverter
+    + PLACED ( 1140 17640 ) FS ;
+  - inv4_stage1_49.inv_3 inverter
+    + PLACED ( 1520 17640 ) FS ;
+  - inv4_stage1_5.inv_0 inverter
+    + PLACED ( 380 73080 ) FS ;
+  - inv4_stage1_5.inv_1 inverter
+    + PLACED ( 760 73080 ) FS ;
+  - inv4_stage1_5.inv_2 inverter
+    + PLACED ( 1140 73080 ) FS ;
+  - inv4_stage1_5.inv_3 inverter
+    + PLACED ( 1520 73080 ) FS ;
+  - inv4_stage1_50.inv_0 inverter
+    + PLACED ( 380 16380 ) N ;
+  - inv4_stage1_50.inv_1 inverter
+    + PLACED ( 760 16380 ) N ;
+  - inv4_stage1_50.inv_2 inverter
+    + PLACED ( 1140 16380 ) N ;
+  - inv4_stage1_50.inv_3 inverter
+    + PLACED ( 1520 16380 ) N ;
+  - inv4_stage1_51.inv_0 inverter
+    + PLACED ( 380 15120 ) FS ;
+  - inv4_stage1_51.inv_1 inverter
+    + PLACED ( 760 15120 ) FS ;
+  - inv4_stage1_51.inv_2 inverter
+    + PLACED ( 1140 15120 ) FS ;
+  - inv4_stage1_51.inv_3 inverter
+    + PLACED ( 1520 15120 ) FS ;
+  - inv4_stage1_52.inv_0 inverter
+    + PLACED ( 380 13860 ) N ;
+  - inv4_stage1_52.inv_1 inverter
+    + PLACED ( 760 13860 ) N ;
+  - inv4_stage1_52.inv_2 inverter
+    + PLACED ( 1140 13860 ) N ;
+  - inv4_stage1_52.inv_3 inverter
+    + PLACED ( 1520 13860 ) N ;
+  - inv4_stage1_53.inv_0 inverter
+    + PLACED ( 380 12600 ) FS ;
+  - inv4_stage1_53.inv_1 inverter
+    + PLACED ( 760 12600 ) FS ;
+  - inv4_stage1_53.inv_2 inverter
+    + PLACED ( 1140 12600 ) FS ;
+  - inv4_stage1_53.inv_3 inverter
+    + PLACED ( 1520 12600 ) FS ;
+  - inv4_stage1_54.inv_0 inverter
+    + PLACED ( 380 11340 ) N ;
+  - inv4_stage1_54.inv_1 inverter
+    + PLACED ( 760 11340 ) N ;
+  - inv4_stage1_54.inv_2 inverter
+    + PLACED ( 1140 11340 ) N ;
+  - inv4_stage1_54.inv_3 inverter
+    + PLACED ( 1520 11340 ) N ;
+  - inv4_stage1_55.inv_0 inverter
+    + PLACED ( 380 10080 ) FS ;
+  - inv4_stage1_55.inv_1 inverter
+    + PLACED ( 760 10080 ) FS ;
+  - inv4_stage1_55.inv_2 inverter
+    + PLACED ( 1140 10080 ) FS ;
+  - inv4_stage1_55.inv_3 inverter
+    + PLACED ( 1520 10080 ) FS ;
+  - inv4_stage1_56.inv_0 inverter
+    + PLACED ( 380 8820 ) N ;
+  - inv4_stage1_56.inv_1 inverter
+    + PLACED ( 760 8820 ) N ;
+  - inv4_stage1_56.inv_2 inverter
+    + PLACED ( 1140 8820 ) N ;
+  - inv4_stage1_56.inv_3 inverter
+    + PLACED ( 1520 8820 ) N ;
+  - inv4_stage1_57.inv_0 inverter
+    + PLACED ( 380 7560 ) FS ;
+  - inv4_stage1_57.inv_1 inverter
+    + PLACED ( 760 7560 ) FS ;
+  - inv4_stage1_57.inv_2 inverter
+    + PLACED ( 1140 7560 ) FS ;
+  - inv4_stage1_57.inv_3 inverter
+    + PLACED ( 1520 7560 ) FS ;
+  - inv4_stage1_58.inv_0 inverter
+    + PLACED ( 380 6300 ) N ;
+  - inv4_stage1_58.inv_1 inverter
+    + PLACED ( 760 6300 ) N ;
+  - inv4_stage1_58.inv_2 inverter
+    + PLACED ( 1140 6300 ) N ;
+  - inv4_stage1_58.inv_3 inverter
+    + PLACED ( 1520 6300 ) N ;
+  - inv4_stage1_59.inv_0 inverter
+    + PLACED ( 380 5040 ) FS ;
+  - inv4_stage1_59.inv_1 inverter
+    + PLACED ( 760 5040 ) FS ;
+  - inv4_stage1_59.inv_2 inverter
+    + PLACED ( 1140 5040 ) FS ;
+  - inv4_stage1_59.inv_3 inverter
+    + PLACED ( 1520 5040 ) FS ;
+  - inv4_stage1_6.inv_0 inverter
+    + PLACED ( 380 71820 ) N ;
+  - inv4_stage1_6.inv_1 inverter
+    + PLACED ( 760 71820 ) N ;
+  - inv4_stage1_6.inv_2 inverter
+    + PLACED ( 1140 71820 ) N ;
+  - inv4_stage1_6.inv_3 inverter
+    + PLACED ( 1520 71820 ) N ;
+  - inv4_stage1_60.inv_0 inverter
+    + PLACED ( 380 3780 ) N ;
+  - inv4_stage1_60.inv_1 inverter
+    + PLACED ( 760 3780 ) N ;
+  - inv4_stage1_60.inv_2 inverter
+    + PLACED ( 1140 3780 ) N ;
+  - inv4_stage1_60.inv_3 inverter
+    + PLACED ( 1520 3780 ) N ;
+  - inv4_stage1_61.inv_0 inverter
+    + PLACED ( 380 2520 ) FS ;
+  - inv4_stage1_61.inv_1 inverter
+    + PLACED ( 760 2520 ) FS ;
+  - inv4_stage1_61.inv_2 inverter
+    + PLACED ( 1140 2520 ) FS ;
+  - inv4_stage1_61.inv_3 inverter
+    + PLACED ( 1520 2520 ) FS ;
+  - inv4_stage1_62.inv_0 inverter
+    + PLACED ( 380 1260 ) N ;
+  - inv4_stage1_62.inv_1 inverter
+    + PLACED ( 760 1260 ) N ;
+  - inv4_stage1_62.inv_2 inverter
+    + PLACED ( 1140 1260 ) N ;
+  - inv4_stage1_62.inv_3 inverter
+    + PLACED ( 1520 1260 ) N ;
+  - inv4_stage1_63.inv_0 inverter
+    + PLACED ( 380 0 ) FS ;
+  - inv4_stage1_63.inv_1 inverter
+    + PLACED ( 760 0 ) FS ;
+  - inv4_stage1_63.inv_2 inverter
+    + PLACED ( 1140 0 ) FS ;
+  - inv4_stage1_63.inv_3 inverter
+    + PLACED ( 1520 0 ) FS ;
+  - inv4_stage1_7.inv_0 inverter
+    + PLACED ( 380 70560 ) FS ;
+  - inv4_stage1_7.inv_1 inverter
+    + PLACED ( 760 70560 ) FS ;
+  - inv4_stage1_7.inv_2 inverter
+    + PLACED ( 1140 70560 ) FS ;
+  - inv4_stage1_7.inv_3 inverter
+    + PLACED ( 1520 70560 ) FS ;
+  - inv4_stage1_8.inv_0 inverter
+    + PLACED ( 380 69300 ) N ;
+  - inv4_stage1_8.inv_1 inverter
+    + PLACED ( 760 69300 ) N ;
+  - inv4_stage1_8.inv_2 inverter
+    + PLACED ( 1140 69300 ) N ;
+  - inv4_stage1_8.inv_3 inverter
+    + PLACED ( 1520 69300 ) N ;
+  - inv4_stage1_9.inv_0 inverter
+    + PLACED ( 380 68040 ) FS ;
+  - inv4_stage1_9.inv_1 inverter
+    + PLACED ( 760 68040 ) FS ;
+  - inv4_stage1_9.inv_2 inverter
+    + PLACED ( 1140 68040 ) FS ;
+  - inv4_stage1_9.inv_3 inverter
+    + PLACED ( 1520 68040 ) FS ;
+  - inv_stage0_0 inverter
+    + PLACED ( 0 79380 ) N ;
+  - inv_stage0_1 inverter
+    + PLACED ( 0 78120 ) FS ;
+  - inv_stage0_10 inverter
+    + PLACED ( 0 66780 ) N ;
+  - inv_stage0_11 inverter
+    + PLACED ( 0 65520 ) FS ;
+  - inv_stage0_12 inverter
+    + PLACED ( 0 64260 ) N ;
+  - inv_stage0_13 inverter
+    + PLACED ( 0 63000 ) FS ;
+  - inv_stage0_14 inverter
+    + PLACED ( 0 61740 ) N ;
+  - inv_stage0_15 inverter
+    + PLACED ( 0 60480 ) FS ;
+  - inv_stage0_16 inverter
+    + PLACED ( 0 59220 ) N ;
+  - inv_stage0_17 inverter
+    + PLACED ( 0 57960 ) FS ;
+  - inv_stage0_18 inverter
+    + PLACED ( 0 56700 ) N ;
+  - inv_stage0_19 inverter
+    + PLACED ( 0 55440 ) FS ;
+  - inv_stage0_2 inverter
+    + PLACED ( 0 76860 ) N ;
+  - inv_stage0_20 inverter
+    + PLACED ( 0 54180 ) N ;
+  - inv_stage0_21 inverter
+    + PLACED ( 0 52920 ) FS ;
+  - inv_stage0_22 inverter
+    + PLACED ( 0 51660 ) N ;
+  - inv_stage0_23 inverter
+    + PLACED ( 0 50400 ) FS ;
+  - inv_stage0_24 inverter
+    + PLACED ( 0 49140 ) N ;
+  - inv_stage0_25 inverter
+    + PLACED ( 0 47880 ) FS ;
+  - inv_stage0_26 inverter
+    + PLACED ( 0 46620 ) N ;
+  - inv_stage0_27 inverter
+    + PLACED ( 0 45360 ) FS ;
+  - inv_stage0_28 inverter
+    + PLACED ( 0 44100 ) N ;
+  - inv_stage0_29 inverter
+    + PLACED ( 0 42840 ) FS ;
+  - inv_stage0_3 inverter
+    + PLACED ( 0 75600 ) FS ;
+  - inv_stage0_30 inverter
+    + PLACED ( 0 41580 ) N ;
+  - inv_stage0_31 inverter
+    + PLACED ( 0 40320 ) FS ;
+  - inv_stage0_32 inverter
+    + PLACED ( 0 39060 ) N ;
+  - inv_stage0_33 inverter
+    + PLACED ( 0 37800 ) FS ;
+  - inv_stage0_34 inverter
+    + PLACED ( 0 36540 ) N ;
+  - inv_stage0_35 inverter
+    + PLACED ( 0 35280 ) FS ;
+  - inv_stage0_36 inverter
+    + PLACED ( 0 34020 ) N ;
+  - inv_stage0_37 inverter
+    + PLACED ( 0 32760 ) FS ;
+  - inv_stage0_38 inverter
+    + PLACED ( 0 31500 ) N ;
+  - inv_stage0_39 inverter
+    + PLACED ( 0 30240 ) FS ;
+  - inv_stage0_4 inverter
+    + PLACED ( 0 74340 ) N ;
+  - inv_stage0_40 inverter
+    + PLACED ( 0 28980 ) N ;
+  - inv_stage0_41 inverter
+    + PLACED ( 0 27720 ) FS ;
+  - inv_stage0_42 inverter
+    + PLACED ( 0 26460 ) N ;
+  - inv_stage0_43 inverter
+    + PLACED ( 0 25200 ) FS ;
+  - inv_stage0_44 inverter
+    + PLACED ( 0 23940 ) N ;
+  - inv_stage0_45 inverter
+    + PLACED ( 0 22680 ) FS ;
+  - inv_stage0_46 inverter
+    + PLACED ( 0 21420 ) N ;
+  - inv_stage0_47 inverter
+    + PLACED ( 0 20160 ) FS ;
+  - inv_stage0_48 inverter
+    + PLACED ( 0 18900 ) N ;
+  - inv_stage0_49 inverter
+    + PLACED ( 0 17640 ) FS ;
+  - inv_stage0_5 inverter
+    + PLACED ( 0 73080 ) FS ;
+  - inv_stage0_50 inverter
+    + PLACED ( 0 16380 ) N ;
+  - inv_stage0_51 inverter
+    + PLACED ( 0 15120 ) FS ;
+  - inv_stage0_52 inverter
+    + PLACED ( 0 13860 ) N ;
+  - inv_stage0_53 inverter
+    + PLACED ( 0 12600 ) FS ;
+  - inv_stage0_54 inverter
+    + PLACED ( 0 11340 ) N ;
+  - inv_stage0_55 inverter
+    + PLACED ( 0 10080 ) FS ;
+  - inv_stage0_56 inverter
+    + PLACED ( 0 8820 ) N ;
+  - inv_stage0_57 inverter
+    + PLACED ( 0 7560 ) FS ;
+  - inv_stage0_58 inverter
+    + PLACED ( 0 6300 ) N ;
+  - inv_stage0_59 inverter
+    + PLACED ( 0 5040 ) FS ;
+  - inv_stage0_6 inverter
+    + PLACED ( 0 71820 ) N ;
+  - inv_stage0_60 inverter
+    + PLACED ( 0 3780 ) N ;
+  - inv_stage0_61 inverter
+    + PLACED ( 0 2520 ) FS ;
+  - inv_stage0_62 inverter
+    + PLACED ( 0 1260 ) N ;
+  - inv_stage0_63 inverter
+    + PLACED ( 0 0 ) FS ;
+  - inv_stage0_7 inverter
+    + PLACED ( 0 70560 ) FS ;
+  - inv_stage0_8 inverter
+    + PLACED ( 0 69300 ) N ;
+  - inv_stage0_9 inverter
+    + PLACED ( 0 68040 ) FS ;
+END COMPONENTS
+
+NETS 192 ;
+  - in<0>
+    ( PIN in<0> )
+    ( inv_stage0_0 in ) ;
+  - in<10>
+    ( PIN in<10> )
+    ( inv_stage0_10 in ) ;
+  - in<11>
+    ( PIN in<11> )
+    ( inv_stage0_11 in ) ;
+  - in<12>
+    ( PIN in<12> )
+    ( inv_stage0_12 in ) ;
+  - in<13>
+    ( PIN in<13> )
+    ( inv_stage0_13 in ) ;
+  - in<14>
+    ( PIN in<14> )
+    ( inv_stage0_14 in ) ;
+  - in<15>
+    ( PIN in<15> )
+    ( inv_stage0_15 in ) ;
+  - in<16>
+    ( PIN in<16> )
+    ( inv_stage0_16 in ) ;
+  - in<17>
+    ( PIN in<17> )
+    ( inv_stage0_17 in ) ;
+  - in<18>
+    ( PIN in<18> )
+    ( inv_stage0_18 in ) ;
+  - in<19>
+    ( PIN in<19> )
+    ( inv_stage0_19 in ) ;
+  - in<1>
+    ( PIN in<1> )
+    ( inv_stage0_1 in ) ;
+  - in<20>
+    ( PIN in<20> )
+    ( inv_stage0_20 in ) ;
+  - in<21>
+    ( PIN in<21> )
+    ( inv_stage0_21 in ) ;
+  - in<22>
+    ( PIN in<22> )
+    ( inv_stage0_22 in ) ;
+  - in<23>
+    ( PIN in<23> )
+    ( inv_stage0_23 in ) ;
+  - in<24>
+    ( PIN in<24> )
+    ( inv_stage0_24 in ) ;
+  - in<25>
+    ( PIN in<25> )
+    ( inv_stage0_25 in ) ;
+  - in<26>
+    ( PIN in<26> )
+    ( inv_stage0_26 in ) ;
+  - in<27>
+    ( PIN in<27> )
+    ( inv_stage0_27 in ) ;
+  - in<28>
+    ( PIN in<28> )
+    ( inv_stage0_28 in ) ;
+  - in<29>
+    ( PIN in<29> )
+    ( inv_stage0_29 in ) ;
+  - in<2>
+    ( PIN in<2> )
+    ( inv_stage0_2 in ) ;
+  - in<30>
+    ( PIN in<30> )
+    ( inv_stage0_30 in ) ;
+  - in<31>
+    ( PIN in<31> )
+    ( inv_stage0_31 in ) ;
+  - in<32>
+    ( PIN in<32> )
+    ( inv_stage0_32 in ) ;
+  - in<33>
+    ( PIN in<33> )
+    ( inv_stage0_33 in ) ;
+  - in<34>
+    ( PIN in<34> )
+    ( inv_stage0_34 in ) ;
+  - in<35>
+    ( PIN in<35> )
+    ( inv_stage0_35 in ) ;
+  - in<36>
+    ( PIN in<36> )
+    ( inv_stage0_36 in ) ;
+  - in<37>
+    ( PIN in<37> )
+    ( inv_stage0_37 in ) ;
+  - in<38>
+    ( PIN in<38> )
+    ( inv_stage0_38 in ) ;
+  - in<39>
+    ( PIN in<39> )
+    ( inv_stage0_39 in ) ;
+  - in<3>
+    ( PIN in<3> )
+    ( inv_stage0_3 in ) ;
+  - in<40>
+    ( PIN in<40> )
+    ( inv_stage0_40 in ) ;
+  - in<41>
+    ( PIN in<41> )
+    ( inv_stage0_41 in ) ;
+  - in<42>
+    ( PIN in<42> )
+    ( inv_stage0_42 in ) ;
+  - in<43>
+    ( PIN in<43> )
+    ( inv_stage0_43 in ) ;
+  - in<44>
+    ( PIN in<44> )
+    ( inv_stage0_44 in ) ;
+  - in<45>
+    ( PIN in<45> )
+    ( inv_stage0_45 in ) ;
+  - in<46>
+    ( PIN in<46> )
+    ( inv_stage0_46 in ) ;
+  - in<47>
+    ( PIN in<47> )
+    ( inv_stage0_47 in ) ;
+  - in<48>
+    ( PIN in<48> )
+    ( inv_stage0_48 in ) ;
+  - in<49>
+    ( PIN in<49> )
+    ( inv_stage0_49 in ) ;
+  - in<4>
+    ( PIN in<4> )
+    ( inv_stage0_4 in ) ;
+  - in<50>
+    ( PIN in<50> )
+    ( inv_stage0_50 in ) ;
+  - in<51>
+    ( PIN in<51> )
+    ( inv_stage0_51 in ) ;
+  - in<52>
+    ( PIN in<52> )
+    ( inv_stage0_52 in ) ;
+  - in<53>
+    ( PIN in<53> )
+    ( inv_stage0_53 in ) ;
+  - in<54>
+    ( PIN in<54> )
+    ( inv_stage0_54 in ) ;
+  - in<55>
+    ( PIN in<55> )
+    ( inv_stage0_55 in ) ;
+  - in<56>
+    ( PIN in<56> )
+    ( inv_stage0_56 in ) ;
+  - in<57>
+    ( PIN in<57> )
+    ( inv_stage0_57 in ) ;
+  - in<58>
+    ( PIN in<58> )
+    ( inv_stage0_58 in ) ;
+  - in<59>
+    ( PIN in<59> )
+    ( inv_stage0_59 in ) ;
+  - in<5>
+    ( PIN in<5> )
+    ( inv_stage0_5 in ) ;
+  - in<60>
+    ( PIN in<60> )
+    ( inv_stage0_60 in ) ;
+  - in<61>
+    ( PIN in<61> )
+    ( inv_stage0_61 in ) ;
+  - in<62>
+    ( PIN in<62> )
+    ( inv_stage0_62 in ) ;
+  - in<63>
+    ( PIN in<63> )
+    ( inv_stage0_63 in ) ;
+  - in<6>
+    ( PIN in<6> )
+    ( inv_stage0_6 in ) ;
+  - in<7>
+    ( PIN in<7> )
+    ( inv_stage0_7 in ) ;
+  - in<8>
+    ( PIN in<8> )
+    ( inv_stage0_8 in ) ;
+  - in<9>
+    ( PIN in<9> )
+    ( inv_stage0_9 in ) ;
+  - out<0>
+    ( PIN out<0> )
+    ( inv4_stage1_0.inv_0 out )
+    ( inv4_stage1_0.inv_1 out )
+    ( inv4_stage1_0.inv_2 out )
+    ( inv4_stage1_0.inv_3 out ) ;
+  - out<10>
+    ( PIN out<10> )
+    ( inv4_stage1_10.inv_0 out )
+    ( inv4_stage1_10.inv_1 out )
+    ( inv4_stage1_10.inv_2 out )
+    ( inv4_stage1_10.inv_3 out ) ;
+  - out<11>
+    ( PIN out<11> )
+    ( inv4_stage1_11.inv_0 out )
+    ( inv4_stage1_11.inv_1 out )
+    ( inv4_stage1_11.inv_2 out )
+    ( inv4_stage1_11.inv_3 out ) ;
+  - out<12>
+    ( PIN out<12> )
+    ( inv4_stage1_12.inv_0 out )
+    ( inv4_stage1_12.inv_1 out )
+    ( inv4_stage1_12.inv_2 out )
+    ( inv4_stage1_12.inv_3 out ) ;
+  - out<13>
+    ( PIN out<13> )
+    ( inv4_stage1_13.inv_0 out )
+    ( inv4_stage1_13.inv_1 out )
+    ( inv4_stage1_13.inv_2 out )
+    ( inv4_stage1_13.inv_3 out ) ;
+  - out<14>
+    ( PIN out<14> )
+    ( inv4_stage1_14.inv_0 out )
+    ( inv4_stage1_14.inv_1 out )
+    ( inv4_stage1_14.inv_2 out )
+    ( inv4_stage1_14.inv_3 out ) ;
+  - out<15>
+    ( PIN out<15> )
+    ( inv4_stage1_15.inv_0 out )
+    ( inv4_stage1_15.inv_1 out )
+    ( inv4_stage1_15.inv_2 out )
+    ( inv4_stage1_15.inv_3 out ) ;
+  - out<16>
+    ( PIN out<16> )
+    ( inv4_stage1_16.inv_0 out )
+    ( inv4_stage1_16.inv_1 out )
+    ( inv4_stage1_16.inv_2 out )
+    ( inv4_stage1_16.inv_3 out ) ;
+  - out<17>
+    ( PIN out<17> )
+    ( inv4_stage1_17.inv_0 out )
+    ( inv4_stage1_17.inv_1 out )
+    ( inv4_stage1_17.inv_2 out )
+    ( inv4_stage1_17.inv_3 out ) ;
+  - out<18>
+    ( PIN out<18> )
+    ( inv4_stage1_18.inv_0 out )
+    ( inv4_stage1_18.inv_1 out )
+    ( inv4_stage1_18.inv_2 out )
+    ( inv4_stage1_18.inv_3 out ) ;
+  - out<19>
+    ( PIN out<19> )
+    ( inv4_stage1_19.inv_0 out )
+    ( inv4_stage1_19.inv_1 out )
+    ( inv4_stage1_19.inv_2 out )
+    ( inv4_stage1_19.inv_3 out ) ;
+  - out<1>
+    ( PIN out<1> )
+    ( inv4_stage1_1.inv_0 out )
+    ( inv4_stage1_1.inv_1 out )
+    ( inv4_stage1_1.inv_2 out )
+    ( inv4_stage1_1.inv_3 out ) ;
+  - out<20>
+    ( PIN out<20> )
+    ( inv4_stage1_20.inv_0 out )
+    ( inv4_stage1_20.inv_1 out )
+    ( inv4_stage1_20.inv_2 out )
+    ( inv4_stage1_20.inv_3 out ) ;
+  - out<21>
+    ( PIN out<21> )
+    ( inv4_stage1_21.inv_0 out )
+    ( inv4_stage1_21.inv_1 out )
+    ( inv4_stage1_21.inv_2 out )
+    ( inv4_stage1_21.inv_3 out ) ;
+  - out<22>
+    ( PIN out<22> )
+    ( inv4_stage1_22.inv_0 out )
+    ( inv4_stage1_22.inv_1 out )
+    ( inv4_stage1_22.inv_2 out )
+    ( inv4_stage1_22.inv_3 out ) ;
+  - out<23>
+    ( PIN out<23> )
+    ( inv4_stage1_23.inv_0 out )
+    ( inv4_stage1_23.inv_1 out )
+    ( inv4_stage1_23.inv_2 out )
+    ( inv4_stage1_23.inv_3 out ) ;
+  - out<24>
+    ( PIN out<24> )
+    ( inv4_stage1_24.inv_0 out )
+    ( inv4_stage1_24.inv_1 out )
+    ( inv4_stage1_24.inv_2 out )
+    ( inv4_stage1_24.inv_3 out ) ;
+  - out<25>
+    ( PIN out<25> )
+    ( inv4_stage1_25.inv_0 out )
+    ( inv4_stage1_25.inv_1 out )
+    ( inv4_stage1_25.inv_2 out )
+    ( inv4_stage1_25.inv_3 out ) ;
+  - out<26>
+    ( PIN out<26> )
+    ( inv4_stage1_26.inv_0 out )
+    ( inv4_stage1_26.inv_1 out )
+    ( inv4_stage1_26.inv_2 out )
+    ( inv4_stage1_26.inv_3 out ) ;
+  - out<27>
+    ( PIN out<27> )
+    ( inv4_stage1_27.inv_0 out )
+    ( inv4_stage1_27.inv_1 out )
+    ( inv4_stage1_27.inv_2 out )
+    ( inv4_stage1_27.inv_3 out ) ;
+  - out<28>
+    ( PIN out<28> )
+    ( inv4_stage1_28.inv_0 out )
+    ( inv4_stage1_28.inv_1 out )
+    ( inv4_stage1_28.inv_2 out )
+    ( inv4_stage1_28.inv_3 out ) ;
+  - out<29>
+    ( PIN out<29> )
+    ( inv4_stage1_29.inv_0 out )
+    ( inv4_stage1_29.inv_1 out )
+    ( inv4_stage1_29.inv_2 out )
+    ( inv4_stage1_29.inv_3 out ) ;
+  - out<2>
+    ( PIN out<2> )
+    ( inv4_stage1_2.inv_0 out )
+    ( inv4_stage1_2.inv_1 out )
+    ( inv4_stage1_2.inv_2 out )
+    ( inv4_stage1_2.inv_3 out ) ;
+  - out<30>
+    ( PIN out<30> )
+    ( inv4_stage1_30.inv_0 out )
+    ( inv4_stage1_30.inv_1 out )
+    ( inv4_stage1_30.inv_2 out )
+    ( inv4_stage1_30.inv_3 out ) ;
+  - out<31>
+    ( PIN out<31> )
+    ( inv4_stage1_31.inv_0 out )
+    ( inv4_stage1_31.inv_1 out )
+    ( inv4_stage1_31.inv_2 out )
+    ( inv4_stage1_31.inv_3 out ) ;
+  - out<32>
+    ( PIN out<32> )
+    ( inv4_stage1_32.inv_0 out )
+    ( inv4_stage1_32.inv_1 out )
+    ( inv4_stage1_32.inv_2 out )
+    ( inv4_stage1_32.inv_3 out ) ;
+  - out<33>
+    ( PIN out<33> )
+    ( inv4_stage1_33.inv_0 out )
+    ( inv4_stage1_33.inv_1 out )
+    ( inv4_stage1_33.inv_2 out )
+    ( inv4_stage1_33.inv_3 out ) ;
+  - out<34>
+    ( PIN out<34> )
+    ( inv4_stage1_34.inv_0 out )
+    ( inv4_stage1_34.inv_1 out )
+    ( inv4_stage1_34.inv_2 out )
+    ( inv4_stage1_34.inv_3 out ) ;
+  - out<35>
+    ( PIN out<35> )
+    ( inv4_stage1_35.inv_0 out )
+    ( inv4_stage1_35.inv_1 out )
+    ( inv4_stage1_35.inv_2 out )
+    ( inv4_stage1_35.inv_3 out ) ;
+  - out<36>
+    ( PIN out<36> )
+    ( inv4_stage1_36.inv_0 out )
+    ( inv4_stage1_36.inv_1 out )
+    ( inv4_stage1_36.inv_2 out )
+    ( inv4_stage1_36.inv_3 out ) ;
+  - out<37>
+    ( PIN out<37> )
+    ( inv4_stage1_37.inv_0 out )
+    ( inv4_stage1_37.inv_1 out )
+    ( inv4_stage1_37.inv_2 out )
+    ( inv4_stage1_37.inv_3 out ) ;
+  - out<38>
+    ( PIN out<38> )
+    ( inv4_stage1_38.inv_0 out )
+    ( inv4_stage1_38.inv_1 out )
+    ( inv4_stage1_38.inv_2 out )
+    ( inv4_stage1_38.inv_3 out ) ;
+  - out<39>
+    ( PIN out<39> )
+    ( inv4_stage1_39.inv_0 out )
+    ( inv4_stage1_39.inv_1 out )
+    ( inv4_stage1_39.inv_2 out )
+    ( inv4_stage1_39.inv_3 out ) ;
+  - out<3>
+    ( PIN out<3> )
+    ( inv4_stage1_3.inv_0 out )
+    ( inv4_stage1_3.inv_1 out )
+    ( inv4_stage1_3.inv_2 out )
+    ( inv4_stage1_3.inv_3 out ) ;
+  - out<40>
+    ( PIN out<40> )
+    ( inv4_stage1_40.inv_0 out )
+    ( inv4_stage1_40.inv_1 out )
+    ( inv4_stage1_40.inv_2 out )
+    ( inv4_stage1_40.inv_3 out ) ;
+  - out<41>
+    ( PIN out<41> )
+    ( inv4_stage1_41.inv_0 out )
+    ( inv4_stage1_41.inv_1 out )
+    ( inv4_stage1_41.inv_2 out )
+    ( inv4_stage1_41.inv_3 out ) ;
+  - out<42>
+    ( PIN out<42> )
+    ( inv4_stage1_42.inv_0 out )
+    ( inv4_stage1_42.inv_1 out )
+    ( inv4_stage1_42.inv_2 out )
+    ( inv4_stage1_42.inv_3 out ) ;
+  - out<43>
+    ( PIN out<43> )
+    ( inv4_stage1_43.inv_0 out )
+    ( inv4_stage1_43.inv_1 out )
+    ( inv4_stage1_43.inv_2 out )
+    ( inv4_stage1_43.inv_3 out ) ;
+  - out<44>
+    ( PIN out<44> )
+    ( inv4_stage1_44.inv_0 out )
+    ( inv4_stage1_44.inv_1 out )
+    ( inv4_stage1_44.inv_2 out )
+    ( inv4_stage1_44.inv_3 out ) ;
+  - out<45>
+    ( PIN out<45> )
+    ( inv4_stage1_45.inv_0 out )
+    ( inv4_stage1_45.inv_1 out )
+    ( inv4_stage1_45.inv_2 out )
+    ( inv4_stage1_45.inv_3 out ) ;
+  - out<46>
+    ( PIN out<46> )
+    ( inv4_stage1_46.inv_0 out )
+    ( inv4_stage1_46.inv_1 out )
+    ( inv4_stage1_46.inv_2 out )
+    ( inv4_stage1_46.inv_3 out ) ;
+  - out<47>
+    ( PIN out<47> )
+    ( inv4_stage1_47.inv_0 out )
+    ( inv4_stage1_47.inv_1 out )
+    ( inv4_stage1_47.inv_2 out )
+    ( inv4_stage1_47.inv_3 out ) ;
+  - out<48>
+    ( PIN out<48> )
+    ( inv4_stage1_48.inv_0 out )
+    ( inv4_stage1_48.inv_1 out )
+    ( inv4_stage1_48.inv_2 out )
+    ( inv4_stage1_48.inv_3 out ) ;
+  - out<49>
+    ( PIN out<49> )
+    ( inv4_stage1_49.inv_0 out )
+    ( inv4_stage1_49.inv_1 out )
+    ( inv4_stage1_49.inv_2 out )
+    ( inv4_stage1_49.inv_3 out ) ;
+  - out<4>
+    ( PIN out<4> )
+    ( inv4_stage1_4.inv_0 out )
+    ( inv4_stage1_4.inv_1 out )
+    ( inv4_stage1_4.inv_2 out )
+    ( inv4_stage1_4.inv_3 out ) ;
+  - out<50>
+    ( PIN out<50> )
+    ( inv4_stage1_50.inv_0 out )
+    ( inv4_stage1_50.inv_1 out )
+    ( inv4_stage1_50.inv_2 out )
+    ( inv4_stage1_50.inv_3 out ) ;
+  - out<51>
+    ( PIN out<51> )
+    ( inv4_stage1_51.inv_0 out )
+    ( inv4_stage1_51.inv_1 out )
+    ( inv4_stage1_51.inv_2 out )
+    ( inv4_stage1_51.inv_3 out ) ;
+  - out<52>
+    ( PIN out<52> )
+    ( inv4_stage1_52.inv_0 out )
+    ( inv4_stage1_52.inv_1 out )
+    ( inv4_stage1_52.inv_2 out )
+    ( inv4_stage1_52.inv_3 out ) ;
+  - out<53>
+    ( PIN out<53> )
+    ( inv4_stage1_53.inv_0 out )
+    ( inv4_stage1_53.inv_1 out )
+    ( inv4_stage1_53.inv_2 out )
+    ( inv4_stage1_53.inv_3 out ) ;
+  - out<54>
+    ( PIN out<54> )
+    ( inv4_stage1_54.inv_0 out )
+    ( inv4_stage1_54.inv_1 out )
+    ( inv4_stage1_54.inv_2 out )
+    ( inv4_stage1_54.inv_3 out ) ;
+  - out<55>
+    ( PIN out<55> )
+    ( inv4_stage1_55.inv_0 out )
+    ( inv4_stage1_55.inv_1 out )
+    ( inv4_stage1_55.inv_2 out )
+    ( inv4_stage1_55.inv_3 out ) ;
+  - out<56>
+    ( PIN out<56> )
+    ( inv4_stage1_56.inv_0 out )
+    ( inv4_stage1_56.inv_1 out )
+    ( inv4_stage1_56.inv_2 out )
+    ( inv4_stage1_56.inv_3 out ) ;
+  - out<57>
+    ( PIN out<57> )
+    ( inv4_stage1_57.inv_0 out )
+    ( inv4_stage1_57.inv_1 out )
+    ( inv4_stage1_57.inv_2 out )
+    ( inv4_stage1_57.inv_3 out ) ;
+  - out<58>
+    ( PIN out<58> )
+    ( inv4_stage1_58.inv_0 out )
+    ( inv4_stage1_58.inv_1 out )
+    ( inv4_stage1_58.inv_2 out )
+    ( inv4_stage1_58.inv_3 out ) ;
+  - out<59>
+    ( PIN out<59> )
+    ( inv4_stage1_59.inv_0 out )
+    ( inv4_stage1_59.inv_1 out )
+    ( inv4_stage1_59.inv_2 out )
+    ( inv4_stage1_59.inv_3 out ) ;
+  - out<5>
+    ( PIN out<5> )
+    ( inv4_stage1_5.inv_0 out )
+    ( inv4_stage1_5.inv_1 out )
+    ( inv4_stage1_5.inv_2 out )
+    ( inv4_stage1_5.inv_3 out ) ;
+  - out<60>
+    ( PIN out<60> )
+    ( inv4_stage1_60.inv_0 out )
+    ( inv4_stage1_60.inv_1 out )
+    ( inv4_stage1_60.inv_2 out )
+    ( inv4_stage1_60.inv_3 out ) ;
+  - out<61>
+    ( PIN out<61> )
+    ( inv4_stage1_61.inv_0 out )
+    ( inv4_stage1_61.inv_1 out )
+    ( inv4_stage1_61.inv_2 out )
+    ( inv4_stage1_61.inv_3 out ) ;
+  - out<62>
+    ( PIN out<62> )
+    ( inv4_stage1_62.inv_0 out )
+    ( inv4_stage1_62.inv_1 out )
+    ( inv4_stage1_62.inv_2 out )
+    ( inv4_stage1_62.inv_3 out ) ;
+  - out<63>
+    ( PIN out<63> )
+    ( inv4_stage1_63.inv_0 out )
+    ( inv4_stage1_63.inv_1 out )
+    ( inv4_stage1_63.inv_2 out )
+    ( inv4_stage1_63.inv_3 out ) ;
+  - out<6>
+    ( PIN out<6> )
+    ( inv4_stage1_6.inv_0 out )
+    ( inv4_stage1_6.inv_1 out )
+    ( inv4_stage1_6.inv_2 out )
+    ( inv4_stage1_6.inv_3 out ) ;
+  - out<7>
+    ( PIN out<7> )
+    ( inv4_stage1_7.inv_0 out )
+    ( inv4_stage1_7.inv_1 out )
+    ( inv4_stage1_7.inv_2 out )
+    ( inv4_stage1_7.inv_3 out ) ;
+  - out<8>
+    ( PIN out<8> )
+    ( inv4_stage1_8.inv_0 out )
+    ( inv4_stage1_8.inv_1 out )
+    ( inv4_stage1_8.inv_2 out )
+    ( inv4_stage1_8.inv_3 out ) ;
+  - out<9>
+    ( PIN out<9> )
+    ( inv4_stage1_9.inv_0 out )
+    ( inv4_stage1_9.inv_1 out )
+    ( inv4_stage1_9.inv_2 out )
+    ( inv4_stage1_9.inv_3 out ) ;
+  - inv4_stage1_0.in
+    ( inv4_stage1_0.inv_0 in )
+    ( inv4_stage1_0.inv_1 in )
+    ( inv4_stage1_0.inv_2 in )
+    ( inv4_stage1_0.inv_3 in )
+    ( inv_stage0_0 out ) ;
+  - inv4_stage1_1.in
+    ( inv4_stage1_1.inv_0 in )
+    ( inv4_stage1_1.inv_1 in )
+    ( inv4_stage1_1.inv_2 in )
+    ( inv4_stage1_1.inv_3 in )
+    ( inv_stage0_1 out ) ;
+  - inv4_stage1_10.in
+    ( inv4_stage1_10.inv_0 in )
+    ( inv4_stage1_10.inv_1 in )
+    ( inv4_stage1_10.inv_2 in )
+    ( inv4_stage1_10.inv_3 in )
+    ( inv_stage0_10 out ) ;
+  - inv4_stage1_11.in
+    ( inv4_stage1_11.inv_0 in )
+    ( inv4_stage1_11.inv_1 in )
+    ( inv4_stage1_11.inv_2 in )
+    ( inv4_stage1_11.inv_3 in )
+    ( inv_stage0_11 out ) ;
+  - inv4_stage1_12.in
+    ( inv4_stage1_12.inv_0 in )
+    ( inv4_stage1_12.inv_1 in )
+    ( inv4_stage1_12.inv_2 in )
+    ( inv4_stage1_12.inv_3 in )
+    ( inv_stage0_12 out ) ;
+  - inv4_stage1_13.in
+    ( inv4_stage1_13.inv_0 in )
+    ( inv4_stage1_13.inv_1 in )
+    ( inv4_stage1_13.inv_2 in )
+    ( inv4_stage1_13.inv_3 in )
+    ( inv_stage0_13 out ) ;
+  - inv4_stage1_14.in
+    ( inv4_stage1_14.inv_0 in )
+    ( inv4_stage1_14.inv_1 in )
+    ( inv4_stage1_14.inv_2 in )
+    ( inv4_stage1_14.inv_3 in )
+    ( inv_stage0_14 out ) ;
+  - inv4_stage1_15.in
+    ( inv4_stage1_15.inv_0 in )
+    ( inv4_stage1_15.inv_1 in )
+    ( inv4_stage1_15.inv_2 in )
+    ( inv4_stage1_15.inv_3 in )
+    ( inv_stage0_15 out ) ;
+  - inv4_stage1_16.in
+    ( inv4_stage1_16.inv_0 in )
+    ( inv4_stage1_16.inv_1 in )
+    ( inv4_stage1_16.inv_2 in )
+    ( inv4_stage1_16.inv_3 in )
+    ( inv_stage0_16 out ) ;
+  - inv4_stage1_17.in
+    ( inv4_stage1_17.inv_0 in )
+    ( inv4_stage1_17.inv_1 in )
+    ( inv4_stage1_17.inv_2 in )
+    ( inv4_stage1_17.inv_3 in )
+    ( inv_stage0_17 out ) ;
+  - inv4_stage1_18.in
+    ( inv4_stage1_18.inv_0 in )
+    ( inv4_stage1_18.inv_1 in )
+    ( inv4_stage1_18.inv_2 in )
+    ( inv4_stage1_18.inv_3 in )
+    ( inv_stage0_18 out ) ;
+  - inv4_stage1_19.in
+    ( inv4_stage1_19.inv_0 in )
+    ( inv4_stage1_19.inv_1 in )
+    ( inv4_stage1_19.inv_2 in )
+    ( inv4_stage1_19.inv_3 in )
+    ( inv_stage0_19 out ) ;
+  - inv4_stage1_2.in
+    ( inv4_stage1_2.inv_0 in )
+    ( inv4_stage1_2.inv_1 in )
+    ( inv4_stage1_2.inv_2 in )
+    ( inv4_stage1_2.inv_3 in )
+    ( inv_stage0_2 out ) ;
+  - inv4_stage1_20.in
+    ( inv4_stage1_20.inv_0 in )
+    ( inv4_stage1_20.inv_1 in )
+    ( inv4_stage1_20.inv_2 in )
+    ( inv4_stage1_20.inv_3 in )
+    ( inv_stage0_20 out ) ;
+  - inv4_stage1_21.in
+    ( inv4_stage1_21.inv_0 in )
+    ( inv4_stage1_21.inv_1 in )
+    ( inv4_stage1_21.inv_2 in )
+    ( inv4_stage1_21.inv_3 in )
+    ( inv_stage0_21 out ) ;
+  - inv4_stage1_22.in
+    ( inv4_stage1_22.inv_0 in )
+    ( inv4_stage1_22.inv_1 in )
+    ( inv4_stage1_22.inv_2 in )
+    ( inv4_stage1_22.inv_3 in )
+    ( inv_stage0_22 out ) ;
+  - inv4_stage1_23.in
+    ( inv4_stage1_23.inv_0 in )
+    ( inv4_stage1_23.inv_1 in )
+    ( inv4_stage1_23.inv_2 in )
+    ( inv4_stage1_23.inv_3 in )
+    ( inv_stage0_23 out ) ;
+  - inv4_stage1_24.in
+    ( inv4_stage1_24.inv_0 in )
+    ( inv4_stage1_24.inv_1 in )
+    ( inv4_stage1_24.inv_2 in )
+    ( inv4_stage1_24.inv_3 in )
+    ( inv_stage0_24 out ) ;
+  - inv4_stage1_25.in
+    ( inv4_stage1_25.inv_0 in )
+    ( inv4_stage1_25.inv_1 in )
+    ( inv4_stage1_25.inv_2 in )
+    ( inv4_stage1_25.inv_3 in )
+    ( inv_stage0_25 out ) ;
+  - inv4_stage1_26.in
+    ( inv4_stage1_26.inv_0 in )
+    ( inv4_stage1_26.inv_1 in )
+    ( inv4_stage1_26.inv_2 in )
+    ( inv4_stage1_26.inv_3 in )
+    ( inv_stage0_26 out ) ;
+  - inv4_stage1_27.in
+    ( inv4_stage1_27.inv_0 in )
+    ( inv4_stage1_27.inv_1 in )
+    ( inv4_stage1_27.inv_2 in )
+    ( inv4_stage1_27.inv_3 in )
+    ( inv_stage0_27 out ) ;
+  - inv4_stage1_28.in
+    ( inv4_stage1_28.inv_0 in )
+    ( inv4_stage1_28.inv_1 in )
+    ( inv4_stage1_28.inv_2 in )
+    ( inv4_stage1_28.inv_3 in )
+    ( inv_stage0_28 out ) ;
+  - inv4_stage1_29.in
+    ( inv4_stage1_29.inv_0 in )
+    ( inv4_stage1_29.inv_1 in )
+    ( inv4_stage1_29.inv_2 in )
+    ( inv4_stage1_29.inv_3 in )
+    ( inv_stage0_29 out ) ;
+  - inv4_stage1_3.in
+    ( inv4_stage1_3.inv_0 in )
+    ( inv4_stage1_3.inv_1 in )
+    ( inv4_stage1_3.inv_2 in )
+    ( inv4_stage1_3.inv_3 in )
+    ( inv_stage0_3 out ) ;
+  - inv4_stage1_30.in
+    ( inv4_stage1_30.inv_0 in )
+    ( inv4_stage1_30.inv_1 in )
+    ( inv4_stage1_30.inv_2 in )
+    ( inv4_stage1_30.inv_3 in )
+    ( inv_stage0_30 out ) ;
+  - inv4_stage1_31.in
+    ( inv4_stage1_31.inv_0 in )
+    ( inv4_stage1_31.inv_1 in )
+    ( inv4_stage1_31.inv_2 in )
+    ( inv4_stage1_31.inv_3 in )
+    ( inv_stage0_31 out ) ;
+  - inv4_stage1_32.in
+    ( inv4_stage1_32.inv_0 in )
+    ( inv4_stage1_32.inv_1 in )
+    ( inv4_stage1_32.inv_2 in )
+    ( inv4_stage1_32.inv_3 in )
+    ( inv_stage0_32 out ) ;
+  - inv4_stage1_33.in
+    ( inv4_stage1_33.inv_0 in )
+    ( inv4_stage1_33.inv_1 in )
+    ( inv4_stage1_33.inv_2 in )
+    ( inv4_stage1_33.inv_3 in )
+    ( inv_stage0_33 out ) ;
+  - inv4_stage1_34.in
+    ( inv4_stage1_34.inv_0 in )
+    ( inv4_stage1_34.inv_1 in )
+    ( inv4_stage1_34.inv_2 in )
+    ( inv4_stage1_34.inv_3 in )
+    ( inv_stage0_34 out ) ;
+  - inv4_stage1_35.in
+    ( inv4_stage1_35.inv_0 in )
+    ( inv4_stage1_35.inv_1 in )
+    ( inv4_stage1_35.inv_2 in )
+    ( inv4_stage1_35.inv_3 in )
+    ( inv_stage0_35 out ) ;
+  - inv4_stage1_36.in
+    ( inv4_stage1_36.inv_0 in )
+    ( inv4_stage1_36.inv_1 in )
+    ( inv4_stage1_36.inv_2 in )
+    ( inv4_stage1_36.inv_3 in )
+    ( inv_stage0_36 out ) ;
+  - inv4_stage1_37.in
+    ( inv4_stage1_37.inv_0 in )
+    ( inv4_stage1_37.inv_1 in )
+    ( inv4_stage1_37.inv_2 in )
+    ( inv4_stage1_37.inv_3 in )
+    ( inv_stage0_37 out ) ;
+  - inv4_stage1_38.in
+    ( inv4_stage1_38.inv_0 in )
+    ( inv4_stage1_38.inv_1 in )
+    ( inv4_stage1_38.inv_2 in )
+    ( inv4_stage1_38.inv_3 in )
+    ( inv_stage0_38 out ) ;
+  - inv4_stage1_39.in
+    ( inv4_stage1_39.inv_0 in )
+    ( inv4_stage1_39.inv_1 in )
+    ( inv4_stage1_39.inv_2 in )
+    ( inv4_stage1_39.inv_3 in )
+    ( inv_stage0_39 out ) ;
+  - inv4_stage1_4.in
+    ( inv4_stage1_4.inv_0 in )
+    ( inv4_stage1_4.inv_1 in )
+    ( inv4_stage1_4.inv_2 in )
+    ( inv4_stage1_4.inv_3 in )
+    ( inv_stage0_4 out ) ;
+  - inv4_stage1_40.in
+    ( inv4_stage1_40.inv_0 in )
+    ( inv4_stage1_40.inv_1 in )
+    ( inv4_stage1_40.inv_2 in )
+    ( inv4_stage1_40.inv_3 in )
+    ( inv_stage0_40 out ) ;
+  - inv4_stage1_41.in
+    ( inv4_stage1_41.inv_0 in )
+    ( inv4_stage1_41.inv_1 in )
+    ( inv4_stage1_41.inv_2 in )
+    ( inv4_stage1_41.inv_3 in )
+    ( inv_stage0_41 out ) ;
+  - inv4_stage1_42.in
+    ( inv4_stage1_42.inv_0 in )
+    ( inv4_stage1_42.inv_1 in )
+    ( inv4_stage1_42.inv_2 in )
+    ( inv4_stage1_42.inv_3 in )
+    ( inv_stage0_42 out ) ;
+  - inv4_stage1_43.in
+    ( inv4_stage1_43.inv_0 in )
+    ( inv4_stage1_43.inv_1 in )
+    ( inv4_stage1_43.inv_2 in )
+    ( inv4_stage1_43.inv_3 in )
+    ( inv_stage0_43 out ) ;
+  - inv4_stage1_44.in
+    ( inv4_stage1_44.inv_0 in )
+    ( inv4_stage1_44.inv_1 in )
+    ( inv4_stage1_44.inv_2 in )
+    ( inv4_stage1_44.inv_3 in )
+    ( inv_stage0_44 out ) ;
+  - inv4_stage1_45.in
+    ( inv4_stage1_45.inv_0 in )
+    ( inv4_stage1_45.inv_1 in )
+    ( inv4_stage1_45.inv_2 in )
+    ( inv4_stage1_45.inv_3 in )
+    ( inv_stage0_45 out ) ;
+  - inv4_stage1_46.in
+    ( inv4_stage1_46.inv_0 in )
+    ( inv4_stage1_46.inv_1 in )
+    ( inv4_stage1_46.inv_2 in )
+    ( inv4_stage1_46.inv_3 in )
+    ( inv_stage0_46 out ) ;
+  - inv4_stage1_47.in
+    ( inv4_stage1_47.inv_0 in )
+    ( inv4_stage1_47.inv_1 in )
+    ( inv4_stage1_47.inv_2 in )
+    ( inv4_stage1_47.inv_3 in )
+    ( inv_stage0_47 out ) ;
+  - inv4_stage1_48.in
+    ( inv4_stage1_48.inv_0 in )
+    ( inv4_stage1_48.inv_1 in )
+    ( inv4_stage1_48.inv_2 in )
+    ( inv4_stage1_48.inv_3 in )
+    ( inv_stage0_48 out ) ;
+  - inv4_stage1_49.in
+    ( inv4_stage1_49.inv_0 in )
+    ( inv4_stage1_49.inv_1 in )
+    ( inv4_stage1_49.inv_2 in )
+    ( inv4_stage1_49.inv_3 in )
+    ( inv_stage0_49 out ) ;
+  - inv4_stage1_5.in
+    ( inv4_stage1_5.inv_0 in )
+    ( inv4_stage1_5.inv_1 in )
+    ( inv4_stage1_5.inv_2 in )
+    ( inv4_stage1_5.inv_3 in )
+    ( inv_stage0_5 out ) ;
+  - inv4_stage1_50.in
+    ( inv4_stage1_50.inv_0 in )
+    ( inv4_stage1_50.inv_1 in )
+    ( inv4_stage1_50.inv_2 in )
+    ( inv4_stage1_50.inv_3 in )
+    ( inv_stage0_50 out ) ;
+  - inv4_stage1_51.in
+    ( inv4_stage1_51.inv_0 in )
+    ( inv4_stage1_51.inv_1 in )
+    ( inv4_stage1_51.inv_2 in )
+    ( inv4_stage1_51.inv_3 in )
+    ( inv_stage0_51 out ) ;
+  - inv4_stage1_52.in
+    ( inv4_stage1_52.inv_0 in )
+    ( inv4_stage1_52.inv_1 in )
+    ( inv4_stage1_52.inv_2 in )
+    ( inv4_stage1_52.inv_3 in )
+    ( inv_stage0_52 out ) ;
+  - inv4_stage1_53.in
+    ( inv4_stage1_53.inv_0 in )
+    ( inv4_stage1_53.inv_1 in )
+    ( inv4_stage1_53.inv_2 in )
+    ( inv4_stage1_53.inv_3 in )
+    ( inv_stage0_53 out ) ;
+  - inv4_stage1_54.in
+    ( inv4_stage1_54.inv_0 in )
+    ( inv4_stage1_54.inv_1 in )
+    ( inv4_stage1_54.inv_2 in )
+    ( inv4_stage1_54.inv_3 in )
+    ( inv_stage0_54 out ) ;
+  - inv4_stage1_55.in
+    ( inv4_stage1_55.inv_0 in )
+    ( inv4_stage1_55.inv_1 in )
+    ( inv4_stage1_55.inv_2 in )
+    ( inv4_stage1_55.inv_3 in )
+    ( inv_stage0_55 out ) ;
+  - inv4_stage1_56.in
+    ( inv4_stage1_56.inv_0 in )
+    ( inv4_stage1_56.inv_1 in )
+    ( inv4_stage1_56.inv_2 in )
+    ( inv4_stage1_56.inv_3 in )
+    ( inv_stage0_56 out ) ;
+  - inv4_stage1_57.in
+    ( inv4_stage1_57.inv_0 in )
+    ( inv4_stage1_57.inv_1 in )
+    ( inv4_stage1_57.inv_2 in )
+    ( inv4_stage1_57.inv_3 in )
+    ( inv_stage0_57 out ) ;
+  - inv4_stage1_58.in
+    ( inv4_stage1_58.inv_0 in )
+    ( inv4_stage1_58.inv_1 in )
+    ( inv4_stage1_58.inv_2 in )
+    ( inv4_stage1_58.inv_3 in )
+    ( inv_stage0_58 out ) ;
+  - inv4_stage1_59.in
+    ( inv4_stage1_59.inv_0 in )
+    ( inv4_stage1_59.inv_1 in )
+    ( inv4_stage1_59.inv_2 in )
+    ( inv4_stage1_59.inv_3 in )
+    ( inv_stage0_59 out ) ;
+  - inv4_stage1_6.in
+    ( inv4_stage1_6.inv_0 in )
+    ( inv4_stage1_6.inv_1 in )
+    ( inv4_stage1_6.inv_2 in )
+    ( inv4_stage1_6.inv_3 in )
+    ( inv_stage0_6 out ) ;
+  - inv4_stage1_60.in
+    ( inv4_stage1_60.inv_0 in )
+    ( inv4_stage1_60.inv_1 in )
+    ( inv4_stage1_60.inv_2 in )
+    ( inv4_stage1_60.inv_3 in )
+    ( inv_stage0_60 out ) ;
+  - inv4_stage1_61.in
+    ( inv4_stage1_61.inv_0 in )
+    ( inv4_stage1_61.inv_1 in )
+    ( inv4_stage1_61.inv_2 in )
+    ( inv4_stage1_61.inv_3 in )
+    ( inv_stage0_61 out ) ;
+  - inv4_stage1_62.in
+    ( inv4_stage1_62.inv_0 in )
+    ( inv4_stage1_62.inv_1 in )
+    ( inv4_stage1_62.inv_2 in )
+    ( inv4_stage1_62.inv_3 in )
+    ( inv_stage0_62 out ) ;
+  - inv4_stage1_63.in
+    ( inv4_stage1_63.inv_0 in )
+    ( inv4_stage1_63.inv_1 in )
+    ( inv4_stage1_63.inv_2 in )
+    ( inv4_stage1_63.inv_3 in )
+    ( inv_stage0_63 out ) ;
+  - inv4_stage1_7.in
+    ( inv4_stage1_7.inv_0 in )
+    ( inv4_stage1_7.inv_1 in )
+    ( inv4_stage1_7.inv_2 in )
+    ( inv4_stage1_7.inv_3 in )
+    ( inv_stage0_7 out ) ;
+  - inv4_stage1_8.in
+    ( inv4_stage1_8.inv_0 in )
+    ( inv4_stage1_8.inv_1 in )
+    ( inv4_stage1_8.inv_2 in )
+    ( inv4_stage1_8.inv_3 in )
+    ( inv_stage0_8 out ) ;
+  - inv4_stage1_9.in
+    ( inv4_stage1_9.inv_0 in )
+    ( inv4_stage1_9.inv_1 in )
+    ( inv4_stage1_9.inv_2 in )
+    ( inv4_stage1_9.inv_3 in )
+    ( inv_stage0_9 out ) ;
+END NETS
+
+END DESIGN

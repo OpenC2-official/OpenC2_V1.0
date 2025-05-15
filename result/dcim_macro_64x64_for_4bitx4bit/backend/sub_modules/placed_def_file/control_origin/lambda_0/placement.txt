@@ -1,0 +1,115 @@
+initialization: 
+wirelength_0 =  380.8669768423299
+objective_0 =  9792.571634936156
+overflow_ratio_0 =  0.18521040821891183 
+
+iteration 0: 
+wirelength_0 =  392.5444504767083
+objective_0 =  7621.907714914516
+overflow_ratio_0 =  0.1580071576979406 
+
+iteration 1: 
+wirelength_0 =  415.8767250000448
+objective_0 =  5534.8020204576105
+overflow_ratio_1 =  0.12864948267392515 
+
+iteration 2: 
+wirelength_0 =  439.4974525014483
+objective_0 =  4520.541187805509
+overflow_ratio_2 =  0.109480565495775 
+
+iteration 3: 
+wirelength_0 =  460.7120714136016
+objective_0 =  3820.7322845319704
+overflow_ratio_3 =  0.09167863703968135 
+
+iteration 4: 
+wirelength_0 =  475.7532595287484
+objective_0 =  3284.187821012833
+overflow_ratio_4 =  0.08074866022874223 
+
+iteration 5: 
+wirelength_0 =  491.79574952700636
+objective_0 =  2813.336113522856
+overflow_ratio_5 =  0.06654137101622766 
+
+iteration 6: 
+wirelength_0 =  501.2838428700624
+objective_0 =  2441.1755043278586
+overflow_ratio_6 =  0.0539635799519815 
+
+iteration 7: 
+wirelength_0 =  499.85579492547566
+objective_0 =  2226.5388218331923
+overflow_ratio_7 =  0.045375045160296335 
+
+iteration 8: 
+wirelength_0 =  496.02597112607754
+objective_0 =  2055.3576541887824
+overflow_ratio_8 =  0.03621513327105751 
+
+iteration 9: 
+wirelength_0 =  491.4721351733356
+objective_0 =  1903.1931970838932
+overflow_ratio_9 =  0.029707471344294904 
+
+iteration 10: 
+wirelength_0 =  483.3726073117166
+objective_0 =  1802.8139118667686
+overflow_ratio_10 =  0.022542530816482793 
+
+iteration 11: 
+wirelength_0 =  472.10575183432434
+objective_0 =  1718.0381025554047
+overflow_ratio_11 =  0.01766863330158792 
+
+iteration 12: 
+wirelength_0 =  456.48871541958874
+objective_0 =  1670.3944362242507
+overflow_ratio_12 =  0.01395677602842128 
+
+iteration 13: 
+wirelength_0 =  444.2299603748888
+objective_0 =  1620.551082498315
+overflow_ratio_13 =  0.011241413788908422 
+
+iteration 14: 
+wirelength_0 =  434.181959290629
+objective_0 =  1564.797154767111
+overflow_ratio_14 =  0.009229130026418415 
+
+iteration 15: 
+wirelength_0 =  423.7228325876187
+objective_0 =  1529.0784376488439
+overflow_ratio_15 =  0.009454967781452613 
+
+iteration 16: 
+wirelength_0 =  418.09162800705593
+objective_0 =  1494.8292189367824
+overflow_ratio_16 =  0.009451992514799714 
+
+iteration 17: 
+wirelength_0 =  417.1767506188253
+objective_0 =  1458.177627780583
+overflow_ratio_17 =  0.008296310109543714 
+
+iteration 18: 
+wirelength_0 =  418.64321759974376
+objective_0 =  1427.8436729238076
+overflow_ratio_18 =  0.006696372477552877 
+
+iteration 19: 
+wirelength_0 =  420.63348701756695
+objective_0 =  1401.3162310785992
+overflow_ratio_19 =  0.004669189579138267 
+
+iteration 20: 
+wirelength_0 =  419.10264328002825
+objective_0 =  1375.1209962584462
+overflow_ratio_20 =  0.0033375723525400657 
+
+iteration 21: 
+wirelength_0 =  415.19205714947685
+objective_0 =  1378.2035165191871
+overflow_ratio_21 =  0.002927855926889228 
+

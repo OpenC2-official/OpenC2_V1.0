@@ -1,0 +1,8 @@
+read_verilog results/dcim_macro_64x64_for_4bitx4bit/frontend/verilog_file/sub_modules/synthesis/control_gate_for_4bit_input.v
+read_verilog library/verilog/std_cell_lib.v
+hierarchy -check -top control_for_4bit_input
+blackbox inverter nand2 nor2 xor2 mux_2_1 half_adder full_adder adder_sign_extension dff dcim_bitcell sram_rw filler tiel tieh buffer
+flatten
+splitnets -ports
+clean
+write_verilog results/dcim_macro_64x64_for_4bitx4bit/frontend/verilog_file/sub_modules/flatten/control_for_4bit_input_flatten.v

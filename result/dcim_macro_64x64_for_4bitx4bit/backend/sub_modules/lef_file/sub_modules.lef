@@ -1,0 +1,78 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+
+UNITS
+  DISTANCE MICRONS 2000 ;
+END UNITS
+
+SITE CoreSite
+  CLASS CORE ;
+  SYMMETRY X Y ;
+  SIZE 0.19 BY 1.26 ;
+END CoreSite
+
+MACRO sram_64x4_with_rw
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN sram_64x4_with_rw 0 0 ;
+  SIZE 6.08 BY 86.94 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END sram_64x4_with_rw
+
+MACRO adder_tree_4bit_to_10bit
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN adder_tree_4bit_to_10bit 0 0 ;
+  SIZE 17.29 BY 86.94 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END adder_tree_4bit_to_10bit
+
+MACRO accumulator_10bit_to_14bit
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN accumulator_10bit_to_14bit 0 0 ;
+  SIZE 23.37 BY 17.64 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END accumulator_10bit_to_14bit
+
+MACRO decoder_6_to_64
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN decoder_6_to_64 0 0 ;
+  SIZE 6.2700000000000005 BY 80.64 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END decoder_6_to_64
+
+MACRO driver_64x64
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN driver_64x64 0 0 ;
+  SIZE 1.9 BY 80.64 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END driver_64x64
+
+MACRO driver_b_64x64
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN driver_b_64x64 0 0 ;
+  SIZE 2.47 BY 80.64 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END driver_b_64x64
+
+MACRO control_for_4bit_input
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  FOREIGN control_for_4bit_input 0 0 ;
+  SIZE 10.64 BY 23.94 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+END control_for_4bit_input
+
+END LIBRARY

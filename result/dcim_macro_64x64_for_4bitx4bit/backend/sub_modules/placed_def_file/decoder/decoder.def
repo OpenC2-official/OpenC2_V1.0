@@ -1,0 +1,4708 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN decoder_6_to_64 ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 6270 80640 ) ;
+
+ROW CORE_ROW_0 CoreSite 0 0 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_1 CoreSite 0 1260 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_2 CoreSite 0 2520 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_3 CoreSite 0 3780 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_4 CoreSite 0 5040 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_5 CoreSite 0 6300 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_6 CoreSite 0 7560 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_7 CoreSite 0 8820 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_8 CoreSite 0 10080 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_9 CoreSite 0 11340 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_10 CoreSite 0 12600 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_11 CoreSite 0 13860 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_12 CoreSite 0 15120 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_13 CoreSite 0 16380 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_14 CoreSite 0 17640 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_15 CoreSite 0 18900 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_16 CoreSite 0 20160 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_17 CoreSite 0 21420 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_18 CoreSite 0 22680 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_19 CoreSite 0 23940 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_20 CoreSite 0 25200 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_21 CoreSite 0 26460 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_22 CoreSite 0 27720 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_23 CoreSite 0 28980 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_24 CoreSite 0 30240 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_25 CoreSite 0 31500 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_26 CoreSite 0 32760 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_27 CoreSite 0 34020 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_28 CoreSite 0 35280 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_29 CoreSite 0 36540 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_30 CoreSite 0 37800 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_31 CoreSite 0 39060 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_32 CoreSite 0 40320 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_33 CoreSite 0 41580 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_34 CoreSite 0 42840 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_35 CoreSite 0 44100 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_36 CoreSite 0 45360 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_37 CoreSite 0 46620 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_38 CoreSite 0 47880 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_39 CoreSite 0 49140 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_40 CoreSite 0 50400 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_41 CoreSite 0 51660 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_42 CoreSite 0 52920 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_43 CoreSite 0 54180 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_44 CoreSite 0 55440 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_45 CoreSite 0 56700 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_46 CoreSite 0 57960 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_47 CoreSite 0 59220 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_48 CoreSite 0 60480 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_49 CoreSite 0 61740 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_50 CoreSite 0 63000 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_51 CoreSite 0 64260 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_52 CoreSite 0 65520 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_53 CoreSite 0 66780 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_54 CoreSite 0 68040 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_55 CoreSite 0 69300 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_56 CoreSite 0 70560 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_57 CoreSite 0 71820 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_58 CoreSite 0 73080 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_59 CoreSite 0 74340 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_60 CoreSite 0 75600 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_61 CoreSite 0 76860 N DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_62 CoreSite 0 78120 FS DO 33 BY 1 STEP 190 0 ;
+ROW CORE_ROW_63 CoreSite 0 79380 N DO 33 BY 1 STEP 190 0 ;
+
+TRACKS X 95 DO 32 STEP 190 LAYER metal3 ;
+TRACKS Y 70 DO 575 STEP 140 LAYER metal3 ;
+TRACKS Y 210 DO 287 STEP 280 LAYER metal4 ;
+TRACKS X 285 DO 21 STEP 285 LAYER metal4 ;
+TRACKS X 285 DO 21 STEP 285 LAYER metal5 ;
+TRACKS Y 210 DO 287 STEP 280 LAYER metal5 ;
+TRACKS Y 210 DO 287 STEP 280 LAYER metal6 ;
+TRACKS X 285 DO 21 STEP 285 LAYER metal6 ;
+
+PINS 71 ;
+  - enable + NET enable 
+    + DIRECTION INPUT 
+    + PLACED ( 215 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 140 ) ; 
+  - in<0> + NET in<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 80395 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in<1> + NET in<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 78295 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in<2> + NET in<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 77875 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in<3> + NET in<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75775 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in<4> + NET in<4> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75355 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in<5> + NET in<5> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 73255 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - out<0> + NET out<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 80465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<10> + NET out<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 67865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<11> + NET out<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 65625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<12> + NET out<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 65345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<13> + NET out<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 63105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<14> + NET out<14> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 62825 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<15> + NET out<15> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 60585 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<16> + NET out<16> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 60305 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<17> + NET out<17> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 58065 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<18> + NET out<18> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 57785 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<19> + NET out<19> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 55545 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<1> + NET out<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 78225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<20> + NET out<20> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 55265 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<21> + NET out<21> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 53025 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<22> + NET out<22> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 52745 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<23> + NET out<23> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 50505 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<24> + NET out<24> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 50225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<25> + NET out<25> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 47985 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<26> + NET out<26> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 47705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<27> + NET out<27> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 45465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<28> + NET out<28> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 45185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<29> + NET out<29> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 42945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<2> + NET out<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 77945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<30> + NET out<30> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 42665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<31> + NET out<31> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 40425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<32> + NET out<32> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 40145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<33> + NET out<33> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 37905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<34> + NET out<34> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 37625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<35> + NET out<35> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 35385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<36> + NET out<36> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 35105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<37> + NET out<37> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 32865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<38> + NET out<38> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 32585 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<39> + NET out<39> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 30345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<3> + NET out<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 75705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<40> + NET out<40> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 30065 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<41> + NET out<41> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 27825 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<42> + NET out<42> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 27545 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<43> + NET out<43> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 25305 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<44> + NET out<44> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 25025 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<45> + NET out<45> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 22785 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<46> + NET out<46> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 22505 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<47> + NET out<47> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 20265 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<48> + NET out<48> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 19985 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<49> + NET out<49> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 17745 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<4> + NET out<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 75425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<50> + NET out<50> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 17465 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<51> + NET out<51> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 15225 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<52> + NET out<52> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 14945 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<53> + NET out<53> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 12705 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<54> + NET out<54> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 12425 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<55> + NET out<55> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 10185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<56> + NET out<56> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 9905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<57> + NET out<57> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 7665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<58> + NET out<58> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 7385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<59> + NET out<59> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 5145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<5> + NET out<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 73185 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<60> + NET out<60> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 4865 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<61> + NET out<61> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 2625 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<62> + NET out<62> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 2345 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<63> + NET out<63> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 105 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<6> + NET out<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 72905 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<7> + NET out<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 70665 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<8> + NET out<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 70385 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+  - out<9> + NET out<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 6010 68145 ) N 
+    + LAYER metal2 ( 0 0 ) ( 260 70 ) ; 
+END PINS
+
+COMPONENTS 774 ;
+  - inv_for_input_0 inverter
+    + PLACED ( 0 79380 ) N ;
+  - inv_for_input_1 inverter
+    + PLACED ( 0 78120 ) FS ;
+  - inv_for_input_2 inverter
+    + PLACED ( 0 76860 ) N ;
+  - inv_for_input_3 inverter
+    + PLACED ( 0 75600 ) FS ;
+  - inv_for_input_4 inverter
+    + PLACED ( 0 74340 ) N ;
+  - inv_for_input_5 inverter
+    + PLACED ( 0 73080 ) FS ;
+  - inv_for_output_0 inverter
+    + PLACED ( 5700 79380 ) N ;
+  - inv_for_output_1 inverter
+    + PLACED ( 5700 78120 ) FS ;
+  - inv_for_output_10 inverter
+    + PLACED ( 5700 66780 ) N ;
+  - inv_for_output_11 inverter
+    + PLACED ( 5700 65520 ) FS ;
+  - inv_for_output_12 inverter
+    + PLACED ( 5700 64260 ) N ;
+  - inv_for_output_13 inverter
+    + PLACED ( 5700 63000 ) FS ;
+  - inv_for_output_14 inverter
+    + PLACED ( 5700 61740 ) N ;
+  - inv_for_output_15 inverter
+    + PLACED ( 5700 60480 ) FS ;
+  - inv_for_output_16 inverter
+    + PLACED ( 5700 59220 ) N ;
+  - inv_for_output_17 inverter
+    + PLACED ( 5700 57960 ) FS ;
+  - inv_for_output_18 inverter
+    + PLACED ( 5700 56700 ) N ;
+  - inv_for_output_19 inverter
+    + PLACED ( 5700 55440 ) FS ;
+  - inv_for_output_2 inverter
+    + PLACED ( 5700 76860 ) N ;
+  - inv_for_output_20 inverter
+    + PLACED ( 5700 54180 ) N ;
+  - inv_for_output_21 inverter
+    + PLACED ( 5700 52920 ) FS ;
+  - inv_for_output_22 inverter
+    + PLACED ( 5700 51660 ) N ;
+  - inv_for_output_23 inverter
+    + PLACED ( 5700 50400 ) FS ;
+  - inv_for_output_24 inverter
+    + PLACED ( 5700 49140 ) N ;
+  - inv_for_output_25 inverter
+    + PLACED ( 5700 47880 ) FS ;
+  - inv_for_output_26 inverter
+    + PLACED ( 5700 46620 ) N ;
+  - inv_for_output_27 inverter
+    + PLACED ( 5700 45360 ) FS ;
+  - inv_for_output_28 inverter
+    + PLACED ( 5700 44100 ) N ;
+  - inv_for_output_29 inverter
+    + PLACED ( 5700 42840 ) FS ;
+  - inv_for_output_3 inverter
+    + PLACED ( 5700 75600 ) FS ;
+  - inv_for_output_30 inverter
+    + PLACED ( 5700 41580 ) N ;
+  - inv_for_output_31 inverter
+    + PLACED ( 5700 40320 ) FS ;
+  - inv_for_output_32 inverter
+    + PLACED ( 5700 39060 ) N ;
+  - inv_for_output_33 inverter
+    + PLACED ( 5700 37800 ) FS ;
+  - inv_for_output_34 inverter
+    + PLACED ( 5700 36540 ) N ;
+  - inv_for_output_35 inverter
+    + PLACED ( 5700 35280 ) FS ;
+  - inv_for_output_36 inverter
+    + PLACED ( 5700 34020 ) N ;
+  - inv_for_output_37 inverter
+    + PLACED ( 5700 32760 ) FS ;
+  - inv_for_output_38 inverter
+    + PLACED ( 5700 31500 ) N ;
+  - inv_for_output_39 inverter
+    + PLACED ( 5700 30240 ) FS ;
+  - inv_for_output_4 inverter
+    + PLACED ( 5700 74340 ) N ;
+  - inv_for_output_40 inverter
+    + PLACED ( 5700 28980 ) N ;
+  - inv_for_output_41 inverter
+    + PLACED ( 5700 27720 ) FS ;
+  - inv_for_output_42 inverter
+    + PLACED ( 5700 26460 ) N ;
+  - inv_for_output_43 inverter
+    + PLACED ( 5700 25200 ) FS ;
+  - inv_for_output_44 inverter
+    + PLACED ( 5700 23940 ) N ;
+  - inv_for_output_45 inverter
+    + PLACED ( 5700 22680 ) FS ;
+  - inv_for_output_46 inverter
+    + PLACED ( 5700 21420 ) N ;
+  - inv_for_output_47 inverter
+    + PLACED ( 5700 20160 ) FS ;
+  - inv_for_output_48 inverter
+    + PLACED ( 5700 18900 ) N ;
+  - inv_for_output_49 inverter
+    + PLACED ( 5700 17640 ) FS ;
+  - inv_for_output_5 inverter
+    + PLACED ( 5700 73080 ) FS ;
+  - inv_for_output_50 inverter
+    + PLACED ( 5700 16380 ) N ;
+  - inv_for_output_51 inverter
+    + PLACED ( 5700 15120 ) FS ;
+  - inv_for_output_52 inverter
+    + PLACED ( 5700 13860 ) N ;
+  - inv_for_output_53 inverter
+    + PLACED ( 5700 12600 ) FS ;
+  - inv_for_output_54 inverter
+    + PLACED ( 5700 11340 ) N ;
+  - inv_for_output_55 inverter
+    + PLACED ( 5700 10080 ) FS ;
+  - inv_for_output_56 inverter
+    + PLACED ( 5700 8820 ) N ;
+  - inv_for_output_57 inverter
+    + PLACED ( 5700 7560 ) FS ;
+  - inv_for_output_58 inverter
+    + PLACED ( 5700 6300 ) N ;
+  - inv_for_output_59 inverter
+    + PLACED ( 5700 5040 ) FS ;
+  - inv_for_output_6 inverter
+    + PLACED ( 5700 71820 ) N ;
+  - inv_for_output_60 inverter
+    + PLACED ( 5700 3780 ) N ;
+  - inv_for_output_61 inverter
+    + PLACED ( 5700 2520 ) FS ;
+  - inv_for_output_62 inverter
+    + PLACED ( 5700 1260 ) N ;
+  - inv_for_output_63 inverter
+    + PLACED ( 5700 0 ) FS ;
+  - inv_for_output_7 inverter
+    + PLACED ( 5700 70560 ) FS ;
+  - inv_for_output_8 inverter
+    + PLACED ( 5700 69300 ) N ;
+  - inv_for_output_9 inverter
+    + PLACED ( 5700 68040 ) FS ;
+  - nand_0.inv_0 inverter
+    + PLACED ( 950 79380 ) N ;
+  - nand_0.inv_1 inverter
+    + PLACED ( 1900 79380 ) N ;
+  - nand_0.inv_2 inverter
+    + PLACED ( 2850 79380 ) N ;
+  - nand_0.inv_3 inverter
+    + PLACED ( 3800 79380 ) N ;
+  - nand_0.inv_4 inverter
+    + PLACED ( 4750 79380 ) N ;
+  - nand_0.nand2_0 nand2
+    + PLACED ( 380 79380 ) N ;
+  - nand_0.nand2_1 nand2
+    + PLACED ( 1330 79380 ) N ;
+  - nand_0.nand2_2 nand2
+    + PLACED ( 2280 79380 ) N ;
+  - nand_0.nand2_3 nand2
+    + PLACED ( 3230 79380 ) N ;
+  - nand_0.nand2_4 nand2
+    + PLACED ( 4180 79380 ) N ;
+  - nand_0.nand2_5 nand2
+    + PLACED ( 5130 79380 ) N ;
+  - nand_1.inv_0 inverter
+    + PLACED ( 950 78120 ) FS ;
+  - nand_1.inv_1 inverter
+    + PLACED ( 1900 78120 ) FS ;
+  - nand_1.inv_2 inverter
+    + PLACED ( 2850 78120 ) FS ;
+  - nand_1.inv_3 inverter
+    + PLACED ( 3800 78120 ) FS ;
+  - nand_1.inv_4 inverter
+    + PLACED ( 4750 78120 ) FS ;
+  - nand_1.nand2_0 nand2
+    + PLACED ( 380 78120 ) FS ;
+  - nand_1.nand2_1 nand2
+    + PLACED ( 1330 78120 ) FS ;
+  - nand_1.nand2_2 nand2
+    + PLACED ( 2280 78120 ) FS ;
+  - nand_1.nand2_3 nand2
+    + PLACED ( 3230 78120 ) FS ;
+  - nand_1.nand2_4 nand2
+    + PLACED ( 4180 78120 ) FS ;
+  - nand_1.nand2_5 nand2
+    + PLACED ( 5130 78120 ) FS ;
+  - nand_10.inv_0 inverter
+    + PLACED ( 950 66780 ) N ;
+  - nand_10.inv_1 inverter
+    + PLACED ( 1900 66780 ) N ;
+  - nand_10.inv_2 inverter
+    + PLACED ( 2850 66780 ) N ;
+  - nand_10.inv_3 inverter
+    + PLACED ( 3800 66780 ) N ;
+  - nand_10.inv_4 inverter
+    + PLACED ( 4750 66780 ) N ;
+  - nand_10.nand2_0 nand2
+    + PLACED ( 380 66780 ) N ;
+  - nand_10.nand2_1 nand2
+    + PLACED ( 1330 66780 ) N ;
+  - nand_10.nand2_2 nand2
+    + PLACED ( 2280 66780 ) N ;
+  - nand_10.nand2_3 nand2
+    + PLACED ( 3230 66780 ) N ;
+  - nand_10.nand2_4 nand2
+    + PLACED ( 4180 66780 ) N ;
+  - nand_10.nand2_5 nand2
+    + PLACED ( 5130 66780 ) N ;
+  - nand_11.inv_0 inverter
+    + PLACED ( 950 65520 ) FS ;
+  - nand_11.inv_1 inverter
+    + PLACED ( 1900 65520 ) FS ;
+  - nand_11.inv_2 inverter
+    + PLACED ( 2850 65520 ) FS ;
+  - nand_11.inv_3 inverter
+    + PLACED ( 3800 65520 ) FS ;
+  - nand_11.inv_4 inverter
+    + PLACED ( 4750 65520 ) FS ;
+  - nand_11.nand2_0 nand2
+    + PLACED ( 380 65520 ) FS ;
+  - nand_11.nand2_1 nand2
+    + PLACED ( 1330 65520 ) FS ;
+  - nand_11.nand2_2 nand2
+    + PLACED ( 2280 65520 ) FS ;
+  - nand_11.nand2_3 nand2
+    + PLACED ( 3230 65520 ) FS ;
+  - nand_11.nand2_4 nand2
+    + PLACED ( 4180 65520 ) FS ;
+  - nand_11.nand2_5 nand2
+    + PLACED ( 5130 65520 ) FS ;
+  - nand_12.inv_0 inverter
+    + PLACED ( 950 64260 ) N ;
+  - nand_12.inv_1 inverter
+    + PLACED ( 1900 64260 ) N ;
+  - nand_12.inv_2 inverter
+    + PLACED ( 2850 64260 ) N ;
+  - nand_12.inv_3 inverter
+    + PLACED ( 3800 64260 ) N ;
+  - nand_12.inv_4 inverter
+    + PLACED ( 4750 64260 ) N ;
+  - nand_12.nand2_0 nand2
+    + PLACED ( 380 64260 ) N ;
+  - nand_12.nand2_1 nand2
+    + PLACED ( 1330 64260 ) N ;
+  - nand_12.nand2_2 nand2
+    + PLACED ( 2280 64260 ) N ;
+  - nand_12.nand2_3 nand2
+    + PLACED ( 3230 64260 ) N ;
+  - nand_12.nand2_4 nand2
+    + PLACED ( 4180 64260 ) N ;
+  - nand_12.nand2_5 nand2
+    + PLACED ( 5130 64260 ) N ;
+  - nand_13.inv_0 inverter
+    + PLACED ( 950 63000 ) FS ;
+  - nand_13.inv_1 inverter
+    + PLACED ( 1900 63000 ) FS ;
+  - nand_13.inv_2 inverter
+    + PLACED ( 2850 63000 ) FS ;
+  - nand_13.inv_3 inverter
+    + PLACED ( 3800 63000 ) FS ;
+  - nand_13.inv_4 inverter
+    + PLACED ( 4750 63000 ) FS ;
+  - nand_13.nand2_0 nand2
+    + PLACED ( 380 63000 ) FS ;
+  - nand_13.nand2_1 nand2
+    + PLACED ( 1330 63000 ) FS ;
+  - nand_13.nand2_2 nand2
+    + PLACED ( 2280 63000 ) FS ;
+  - nand_13.nand2_3 nand2
+    + PLACED ( 3230 63000 ) FS ;
+  - nand_13.nand2_4 nand2
+    + PLACED ( 4180 63000 ) FS ;
+  - nand_13.nand2_5 nand2
+    + PLACED ( 5130 63000 ) FS ;
+  - nand_14.inv_0 inverter
+    + PLACED ( 950 61740 ) N ;
+  - nand_14.inv_1 inverter
+    + PLACED ( 1900 61740 ) N ;
+  - nand_14.inv_2 inverter
+    + PLACED ( 2850 61740 ) N ;
+  - nand_14.inv_3 inverter
+    + PLACED ( 3800 61740 ) N ;
+  - nand_14.inv_4 inverter
+    + PLACED ( 4750 61740 ) N ;
+  - nand_14.nand2_0 nand2
+    + PLACED ( 380 61740 ) N ;
+  - nand_14.nand2_1 nand2
+    + PLACED ( 1330 61740 ) N ;
+  - nand_14.nand2_2 nand2
+    + PLACED ( 2280 61740 ) N ;
+  - nand_14.nand2_3 nand2
+    + PLACED ( 3230 61740 ) N ;
+  - nand_14.nand2_4 nand2
+    + PLACED ( 4180 61740 ) N ;
+  - nand_14.nand2_5 nand2
+    + PLACED ( 5130 61740 ) N ;
+  - nand_15.inv_0 inverter
+    + PLACED ( 950 60480 ) FS ;
+  - nand_15.inv_1 inverter
+    + PLACED ( 1900 60480 ) FS ;
+  - nand_15.inv_2 inverter
+    + PLACED ( 2850 60480 ) FS ;
+  - nand_15.inv_3 inverter
+    + PLACED ( 3800 60480 ) FS ;
+  - nand_15.inv_4 inverter
+    + PLACED ( 4750 60480 ) FS ;
+  - nand_15.nand2_0 nand2
+    + PLACED ( 380 60480 ) FS ;
+  - nand_15.nand2_1 nand2
+    + PLACED ( 1330 60480 ) FS ;
+  - nand_15.nand2_2 nand2
+    + PLACED ( 2280 60480 ) FS ;
+  - nand_15.nand2_3 nand2
+    + PLACED ( 3230 60480 ) FS ;
+  - nand_15.nand2_4 nand2
+    + PLACED ( 4180 60480 ) FS ;
+  - nand_15.nand2_5 nand2
+    + PLACED ( 5130 60480 ) FS ;
+  - nand_16.inv_0 inverter
+    + PLACED ( 950 59220 ) N ;
+  - nand_16.inv_1 inverter
+    + PLACED ( 1900 59220 ) N ;
+  - nand_16.inv_2 inverter
+    + PLACED ( 2850 59220 ) N ;
+  - nand_16.inv_3 inverter
+    + PLACED ( 3800 59220 ) N ;
+  - nand_16.inv_4 inverter
+    + PLACED ( 4750 59220 ) N ;
+  - nand_16.nand2_0 nand2
+    + PLACED ( 380 59220 ) N ;
+  - nand_16.nand2_1 nand2
+    + PLACED ( 1330 59220 ) N ;
+  - nand_16.nand2_2 nand2
+    + PLACED ( 2280 59220 ) N ;
+  - nand_16.nand2_3 nand2
+    + PLACED ( 3230 59220 ) N ;
+  - nand_16.nand2_4 nand2
+    + PLACED ( 4180 59220 ) N ;
+  - nand_16.nand2_5 nand2
+    + PLACED ( 5130 59220 ) N ;
+  - nand_17.inv_0 inverter
+    + PLACED ( 950 57960 ) FS ;
+  - nand_17.inv_1 inverter
+    + PLACED ( 1900 57960 ) FS ;
+  - nand_17.inv_2 inverter
+    + PLACED ( 2850 57960 ) FS ;
+  - nand_17.inv_3 inverter
+    + PLACED ( 3800 57960 ) FS ;
+  - nand_17.inv_4 inverter
+    + PLACED ( 4750 57960 ) FS ;
+  - nand_17.nand2_0 nand2
+    + PLACED ( 380 57960 ) FS ;
+  - nand_17.nand2_1 nand2
+    + PLACED ( 1330 57960 ) FS ;
+  - nand_17.nand2_2 nand2
+    + PLACED ( 2280 57960 ) FS ;
+  - nand_17.nand2_3 nand2
+    + PLACED ( 3230 57960 ) FS ;
+  - nand_17.nand2_4 nand2
+    + PLACED ( 4180 57960 ) FS ;
+  - nand_17.nand2_5 nand2
+    + PLACED ( 5130 57960 ) FS ;
+  - nand_18.inv_0 inverter
+    + PLACED ( 950 56700 ) N ;
+  - nand_18.inv_1 inverter
+    + PLACED ( 1900 56700 ) N ;
+  - nand_18.inv_2 inverter
+    + PLACED ( 2850 56700 ) N ;
+  - nand_18.inv_3 inverter
+    + PLACED ( 3800 56700 ) N ;
+  - nand_18.inv_4 inverter
+    + PLACED ( 4750 56700 ) N ;
+  - nand_18.nand2_0 nand2
+    + PLACED ( 380 56700 ) N ;
+  - nand_18.nand2_1 nand2
+    + PLACED ( 1330 56700 ) N ;
+  - nand_18.nand2_2 nand2
+    + PLACED ( 2280 56700 ) N ;
+  - nand_18.nand2_3 nand2
+    + PLACED ( 3230 56700 ) N ;
+  - nand_18.nand2_4 nand2
+    + PLACED ( 4180 56700 ) N ;
+  - nand_18.nand2_5 nand2
+    + PLACED ( 5130 56700 ) N ;
+  - nand_19.inv_0 inverter
+    + PLACED ( 950 55440 ) FS ;
+  - nand_19.inv_1 inverter
+    + PLACED ( 1900 55440 ) FS ;
+  - nand_19.inv_2 inverter
+    + PLACED ( 2850 55440 ) FS ;
+  - nand_19.inv_3 inverter
+    + PLACED ( 3800 55440 ) FS ;
+  - nand_19.inv_4 inverter
+    + PLACED ( 4750 55440 ) FS ;
+  - nand_19.nand2_0 nand2
+    + PLACED ( 380 55440 ) FS ;
+  - nand_19.nand2_1 nand2
+    + PLACED ( 1330 55440 ) FS ;
+  - nand_19.nand2_2 nand2
+    + PLACED ( 2280 55440 ) FS ;
+  - nand_19.nand2_3 nand2
+    + PLACED ( 3230 55440 ) FS ;
+  - nand_19.nand2_4 nand2
+    + PLACED ( 4180 55440 ) FS ;
+  - nand_19.nand2_5 nand2
+    + PLACED ( 5130 55440 ) FS ;
+  - nand_2.inv_0 inverter
+    + PLACED ( 950 76860 ) N ;
+  - nand_2.inv_1 inverter
+    + PLACED ( 1900 76860 ) N ;
+  - nand_2.inv_2 inverter
+    + PLACED ( 2850 76860 ) N ;
+  - nand_2.inv_3 inverter
+    + PLACED ( 3800 76860 ) N ;
+  - nand_2.inv_4 inverter
+    + PLACED ( 4750 76860 ) N ;
+  - nand_2.nand2_0 nand2
+    + PLACED ( 380 76860 ) N ;
+  - nand_2.nand2_1 nand2
+    + PLACED ( 1330 76860 ) N ;
+  - nand_2.nand2_2 nand2
+    + PLACED ( 2280 76860 ) N ;
+  - nand_2.nand2_3 nand2
+    + PLACED ( 3230 76860 ) N ;
+  - nand_2.nand2_4 nand2
+    + PLACED ( 4180 76860 ) N ;
+  - nand_2.nand2_5 nand2
+    + PLACED ( 5130 76860 ) N ;
+  - nand_20.inv_0 inverter
+    + PLACED ( 950 54180 ) N ;
+  - nand_20.inv_1 inverter
+    + PLACED ( 1900 54180 ) N ;
+  - nand_20.inv_2 inverter
+    + PLACED ( 2850 54180 ) N ;
+  - nand_20.inv_3 inverter
+    + PLACED ( 3800 54180 ) N ;
+  - nand_20.inv_4 inverter
+    + PLACED ( 4750 54180 ) N ;
+  - nand_20.nand2_0 nand2
+    + PLACED ( 380 54180 ) N ;
+  - nand_20.nand2_1 nand2
+    + PLACED ( 1330 54180 ) N ;
+  - nand_20.nand2_2 nand2
+    + PLACED ( 2280 54180 ) N ;
+  - nand_20.nand2_3 nand2
+    + PLACED ( 3230 54180 ) N ;
+  - nand_20.nand2_4 nand2
+    + PLACED ( 4180 54180 ) N ;
+  - nand_20.nand2_5 nand2
+    + PLACED ( 5130 54180 ) N ;
+  - nand_21.inv_0 inverter
+    + PLACED ( 950 52920 ) FS ;
+  - nand_21.inv_1 inverter
+    + PLACED ( 1900 52920 ) FS ;
+  - nand_21.inv_2 inverter
+    + PLACED ( 2850 52920 ) FS ;
+  - nand_21.inv_3 inverter
+    + PLACED ( 3800 52920 ) FS ;
+  - nand_21.inv_4 inverter
+    + PLACED ( 4750 52920 ) FS ;
+  - nand_21.nand2_0 nand2
+    + PLACED ( 380 52920 ) FS ;
+  - nand_21.nand2_1 nand2
+    + PLACED ( 1330 52920 ) FS ;
+  - nand_21.nand2_2 nand2
+    + PLACED ( 2280 52920 ) FS ;
+  - nand_21.nand2_3 nand2
+    + PLACED ( 3230 52920 ) FS ;
+  - nand_21.nand2_4 nand2
+    + PLACED ( 4180 52920 ) FS ;
+  - nand_21.nand2_5 nand2
+    + PLACED ( 5130 52920 ) FS ;
+  - nand_22.inv_0 inverter
+    + PLACED ( 950 51660 ) N ;
+  - nand_22.inv_1 inverter
+    + PLACED ( 1900 51660 ) N ;
+  - nand_22.inv_2 inverter
+    + PLACED ( 2850 51660 ) N ;
+  - nand_22.inv_3 inverter
+    + PLACED ( 3800 51660 ) N ;
+  - nand_22.inv_4 inverter
+    + PLACED ( 4750 51660 ) N ;
+  - nand_22.nand2_0 nand2
+    + PLACED ( 380 51660 ) N ;
+  - nand_22.nand2_1 nand2
+    + PLACED ( 1330 51660 ) N ;
+  - nand_22.nand2_2 nand2
+    + PLACED ( 2280 51660 ) N ;
+  - nand_22.nand2_3 nand2
+    + PLACED ( 3230 51660 ) N ;
+  - nand_22.nand2_4 nand2
+    + PLACED ( 4180 51660 ) N ;
+  - nand_22.nand2_5 nand2
+    + PLACED ( 5130 51660 ) N ;
+  - nand_23.inv_0 inverter
+    + PLACED ( 950 50400 ) FS ;
+  - nand_23.inv_1 inverter
+    + PLACED ( 1900 50400 ) FS ;
+  - nand_23.inv_2 inverter
+    + PLACED ( 2850 50400 ) FS ;
+  - nand_23.inv_3 inverter
+    + PLACED ( 3800 50400 ) FS ;
+  - nand_23.inv_4 inverter
+    + PLACED ( 4750 50400 ) FS ;
+  - nand_23.nand2_0 nand2
+    + PLACED ( 380 50400 ) FS ;
+  - nand_23.nand2_1 nand2
+    + PLACED ( 1330 50400 ) FS ;
+  - nand_23.nand2_2 nand2
+    + PLACED ( 2280 50400 ) FS ;
+  - nand_23.nand2_3 nand2
+    + PLACED ( 3230 50400 ) FS ;
+  - nand_23.nand2_4 nand2
+    + PLACED ( 4180 50400 ) FS ;
+  - nand_23.nand2_5 nand2
+    + PLACED ( 5130 50400 ) FS ;
+  - nand_24.inv_0 inverter
+    + PLACED ( 950 49140 ) N ;
+  - nand_24.inv_1 inverter
+    + PLACED ( 1900 49140 ) N ;
+  - nand_24.inv_2 inverter
+    + PLACED ( 2850 49140 ) N ;
+  - nand_24.inv_3 inverter
+    + PLACED ( 3800 49140 ) N ;
+  - nand_24.inv_4 inverter
+    + PLACED ( 4750 49140 ) N ;
+  - nand_24.nand2_0 nand2
+    + PLACED ( 380 49140 ) N ;
+  - nand_24.nand2_1 nand2
+    + PLACED ( 1330 49140 ) N ;
+  - nand_24.nand2_2 nand2
+    + PLACED ( 2280 49140 ) N ;
+  - nand_24.nand2_3 nand2
+    + PLACED ( 3230 49140 ) N ;
+  - nand_24.nand2_4 nand2
+    + PLACED ( 4180 49140 ) N ;
+  - nand_24.nand2_5 nand2
+    + PLACED ( 5130 49140 ) N ;
+  - nand_25.inv_0 inverter
+    + PLACED ( 950 47880 ) FS ;
+  - nand_25.inv_1 inverter
+    + PLACED ( 1900 47880 ) FS ;
+  - nand_25.inv_2 inverter
+    + PLACED ( 2850 47880 ) FS ;
+  - nand_25.inv_3 inverter
+    + PLACED ( 3800 47880 ) FS ;
+  - nand_25.inv_4 inverter
+    + PLACED ( 4750 47880 ) FS ;
+  - nand_25.nand2_0 nand2
+    + PLACED ( 380 47880 ) FS ;
+  - nand_25.nand2_1 nand2
+    + PLACED ( 1330 47880 ) FS ;
+  - nand_25.nand2_2 nand2
+    + PLACED ( 2280 47880 ) FS ;
+  - nand_25.nand2_3 nand2
+    + PLACED ( 3230 47880 ) FS ;
+  - nand_25.nand2_4 nand2
+    + PLACED ( 4180 47880 ) FS ;
+  - nand_25.nand2_5 nand2
+    + PLACED ( 5130 47880 ) FS ;
+  - nand_26.inv_0 inverter
+    + PLACED ( 950 46620 ) N ;
+  - nand_26.inv_1 inverter
+    + PLACED ( 1900 46620 ) N ;
+  - nand_26.inv_2 inverter
+    + PLACED ( 2850 46620 ) N ;
+  - nand_26.inv_3 inverter
+    + PLACED ( 3800 46620 ) N ;
+  - nand_26.inv_4 inverter
+    + PLACED ( 4750 46620 ) N ;
+  - nand_26.nand2_0 nand2
+    + PLACED ( 380 46620 ) N ;
+  - nand_26.nand2_1 nand2
+    + PLACED ( 1330 46620 ) N ;
+  - nand_26.nand2_2 nand2
+    + PLACED ( 2280 46620 ) N ;
+  - nand_26.nand2_3 nand2
+    + PLACED ( 3230 46620 ) N ;
+  - nand_26.nand2_4 nand2
+    + PLACED ( 4180 46620 ) N ;
+  - nand_26.nand2_5 nand2
+    + PLACED ( 5130 46620 ) N ;
+  - nand_27.inv_0 inverter
+    + PLACED ( 950 45360 ) FS ;
+  - nand_27.inv_1 inverter
+    + PLACED ( 1900 45360 ) FS ;
+  - nand_27.inv_2 inverter
+    + PLACED ( 2850 45360 ) FS ;
+  - nand_27.inv_3 inverter
+    + PLACED ( 3800 45360 ) FS ;
+  - nand_27.inv_4 inverter
+    + PLACED ( 4750 45360 ) FS ;
+  - nand_27.nand2_0 nand2
+    + PLACED ( 380 45360 ) FS ;
+  - nand_27.nand2_1 nand2
+    + PLACED ( 1330 45360 ) FS ;
+  - nand_27.nand2_2 nand2
+    + PLACED ( 2280 45360 ) FS ;
+  - nand_27.nand2_3 nand2
+    + PLACED ( 3230 45360 ) FS ;
+  - nand_27.nand2_4 nand2
+    + PLACED ( 4180 45360 ) FS ;
+  - nand_27.nand2_5 nand2
+    + PLACED ( 5130 45360 ) FS ;
+  - nand_28.inv_0 inverter
+    + PLACED ( 950 44100 ) N ;
+  - nand_28.inv_1 inverter
+    + PLACED ( 1900 44100 ) N ;
+  - nand_28.inv_2 inverter
+    + PLACED ( 2850 44100 ) N ;
+  - nand_28.inv_3 inverter
+    + PLACED ( 3800 44100 ) N ;
+  - nand_28.inv_4 inverter
+    + PLACED ( 4750 44100 ) N ;
+  - nand_28.nand2_0 nand2
+    + PLACED ( 380 44100 ) N ;
+  - nand_28.nand2_1 nand2
+    + PLACED ( 1330 44100 ) N ;
+  - nand_28.nand2_2 nand2
+    + PLACED ( 2280 44100 ) N ;
+  - nand_28.nand2_3 nand2
+    + PLACED ( 3230 44100 ) N ;
+  - nand_28.nand2_4 nand2
+    + PLACED ( 4180 44100 ) N ;
+  - nand_28.nand2_5 nand2
+    + PLACED ( 5130 44100 ) N ;
+  - nand_29.inv_0 inverter
+    + PLACED ( 950 42840 ) FS ;
+  - nand_29.inv_1 inverter
+    + PLACED ( 1900 42840 ) FS ;
+  - nand_29.inv_2 inverter
+    + PLACED ( 2850 42840 ) FS ;
+  - nand_29.inv_3 inverter
+    + PLACED ( 3800 42840 ) FS ;
+  - nand_29.inv_4 inverter
+    + PLACED ( 4750 42840 ) FS ;
+  - nand_29.nand2_0 nand2
+    + PLACED ( 380 42840 ) FS ;
+  - nand_29.nand2_1 nand2
+    + PLACED ( 1330 42840 ) FS ;
+  - nand_29.nand2_2 nand2
+    + PLACED ( 2280 42840 ) FS ;
+  - nand_29.nand2_3 nand2
+    + PLACED ( 3230 42840 ) FS ;
+  - nand_29.nand2_4 nand2
+    + PLACED ( 4180 42840 ) FS ;
+  - nand_29.nand2_5 nand2
+    + PLACED ( 5130 42840 ) FS ;
+  - nand_3.inv_0 inverter
+    + PLACED ( 950 75600 ) FS ;
+  - nand_3.inv_1 inverter
+    + PLACED ( 1900 75600 ) FS ;
+  - nand_3.inv_2 inverter
+    + PLACED ( 2850 75600 ) FS ;
+  - nand_3.inv_3 inverter
+    + PLACED ( 3800 75600 ) FS ;
+  - nand_3.inv_4 inverter
+    + PLACED ( 4750 75600 ) FS ;
+  - nand_3.nand2_0 nand2
+    + PLACED ( 380 75600 ) FS ;
+  - nand_3.nand2_1 nand2
+    + PLACED ( 1330 75600 ) FS ;
+  - nand_3.nand2_2 nand2
+    + PLACED ( 2280 75600 ) FS ;
+  - nand_3.nand2_3 nand2
+    + PLACED ( 3230 75600 ) FS ;
+  - nand_3.nand2_4 nand2
+    + PLACED ( 4180 75600 ) FS ;
+  - nand_3.nand2_5 nand2
+    + PLACED ( 5130 75600 ) FS ;
+  - nand_30.inv_0 inverter
+    + PLACED ( 950 41580 ) N ;
+  - nand_30.inv_1 inverter
+    + PLACED ( 1900 41580 ) N ;
+  - nand_30.inv_2 inverter
+    + PLACED ( 2850 41580 ) N ;
+  - nand_30.inv_3 inverter
+    + PLACED ( 3800 41580 ) N ;
+  - nand_30.inv_4 inverter
+    + PLACED ( 4750 41580 ) N ;
+  - nand_30.nand2_0 nand2
+    + PLACED ( 380 41580 ) N ;
+  - nand_30.nand2_1 nand2
+    + PLACED ( 1330 41580 ) N ;
+  - nand_30.nand2_2 nand2
+    + PLACED ( 2280 41580 ) N ;
+  - nand_30.nand2_3 nand2
+    + PLACED ( 3230 41580 ) N ;
+  - nand_30.nand2_4 nand2
+    + PLACED ( 4180 41580 ) N ;
+  - nand_30.nand2_5 nand2
+    + PLACED ( 5130 41580 ) N ;
+  - nand_31.inv_0 inverter
+    + PLACED ( 950 40320 ) FS ;
+  - nand_31.inv_1 inverter
+    + PLACED ( 1900 40320 ) FS ;
+  - nand_31.inv_2 inverter
+    + PLACED ( 2850 40320 ) FS ;
+  - nand_31.inv_3 inverter
+    + PLACED ( 3800 40320 ) FS ;
+  - nand_31.inv_4 inverter
+    + PLACED ( 4750 40320 ) FS ;
+  - nand_31.nand2_0 nand2
+    + PLACED ( 380 40320 ) FS ;
+  - nand_31.nand2_1 nand2
+    + PLACED ( 1330 40320 ) FS ;
+  - nand_31.nand2_2 nand2
+    + PLACED ( 2280 40320 ) FS ;
+  - nand_31.nand2_3 nand2
+    + PLACED ( 3230 40320 ) FS ;
+  - nand_31.nand2_4 nand2
+    + PLACED ( 4180 40320 ) FS ;
+  - nand_31.nand2_5 nand2
+    + PLACED ( 5130 40320 ) FS ;
+  - nand_32.inv_0 inverter
+    + PLACED ( 950 39060 ) N ;
+  - nand_32.inv_1 inverter
+    + PLACED ( 1900 39060 ) N ;
+  - nand_32.inv_2 inverter
+    + PLACED ( 2850 39060 ) N ;
+  - nand_32.inv_3 inverter
+    + PLACED ( 3800 39060 ) N ;
+  - nand_32.inv_4 inverter
+    + PLACED ( 4750 39060 ) N ;
+  - nand_32.nand2_0 nand2
+    + PLACED ( 380 39060 ) N ;
+  - nand_32.nand2_1 nand2
+    + PLACED ( 1330 39060 ) N ;
+  - nand_32.nand2_2 nand2
+    + PLACED ( 2280 39060 ) N ;
+  - nand_32.nand2_3 nand2
+    + PLACED ( 3230 39060 ) N ;
+  - nand_32.nand2_4 nand2
+    + PLACED ( 4180 39060 ) N ;
+  - nand_32.nand2_5 nand2
+    + PLACED ( 5130 39060 ) N ;
+  - nand_33.inv_0 inverter
+    + PLACED ( 950 37800 ) FS ;
+  - nand_33.inv_1 inverter
+    + PLACED ( 1900 37800 ) FS ;
+  - nand_33.inv_2 inverter
+    + PLACED ( 2850 37800 ) FS ;
+  - nand_33.inv_3 inverter
+    + PLACED ( 3800 37800 ) FS ;
+  - nand_33.inv_4 inverter
+    + PLACED ( 4750 37800 ) FS ;
+  - nand_33.nand2_0 nand2
+    + PLACED ( 380 37800 ) FS ;
+  - nand_33.nand2_1 nand2
+    + PLACED ( 1330 37800 ) FS ;
+  - nand_33.nand2_2 nand2
+    + PLACED ( 2280 37800 ) FS ;
+  - nand_33.nand2_3 nand2
+    + PLACED ( 3230 37800 ) FS ;
+  - nand_33.nand2_4 nand2
+    + PLACED ( 4180 37800 ) FS ;
+  - nand_33.nand2_5 nand2
+    + PLACED ( 5130 37800 ) FS ;
+  - nand_34.inv_0 inverter
+    + PLACED ( 950 36540 ) N ;
+  - nand_34.inv_1 inverter
+    + PLACED ( 1900 36540 ) N ;
+  - nand_34.inv_2 inverter
+    + PLACED ( 2850 36540 ) N ;
+  - nand_34.inv_3 inverter
+    + PLACED ( 3800 36540 ) N ;
+  - nand_34.inv_4 inverter
+    + PLACED ( 4750 36540 ) N ;
+  - nand_34.nand2_0 nand2
+    + PLACED ( 380 36540 ) N ;
+  - nand_34.nand2_1 nand2
+    + PLACED ( 1330 36540 ) N ;
+  - nand_34.nand2_2 nand2
+    + PLACED ( 2280 36540 ) N ;
+  - nand_34.nand2_3 nand2
+    + PLACED ( 3230 36540 ) N ;
+  - nand_34.nand2_4 nand2
+    + PLACED ( 4180 36540 ) N ;
+  - nand_34.nand2_5 nand2
+    + PLACED ( 5130 36540 ) N ;
+  - nand_35.inv_0 inverter
+    + PLACED ( 950 35280 ) FS ;
+  - nand_35.inv_1 inverter
+    + PLACED ( 1900 35280 ) FS ;
+  - nand_35.inv_2 inverter
+    + PLACED ( 2850 35280 ) FS ;
+  - nand_35.inv_3 inverter
+    + PLACED ( 3800 35280 ) FS ;
+  - nand_35.inv_4 inverter
+    + PLACED ( 4750 35280 ) FS ;
+  - nand_35.nand2_0 nand2
+    + PLACED ( 380 35280 ) FS ;
+  - nand_35.nand2_1 nand2
+    + PLACED ( 1330 35280 ) FS ;
+  - nand_35.nand2_2 nand2
+    + PLACED ( 2280 35280 ) FS ;
+  - nand_35.nand2_3 nand2
+    + PLACED ( 3230 35280 ) FS ;
+  - nand_35.nand2_4 nand2
+    + PLACED ( 4180 35280 ) FS ;
+  - nand_35.nand2_5 nand2
+    + PLACED ( 5130 35280 ) FS ;
+  - nand_36.inv_0 inverter
+    + PLACED ( 950 34020 ) N ;
+  - nand_36.inv_1 inverter
+    + PLACED ( 1900 34020 ) N ;
+  - nand_36.inv_2 inverter
+    + PLACED ( 2850 34020 ) N ;
+  - nand_36.inv_3 inverter
+    + PLACED ( 3800 34020 ) N ;
+  - nand_36.inv_4 inverter
+    + PLACED ( 4750 34020 ) N ;
+  - nand_36.nand2_0 nand2
+    + PLACED ( 380 34020 ) N ;
+  - nand_36.nand2_1 nand2
+    + PLACED ( 1330 34020 ) N ;
+  - nand_36.nand2_2 nand2
+    + PLACED ( 2280 34020 ) N ;
+  - nand_36.nand2_3 nand2
+    + PLACED ( 3230 34020 ) N ;
+  - nand_36.nand2_4 nand2
+    + PLACED ( 4180 34020 ) N ;
+  - nand_36.nand2_5 nand2
+    + PLACED ( 5130 34020 ) N ;
+  - nand_37.inv_0 inverter
+    + PLACED ( 950 32760 ) FS ;
+  - nand_37.inv_1 inverter
+    + PLACED ( 1900 32760 ) FS ;
+  - nand_37.inv_2 inverter
+    + PLACED ( 2850 32760 ) FS ;
+  - nand_37.inv_3 inverter
+    + PLACED ( 3800 32760 ) FS ;
+  - nand_37.inv_4 inverter
+    + PLACED ( 4750 32760 ) FS ;
+  - nand_37.nand2_0 nand2
+    + PLACED ( 380 32760 ) FS ;
+  - nand_37.nand2_1 nand2
+    + PLACED ( 1330 32760 ) FS ;
+  - nand_37.nand2_2 nand2
+    + PLACED ( 2280 32760 ) FS ;
+  - nand_37.nand2_3 nand2
+    + PLACED ( 3230 32760 ) FS ;
+  - nand_37.nand2_4 nand2
+    + PLACED ( 4180 32760 ) FS ;
+  - nand_37.nand2_5 nand2
+    + PLACED ( 5130 32760 ) FS ;
+  - nand_38.inv_0 inverter
+    + PLACED ( 950 31500 ) N ;
+  - nand_38.inv_1 inverter
+    + PLACED ( 1900 31500 ) N ;
+  - nand_38.inv_2 inverter
+    + PLACED ( 2850 31500 ) N ;
+  - nand_38.inv_3 inverter
+    + PLACED ( 3800 31500 ) N ;
+  - nand_38.inv_4 inverter
+    + PLACED ( 4750 31500 ) N ;
+  - nand_38.nand2_0 nand2
+    + PLACED ( 380 31500 ) N ;
+  - nand_38.nand2_1 nand2
+    + PLACED ( 1330 31500 ) N ;
+  - nand_38.nand2_2 nand2
+    + PLACED ( 2280 31500 ) N ;
+  - nand_38.nand2_3 nand2
+    + PLACED ( 3230 31500 ) N ;
+  - nand_38.nand2_4 nand2
+    + PLACED ( 4180 31500 ) N ;
+  - nand_38.nand2_5 nand2
+    + PLACED ( 5130 31500 ) N ;
+  - nand_39.inv_0 inverter
+    + PLACED ( 950 30240 ) FS ;
+  - nand_39.inv_1 inverter
+    + PLACED ( 1900 30240 ) FS ;
+  - nand_39.inv_2 inverter
+    + PLACED ( 2850 30240 ) FS ;
+  - nand_39.inv_3 inverter
+    + PLACED ( 3800 30240 ) FS ;
+  - nand_39.inv_4 inverter
+    + PLACED ( 4750 30240 ) FS ;
+  - nand_39.nand2_0 nand2
+    + PLACED ( 380 30240 ) FS ;
+  - nand_39.nand2_1 nand2
+    + PLACED ( 1330 30240 ) FS ;
+  - nand_39.nand2_2 nand2
+    + PLACED ( 2280 30240 ) FS ;
+  - nand_39.nand2_3 nand2
+    + PLACED ( 3230 30240 ) FS ;
+  - nand_39.nand2_4 nand2
+    + PLACED ( 4180 30240 ) FS ;
+  - nand_39.nand2_5 nand2
+    + PLACED ( 5130 30240 ) FS ;
+  - nand_4.inv_0 inverter
+    + PLACED ( 950 74340 ) N ;
+  - nand_4.inv_1 inverter
+    + PLACED ( 1900 74340 ) N ;
+  - nand_4.inv_2 inverter
+    + PLACED ( 2850 74340 ) N ;
+  - nand_4.inv_3 inverter
+    + PLACED ( 3800 74340 ) N ;
+  - nand_4.inv_4 inverter
+    + PLACED ( 4750 74340 ) N ;
+  - nand_4.nand2_0 nand2
+    + PLACED ( 380 74340 ) N ;
+  - nand_4.nand2_1 nand2
+    + PLACED ( 1330 74340 ) N ;
+  - nand_4.nand2_2 nand2
+    + PLACED ( 2280 74340 ) N ;
+  - nand_4.nand2_3 nand2
+    + PLACED ( 3230 74340 ) N ;
+  - nand_4.nand2_4 nand2
+    + PLACED ( 4180 74340 ) N ;
+  - nand_4.nand2_5 nand2
+    + PLACED ( 5130 74340 ) N ;
+  - nand_40.inv_0 inverter
+    + PLACED ( 950 28980 ) N ;
+  - nand_40.inv_1 inverter
+    + PLACED ( 1900 28980 ) N ;
+  - nand_40.inv_2 inverter
+    + PLACED ( 2850 28980 ) N ;
+  - nand_40.inv_3 inverter
+    + PLACED ( 3800 28980 ) N ;
+  - nand_40.inv_4 inverter
+    + PLACED ( 4750 28980 ) N ;
+  - nand_40.nand2_0 nand2
+    + PLACED ( 380 28980 ) N ;
+  - nand_40.nand2_1 nand2
+    + PLACED ( 1330 28980 ) N ;
+  - nand_40.nand2_2 nand2
+    + PLACED ( 2280 28980 ) N ;
+  - nand_40.nand2_3 nand2
+    + PLACED ( 3230 28980 ) N ;
+  - nand_40.nand2_4 nand2
+    + PLACED ( 4180 28980 ) N ;
+  - nand_40.nand2_5 nand2
+    + PLACED ( 5130 28980 ) N ;
+  - nand_41.inv_0 inverter
+    + PLACED ( 950 27720 ) FS ;
+  - nand_41.inv_1 inverter
+    + PLACED ( 1900 27720 ) FS ;
+  - nand_41.inv_2 inverter
+    + PLACED ( 2850 27720 ) FS ;
+  - nand_41.inv_3 inverter
+    + PLACED ( 3800 27720 ) FS ;
+  - nand_41.inv_4 inverter
+    + PLACED ( 4750 27720 ) FS ;
+  - nand_41.nand2_0 nand2
+    + PLACED ( 380 27720 ) FS ;
+  - nand_41.nand2_1 nand2
+    + PLACED ( 1330 27720 ) FS ;
+  - nand_41.nand2_2 nand2
+    + PLACED ( 2280 27720 ) FS ;
+  - nand_41.nand2_3 nand2
+    + PLACED ( 3230 27720 ) FS ;
+  - nand_41.nand2_4 nand2
+    + PLACED ( 4180 27720 ) FS ;
+  - nand_41.nand2_5 nand2
+    + PLACED ( 5130 27720 ) FS ;
+  - nand_42.inv_0 inverter
+    + PLACED ( 950 26460 ) N ;
+  - nand_42.inv_1 inverter
+    + PLACED ( 1900 26460 ) N ;
+  - nand_42.inv_2 inverter
+    + PLACED ( 2850 26460 ) N ;
+  - nand_42.inv_3 inverter
+    + PLACED ( 3800 26460 ) N ;
+  - nand_42.inv_4 inverter
+    + PLACED ( 4750 26460 ) N ;
+  - nand_42.nand2_0 nand2
+    + PLACED ( 380 26460 ) N ;
+  - nand_42.nand2_1 nand2
+    + PLACED ( 1330 26460 ) N ;
+  - nand_42.nand2_2 nand2
+    + PLACED ( 2280 26460 ) N ;
+  - nand_42.nand2_3 nand2
+    + PLACED ( 3230 26460 ) N ;
+  - nand_42.nand2_4 nand2
+    + PLACED ( 4180 26460 ) N ;
+  - nand_42.nand2_5 nand2
+    + PLACED ( 5130 26460 ) N ;
+  - nand_43.inv_0 inverter
+    + PLACED ( 950 25200 ) FS ;
+  - nand_43.inv_1 inverter
+    + PLACED ( 1900 25200 ) FS ;
+  - nand_43.inv_2 inverter
+    + PLACED ( 2850 25200 ) FS ;
+  - nand_43.inv_3 inverter
+    + PLACED ( 3800 25200 ) FS ;
+  - nand_43.inv_4 inverter
+    + PLACED ( 4750 25200 ) FS ;
+  - nand_43.nand2_0 nand2
+    + PLACED ( 380 25200 ) FS ;
+  - nand_43.nand2_1 nand2
+    + PLACED ( 1330 25200 ) FS ;
+  - nand_43.nand2_2 nand2
+    + PLACED ( 2280 25200 ) FS ;
+  - nand_43.nand2_3 nand2
+    + PLACED ( 3230 25200 ) FS ;
+  - nand_43.nand2_4 nand2
+    + PLACED ( 4180 25200 ) FS ;
+  - nand_43.nand2_5 nand2
+    + PLACED ( 5130 25200 ) FS ;
+  - nand_44.inv_0 inverter
+    + PLACED ( 950 23940 ) N ;
+  - nand_44.inv_1 inverter
+    + PLACED ( 1900 23940 ) N ;
+  - nand_44.inv_2 inverter
+    + PLACED ( 2850 23940 ) N ;
+  - nand_44.inv_3 inverter
+    + PLACED ( 3800 23940 ) N ;
+  - nand_44.inv_4 inverter
+    + PLACED ( 4750 23940 ) N ;
+  - nand_44.nand2_0 nand2
+    + PLACED ( 380 23940 ) N ;
+  - nand_44.nand2_1 nand2
+    + PLACED ( 1330 23940 ) N ;
+  - nand_44.nand2_2 nand2
+    + PLACED ( 2280 23940 ) N ;
+  - nand_44.nand2_3 nand2
+    + PLACED ( 3230 23940 ) N ;
+  - nand_44.nand2_4 nand2
+    + PLACED ( 4180 23940 ) N ;
+  - nand_44.nand2_5 nand2
+    + PLACED ( 5130 23940 ) N ;
+  - nand_45.inv_0 inverter
+    + PLACED ( 950 22680 ) FS ;
+  - nand_45.inv_1 inverter
+    + PLACED ( 1900 22680 ) FS ;
+  - nand_45.inv_2 inverter
+    + PLACED ( 2850 22680 ) FS ;
+  - nand_45.inv_3 inverter
+    + PLACED ( 3800 22680 ) FS ;
+  - nand_45.inv_4 inverter
+    + PLACED ( 4750 22680 ) FS ;
+  - nand_45.nand2_0 nand2
+    + PLACED ( 380 22680 ) FS ;
+  - nand_45.nand2_1 nand2
+    + PLACED ( 1330 22680 ) FS ;
+  - nand_45.nand2_2 nand2
+    + PLACED ( 2280 22680 ) FS ;
+  - nand_45.nand2_3 nand2
+    + PLACED ( 3230 22680 ) FS ;
+  - nand_45.nand2_4 nand2
+    + PLACED ( 4180 22680 ) FS ;
+  - nand_45.nand2_5 nand2
+    + PLACED ( 5130 22680 ) FS ;
+  - nand_46.inv_0 inverter
+    + PLACED ( 950 21420 ) N ;
+  - nand_46.inv_1 inverter
+    + PLACED ( 1900 21420 ) N ;
+  - nand_46.inv_2 inverter
+    + PLACED ( 2850 21420 ) N ;
+  - nand_46.inv_3 inverter
+    + PLACED ( 3800 21420 ) N ;
+  - nand_46.inv_4 inverter
+    + PLACED ( 4750 21420 ) N ;
+  - nand_46.nand2_0 nand2
+    + PLACED ( 380 21420 ) N ;
+  - nand_46.nand2_1 nand2
+    + PLACED ( 1330 21420 ) N ;
+  - nand_46.nand2_2 nand2
+    + PLACED ( 2280 21420 ) N ;
+  - nand_46.nand2_3 nand2
+    + PLACED ( 3230 21420 ) N ;
+  - nand_46.nand2_4 nand2
+    + PLACED ( 4180 21420 ) N ;
+  - nand_46.nand2_5 nand2
+    + PLACED ( 5130 21420 ) N ;
+  - nand_47.inv_0 inverter
+    + PLACED ( 950 20160 ) FS ;
+  - nand_47.inv_1 inverter
+    + PLACED ( 1900 20160 ) FS ;
+  - nand_47.inv_2 inverter
+    + PLACED ( 2850 20160 ) FS ;
+  - nand_47.inv_3 inverter
+    + PLACED ( 3800 20160 ) FS ;
+  - nand_47.inv_4 inverter
+    + PLACED ( 4750 20160 ) FS ;
+  - nand_47.nand2_0 nand2
+    + PLACED ( 380 20160 ) FS ;
+  - nand_47.nand2_1 nand2
+    + PLACED ( 1330 20160 ) FS ;
+  - nand_47.nand2_2 nand2
+    + PLACED ( 2280 20160 ) FS ;
+  - nand_47.nand2_3 nand2
+    + PLACED ( 3230 20160 ) FS ;
+  - nand_47.nand2_4 nand2
+    + PLACED ( 4180 20160 ) FS ;
+  - nand_47.nand2_5 nand2
+    + PLACED ( 5130 20160 ) FS ;
+  - nand_48.inv_0 inverter
+    + PLACED ( 950 18900 ) N ;
+  - nand_48.inv_1 inverter
+    + PLACED ( 1900 18900 ) N ;
+  - nand_48.inv_2 inverter
+    + PLACED ( 2850 18900 ) N ;
+  - nand_48.inv_3 inverter
+    + PLACED ( 3800 18900 ) N ;
+  - nand_48.inv_4 inverter
+    + PLACED ( 4750 18900 ) N ;
+  - nand_48.nand2_0 nand2
+    + PLACED ( 380 18900 ) N ;
+  - nand_48.nand2_1 nand2
+    + PLACED ( 1330 18900 ) N ;
+  - nand_48.nand2_2 nand2
+    + PLACED ( 2280 18900 ) N ;
+  - nand_48.nand2_3 nand2
+    + PLACED ( 3230 18900 ) N ;
+  - nand_48.nand2_4 nand2
+    + PLACED ( 4180 18900 ) N ;
+  - nand_48.nand2_5 nand2
+    + PLACED ( 5130 18900 ) N ;
+  - nand_49.inv_0 inverter
+    + PLACED ( 950 17640 ) FS ;
+  - nand_49.inv_1 inverter
+    + PLACED ( 1900 17640 ) FS ;
+  - nand_49.inv_2 inverter
+    + PLACED ( 2850 17640 ) FS ;
+  - nand_49.inv_3 inverter
+    + PLACED ( 3800 17640 ) FS ;
+  - nand_49.inv_4 inverter
+    + PLACED ( 4750 17640 ) FS ;
+  - nand_49.nand2_0 nand2
+    + PLACED ( 380 17640 ) FS ;
+  - nand_49.nand2_1 nand2
+    + PLACED ( 1330 17640 ) FS ;
+  - nand_49.nand2_2 nand2
+    + PLACED ( 2280 17640 ) FS ;
+  - nand_49.nand2_3 nand2
+    + PLACED ( 3230 17640 ) FS ;
+  - nand_49.nand2_4 nand2
+    + PLACED ( 4180 17640 ) FS ;
+  - nand_49.nand2_5 nand2
+    + PLACED ( 5130 17640 ) FS ;
+  - nand_5.inv_0 inverter
+    + PLACED ( 950 73080 ) FS ;
+  - nand_5.inv_1 inverter
+    + PLACED ( 1900 73080 ) FS ;
+  - nand_5.inv_2 inverter
+    + PLACED ( 2850 73080 ) FS ;
+  - nand_5.inv_3 inverter
+    + PLACED ( 3800 73080 ) FS ;
+  - nand_5.inv_4 inverter
+    + PLACED ( 4750 73080 ) FS ;
+  - nand_5.nand2_0 nand2
+    + PLACED ( 380 73080 ) FS ;
+  - nand_5.nand2_1 nand2
+    + PLACED ( 1330 73080 ) FS ;
+  - nand_5.nand2_2 nand2
+    + PLACED ( 2280 73080 ) FS ;
+  - nand_5.nand2_3 nand2
+    + PLACED ( 3230 73080 ) FS ;
+  - nand_5.nand2_4 nand2
+    + PLACED ( 4180 73080 ) FS ;
+  - nand_5.nand2_5 nand2
+    + PLACED ( 5130 73080 ) FS ;
+  - nand_50.inv_0 inverter
+    + PLACED ( 950 16380 ) N ;
+  - nand_50.inv_1 inverter
+    + PLACED ( 1900 16380 ) N ;
+  - nand_50.inv_2 inverter
+    + PLACED ( 2850 16380 ) N ;
+  - nand_50.inv_3 inverter
+    + PLACED ( 3800 16380 ) N ;
+  - nand_50.inv_4 inverter
+    + PLACED ( 4750 16380 ) N ;
+  - nand_50.nand2_0 nand2
+    + PLACED ( 380 16380 ) N ;
+  - nand_50.nand2_1 nand2
+    + PLACED ( 1330 16380 ) N ;
+  - nand_50.nand2_2 nand2
+    + PLACED ( 2280 16380 ) N ;
+  - nand_50.nand2_3 nand2
+    + PLACED ( 3230 16380 ) N ;
+  - nand_50.nand2_4 nand2
+    + PLACED ( 4180 16380 ) N ;
+  - nand_50.nand2_5 nand2
+    + PLACED ( 5130 16380 ) N ;
+  - nand_51.inv_0 inverter
+    + PLACED ( 950 15120 ) FS ;
+  - nand_51.inv_1 inverter
+    + PLACED ( 1900 15120 ) FS ;
+  - nand_51.inv_2 inverter
+    + PLACED ( 2850 15120 ) FS ;
+  - nand_51.inv_3 inverter
+    + PLACED ( 3800 15120 ) FS ;
+  - nand_51.inv_4 inverter
+    + PLACED ( 4750 15120 ) FS ;
+  - nand_51.nand2_0 nand2
+    + PLACED ( 380 15120 ) FS ;
+  - nand_51.nand2_1 nand2
+    + PLACED ( 1330 15120 ) FS ;
+  - nand_51.nand2_2 nand2
+    + PLACED ( 2280 15120 ) FS ;
+  - nand_51.nand2_3 nand2
+    + PLACED ( 3230 15120 ) FS ;
+  - nand_51.nand2_4 nand2
+    + PLACED ( 4180 15120 ) FS ;
+  - nand_51.nand2_5 nand2
+    + PLACED ( 5130 15120 ) FS ;
+  - nand_52.inv_0 inverter
+    + PLACED ( 950 13860 ) N ;
+  - nand_52.inv_1 inverter
+    + PLACED ( 1900 13860 ) N ;
+  - nand_52.inv_2 inverter
+    + PLACED ( 2850 13860 ) N ;
+  - nand_52.inv_3 inverter
+    + PLACED ( 3800 13860 ) N ;
+  - nand_52.inv_4 inverter
+    + PLACED ( 4750 13860 ) N ;
+  - nand_52.nand2_0 nand2
+    + PLACED ( 380 13860 ) N ;
+  - nand_52.nand2_1 nand2
+    + PLACED ( 1330 13860 ) N ;
+  - nand_52.nand2_2 nand2
+    + PLACED ( 2280 13860 ) N ;
+  - nand_52.nand2_3 nand2
+    + PLACED ( 3230 13860 ) N ;
+  - nand_52.nand2_4 nand2
+    + PLACED ( 4180 13860 ) N ;
+  - nand_52.nand2_5 nand2
+    + PLACED ( 5130 13860 ) N ;
+  - nand_53.inv_0 inverter
+    + PLACED ( 950 12600 ) FS ;
+  - nand_53.inv_1 inverter
+    + PLACED ( 1900 12600 ) FS ;
+  - nand_53.inv_2 inverter
+    + PLACED ( 2850 12600 ) FS ;
+  - nand_53.inv_3 inverter
+    + PLACED ( 3800 12600 ) FS ;
+  - nand_53.inv_4 inverter
+    + PLACED ( 4750 12600 ) FS ;
+  - nand_53.nand2_0 nand2
+    + PLACED ( 380 12600 ) FS ;
+  - nand_53.nand2_1 nand2
+    + PLACED ( 1330 12600 ) FS ;
+  - nand_53.nand2_2 nand2
+    + PLACED ( 2280 12600 ) FS ;
+  - nand_53.nand2_3 nand2
+    + PLACED ( 3230 12600 ) FS ;
+  - nand_53.nand2_4 nand2
+    + PLACED ( 4180 12600 ) FS ;
+  - nand_53.nand2_5 nand2
+    + PLACED ( 5130 12600 ) FS ;
+  - nand_54.inv_0 inverter
+    + PLACED ( 950 11340 ) N ;
+  - nand_54.inv_1 inverter
+    + PLACED ( 1900 11340 ) N ;
+  - nand_54.inv_2 inverter
+    + PLACED ( 2850 11340 ) N ;
+  - nand_54.inv_3 inverter
+    + PLACED ( 3800 11340 ) N ;
+  - nand_54.inv_4 inverter
+    + PLACED ( 4750 11340 ) N ;
+  - nand_54.nand2_0 nand2
+    + PLACED ( 380 11340 ) N ;
+  - nand_54.nand2_1 nand2
+    + PLACED ( 1330 11340 ) N ;
+  - nand_54.nand2_2 nand2
+    + PLACED ( 2280 11340 ) N ;
+  - nand_54.nand2_3 nand2
+    + PLACED ( 3230 11340 ) N ;
+  - nand_54.nand2_4 nand2
+    + PLACED ( 4180 11340 ) N ;
+  - nand_54.nand2_5 nand2
+    + PLACED ( 5130 11340 ) N ;
+  - nand_55.inv_0 inverter
+    + PLACED ( 950 10080 ) FS ;
+  - nand_55.inv_1 inverter
+    + PLACED ( 1900 10080 ) FS ;
+  - nand_55.inv_2 inverter
+    + PLACED ( 2850 10080 ) FS ;
+  - nand_55.inv_3 inverter
+    + PLACED ( 3800 10080 ) FS ;
+  - nand_55.inv_4 inverter
+    + PLACED ( 4750 10080 ) FS ;
+  - nand_55.nand2_0 nand2
+    + PLACED ( 380 10080 ) FS ;
+  - nand_55.nand2_1 nand2
+    + PLACED ( 1330 10080 ) FS ;
+  - nand_55.nand2_2 nand2
+    + PLACED ( 2280 10080 ) FS ;
+  - nand_55.nand2_3 nand2
+    + PLACED ( 3230 10080 ) FS ;
+  - nand_55.nand2_4 nand2
+    + PLACED ( 4180 10080 ) FS ;
+  - nand_55.nand2_5 nand2
+    + PLACED ( 5130 10080 ) FS ;
+  - nand_56.inv_0 inverter
+    + PLACED ( 950 8820 ) N ;
+  - nand_56.inv_1 inverter
+    + PLACED ( 1900 8820 ) N ;
+  - nand_56.inv_2 inverter
+    + PLACED ( 2850 8820 ) N ;
+  - nand_56.inv_3 inverter
+    + PLACED ( 3800 8820 ) N ;
+  - nand_56.inv_4 inverter
+    + PLACED ( 4750 8820 ) N ;
+  - nand_56.nand2_0 nand2
+    + PLACED ( 380 8820 ) N ;
+  - nand_56.nand2_1 nand2
+    + PLACED ( 1330 8820 ) N ;
+  - nand_56.nand2_2 nand2
+    + PLACED ( 2280 8820 ) N ;
+  - nand_56.nand2_3 nand2
+    + PLACED ( 3230 8820 ) N ;
+  - nand_56.nand2_4 nand2
+    + PLACED ( 4180 8820 ) N ;
+  - nand_56.nand2_5 nand2
+    + PLACED ( 5130 8820 ) N ;
+  - nand_57.inv_0 inverter
+    + PLACED ( 950 7560 ) FS ;
+  - nand_57.inv_1 inverter
+    + PLACED ( 1900 7560 ) FS ;
+  - nand_57.inv_2 inverter
+    + PLACED ( 2850 7560 ) FS ;
+  - nand_57.inv_3 inverter
+    + PLACED ( 3800 7560 ) FS ;
+  - nand_57.inv_4 inverter
+    + PLACED ( 4750 7560 ) FS ;
+  - nand_57.nand2_0 nand2
+    + PLACED ( 380 7560 ) FS ;
+  - nand_57.nand2_1 nand2
+    + PLACED ( 1330 7560 ) FS ;
+  - nand_57.nand2_2 nand2
+    + PLACED ( 2280 7560 ) FS ;
+  - nand_57.nand2_3 nand2
+    + PLACED ( 3230 7560 ) FS ;
+  - nand_57.nand2_4 nand2
+    + PLACED ( 4180 7560 ) FS ;
+  - nand_57.nand2_5 nand2
+    + PLACED ( 5130 7560 ) FS ;
+  - nand_58.inv_0 inverter
+    + PLACED ( 950 6300 ) N ;
+  - nand_58.inv_1 inverter
+    + PLACED ( 1900 6300 ) N ;
+  - nand_58.inv_2 inverter
+    + PLACED ( 2850 6300 ) N ;
+  - nand_58.inv_3 inverter
+    + PLACED ( 3800 6300 ) N ;
+  - nand_58.inv_4 inverter
+    + PLACED ( 4750 6300 ) N ;
+  - nand_58.nand2_0 nand2
+    + PLACED ( 380 6300 ) N ;
+  - nand_58.nand2_1 nand2
+    + PLACED ( 1330 6300 ) N ;
+  - nand_58.nand2_2 nand2
+    + PLACED ( 2280 6300 ) N ;
+  - nand_58.nand2_3 nand2
+    + PLACED ( 3230 6300 ) N ;
+  - nand_58.nand2_4 nand2
+    + PLACED ( 4180 6300 ) N ;
+  - nand_58.nand2_5 nand2
+    + PLACED ( 5130 6300 ) N ;
+  - nand_59.inv_0 inverter
+    + PLACED ( 950 5040 ) FS ;
+  - nand_59.inv_1 inverter
+    + PLACED ( 1900 5040 ) FS ;
+  - nand_59.inv_2 inverter
+    + PLACED ( 2850 5040 ) FS ;
+  - nand_59.inv_3 inverter
+    + PLACED ( 3800 5040 ) FS ;
+  - nand_59.inv_4 inverter
+    + PLACED ( 4750 5040 ) FS ;
+  - nand_59.nand2_0 nand2
+    + PLACED ( 380 5040 ) FS ;
+  - nand_59.nand2_1 nand2
+    + PLACED ( 1330 5040 ) FS ;
+  - nand_59.nand2_2 nand2
+    + PLACED ( 2280 5040 ) FS ;
+  - nand_59.nand2_3 nand2
+    + PLACED ( 3230 5040 ) FS ;
+  - nand_59.nand2_4 nand2
+    + PLACED ( 4180 5040 ) FS ;
+  - nand_59.nand2_5 nand2
+    + PLACED ( 5130 5040 ) FS ;
+  - nand_6.inv_0 inverter
+    + PLACED ( 950 71820 ) N ;
+  - nand_6.inv_1 inverter
+    + PLACED ( 1900 71820 ) N ;
+  - nand_6.inv_2 inverter
+    + PLACED ( 2850 71820 ) N ;
+  - nand_6.inv_3 inverter
+    + PLACED ( 3800 71820 ) N ;
+  - nand_6.inv_4 inverter
+    + PLACED ( 4750 71820 ) N ;
+  - nand_6.nand2_0 nand2
+    + PLACED ( 380 71820 ) N ;
+  - nand_6.nand2_1 nand2
+    + PLACED ( 1330 71820 ) N ;
+  - nand_6.nand2_2 nand2
+    + PLACED ( 2280 71820 ) N ;
+  - nand_6.nand2_3 nand2
+    + PLACED ( 3230 71820 ) N ;
+  - nand_6.nand2_4 nand2
+    + PLACED ( 4180 71820 ) N ;
+  - nand_6.nand2_5 nand2
+    + PLACED ( 5130 71820 ) N ;
+  - nand_60.inv_0 inverter
+    + PLACED ( 950 3780 ) N ;
+  - nand_60.inv_1 inverter
+    + PLACED ( 1900 3780 ) N ;
+  - nand_60.inv_2 inverter
+    + PLACED ( 2850 3780 ) N ;
+  - nand_60.inv_3 inverter
+    + PLACED ( 3800 3780 ) N ;
+  - nand_60.inv_4 inverter
+    + PLACED ( 4750 3780 ) N ;
+  - nand_60.nand2_0 nand2
+    + PLACED ( 380 3780 ) N ;
+  - nand_60.nand2_1 nand2
+    + PLACED ( 1330 3780 ) N ;
+  - nand_60.nand2_2 nand2
+    + PLACED ( 2280 3780 ) N ;
+  - nand_60.nand2_3 nand2
+    + PLACED ( 3230 3780 ) N ;
+  - nand_60.nand2_4 nand2
+    + PLACED ( 4180 3780 ) N ;
+  - nand_60.nand2_5 nand2
+    + PLACED ( 5130 3780 ) N ;
+  - nand_61.inv_0 inverter
+    + PLACED ( 950 2520 ) FS ;
+  - nand_61.inv_1 inverter
+    + PLACED ( 1900 2520 ) FS ;
+  - nand_61.inv_2 inverter
+    + PLACED ( 2850 2520 ) FS ;
+  - nand_61.inv_3 inverter
+    + PLACED ( 3800 2520 ) FS ;
+  - nand_61.inv_4 inverter
+    + PLACED ( 4750 2520 ) FS ;
+  - nand_61.nand2_0 nand2
+    + PLACED ( 380 2520 ) FS ;
+  - nand_61.nand2_1 nand2
+    + PLACED ( 1330 2520 ) FS ;
+  - nand_61.nand2_2 nand2
+    + PLACED ( 2280 2520 ) FS ;
+  - nand_61.nand2_3 nand2
+    + PLACED ( 3230 2520 ) FS ;
+  - nand_61.nand2_4 nand2
+    + PLACED ( 4180 2520 ) FS ;
+  - nand_61.nand2_5 nand2
+    + PLACED ( 5130 2520 ) FS ;
+  - nand_62.inv_0 inverter
+    + PLACED ( 950 1260 ) N ;
+  - nand_62.inv_1 inverter
+    + PLACED ( 1900 1260 ) N ;
+  - nand_62.inv_2 inverter
+    + PLACED ( 2850 1260 ) N ;
+  - nand_62.inv_3 inverter
+    + PLACED ( 3800 1260 ) N ;
+  - nand_62.inv_4 inverter
+    + PLACED ( 4750 1260 ) N ;
+  - nand_62.nand2_0 nand2
+    + PLACED ( 380 1260 ) N ;
+  - nand_62.nand2_1 nand2
+    + PLACED ( 1330 1260 ) N ;
+  - nand_62.nand2_2 nand2
+    + PLACED ( 2280 1260 ) N ;
+  - nand_62.nand2_3 nand2
+    + PLACED ( 3230 1260 ) N ;
+  - nand_62.nand2_4 nand2
+    + PLACED ( 4180 1260 ) N ;
+  - nand_62.nand2_5 nand2
+    + PLACED ( 5130 1260 ) N ;
+  - nand_63.inv_0 inverter
+    + PLACED ( 950 0 ) FS ;
+  - nand_63.inv_1 inverter
+    + PLACED ( 1900 0 ) FS ;
+  - nand_63.inv_2 inverter
+    + PLACED ( 2850 0 ) FS ;
+  - nand_63.inv_3 inverter
+    + PLACED ( 3800 0 ) FS ;
+  - nand_63.inv_4 inverter
+    + PLACED ( 4750 0 ) FS ;
+  - nand_63.nand2_0 nand2
+    + PLACED ( 380 0 ) FS ;
+  - nand_63.nand2_1 nand2
+    + PLACED ( 1330 0 ) FS ;
+  - nand_63.nand2_2 nand2
+    + PLACED ( 2280 0 ) FS ;
+  - nand_63.nand2_3 nand2
+    + PLACED ( 3230 0 ) FS ;
+  - nand_63.nand2_4 nand2
+    + PLACED ( 4180 0 ) FS ;
+  - nand_63.nand2_5 nand2
+    + PLACED ( 5130 0 ) FS ;
+  - nand_7.inv_0 inverter
+    + PLACED ( 950 70560 ) FS ;
+  - nand_7.inv_1 inverter
+    + PLACED ( 1900 70560 ) FS ;
+  - nand_7.inv_2 inverter
+    + PLACED ( 2850 70560 ) FS ;
+  - nand_7.inv_3 inverter
+    + PLACED ( 3800 70560 ) FS ;
+  - nand_7.inv_4 inverter
+    + PLACED ( 4750 70560 ) FS ;
+  - nand_7.nand2_0 nand2
+    + PLACED ( 380 70560 ) FS ;
+  - nand_7.nand2_1 nand2
+    + PLACED ( 1330 70560 ) FS ;
+  - nand_7.nand2_2 nand2
+    + PLACED ( 2280 70560 ) FS ;
+  - nand_7.nand2_3 nand2
+    + PLACED ( 3230 70560 ) FS ;
+  - nand_7.nand2_4 nand2
+    + PLACED ( 4180 70560 ) FS ;
+  - nand_7.nand2_5 nand2
+    + PLACED ( 5130 70560 ) FS ;
+  - nand_8.inv_0 inverter
+    + PLACED ( 950 69300 ) N ;
+  - nand_8.inv_1 inverter
+    + PLACED ( 1900 69300 ) N ;
+  - nand_8.inv_2 inverter
+    + PLACED ( 2850 69300 ) N ;
+  - nand_8.inv_3 inverter
+    + PLACED ( 3800 69300 ) N ;
+  - nand_8.inv_4 inverter
+    + PLACED ( 4750 69300 ) N ;
+  - nand_8.nand2_0 nand2
+    + PLACED ( 380 69300 ) N ;
+  - nand_8.nand2_1 nand2
+    + PLACED ( 1330 69300 ) N ;
+  - nand_8.nand2_2 nand2
+    + PLACED ( 2280 69300 ) N ;
+  - nand_8.nand2_3 nand2
+    + PLACED ( 3230 69300 ) N ;
+  - nand_8.nand2_4 nand2
+    + PLACED ( 4180 69300 ) N ;
+  - nand_8.nand2_5 nand2
+    + PLACED ( 5130 69300 ) N ;
+  - nand_9.inv_0 inverter
+    + PLACED ( 950 68040 ) FS ;
+  - nand_9.inv_1 inverter
+    + PLACED ( 1900 68040 ) FS ;
+  - nand_9.inv_2 inverter
+    + PLACED ( 2850 68040 ) FS ;
+  - nand_9.inv_3 inverter
+    + PLACED ( 3800 68040 ) FS ;
+  - nand_9.inv_4 inverter
+    + PLACED ( 4750 68040 ) FS ;
+  - nand_9.nand2_0 nand2
+    + PLACED ( 380 68040 ) FS ;
+  - nand_9.nand2_1 nand2
+    + PLACED ( 1330 68040 ) FS ;
+  - nand_9.nand2_2 nand2
+    + PLACED ( 2280 68040 ) FS ;
+  - nand_9.nand2_3 nand2
+    + PLACED ( 3230 68040 ) FS ;
+  - nand_9.nand2_4 nand2
+    + PLACED ( 4180 68040 ) FS ;
+  - nand_9.nand2_5 nand2
+    + PLACED ( 5130 68040 ) FS ;
+END COMPONENTS
+
+NETS 781 ;
+  - enable
+    ( PIN enable )
+    ( nand_0.nand2_5 in_1 )
+    ( nand_1.nand2_5 in_1 )
+    ( nand_10.nand2_5 in_1 )
+    ( nand_11.nand2_5 in_1 )
+    ( nand_12.nand2_5 in_1 )
+    ( nand_13.nand2_5 in_1 )
+    ( nand_14.nand2_5 in_1 )
+    ( nand_15.nand2_5 in_1 )
+    ( nand_16.nand2_5 in_1 )
+    ( nand_17.nand2_5 in_1 )
+    ( nand_18.nand2_5 in_1 )
+    ( nand_19.nand2_5 in_1 )
+    ( nand_2.nand2_5 in_1 )
+    ( nand_20.nand2_5 in_1 )
+    ( nand_21.nand2_5 in_1 )
+    ( nand_22.nand2_5 in_1 )
+    ( nand_23.nand2_5 in_1 )
+    ( nand_24.nand2_5 in_1 )
+    ( nand_25.nand2_5 in_1 )
+    ( nand_26.nand2_5 in_1 )
+    ( nand_27.nand2_5 in_1 )
+    ( nand_28.nand2_5 in_1 )
+    ( nand_29.nand2_5 in_1 )
+    ( nand_3.nand2_5 in_1 )
+    ( nand_30.nand2_5 in_1 )
+    ( nand_31.nand2_5 in_1 )
+    ( nand_32.nand2_5 in_1 )
+    ( nand_33.nand2_5 in_1 )
+    ( nand_34.nand2_5 in_1 )
+    ( nand_35.nand2_5 in_1 )
+    ( nand_36.nand2_5 in_1 )
+    ( nand_37.nand2_5 in_1 )
+    ( nand_38.nand2_5 in_1 )
+    ( nand_39.nand2_5 in_1 )
+    ( nand_4.nand2_5 in_1 )
+    ( nand_40.nand2_5 in_1 )
+    ( nand_41.nand2_5 in_1 )
+    ( nand_42.nand2_5 in_1 )
+    ( nand_43.nand2_5 in_1 )
+    ( nand_44.nand2_5 in_1 )
+    ( nand_45.nand2_5 in_1 )
+    ( nand_46.nand2_5 in_1 )
+    ( nand_47.nand2_5 in_1 )
+    ( nand_48.nand2_5 in_1 )
+    ( nand_49.nand2_5 in_1 )
+    ( nand_5.nand2_5 in_1 )
+    ( nand_50.nand2_5 in_1 )
+    ( nand_51.nand2_5 in_1 )
+    ( nand_52.nand2_5 in_1 )
+    ( nand_53.nand2_5 in_1 )
+    ( nand_54.nand2_5 in_1 )
+    ( nand_55.nand2_5 in_1 )
+    ( nand_56.nand2_5 in_1 )
+    ( nand_57.nand2_5 in_1 )
+    ( nand_58.nand2_5 in_1 )
+    ( nand_59.nand2_5 in_1 )
+    ( nand_6.nand2_5 in_1 )
+    ( nand_60.nand2_5 in_1 )
+    ( nand_61.nand2_5 in_1 )
+    ( nand_62.nand2_5 in_1 )
+    ( nand_63.nand2_5 in_1 )
+    ( nand_7.nand2_5 in_1 )
+    ( nand_8.nand2_5 in_1 )
+    ( nand_9.nand2_5 in_1 ) ;
+  - in<0>
+    ( PIN in<0> )
+    ( inv_for_input_0 in )
+    ( nand_1.nand2_0 in_0 )
+    ( nand_11.nand2_0 in_0 )
+    ( nand_13.nand2_0 in_0 )
+    ( nand_15.nand2_0 in_0 )
+    ( nand_17.nand2_0 in_0 )
+    ( nand_19.nand2_0 in_0 )
+    ( nand_21.nand2_0 in_0 )
+    ( nand_23.nand2_0 in_0 )
+    ( nand_25.nand2_0 in_0 )
+    ( nand_27.nand2_0 in_0 )
+    ( nand_29.nand2_0 in_0 )
+    ( nand_3.nand2_0 in_0 )
+    ( nand_31.nand2_0 in_0 )
+    ( nand_33.nand2_0 in_0 )
+    ( nand_35.nand2_0 in_0 )
+    ( nand_37.nand2_0 in_0 )
+    ( nand_39.nand2_0 in_0 )
+    ( nand_41.nand2_0 in_0 )
+    ( nand_43.nand2_0 in_0 )
+    ( nand_45.nand2_0 in_0 )
+    ( nand_47.nand2_0 in_0 )
+    ( nand_49.nand2_0 in_0 )
+    ( nand_5.nand2_0 in_0 )
+    ( nand_51.nand2_0 in_0 )
+    ( nand_53.nand2_0 in_0 )
+    ( nand_55.nand2_0 in_0 )
+    ( nand_57.nand2_0 in_0 )
+    ( nand_59.nand2_0 in_0 )
+    ( nand_61.nand2_0 in_0 )
+    ( nand_63.nand2_0 in_0 )
+    ( nand_7.nand2_0 in_0 )
+    ( nand_9.nand2_0 in_0 ) ;
+  - in<1>
+    ( PIN in<1> )
+    ( inv_for_input_1 in )
+    ( nand_10.nand2_0 in_1 )
+    ( nand_11.nand2_0 in_1 )
+    ( nand_14.nand2_0 in_1 )
+    ( nand_15.nand2_0 in_1 )
+    ( nand_18.nand2_0 in_1 )
+    ( nand_19.nand2_0 in_1 )
+    ( nand_2.nand2_0 in_1 )
+    ( nand_22.nand2_0 in_1 )
+    ( nand_23.nand2_0 in_1 )
+    ( nand_26.nand2_0 in_1 )
+    ( nand_27.nand2_0 in_1 )
+    ( nand_3.nand2_0 in_1 )
+    ( nand_30.nand2_0 in_1 )
+    ( nand_31.nand2_0 in_1 )
+    ( nand_34.nand2_0 in_1 )
+    ( nand_35.nand2_0 in_1 )
+    ( nand_38.nand2_0 in_1 )
+    ( nand_39.nand2_0 in_1 )
+    ( nand_42.nand2_0 in_1 )
+    ( nand_43.nand2_0 in_1 )
+    ( nand_46.nand2_0 in_1 )
+    ( nand_47.nand2_0 in_1 )
+    ( nand_50.nand2_0 in_1 )
+    ( nand_51.nand2_0 in_1 )
+    ( nand_54.nand2_0 in_1 )
+    ( nand_55.nand2_0 in_1 )
+    ( nand_58.nand2_0 in_1 )
+    ( nand_59.nand2_0 in_1 )
+    ( nand_6.nand2_0 in_1 )
+    ( nand_62.nand2_0 in_1 )
+    ( nand_63.nand2_0 in_1 )
+    ( nand_7.nand2_0 in_1 ) ;
+  - in<2>
+    ( PIN in<2> )
+    ( inv_for_input_2 in )
+    ( nand_12.nand2_1 in_1 )
+    ( nand_13.nand2_1 in_1 )
+    ( nand_14.nand2_1 in_1 )
+    ( nand_15.nand2_1 in_1 )
+    ( nand_20.nand2_1 in_1 )
+    ( nand_21.nand2_1 in_1 )
+    ( nand_22.nand2_1 in_1 )
+    ( nand_23.nand2_1 in_1 )
+    ( nand_28.nand2_1 in_1 )
+    ( nand_29.nand2_1 in_1 )
+    ( nand_30.nand2_1 in_1 )
+    ( nand_31.nand2_1 in_1 )
+    ( nand_36.nand2_1 in_1 )
+    ( nand_37.nand2_1 in_1 )
+    ( nand_38.nand2_1 in_1 )
+    ( nand_39.nand2_1 in_1 )
+    ( nand_4.nand2_1 in_1 )
+    ( nand_44.nand2_1 in_1 )
+    ( nand_45.nand2_1 in_1 )
+    ( nand_46.nand2_1 in_1 )
+    ( nand_47.nand2_1 in_1 )
+    ( nand_5.nand2_1 in_1 )
+    ( nand_52.nand2_1 in_1 )
+    ( nand_53.nand2_1 in_1 )
+    ( nand_54.nand2_1 in_1 )
+    ( nand_55.nand2_1 in_1 )
+    ( nand_6.nand2_1 in_1 )
+    ( nand_60.nand2_1 in_1 )
+    ( nand_61.nand2_1 in_1 )
+    ( nand_62.nand2_1 in_1 )
+    ( nand_63.nand2_1 in_1 )
+    ( nand_7.nand2_1 in_1 ) ;
+  - in<3>
+    ( PIN in<3> )
+    ( inv_for_input_3 in )
+    ( nand_10.nand2_2 in_1 )
+    ( nand_11.nand2_2 in_1 )
+    ( nand_12.nand2_2 in_1 )
+    ( nand_13.nand2_2 in_1 )
+    ( nand_14.nand2_2 in_1 )
+    ( nand_15.nand2_2 in_1 )
+    ( nand_24.nand2_2 in_1 )
+    ( nand_25.nand2_2 in_1 )
+    ( nand_26.nand2_2 in_1 )
+    ( nand_27.nand2_2 in_1 )
+    ( nand_28.nand2_2 in_1 )
+    ( nand_29.nand2_2 in_1 )
+    ( nand_30.nand2_2 in_1 )
+    ( nand_31.nand2_2 in_1 )
+    ( nand_40.nand2_2 in_1 )
+    ( nand_41.nand2_2 in_1 )
+    ( nand_42.nand2_2 in_1 )
+    ( nand_43.nand2_2 in_1 )
+    ( nand_44.nand2_2 in_1 )
+    ( nand_45.nand2_2 in_1 )
+    ( nand_46.nand2_2 in_1 )
+    ( nand_47.nand2_2 in_1 )
+    ( nand_56.nand2_2 in_1 )
+    ( nand_57.nand2_2 in_1 )
+    ( nand_58.nand2_2 in_1 )
+    ( nand_59.nand2_2 in_1 )
+    ( nand_60.nand2_2 in_1 )
+    ( nand_61.nand2_2 in_1 )
+    ( nand_62.nand2_2 in_1 )
+    ( nand_63.nand2_2 in_1 )
+    ( nand_8.nand2_2 in_1 )
+    ( nand_9.nand2_2 in_1 ) ;
+  - in<4>
+    ( PIN in<4> )
+    ( inv_for_input_4 in )
+    ( nand_16.nand2_3 in_1 )
+    ( nand_17.nand2_3 in_1 )
+    ( nand_18.nand2_3 in_1 )
+    ( nand_19.nand2_3 in_1 )
+    ( nand_20.nand2_3 in_1 )
+    ( nand_21.nand2_3 in_1 )
+    ( nand_22.nand2_3 in_1 )
+    ( nand_23.nand2_3 in_1 )
+    ( nand_24.nand2_3 in_1 )
+    ( nand_25.nand2_3 in_1 )
+    ( nand_26.nand2_3 in_1 )
+    ( nand_27.nand2_3 in_1 )
+    ( nand_28.nand2_3 in_1 )
+    ( nand_29.nand2_3 in_1 )
+    ( nand_30.nand2_3 in_1 )
+    ( nand_31.nand2_3 in_1 )
+    ( nand_48.nand2_3 in_1 )
+    ( nand_49.nand2_3 in_1 )
+    ( nand_50.nand2_3 in_1 )
+    ( nand_51.nand2_3 in_1 )
+    ( nand_52.nand2_3 in_1 )
+    ( nand_53.nand2_3 in_1 )
+    ( nand_54.nand2_3 in_1 )
+    ( nand_55.nand2_3 in_1 )
+    ( nand_56.nand2_3 in_1 )
+    ( nand_57.nand2_3 in_1 )
+    ( nand_58.nand2_3 in_1 )
+    ( nand_59.nand2_3 in_1 )
+    ( nand_60.nand2_3 in_1 )
+    ( nand_61.nand2_3 in_1 )
+    ( nand_62.nand2_3 in_1 )
+    ( nand_63.nand2_3 in_1 ) ;
+  - in<5>
+    ( PIN in<5> )
+    ( inv_for_input_5 in )
+    ( nand_32.nand2_4 in_1 )
+    ( nand_33.nand2_4 in_1 )
+    ( nand_34.nand2_4 in_1 )
+    ( nand_35.nand2_4 in_1 )
+    ( nand_36.nand2_4 in_1 )
+    ( nand_37.nand2_4 in_1 )
+    ( nand_38.nand2_4 in_1 )
+    ( nand_39.nand2_4 in_1 )
+    ( nand_40.nand2_4 in_1 )
+    ( nand_41.nand2_4 in_1 )
+    ( nand_42.nand2_4 in_1 )
+    ( nand_43.nand2_4 in_1 )
+    ( nand_44.nand2_4 in_1 )
+    ( nand_45.nand2_4 in_1 )
+    ( nand_46.nand2_4 in_1 )
+    ( nand_47.nand2_4 in_1 )
+    ( nand_48.nand2_4 in_1 )
+    ( nand_49.nand2_4 in_1 )
+    ( nand_50.nand2_4 in_1 )
+    ( nand_51.nand2_4 in_1 )
+    ( nand_52.nand2_4 in_1 )
+    ( nand_53.nand2_4 in_1 )
+    ( nand_54.nand2_4 in_1 )
+    ( nand_55.nand2_4 in_1 )
+    ( nand_56.nand2_4 in_1 )
+    ( nand_57.nand2_4 in_1 )
+    ( nand_58.nand2_4 in_1 )
+    ( nand_59.nand2_4 in_1 )
+    ( nand_60.nand2_4 in_1 )
+    ( nand_61.nand2_4 in_1 )
+    ( nand_62.nand2_4 in_1 )
+    ( nand_63.nand2_4 in_1 ) ;
+  - out<0>
+    ( PIN out<0> )
+    ( inv_for_output_0 out ) ;
+  - out<10>
+    ( PIN out<10> )
+    ( inv_for_output_10 out ) ;
+  - out<11>
+    ( PIN out<11> )
+    ( inv_for_output_11 out ) ;
+  - out<12>
+    ( PIN out<12> )
+    ( inv_for_output_12 out ) ;
+  - out<13>
+    ( PIN out<13> )
+    ( inv_for_output_13 out ) ;
+  - out<14>
+    ( PIN out<14> )
+    ( inv_for_output_14 out ) ;
+  - out<15>
+    ( PIN out<15> )
+    ( inv_for_output_15 out ) ;
+  - out<16>
+    ( PIN out<16> )
+    ( inv_for_output_16 out ) ;
+  - out<17>
+    ( PIN out<17> )
+    ( inv_for_output_17 out ) ;
+  - out<18>
+    ( PIN out<18> )
+    ( inv_for_output_18 out ) ;
+  - out<19>
+    ( PIN out<19> )
+    ( inv_for_output_19 out ) ;
+  - out<1>
+    ( PIN out<1> )
+    ( inv_for_output_1 out ) ;
+  - out<20>
+    ( PIN out<20> )
+    ( inv_for_output_20 out ) ;
+  - out<21>
+    ( PIN out<21> )
+    ( inv_for_output_21 out ) ;
+  - out<22>
+    ( PIN out<22> )
+    ( inv_for_output_22 out ) ;
+  - out<23>
+    ( PIN out<23> )
+    ( inv_for_output_23 out ) ;
+  - out<24>
+    ( PIN out<24> )
+    ( inv_for_output_24 out ) ;
+  - out<25>
+    ( PIN out<25> )
+    ( inv_for_output_25 out ) ;
+  - out<26>
+    ( PIN out<26> )
+    ( inv_for_output_26 out ) ;
+  - out<27>
+    ( PIN out<27> )
+    ( inv_for_output_27 out ) ;
+  - out<28>
+    ( PIN out<28> )
+    ( inv_for_output_28 out ) ;
+  - out<29>
+    ( PIN out<29> )
+    ( inv_for_output_29 out ) ;
+  - out<2>
+    ( PIN out<2> )
+    ( inv_for_output_2 out ) ;
+  - out<30>
+    ( PIN out<30> )
+    ( inv_for_output_30 out ) ;
+  - out<31>
+    ( PIN out<31> )
+    ( inv_for_output_31 out ) ;
+  - out<32>
+    ( PIN out<32> )
+    ( inv_for_output_32 out ) ;
+  - out<33>
+    ( PIN out<33> )
+    ( inv_for_output_33 out ) ;
+  - out<34>
+    ( PIN out<34> )
+    ( inv_for_output_34 out ) ;
+  - out<35>
+    ( PIN out<35> )
+    ( inv_for_output_35 out ) ;
+  - out<36>
+    ( PIN out<36> )
+    ( inv_for_output_36 out ) ;
+  - out<37>
+    ( PIN out<37> )
+    ( inv_for_output_37 out ) ;
+  - out<38>
+    ( PIN out<38> )
+    ( inv_for_output_38 out ) ;
+  - out<39>
+    ( PIN out<39> )
+    ( inv_for_output_39 out ) ;
+  - out<3>
+    ( PIN out<3> )
+    ( inv_for_output_3 out ) ;
+  - out<40>
+    ( PIN out<40> )
+    ( inv_for_output_40 out ) ;
+  - out<41>
+    ( PIN out<41> )
+    ( inv_for_output_41 out ) ;
+  - out<42>
+    ( PIN out<42> )
+    ( inv_for_output_42 out ) ;
+  - out<43>
+    ( PIN out<43> )
+    ( inv_for_output_43 out ) ;
+  - out<44>
+    ( PIN out<44> )
+    ( inv_for_output_44 out ) ;
+  - out<45>
+    ( PIN out<45> )
+    ( inv_for_output_45 out ) ;
+  - out<46>
+    ( PIN out<46> )
+    ( inv_for_output_46 out ) ;
+  - out<47>
+    ( PIN out<47> )
+    ( inv_for_output_47 out ) ;
+  - out<48>
+    ( PIN out<48> )
+    ( inv_for_output_48 out ) ;
+  - out<49>
+    ( PIN out<49> )
+    ( inv_for_output_49 out ) ;
+  - out<4>
+    ( PIN out<4> )
+    ( inv_for_output_4 out ) ;
+  - out<50>
+    ( PIN out<50> )
+    ( inv_for_output_50 out ) ;
+  - out<51>
+    ( PIN out<51> )
+    ( inv_for_output_51 out ) ;
+  - out<52>
+    ( PIN out<52> )
+    ( inv_for_output_52 out ) ;
+  - out<53>
+    ( PIN out<53> )
+    ( inv_for_output_53 out ) ;
+  - out<54>
+    ( PIN out<54> )
+    ( inv_for_output_54 out ) ;
+  - out<55>
+    ( PIN out<55> )
+    ( inv_for_output_55 out ) ;
+  - out<56>
+    ( PIN out<56> )
+    ( inv_for_output_56 out ) ;
+  - out<57>
+    ( PIN out<57> )
+    ( inv_for_output_57 out ) ;
+  - out<58>
+    ( PIN out<58> )
+    ( inv_for_output_58 out ) ;
+  - out<59>
+    ( PIN out<59> )
+    ( inv_for_output_59 out ) ;
+  - out<5>
+    ( PIN out<5> )
+    ( inv_for_output_5 out ) ;
+  - out<60>
+    ( PIN out<60> )
+    ( inv_for_output_60 out ) ;
+  - out<61>
+    ( PIN out<61> )
+    ( inv_for_output_61 out ) ;
+  - out<62>
+    ( PIN out<62> )
+    ( inv_for_output_62 out ) ;
+  - out<63>
+    ( PIN out<63> )
+    ( inv_for_output_63 out ) ;
+  - out<6>
+    ( PIN out<6> )
+    ( inv_for_output_6 out ) ;
+  - out<7>
+    ( PIN out<7> )
+    ( inv_for_output_7 out ) ;
+  - out<8>
+    ( PIN out<8> )
+    ( inv_for_output_8 out ) ;
+  - out<9>
+    ( PIN out<9> )
+    ( inv_for_output_9 out ) ;
+  - in_b<0>
+    ( inv_for_input_0 out )
+    ( nand_0.nand2_0 in_0 )
+    ( nand_10.nand2_0 in_0 )
+    ( nand_12.nand2_0 in_0 )
+    ( nand_14.nand2_0 in_0 )
+    ( nand_16.nand2_0 in_0 )
+    ( nand_18.nand2_0 in_0 )
+    ( nand_2.nand2_0 in_0 )
+    ( nand_20.nand2_0 in_0 )
+    ( nand_22.nand2_0 in_0 )
+    ( nand_24.nand2_0 in_0 )
+    ( nand_26.nand2_0 in_0 )
+    ( nand_28.nand2_0 in_0 )
+    ( nand_30.nand2_0 in_0 )
+    ( nand_32.nand2_0 in_0 )
+    ( nand_34.nand2_0 in_0 )
+    ( nand_36.nand2_0 in_0 )
+    ( nand_38.nand2_0 in_0 )
+    ( nand_4.nand2_0 in_0 )
+    ( nand_40.nand2_0 in_0 )
+    ( nand_42.nand2_0 in_0 )
+    ( nand_44.nand2_0 in_0 )
+    ( nand_46.nand2_0 in_0 )
+    ( nand_48.nand2_0 in_0 )
+    ( nand_50.nand2_0 in_0 )
+    ( nand_52.nand2_0 in_0 )
+    ( nand_54.nand2_0 in_0 )
+    ( nand_56.nand2_0 in_0 )
+    ( nand_58.nand2_0 in_0 )
+    ( nand_6.nand2_0 in_0 )
+    ( nand_60.nand2_0 in_0 )
+    ( nand_62.nand2_0 in_0 )
+    ( nand_8.nand2_0 in_0 ) ;
+  - in_b<1>
+    ( inv_for_input_1 out )
+    ( nand_0.nand2_0 in_1 )
+    ( nand_1.nand2_0 in_1 )
+    ( nand_12.nand2_0 in_1 )
+    ( nand_13.nand2_0 in_1 )
+    ( nand_16.nand2_0 in_1 )
+    ( nand_17.nand2_0 in_1 )
+    ( nand_20.nand2_0 in_1 )
+    ( nand_21.nand2_0 in_1 )
+    ( nand_24.nand2_0 in_1 )
+    ( nand_25.nand2_0 in_1 )
+    ( nand_28.nand2_0 in_1 )
+    ( nand_29.nand2_0 in_1 )
+    ( nand_32.nand2_0 in_1 )
+    ( nand_33.nand2_0 in_1 )
+    ( nand_36.nand2_0 in_1 )
+    ( nand_37.nand2_0 in_1 )
+    ( nand_4.nand2_0 in_1 )
+    ( nand_40.nand2_0 in_1 )
+    ( nand_41.nand2_0 in_1 )
+    ( nand_44.nand2_0 in_1 )
+    ( nand_45.nand2_0 in_1 )
+    ( nand_48.nand2_0 in_1 )
+    ( nand_49.nand2_0 in_1 )
+    ( nand_5.nand2_0 in_1 )
+    ( nand_52.nand2_0 in_1 )
+    ( nand_53.nand2_0 in_1 )
+    ( nand_56.nand2_0 in_1 )
+    ( nand_57.nand2_0 in_1 )
+    ( nand_60.nand2_0 in_1 )
+    ( nand_61.nand2_0 in_1 )
+    ( nand_8.nand2_0 in_1 )
+    ( nand_9.nand2_0 in_1 ) ;
+  - in_b<2>
+    ( inv_for_input_2 out )
+    ( nand_0.nand2_1 in_1 )
+    ( nand_1.nand2_1 in_1 )
+    ( nand_10.nand2_1 in_1 )
+    ( nand_11.nand2_1 in_1 )
+    ( nand_16.nand2_1 in_1 )
+    ( nand_17.nand2_1 in_1 )
+    ( nand_18.nand2_1 in_1 )
+    ( nand_19.nand2_1 in_1 )
+    ( nand_2.nand2_1 in_1 )
+    ( nand_24.nand2_1 in_1 )
+    ( nand_25.nand2_1 in_1 )
+    ( nand_26.nand2_1 in_1 )
+    ( nand_27.nand2_1 in_1 )
+    ( nand_3.nand2_1 in_1 )
+    ( nand_32.nand2_1 in_1 )
+    ( nand_33.nand2_1 in_1 )
+    ( nand_34.nand2_1 in_1 )
+    ( nand_35.nand2_1 in_1 )
+    ( nand_40.nand2_1 in_1 )
+    ( nand_41.nand2_1 in_1 )
+    ( nand_42.nand2_1 in_1 )
+    ( nand_43.nand2_1 in_1 )
+    ( nand_48.nand2_1 in_1 )
+    ( nand_49.nand2_1 in_1 )
+    ( nand_50.nand2_1 in_1 )
+    ( nand_51.nand2_1 in_1 )
+    ( nand_56.nand2_1 in_1 )
+    ( nand_57.nand2_1 in_1 )
+    ( nand_58.nand2_1 in_1 )
+    ( nand_59.nand2_1 in_1 )
+    ( nand_8.nand2_1 in_1 )
+    ( nand_9.nand2_1 in_1 ) ;
+  - in_b<3>
+    ( inv_for_input_3 out )
+    ( nand_0.nand2_2 in_1 )
+    ( nand_1.nand2_2 in_1 )
+    ( nand_16.nand2_2 in_1 )
+    ( nand_17.nand2_2 in_1 )
+    ( nand_18.nand2_2 in_1 )
+    ( nand_19.nand2_2 in_1 )
+    ( nand_2.nand2_2 in_1 )
+    ( nand_20.nand2_2 in_1 )
+    ( nand_21.nand2_2 in_1 )
+    ( nand_22.nand2_2 in_1 )
+    ( nand_23.nand2_2 in_1 )
+    ( nand_3.nand2_2 in_1 )
+    ( nand_32.nand2_2 in_1 )
+    ( nand_33.nand2_2 in_1 )
+    ( nand_34.nand2_2 in_1 )
+    ( nand_35.nand2_2 in_1 )
+    ( nand_36.nand2_2 in_1 )
+    ( nand_37.nand2_2 in_1 )
+    ( nand_38.nand2_2 in_1 )
+    ( nand_39.nand2_2 in_1 )
+    ( nand_4.nand2_2 in_1 )
+    ( nand_48.nand2_2 in_1 )
+    ( nand_49.nand2_2 in_1 )
+    ( nand_5.nand2_2 in_1 )
+    ( nand_50.nand2_2 in_1 )
+    ( nand_51.nand2_2 in_1 )
+    ( nand_52.nand2_2 in_1 )
+    ( nand_53.nand2_2 in_1 )
+    ( nand_54.nand2_2 in_1 )
+    ( nand_55.nand2_2 in_1 )
+    ( nand_6.nand2_2 in_1 )
+    ( nand_7.nand2_2 in_1 ) ;
+  - in_b<4>
+    ( inv_for_input_4 out )
+    ( nand_0.nand2_3 in_1 )
+    ( nand_1.nand2_3 in_1 )
+    ( nand_10.nand2_3 in_1 )
+    ( nand_11.nand2_3 in_1 )
+    ( nand_12.nand2_3 in_1 )
+    ( nand_13.nand2_3 in_1 )
+    ( nand_14.nand2_3 in_1 )
+    ( nand_15.nand2_3 in_1 )
+    ( nand_2.nand2_3 in_1 )
+    ( nand_3.nand2_3 in_1 )
+    ( nand_32.nand2_3 in_1 )
+    ( nand_33.nand2_3 in_1 )
+    ( nand_34.nand2_3 in_1 )
+    ( nand_35.nand2_3 in_1 )
+    ( nand_36.nand2_3 in_1 )
+    ( nand_37.nand2_3 in_1 )
+    ( nand_38.nand2_3 in_1 )
+    ( nand_39.nand2_3 in_1 )
+    ( nand_4.nand2_3 in_1 )
+    ( nand_40.nand2_3 in_1 )
+    ( nand_41.nand2_3 in_1 )
+    ( nand_42.nand2_3 in_1 )
+    ( nand_43.nand2_3 in_1 )
+    ( nand_44.nand2_3 in_1 )
+    ( nand_45.nand2_3 in_1 )
+    ( nand_46.nand2_3 in_1 )
+    ( nand_47.nand2_3 in_1 )
+    ( nand_5.nand2_3 in_1 )
+    ( nand_6.nand2_3 in_1 )
+    ( nand_7.nand2_3 in_1 )
+    ( nand_8.nand2_3 in_1 )
+    ( nand_9.nand2_3 in_1 ) ;
+  - in_b<5>
+    ( inv_for_input_5 out )
+    ( nand_0.nand2_4 in_1 )
+    ( nand_1.nand2_4 in_1 )
+    ( nand_10.nand2_4 in_1 )
+    ( nand_11.nand2_4 in_1 )
+    ( nand_12.nand2_4 in_1 )
+    ( nand_13.nand2_4 in_1 )
+    ( nand_14.nand2_4 in_1 )
+    ( nand_15.nand2_4 in_1 )
+    ( nand_16.nand2_4 in_1 )
+    ( nand_17.nand2_4 in_1 )
+    ( nand_18.nand2_4 in_1 )
+    ( nand_19.nand2_4 in_1 )
+    ( nand_2.nand2_4 in_1 )
+    ( nand_20.nand2_4 in_1 )
+    ( nand_21.nand2_4 in_1 )
+    ( nand_22.nand2_4 in_1 )
+    ( nand_23.nand2_4 in_1 )
+    ( nand_24.nand2_4 in_1 )
+    ( nand_25.nand2_4 in_1 )
+    ( nand_26.nand2_4 in_1 )
+    ( nand_27.nand2_4 in_1 )
+    ( nand_28.nand2_4 in_1 )
+    ( nand_29.nand2_4 in_1 )
+    ( nand_3.nand2_4 in_1 )
+    ( nand_30.nand2_4 in_1 )
+    ( nand_31.nand2_4 in_1 )
+    ( nand_4.nand2_4 in_1 )
+    ( nand_5.nand2_4 in_1 )
+    ( nand_6.nand2_4 in_1 )
+    ( nand_7.nand2_4 in_1 )
+    ( nand_8.nand2_4 in_1 )
+    ( nand_9.nand2_4 in_1 ) ;
+  - nand_0.and_0
+    ( nand_0.inv_0 out )
+    ( nand_0.nand2_1 in_0 ) ;
+  - nand_0.and_1
+    ( nand_0.inv_1 out )
+    ( nand_0.nand2_2 in_0 ) ;
+  - nand_0.and_2
+    ( nand_0.inv_2 out )
+    ( nand_0.nand2_3 in_0 ) ;
+  - nand_0.and_3
+    ( nand_0.inv_3 out )
+    ( nand_0.nand2_4 in_0 ) ;
+  - nand_0.and_4
+    ( nand_0.inv_4 out )
+    ( nand_0.nand2_5 in_0 ) ;
+  - nand_0.nand_0
+    ( nand_0.inv_0 in )
+    ( nand_0.nand2_0 out ) ;
+  - nand_0.nand_1
+    ( nand_0.inv_1 in )
+    ( nand_0.nand2_1 out ) ;
+  - nand_0.nand_2
+    ( nand_0.inv_2 in )
+    ( nand_0.nand2_2 out ) ;
+  - nand_0.nand_3
+    ( nand_0.inv_3 in )
+    ( nand_0.nand2_3 out ) ;
+  - nand_0.nand_4
+    ( nand_0.inv_4 in )
+    ( nand_0.nand2_4 out ) ;
+  - nand_0.out
+    ( inv_for_output_0 in )
+    ( nand_0.nand2_5 out ) ;
+  - nand_1.and_0
+    ( nand_1.inv_0 out )
+    ( nand_1.nand2_1 in_0 ) ;
+  - nand_1.and_1
+    ( nand_1.inv_1 out )
+    ( nand_1.nand2_2 in_0 ) ;
+  - nand_1.and_2
+    ( nand_1.inv_2 out )
+    ( nand_1.nand2_3 in_0 ) ;
+  - nand_1.and_3
+    ( nand_1.inv_3 out )
+    ( nand_1.nand2_4 in_0 ) ;
+  - nand_1.and_4
+    ( nand_1.inv_4 out )
+    ( nand_1.nand2_5 in_0 ) ;
+  - nand_1.nand_0
+    ( nand_1.inv_0 in )
+    ( nand_1.nand2_0 out ) ;
+  - nand_1.nand_1
+    ( nand_1.inv_1 in )
+    ( nand_1.nand2_1 out ) ;
+  - nand_1.nand_2
+    ( nand_1.inv_2 in )
+    ( nand_1.nand2_2 out ) ;
+  - nand_1.nand_3
+    ( nand_1.inv_3 in )
+    ( nand_1.nand2_3 out ) ;
+  - nand_1.nand_4
+    ( nand_1.inv_4 in )
+    ( nand_1.nand2_4 out ) ;
+  - nand_1.out
+    ( inv_for_output_1 in )
+    ( nand_1.nand2_5 out ) ;
+  - nand_10.and_0
+    ( nand_10.inv_0 out )
+    ( nand_10.nand2_1 in_0 ) ;
+  - nand_10.and_1
+    ( nand_10.inv_1 out )
+    ( nand_10.nand2_2 in_0 ) ;
+  - nand_10.and_2
+    ( nand_10.inv_2 out )
+    ( nand_10.nand2_3 in_0 ) ;
+  - nand_10.and_3
+    ( nand_10.inv_3 out )
+    ( nand_10.nand2_4 in_0 ) ;
+  - nand_10.and_4
+    ( nand_10.inv_4 out )
+    ( nand_10.nand2_5 in_0 ) ;
+  - nand_10.nand_0
+    ( nand_10.inv_0 in )
+    ( nand_10.nand2_0 out ) ;
+  - nand_10.nand_1
+    ( nand_10.inv_1 in )
+    ( nand_10.nand2_1 out ) ;
+  - nand_10.nand_2
+    ( nand_10.inv_2 in )
+    ( nand_10.nand2_2 out ) ;
+  - nand_10.nand_3
+    ( nand_10.inv_3 in )
+    ( nand_10.nand2_3 out ) ;
+  - nand_10.nand_4
+    ( nand_10.inv_4 in )
+    ( nand_10.nand2_4 out ) ;
+  - nand_10.out
+    ( inv_for_output_10 in )
+    ( nand_10.nand2_5 out ) ;
+  - nand_11.and_0
+    ( nand_11.inv_0 out )
+    ( nand_11.nand2_1 in_0 ) ;
+  - nand_11.and_1
+    ( nand_11.inv_1 out )
+    ( nand_11.nand2_2 in_0 ) ;
+  - nand_11.and_2
+    ( nand_11.inv_2 out )
+    ( nand_11.nand2_3 in_0 ) ;
+  - nand_11.and_3
+    ( nand_11.inv_3 out )
+    ( nand_11.nand2_4 in_0 ) ;
+  - nand_11.and_4
+    ( nand_11.inv_4 out )
+    ( nand_11.nand2_5 in_0 ) ;
+  - nand_11.nand_0
+    ( nand_11.inv_0 in )
+    ( nand_11.nand2_0 out ) ;
+  - nand_11.nand_1
+    ( nand_11.inv_1 in )
+    ( nand_11.nand2_1 out ) ;
+  - nand_11.nand_2
+    ( nand_11.inv_2 in )
+    ( nand_11.nand2_2 out ) ;
+  - nand_11.nand_3
+    ( nand_11.inv_3 in )
+    ( nand_11.nand2_3 out ) ;
+  - nand_11.nand_4
+    ( nand_11.inv_4 in )
+    ( nand_11.nand2_4 out ) ;
+  - nand_11.out
+    ( inv_for_output_11 in )
+    ( nand_11.nand2_5 out ) ;
+  - nand_12.and_0
+    ( nand_12.inv_0 out )
+    ( nand_12.nand2_1 in_0 ) ;
+  - nand_12.and_1
+    ( nand_12.inv_1 out )
+    ( nand_12.nand2_2 in_0 ) ;
+  - nand_12.and_2
+    ( nand_12.inv_2 out )
+    ( nand_12.nand2_3 in_0 ) ;
+  - nand_12.and_3
+    ( nand_12.inv_3 out )
+    ( nand_12.nand2_4 in_0 ) ;
+  - nand_12.and_4
+    ( nand_12.inv_4 out )
+    ( nand_12.nand2_5 in_0 ) ;
+  - nand_12.nand_0
+    ( nand_12.inv_0 in )
+    ( nand_12.nand2_0 out ) ;
+  - nand_12.nand_1
+    ( nand_12.inv_1 in )
+    ( nand_12.nand2_1 out ) ;
+  - nand_12.nand_2
+    ( nand_12.inv_2 in )
+    ( nand_12.nand2_2 out ) ;
+  - nand_12.nand_3
+    ( nand_12.inv_3 in )
+    ( nand_12.nand2_3 out ) ;
+  - nand_12.nand_4
+    ( nand_12.inv_4 in )
+    ( nand_12.nand2_4 out ) ;
+  - nand_12.out
+    ( inv_for_output_12 in )
+    ( nand_12.nand2_5 out ) ;
+  - nand_13.and_0
+    ( nand_13.inv_0 out )
+    ( nand_13.nand2_1 in_0 ) ;
+  - nand_13.and_1
+    ( nand_13.inv_1 out )
+    ( nand_13.nand2_2 in_0 ) ;
+  - nand_13.and_2
+    ( nand_13.inv_2 out )
+    ( nand_13.nand2_3 in_0 ) ;
+  - nand_13.and_3
+    ( nand_13.inv_3 out )
+    ( nand_13.nand2_4 in_0 ) ;
+  - nand_13.and_4
+    ( nand_13.inv_4 out )
+    ( nand_13.nand2_5 in_0 ) ;
+  - nand_13.nand_0
+    ( nand_13.inv_0 in )
+    ( nand_13.nand2_0 out ) ;
+  - nand_13.nand_1
+    ( nand_13.inv_1 in )
+    ( nand_13.nand2_1 out ) ;
+  - nand_13.nand_2
+    ( nand_13.inv_2 in )
+    ( nand_13.nand2_2 out ) ;
+  - nand_13.nand_3
+    ( nand_13.inv_3 in )
+    ( nand_13.nand2_3 out ) ;
+  - nand_13.nand_4
+    ( nand_13.inv_4 in )
+    ( nand_13.nand2_4 out ) ;
+  - nand_13.out
+    ( inv_for_output_13 in )
+    ( nand_13.nand2_5 out ) ;
+  - nand_14.and_0
+    ( nand_14.inv_0 out )
+    ( nand_14.nand2_1 in_0 ) ;
+  - nand_14.and_1
+    ( nand_14.inv_1 out )
+    ( nand_14.nand2_2 in_0 ) ;
+  - nand_14.and_2
+    ( nand_14.inv_2 out )
+    ( nand_14.nand2_3 in_0 ) ;
+  - nand_14.and_3
+    ( nand_14.inv_3 out )
+    ( nand_14.nand2_4 in_0 ) ;
+  - nand_14.and_4
+    ( nand_14.inv_4 out )
+    ( nand_14.nand2_5 in_0 ) ;
+  - nand_14.nand_0
+    ( nand_14.inv_0 in )
+    ( nand_14.nand2_0 out ) ;
+  - nand_14.nand_1
+    ( nand_14.inv_1 in )
+    ( nand_14.nand2_1 out ) ;
+  - nand_14.nand_2
+    ( nand_14.inv_2 in )
+    ( nand_14.nand2_2 out ) ;
+  - nand_14.nand_3
+    ( nand_14.inv_3 in )
+    ( nand_14.nand2_3 out ) ;
+  - nand_14.nand_4
+    ( nand_14.inv_4 in )
+    ( nand_14.nand2_4 out ) ;
+  - nand_14.out
+    ( inv_for_output_14 in )
+    ( nand_14.nand2_5 out ) ;
+  - nand_15.and_0
+    ( nand_15.inv_0 out )
+    ( nand_15.nand2_1 in_0 ) ;
+  - nand_15.and_1
+    ( nand_15.inv_1 out )
+    ( nand_15.nand2_2 in_0 ) ;
+  - nand_15.and_2
+    ( nand_15.inv_2 out )
+    ( nand_15.nand2_3 in_0 ) ;
+  - nand_15.and_3
+    ( nand_15.inv_3 out )
+    ( nand_15.nand2_4 in_0 ) ;
+  - nand_15.and_4
+    ( nand_15.inv_4 out )
+    ( nand_15.nand2_5 in_0 ) ;
+  - nand_15.nand_0
+    ( nand_15.inv_0 in )
+    ( nand_15.nand2_0 out ) ;
+  - nand_15.nand_1
+    ( nand_15.inv_1 in )
+    ( nand_15.nand2_1 out ) ;
+  - nand_15.nand_2
+    ( nand_15.inv_2 in )
+    ( nand_15.nand2_2 out ) ;
+  - nand_15.nand_3
+    ( nand_15.inv_3 in )
+    ( nand_15.nand2_3 out ) ;
+  - nand_15.nand_4
+    ( nand_15.inv_4 in )
+    ( nand_15.nand2_4 out ) ;
+  - nand_15.out
+    ( inv_for_output_15 in )
+    ( nand_15.nand2_5 out ) ;
+  - nand_16.and_0
+    ( nand_16.inv_0 out )
+    ( nand_16.nand2_1 in_0 ) ;
+  - nand_16.and_1
+    ( nand_16.inv_1 out )
+    ( nand_16.nand2_2 in_0 ) ;
+  - nand_16.and_2
+    ( nand_16.inv_2 out )
+    ( nand_16.nand2_3 in_0 ) ;
+  - nand_16.and_3
+    ( nand_16.inv_3 out )
+    ( nand_16.nand2_4 in_0 ) ;
+  - nand_16.and_4
+    ( nand_16.inv_4 out )
+    ( nand_16.nand2_5 in_0 ) ;
+  - nand_16.nand_0
+    ( nand_16.inv_0 in )
+    ( nand_16.nand2_0 out ) ;
+  - nand_16.nand_1
+    ( nand_16.inv_1 in )
+    ( nand_16.nand2_1 out ) ;
+  - nand_16.nand_2
+    ( nand_16.inv_2 in )
+    ( nand_16.nand2_2 out ) ;
+  - nand_16.nand_3
+    ( nand_16.inv_3 in )
+    ( nand_16.nand2_3 out ) ;
+  - nand_16.nand_4
+    ( nand_16.inv_4 in )
+    ( nand_16.nand2_4 out ) ;
+  - nand_16.out
+    ( inv_for_output_16 in )
+    ( nand_16.nand2_5 out ) ;
+  - nand_17.and_0
+    ( nand_17.inv_0 out )
+    ( nand_17.nand2_1 in_0 ) ;
+  - nand_17.and_1
+    ( nand_17.inv_1 out )
+    ( nand_17.nand2_2 in_0 ) ;
+  - nand_17.and_2
+    ( nand_17.inv_2 out )
+    ( nand_17.nand2_3 in_0 ) ;
+  - nand_17.and_3
+    ( nand_17.inv_3 out )
+    ( nand_17.nand2_4 in_0 ) ;
+  - nand_17.and_4
+    ( nand_17.inv_4 out )
+    ( nand_17.nand2_5 in_0 ) ;
+  - nand_17.nand_0
+    ( nand_17.inv_0 in )
+    ( nand_17.nand2_0 out ) ;
+  - nand_17.nand_1
+    ( nand_17.inv_1 in )
+    ( nand_17.nand2_1 out ) ;
+  - nand_17.nand_2
+    ( nand_17.inv_2 in )
+    ( nand_17.nand2_2 out ) ;
+  - nand_17.nand_3
+    ( nand_17.inv_3 in )
+    ( nand_17.nand2_3 out ) ;
+  - nand_17.nand_4
+    ( nand_17.inv_4 in )
+    ( nand_17.nand2_4 out ) ;
+  - nand_17.out
+    ( inv_for_output_17 in )
+    ( nand_17.nand2_5 out ) ;
+  - nand_18.and_0
+    ( nand_18.inv_0 out )
+    ( nand_18.nand2_1 in_0 ) ;
+  - nand_18.and_1
+    ( nand_18.inv_1 out )
+    ( nand_18.nand2_2 in_0 ) ;
+  - nand_18.and_2
+    ( nand_18.inv_2 out )
+    ( nand_18.nand2_3 in_0 ) ;
+  - nand_18.and_3
+    ( nand_18.inv_3 out )
+    ( nand_18.nand2_4 in_0 ) ;
+  - nand_18.and_4
+    ( nand_18.inv_4 out )
+    ( nand_18.nand2_5 in_0 ) ;
+  - nand_18.nand_0
+    ( nand_18.inv_0 in )
+    ( nand_18.nand2_0 out ) ;
+  - nand_18.nand_1
+    ( nand_18.inv_1 in )
+    ( nand_18.nand2_1 out ) ;
+  - nand_18.nand_2
+    ( nand_18.inv_2 in )
+    ( nand_18.nand2_2 out ) ;
+  - nand_18.nand_3
+    ( nand_18.inv_3 in )
+    ( nand_18.nand2_3 out ) ;
+  - nand_18.nand_4
+    ( nand_18.inv_4 in )
+    ( nand_18.nand2_4 out ) ;
+  - nand_18.out
+    ( inv_for_output_18 in )
+    ( nand_18.nand2_5 out ) ;
+  - nand_19.and_0
+    ( nand_19.inv_0 out )
+    ( nand_19.nand2_1 in_0 ) ;
+  - nand_19.and_1
+    ( nand_19.inv_1 out )
+    ( nand_19.nand2_2 in_0 ) ;
+  - nand_19.and_2
+    ( nand_19.inv_2 out )
+    ( nand_19.nand2_3 in_0 ) ;
+  - nand_19.and_3
+    ( nand_19.inv_3 out )
+    ( nand_19.nand2_4 in_0 ) ;
+  - nand_19.and_4
+    ( nand_19.inv_4 out )
+    ( nand_19.nand2_5 in_0 ) ;
+  - nand_19.nand_0
+    ( nand_19.inv_0 in )
+    ( nand_19.nand2_0 out ) ;
+  - nand_19.nand_1
+    ( nand_19.inv_1 in )
+    ( nand_19.nand2_1 out ) ;
+  - nand_19.nand_2
+    ( nand_19.inv_2 in )
+    ( nand_19.nand2_2 out ) ;
+  - nand_19.nand_3
+    ( nand_19.inv_3 in )
+    ( nand_19.nand2_3 out ) ;
+  - nand_19.nand_4
+    ( nand_19.inv_4 in )
+    ( nand_19.nand2_4 out ) ;
+  - nand_19.out
+    ( inv_for_output_19 in )
+    ( nand_19.nand2_5 out ) ;
+  - nand_2.and_0
+    ( nand_2.inv_0 out )
+    ( nand_2.nand2_1 in_0 ) ;
+  - nand_2.and_1
+    ( nand_2.inv_1 out )
+    ( nand_2.nand2_2 in_0 ) ;
+  - nand_2.and_2
+    ( nand_2.inv_2 out )
+    ( nand_2.nand2_3 in_0 ) ;
+  - nand_2.and_3
+    ( nand_2.inv_3 out )
+    ( nand_2.nand2_4 in_0 ) ;
+  - nand_2.and_4
+    ( nand_2.inv_4 out )
+    ( nand_2.nand2_5 in_0 ) ;
+  - nand_2.nand_0
+    ( nand_2.inv_0 in )
+    ( nand_2.nand2_0 out ) ;
+  - nand_2.nand_1
+    ( nand_2.inv_1 in )
+    ( nand_2.nand2_1 out ) ;
+  - nand_2.nand_2
+    ( nand_2.inv_2 in )
+    ( nand_2.nand2_2 out ) ;
+  - nand_2.nand_3
+    ( nand_2.inv_3 in )
+    ( nand_2.nand2_3 out ) ;
+  - nand_2.nand_4
+    ( nand_2.inv_4 in )
+    ( nand_2.nand2_4 out ) ;
+  - nand_2.out
+    ( inv_for_output_2 in )
+    ( nand_2.nand2_5 out ) ;
+  - nand_20.and_0
+    ( nand_20.inv_0 out )
+    ( nand_20.nand2_1 in_0 ) ;
+  - nand_20.and_1
+    ( nand_20.inv_1 out )
+    ( nand_20.nand2_2 in_0 ) ;
+  - nand_20.and_2
+    ( nand_20.inv_2 out )
+    ( nand_20.nand2_3 in_0 ) ;
+  - nand_20.and_3
+    ( nand_20.inv_3 out )
+    ( nand_20.nand2_4 in_0 ) ;
+  - nand_20.and_4
+    ( nand_20.inv_4 out )
+    ( nand_20.nand2_5 in_0 ) ;
+  - nand_20.nand_0
+    ( nand_20.inv_0 in )
+    ( nand_20.nand2_0 out ) ;
+  - nand_20.nand_1
+    ( nand_20.inv_1 in )
+    ( nand_20.nand2_1 out ) ;
+  - nand_20.nand_2
+    ( nand_20.inv_2 in )
+    ( nand_20.nand2_2 out ) ;
+  - nand_20.nand_3
+    ( nand_20.inv_3 in )
+    ( nand_20.nand2_3 out ) ;
+  - nand_20.nand_4
+    ( nand_20.inv_4 in )
+    ( nand_20.nand2_4 out ) ;
+  - nand_20.out
+    ( inv_for_output_20 in )
+    ( nand_20.nand2_5 out ) ;
+  - nand_21.and_0
+    ( nand_21.inv_0 out )
+    ( nand_21.nand2_1 in_0 ) ;
+  - nand_21.and_1
+    ( nand_21.inv_1 out )
+    ( nand_21.nand2_2 in_0 ) ;
+  - nand_21.and_2
+    ( nand_21.inv_2 out )
+    ( nand_21.nand2_3 in_0 ) ;
+  - nand_21.and_3
+    ( nand_21.inv_3 out )
+    ( nand_21.nand2_4 in_0 ) ;
+  - nand_21.and_4
+    ( nand_21.inv_4 out )
+    ( nand_21.nand2_5 in_0 ) ;
+  - nand_21.nand_0
+    ( nand_21.inv_0 in )
+    ( nand_21.nand2_0 out ) ;
+  - nand_21.nand_1
+    ( nand_21.inv_1 in )
+    ( nand_21.nand2_1 out ) ;
+  - nand_21.nand_2
+    ( nand_21.inv_2 in )
+    ( nand_21.nand2_2 out ) ;
+  - nand_21.nand_3
+    ( nand_21.inv_3 in )
+    ( nand_21.nand2_3 out ) ;
+  - nand_21.nand_4
+    ( nand_21.inv_4 in )
+    ( nand_21.nand2_4 out ) ;
+  - nand_21.out
+    ( inv_for_output_21 in )
+    ( nand_21.nand2_5 out ) ;
+  - nand_22.and_0
+    ( nand_22.inv_0 out )
+    ( nand_22.nand2_1 in_0 ) ;
+  - nand_22.and_1
+    ( nand_22.inv_1 out )
+    ( nand_22.nand2_2 in_0 ) ;
+  - nand_22.and_2
+    ( nand_22.inv_2 out )
+    ( nand_22.nand2_3 in_0 ) ;
+  - nand_22.and_3
+    ( nand_22.inv_3 out )
+    ( nand_22.nand2_4 in_0 ) ;
+  - nand_22.and_4
+    ( nand_22.inv_4 out )
+    ( nand_22.nand2_5 in_0 ) ;
+  - nand_22.nand_0
+    ( nand_22.inv_0 in )
+    ( nand_22.nand2_0 out ) ;
+  - nand_22.nand_1
+    ( nand_22.inv_1 in )
+    ( nand_22.nand2_1 out ) ;
+  - nand_22.nand_2
+    ( nand_22.inv_2 in )
+    ( nand_22.nand2_2 out ) ;
+  - nand_22.nand_3
+    ( nand_22.inv_3 in )
+    ( nand_22.nand2_3 out ) ;
+  - nand_22.nand_4
+    ( nand_22.inv_4 in )
+    ( nand_22.nand2_4 out ) ;
+  - nand_22.out
+    ( inv_for_output_22 in )
+    ( nand_22.nand2_5 out ) ;
+  - nand_23.and_0
+    ( nand_23.inv_0 out )
+    ( nand_23.nand2_1 in_0 ) ;
+  - nand_23.and_1
+    ( nand_23.inv_1 out )
+    ( nand_23.nand2_2 in_0 ) ;
+  - nand_23.and_2
+    ( nand_23.inv_2 out )
+    ( nand_23.nand2_3 in_0 ) ;
+  - nand_23.and_3
+    ( nand_23.inv_3 out )
+    ( nand_23.nand2_4 in_0 ) ;
+  - nand_23.and_4
+    ( nand_23.inv_4 out )
+    ( nand_23.nand2_5 in_0 ) ;
+  - nand_23.nand_0
+    ( nand_23.inv_0 in )
+    ( nand_23.nand2_0 out ) ;
+  - nand_23.nand_1
+    ( nand_23.inv_1 in )
+    ( nand_23.nand2_1 out ) ;
+  - nand_23.nand_2
+    ( nand_23.inv_2 in )
+    ( nand_23.nand2_2 out ) ;
+  - nand_23.nand_3
+    ( nand_23.inv_3 in )
+    ( nand_23.nand2_3 out ) ;
+  - nand_23.nand_4
+    ( nand_23.inv_4 in )
+    ( nand_23.nand2_4 out ) ;
+  - nand_23.out
+    ( inv_for_output_23 in )
+    ( nand_23.nand2_5 out ) ;
+  - nand_24.and_0
+    ( nand_24.inv_0 out )
+    ( nand_24.nand2_1 in_0 ) ;
+  - nand_24.and_1
+    ( nand_24.inv_1 out )
+    ( nand_24.nand2_2 in_0 ) ;
+  - nand_24.and_2
+    ( nand_24.inv_2 out )
+    ( nand_24.nand2_3 in_0 ) ;
+  - nand_24.and_3
+    ( nand_24.inv_3 out )
+    ( nand_24.nand2_4 in_0 ) ;
+  - nand_24.and_4
+    ( nand_24.inv_4 out )
+    ( nand_24.nand2_5 in_0 ) ;
+  - nand_24.nand_0
+    ( nand_24.inv_0 in )
+    ( nand_24.nand2_0 out ) ;
+  - nand_24.nand_1
+    ( nand_24.inv_1 in )
+    ( nand_24.nand2_1 out ) ;
+  - nand_24.nand_2
+    ( nand_24.inv_2 in )
+    ( nand_24.nand2_2 out ) ;
+  - nand_24.nand_3
+    ( nand_24.inv_3 in )
+    ( nand_24.nand2_3 out ) ;
+  - nand_24.nand_4
+    ( nand_24.inv_4 in )
+    ( nand_24.nand2_4 out ) ;
+  - nand_24.out
+    ( inv_for_output_24 in )
+    ( nand_24.nand2_5 out ) ;
+  - nand_25.and_0
+    ( nand_25.inv_0 out )
+    ( nand_25.nand2_1 in_0 ) ;
+  - nand_25.and_1
+    ( nand_25.inv_1 out )
+    ( nand_25.nand2_2 in_0 ) ;
+  - nand_25.and_2
+    ( nand_25.inv_2 out )
+    ( nand_25.nand2_3 in_0 ) ;
+  - nand_25.and_3
+    ( nand_25.inv_3 out )
+    ( nand_25.nand2_4 in_0 ) ;
+  - nand_25.and_4
+    ( nand_25.inv_4 out )
+    ( nand_25.nand2_5 in_0 ) ;
+  - nand_25.nand_0
+    ( nand_25.inv_0 in )
+    ( nand_25.nand2_0 out ) ;
+  - nand_25.nand_1
+    ( nand_25.inv_1 in )
+    ( nand_25.nand2_1 out ) ;
+  - nand_25.nand_2
+    ( nand_25.inv_2 in )
+    ( nand_25.nand2_2 out ) ;
+  - nand_25.nand_3
+    ( nand_25.inv_3 in )
+    ( nand_25.nand2_3 out ) ;
+  - nand_25.nand_4
+    ( nand_25.inv_4 in )
+    ( nand_25.nand2_4 out ) ;
+  - nand_25.out
+    ( inv_for_output_25 in )
+    ( nand_25.nand2_5 out ) ;
+  - nand_26.and_0
+    ( nand_26.inv_0 out )
+    ( nand_26.nand2_1 in_0 ) ;
+  - nand_26.and_1
+    ( nand_26.inv_1 out )
+    ( nand_26.nand2_2 in_0 ) ;
+  - nand_26.and_2
+    ( nand_26.inv_2 out )
+    ( nand_26.nand2_3 in_0 ) ;
+  - nand_26.and_3
+    ( nand_26.inv_3 out )
+    ( nand_26.nand2_4 in_0 ) ;
+  - nand_26.and_4
+    ( nand_26.inv_4 out )
+    ( nand_26.nand2_5 in_0 ) ;
+  - nand_26.nand_0
+    ( nand_26.inv_0 in )
+    ( nand_26.nand2_0 out ) ;
+  - nand_26.nand_1
+    ( nand_26.inv_1 in )
+    ( nand_26.nand2_1 out ) ;
+  - nand_26.nand_2
+    ( nand_26.inv_2 in )
+    ( nand_26.nand2_2 out ) ;
+  - nand_26.nand_3
+    ( nand_26.inv_3 in )
+    ( nand_26.nand2_3 out ) ;
+  - nand_26.nand_4
+    ( nand_26.inv_4 in )
+    ( nand_26.nand2_4 out ) ;
+  - nand_26.out
+    ( inv_for_output_26 in )
+    ( nand_26.nand2_5 out ) ;
+  - nand_27.and_0
+    ( nand_27.inv_0 out )
+    ( nand_27.nand2_1 in_0 ) ;
+  - nand_27.and_1
+    ( nand_27.inv_1 out )
+    ( nand_27.nand2_2 in_0 ) ;
+  - nand_27.and_2
+    ( nand_27.inv_2 out )
+    ( nand_27.nand2_3 in_0 ) ;
+  - nand_27.and_3
+    ( nand_27.inv_3 out )
+    ( nand_27.nand2_4 in_0 ) ;
+  - nand_27.and_4
+    ( nand_27.inv_4 out )
+    ( nand_27.nand2_5 in_0 ) ;
+  - nand_27.nand_0
+    ( nand_27.inv_0 in )
+    ( nand_27.nand2_0 out ) ;
+  - nand_27.nand_1
+    ( nand_27.inv_1 in )
+    ( nand_27.nand2_1 out ) ;
+  - nand_27.nand_2
+    ( nand_27.inv_2 in )
+    ( nand_27.nand2_2 out ) ;
+  - nand_27.nand_3
+    ( nand_27.inv_3 in )
+    ( nand_27.nand2_3 out ) ;
+  - nand_27.nand_4
+    ( nand_27.inv_4 in )
+    ( nand_27.nand2_4 out ) ;
+  - nand_27.out
+    ( inv_for_output_27 in )
+    ( nand_27.nand2_5 out ) ;
+  - nand_28.and_0
+    ( nand_28.inv_0 out )
+    ( nand_28.nand2_1 in_0 ) ;
+  - nand_28.and_1
+    ( nand_28.inv_1 out )
+    ( nand_28.nand2_2 in_0 ) ;
+  - nand_28.and_2
+    ( nand_28.inv_2 out )
+    ( nand_28.nand2_3 in_0 ) ;
+  - nand_28.and_3
+    ( nand_28.inv_3 out )
+    ( nand_28.nand2_4 in_0 ) ;
+  - nand_28.and_4
+    ( nand_28.inv_4 out )
+    ( nand_28.nand2_5 in_0 ) ;
+  - nand_28.nand_0
+    ( nand_28.inv_0 in )
+    ( nand_28.nand2_0 out ) ;
+  - nand_28.nand_1
+    ( nand_28.inv_1 in )
+    ( nand_28.nand2_1 out ) ;
+  - nand_28.nand_2
+    ( nand_28.inv_2 in )
+    ( nand_28.nand2_2 out ) ;
+  - nand_28.nand_3
+    ( nand_28.inv_3 in )
+    ( nand_28.nand2_3 out ) ;
+  - nand_28.nand_4
+    ( nand_28.inv_4 in )
+    ( nand_28.nand2_4 out ) ;
+  - nand_28.out
+    ( inv_for_output_28 in )
+    ( nand_28.nand2_5 out ) ;
+  - nand_29.and_0
+    ( nand_29.inv_0 out )
+    ( nand_29.nand2_1 in_0 ) ;
+  - nand_29.and_1
+    ( nand_29.inv_1 out )
+    ( nand_29.nand2_2 in_0 ) ;
+  - nand_29.and_2
+    ( nand_29.inv_2 out )
+    ( nand_29.nand2_3 in_0 ) ;
+  - nand_29.and_3
+    ( nand_29.inv_3 out )
+    ( nand_29.nand2_4 in_0 ) ;
+  - nand_29.and_4
+    ( nand_29.inv_4 out )
+    ( nand_29.nand2_5 in_0 ) ;
+  - nand_29.nand_0
+    ( nand_29.inv_0 in )
+    ( nand_29.nand2_0 out ) ;
+  - nand_29.nand_1
+    ( nand_29.inv_1 in )
+    ( nand_29.nand2_1 out ) ;
+  - nand_29.nand_2
+    ( nand_29.inv_2 in )
+    ( nand_29.nand2_2 out ) ;
+  - nand_29.nand_3
+    ( nand_29.inv_3 in )
+    ( nand_29.nand2_3 out ) ;
+  - nand_29.nand_4
+    ( nand_29.inv_4 in )
+    ( nand_29.nand2_4 out ) ;
+  - nand_29.out
+    ( inv_for_output_29 in )
+    ( nand_29.nand2_5 out ) ;
+  - nand_3.and_0
+    ( nand_3.inv_0 out )
+    ( nand_3.nand2_1 in_0 ) ;
+  - nand_3.and_1
+    ( nand_3.inv_1 out )
+    ( nand_3.nand2_2 in_0 ) ;
+  - nand_3.and_2
+    ( nand_3.inv_2 out )
+    ( nand_3.nand2_3 in_0 ) ;
+  - nand_3.and_3
+    ( nand_3.inv_3 out )
+    ( nand_3.nand2_4 in_0 ) ;
+  - nand_3.and_4
+    ( nand_3.inv_4 out )
+    ( nand_3.nand2_5 in_0 ) ;
+  - nand_3.nand_0
+    ( nand_3.inv_0 in )
+    ( nand_3.nand2_0 out ) ;
+  - nand_3.nand_1
+    ( nand_3.inv_1 in )
+    ( nand_3.nand2_1 out ) ;
+  - nand_3.nand_2
+    ( nand_3.inv_2 in )
+    ( nand_3.nand2_2 out ) ;
+  - nand_3.nand_3
+    ( nand_3.inv_3 in )
+    ( nand_3.nand2_3 out ) ;
+  - nand_3.nand_4
+    ( nand_3.inv_4 in )
+    ( nand_3.nand2_4 out ) ;
+  - nand_3.out
+    ( inv_for_output_3 in )
+    ( nand_3.nand2_5 out ) ;
+  - nand_30.and_0
+    ( nand_30.inv_0 out )
+    ( nand_30.nand2_1 in_0 ) ;
+  - nand_30.and_1
+    ( nand_30.inv_1 out )
+    ( nand_30.nand2_2 in_0 ) ;
+  - nand_30.and_2
+    ( nand_30.inv_2 out )
+    ( nand_30.nand2_3 in_0 ) ;
+  - nand_30.and_3
+    ( nand_30.inv_3 out )
+    ( nand_30.nand2_4 in_0 ) ;
+  - nand_30.and_4
+    ( nand_30.inv_4 out )
+    ( nand_30.nand2_5 in_0 ) ;
+  - nand_30.nand_0
+    ( nand_30.inv_0 in )
+    ( nand_30.nand2_0 out ) ;
+  - nand_30.nand_1
+    ( nand_30.inv_1 in )
+    ( nand_30.nand2_1 out ) ;
+  - nand_30.nand_2
+    ( nand_30.inv_2 in )
+    ( nand_30.nand2_2 out ) ;
+  - nand_30.nand_3
+    ( nand_30.inv_3 in )
+    ( nand_30.nand2_3 out ) ;
+  - nand_30.nand_4
+    ( nand_30.inv_4 in )
+    ( nand_30.nand2_4 out ) ;
+  - nand_30.out
+    ( inv_for_output_30 in )
+    ( nand_30.nand2_5 out ) ;
+  - nand_31.and_0
+    ( nand_31.inv_0 out )
+    ( nand_31.nand2_1 in_0 ) ;
+  - nand_31.and_1
+    ( nand_31.inv_1 out )
+    ( nand_31.nand2_2 in_0 ) ;
+  - nand_31.and_2
+    ( nand_31.inv_2 out )
+    ( nand_31.nand2_3 in_0 ) ;
+  - nand_31.and_3
+    ( nand_31.inv_3 out )
+    ( nand_31.nand2_4 in_0 ) ;
+  - nand_31.and_4
+    ( nand_31.inv_4 out )
+    ( nand_31.nand2_5 in_0 ) ;
+  - nand_31.nand_0
+    ( nand_31.inv_0 in )
+    ( nand_31.nand2_0 out ) ;
+  - nand_31.nand_1
+    ( nand_31.inv_1 in )
+    ( nand_31.nand2_1 out ) ;
+  - nand_31.nand_2
+    ( nand_31.inv_2 in )
+    ( nand_31.nand2_2 out ) ;
+  - nand_31.nand_3
+    ( nand_31.inv_3 in )
+    ( nand_31.nand2_3 out ) ;
+  - nand_31.nand_4
+    ( nand_31.inv_4 in )
+    ( nand_31.nand2_4 out ) ;
+  - nand_31.out
+    ( inv_for_output_31 in )
+    ( nand_31.nand2_5 out ) ;
+  - nand_32.and_0
+    ( nand_32.inv_0 out )
+    ( nand_32.nand2_1 in_0 ) ;
+  - nand_32.and_1
+    ( nand_32.inv_1 out )
+    ( nand_32.nand2_2 in_0 ) ;
+  - nand_32.and_2
+    ( nand_32.inv_2 out )
+    ( nand_32.nand2_3 in_0 ) ;
+  - nand_32.and_3
+    ( nand_32.inv_3 out )
+    ( nand_32.nand2_4 in_0 ) ;
+  - nand_32.and_4
+    ( nand_32.inv_4 out )
+    ( nand_32.nand2_5 in_0 ) ;
+  - nand_32.nand_0
+    ( nand_32.inv_0 in )
+    ( nand_32.nand2_0 out ) ;
+  - nand_32.nand_1
+    ( nand_32.inv_1 in )
+    ( nand_32.nand2_1 out ) ;
+  - nand_32.nand_2
+    ( nand_32.inv_2 in )
+    ( nand_32.nand2_2 out ) ;
+  - nand_32.nand_3
+    ( nand_32.inv_3 in )
+    ( nand_32.nand2_3 out ) ;
+  - nand_32.nand_4
+    ( nand_32.inv_4 in )
+    ( nand_32.nand2_4 out ) ;
+  - nand_32.out
+    ( inv_for_output_32 in )
+    ( nand_32.nand2_5 out ) ;
+  - nand_33.and_0
+    ( nand_33.inv_0 out )
+    ( nand_33.nand2_1 in_0 ) ;
+  - nand_33.and_1
+    ( nand_33.inv_1 out )
+    ( nand_33.nand2_2 in_0 ) ;
+  - nand_33.and_2
+    ( nand_33.inv_2 out )
+    ( nand_33.nand2_3 in_0 ) ;
+  - nand_33.and_3
+    ( nand_33.inv_3 out )
+    ( nand_33.nand2_4 in_0 ) ;
+  - nand_33.and_4
+    ( nand_33.inv_4 out )
+    ( nand_33.nand2_5 in_0 ) ;
+  - nand_33.nand_0
+    ( nand_33.inv_0 in )
+    ( nand_33.nand2_0 out ) ;
+  - nand_33.nand_1
+    ( nand_33.inv_1 in )
+    ( nand_33.nand2_1 out ) ;
+  - nand_33.nand_2
+    ( nand_33.inv_2 in )
+    ( nand_33.nand2_2 out ) ;
+  - nand_33.nand_3
+    ( nand_33.inv_3 in )
+    ( nand_33.nand2_3 out ) ;
+  - nand_33.nand_4
+    ( nand_33.inv_4 in )
+    ( nand_33.nand2_4 out ) ;
+  - nand_33.out
+    ( inv_for_output_33 in )
+    ( nand_33.nand2_5 out ) ;
+  - nand_34.and_0
+    ( nand_34.inv_0 out )
+    ( nand_34.nand2_1 in_0 ) ;
+  - nand_34.and_1
+    ( nand_34.inv_1 out )
+    ( nand_34.nand2_2 in_0 ) ;
+  - nand_34.and_2
+    ( nand_34.inv_2 out )
+    ( nand_34.nand2_3 in_0 ) ;
+  - nand_34.and_3
+    ( nand_34.inv_3 out )
+    ( nand_34.nand2_4 in_0 ) ;
+  - nand_34.and_4
+    ( nand_34.inv_4 out )
+    ( nand_34.nand2_5 in_0 ) ;
+  - nand_34.nand_0
+    ( nand_34.inv_0 in )
+    ( nand_34.nand2_0 out ) ;
+  - nand_34.nand_1
+    ( nand_34.inv_1 in )
+    ( nand_34.nand2_1 out ) ;
+  - nand_34.nand_2
+    ( nand_34.inv_2 in )
+    ( nand_34.nand2_2 out ) ;
+  - nand_34.nand_3
+    ( nand_34.inv_3 in )
+    ( nand_34.nand2_3 out ) ;
+  - nand_34.nand_4
+    ( nand_34.inv_4 in )
+    ( nand_34.nand2_4 out ) ;
+  - nand_34.out
+    ( inv_for_output_34 in )
+    ( nand_34.nand2_5 out ) ;
+  - nand_35.and_0
+    ( nand_35.inv_0 out )
+    ( nand_35.nand2_1 in_0 ) ;
+  - nand_35.and_1
+    ( nand_35.inv_1 out )
+    ( nand_35.nand2_2 in_0 ) ;
+  - nand_35.and_2
+    ( nand_35.inv_2 out )
+    ( nand_35.nand2_3 in_0 ) ;
+  - nand_35.and_3
+    ( nand_35.inv_3 out )
+    ( nand_35.nand2_4 in_0 ) ;
+  - nand_35.and_4
+    ( nand_35.inv_4 out )
+    ( nand_35.nand2_5 in_0 ) ;
+  - nand_35.nand_0
+    ( nand_35.inv_0 in )
+    ( nand_35.nand2_0 out ) ;
+  - nand_35.nand_1
+    ( nand_35.inv_1 in )
+    ( nand_35.nand2_1 out ) ;
+  - nand_35.nand_2
+    ( nand_35.inv_2 in )
+    ( nand_35.nand2_2 out ) ;
+  - nand_35.nand_3
+    ( nand_35.inv_3 in )
+    ( nand_35.nand2_3 out ) ;
+  - nand_35.nand_4
+    ( nand_35.inv_4 in )
+    ( nand_35.nand2_4 out ) ;
+  - nand_35.out
+    ( inv_for_output_35 in )
+    ( nand_35.nand2_5 out ) ;
+  - nand_36.and_0
+    ( nand_36.inv_0 out )
+    ( nand_36.nand2_1 in_0 ) ;
+  - nand_36.and_1
+    ( nand_36.inv_1 out )
+    ( nand_36.nand2_2 in_0 ) ;
+  - nand_36.and_2
+    ( nand_36.inv_2 out )
+    ( nand_36.nand2_3 in_0 ) ;
+  - nand_36.and_3
+    ( nand_36.inv_3 out )
+    ( nand_36.nand2_4 in_0 ) ;
+  - nand_36.and_4
+    ( nand_36.inv_4 out )
+    ( nand_36.nand2_5 in_0 ) ;
+  - nand_36.nand_0
+    ( nand_36.inv_0 in )
+    ( nand_36.nand2_0 out ) ;
+  - nand_36.nand_1
+    ( nand_36.inv_1 in )
+    ( nand_36.nand2_1 out ) ;
+  - nand_36.nand_2
+    ( nand_36.inv_2 in )
+    ( nand_36.nand2_2 out ) ;
+  - nand_36.nand_3
+    ( nand_36.inv_3 in )
+    ( nand_36.nand2_3 out ) ;
+  - nand_36.nand_4
+    ( nand_36.inv_4 in )
+    ( nand_36.nand2_4 out ) ;
+  - nand_36.out
+    ( inv_for_output_36 in )
+    ( nand_36.nand2_5 out ) ;
+  - nand_37.and_0
+    ( nand_37.inv_0 out )
+    ( nand_37.nand2_1 in_0 ) ;
+  - nand_37.and_1
+    ( nand_37.inv_1 out )
+    ( nand_37.nand2_2 in_0 ) ;
+  - nand_37.and_2
+    ( nand_37.inv_2 out )
+    ( nand_37.nand2_3 in_0 ) ;
+  - nand_37.and_3
+    ( nand_37.inv_3 out )
+    ( nand_37.nand2_4 in_0 ) ;
+  - nand_37.and_4
+    ( nand_37.inv_4 out )
+    ( nand_37.nand2_5 in_0 ) ;
+  - nand_37.nand_0
+    ( nand_37.inv_0 in )
+    ( nand_37.nand2_0 out ) ;
+  - nand_37.nand_1
+    ( nand_37.inv_1 in )
+    ( nand_37.nand2_1 out ) ;
+  - nand_37.nand_2
+    ( nand_37.inv_2 in )
+    ( nand_37.nand2_2 out ) ;
+  - nand_37.nand_3
+    ( nand_37.inv_3 in )
+    ( nand_37.nand2_3 out ) ;
+  - nand_37.nand_4
+    ( nand_37.inv_4 in )
+    ( nand_37.nand2_4 out ) ;
+  - nand_37.out
+    ( inv_for_output_37 in )
+    ( nand_37.nand2_5 out ) ;
+  - nand_38.and_0
+    ( nand_38.inv_0 out )
+    ( nand_38.nand2_1 in_0 ) ;
+  - nand_38.and_1
+    ( nand_38.inv_1 out )
+    ( nand_38.nand2_2 in_0 ) ;
+  - nand_38.and_2
+    ( nand_38.inv_2 out )
+    ( nand_38.nand2_3 in_0 ) ;
+  - nand_38.and_3
+    ( nand_38.inv_3 out )
+    ( nand_38.nand2_4 in_0 ) ;
+  - nand_38.and_4
+    ( nand_38.inv_4 out )
+    ( nand_38.nand2_5 in_0 ) ;
+  - nand_38.nand_0
+    ( nand_38.inv_0 in )
+    ( nand_38.nand2_0 out ) ;
+  - nand_38.nand_1
+    ( nand_38.inv_1 in )
+    ( nand_38.nand2_1 out ) ;
+  - nand_38.nand_2
+    ( nand_38.inv_2 in )
+    ( nand_38.nand2_2 out ) ;
+  - nand_38.nand_3
+    ( nand_38.inv_3 in )
+    ( nand_38.nand2_3 out ) ;
+  - nand_38.nand_4
+    ( nand_38.inv_4 in )
+    ( nand_38.nand2_4 out ) ;
+  - nand_38.out
+    ( inv_for_output_38 in )
+    ( nand_38.nand2_5 out ) ;
+  - nand_39.and_0
+    ( nand_39.inv_0 out )
+    ( nand_39.nand2_1 in_0 ) ;
+  - nand_39.and_1
+    ( nand_39.inv_1 out )
+    ( nand_39.nand2_2 in_0 ) ;
+  - nand_39.and_2
+    ( nand_39.inv_2 out )
+    ( nand_39.nand2_3 in_0 ) ;
+  - nand_39.and_3
+    ( nand_39.inv_3 out )
+    ( nand_39.nand2_4 in_0 ) ;
+  - nand_39.and_4
+    ( nand_39.inv_4 out )
+    ( nand_39.nand2_5 in_0 ) ;
+  - nand_39.nand_0
+    ( nand_39.inv_0 in )
+    ( nand_39.nand2_0 out ) ;
+  - nand_39.nand_1
+    ( nand_39.inv_1 in )
+    ( nand_39.nand2_1 out ) ;
+  - nand_39.nand_2
+    ( nand_39.inv_2 in )
+    ( nand_39.nand2_2 out ) ;
+  - nand_39.nand_3
+    ( nand_39.inv_3 in )
+    ( nand_39.nand2_3 out ) ;
+  - nand_39.nand_4
+    ( nand_39.inv_4 in )
+    ( nand_39.nand2_4 out ) ;
+  - nand_39.out
+    ( inv_for_output_39 in )
+    ( nand_39.nand2_5 out ) ;
+  - nand_4.and_0
+    ( nand_4.inv_0 out )
+    ( nand_4.nand2_1 in_0 ) ;
+  - nand_4.and_1
+    ( nand_4.inv_1 out )
+    ( nand_4.nand2_2 in_0 ) ;
+  - nand_4.and_2
+    ( nand_4.inv_2 out )
+    ( nand_4.nand2_3 in_0 ) ;
+  - nand_4.and_3
+    ( nand_4.inv_3 out )
+    ( nand_4.nand2_4 in_0 ) ;
+  - nand_4.and_4
+    ( nand_4.inv_4 out )
+    ( nand_4.nand2_5 in_0 ) ;
+  - nand_4.nand_0
+    ( nand_4.inv_0 in )
+    ( nand_4.nand2_0 out ) ;
+  - nand_4.nand_1
+    ( nand_4.inv_1 in )
+    ( nand_4.nand2_1 out ) ;
+  - nand_4.nand_2
+    ( nand_4.inv_2 in )
+    ( nand_4.nand2_2 out ) ;
+  - nand_4.nand_3
+    ( nand_4.inv_3 in )
+    ( nand_4.nand2_3 out ) ;
+  - nand_4.nand_4
+    ( nand_4.inv_4 in )
+    ( nand_4.nand2_4 out ) ;
+  - nand_4.out
+    ( inv_for_output_4 in )
+    ( nand_4.nand2_5 out ) ;
+  - nand_40.and_0
+    ( nand_40.inv_0 out )
+    ( nand_40.nand2_1 in_0 ) ;
+  - nand_40.and_1
+    ( nand_40.inv_1 out )
+    ( nand_40.nand2_2 in_0 ) ;
+  - nand_40.and_2
+    ( nand_40.inv_2 out )
+    ( nand_40.nand2_3 in_0 ) ;
+  - nand_40.and_3
+    ( nand_40.inv_3 out )
+    ( nand_40.nand2_4 in_0 ) ;
+  - nand_40.and_4
+    ( nand_40.inv_4 out )
+    ( nand_40.nand2_5 in_0 ) ;
+  - nand_40.nand_0
+    ( nand_40.inv_0 in )
+    ( nand_40.nand2_0 out ) ;
+  - nand_40.nand_1
+    ( nand_40.inv_1 in )
+    ( nand_40.nand2_1 out ) ;
+  - nand_40.nand_2
+    ( nand_40.inv_2 in )
+    ( nand_40.nand2_2 out ) ;
+  - nand_40.nand_3
+    ( nand_40.inv_3 in )
+    ( nand_40.nand2_3 out ) ;
+  - nand_40.nand_4
+    ( nand_40.inv_4 in )
+    ( nand_40.nand2_4 out ) ;
+  - nand_40.out
+    ( inv_for_output_40 in )
+    ( nand_40.nand2_5 out ) ;
+  - nand_41.and_0
+    ( nand_41.inv_0 out )
+    ( nand_41.nand2_1 in_0 ) ;
+  - nand_41.and_1
+    ( nand_41.inv_1 out )
+    ( nand_41.nand2_2 in_0 ) ;
+  - nand_41.and_2
+    ( nand_41.inv_2 out )
+    ( nand_41.nand2_3 in_0 ) ;
+  - nand_41.and_3
+    ( nand_41.inv_3 out )
+    ( nand_41.nand2_4 in_0 ) ;
+  - nand_41.and_4
+    ( nand_41.inv_4 out )
+    ( nand_41.nand2_5 in_0 ) ;
+  - nand_41.nand_0
+    ( nand_41.inv_0 in )
+    ( nand_41.nand2_0 out ) ;
+  - nand_41.nand_1
+    ( nand_41.inv_1 in )
+    ( nand_41.nand2_1 out ) ;
+  - nand_41.nand_2
+    ( nand_41.inv_2 in )
+    ( nand_41.nand2_2 out ) ;
+  - nand_41.nand_3
+    ( nand_41.inv_3 in )
+    ( nand_41.nand2_3 out ) ;
+  - nand_41.nand_4
+    ( nand_41.inv_4 in )
+    ( nand_41.nand2_4 out ) ;
+  - nand_41.out
+    ( inv_for_output_41 in )
+    ( nand_41.nand2_5 out ) ;
+  - nand_42.and_0
+    ( nand_42.inv_0 out )
+    ( nand_42.nand2_1 in_0 ) ;
+  - nand_42.and_1
+    ( nand_42.inv_1 out )
+    ( nand_42.nand2_2 in_0 ) ;
+  - nand_42.and_2
+    ( nand_42.inv_2 out )
+    ( nand_42.nand2_3 in_0 ) ;
+  - nand_42.and_3
+    ( nand_42.inv_3 out )
+    ( nand_42.nand2_4 in_0 ) ;
+  - nand_42.and_4
+    ( nand_42.inv_4 out )
+    ( nand_42.nand2_5 in_0 ) ;
+  - nand_42.nand_0
+    ( nand_42.inv_0 in )
+    ( nand_42.nand2_0 out ) ;
+  - nand_42.nand_1
+    ( nand_42.inv_1 in )
+    ( nand_42.nand2_1 out ) ;
+  - nand_42.nand_2
+    ( nand_42.inv_2 in )
+    ( nand_42.nand2_2 out ) ;
+  - nand_42.nand_3
+    ( nand_42.inv_3 in )
+    ( nand_42.nand2_3 out ) ;
+  - nand_42.nand_4
+    ( nand_42.inv_4 in )
+    ( nand_42.nand2_4 out ) ;
+  - nand_42.out
+    ( inv_for_output_42 in )
+    ( nand_42.nand2_5 out ) ;
+  - nand_43.and_0
+    ( nand_43.inv_0 out )
+    ( nand_43.nand2_1 in_0 ) ;
+  - nand_43.and_1
+    ( nand_43.inv_1 out )
+    ( nand_43.nand2_2 in_0 ) ;
+  - nand_43.and_2
+    ( nand_43.inv_2 out )
+    ( nand_43.nand2_3 in_0 ) ;
+  - nand_43.and_3
+    ( nand_43.inv_3 out )
+    ( nand_43.nand2_4 in_0 ) ;
+  - nand_43.and_4
+    ( nand_43.inv_4 out )
+    ( nand_43.nand2_5 in_0 ) ;
+  - nand_43.nand_0
+    ( nand_43.inv_0 in )
+    ( nand_43.nand2_0 out ) ;
+  - nand_43.nand_1
+    ( nand_43.inv_1 in )
+    ( nand_43.nand2_1 out ) ;
+  - nand_43.nand_2
+    ( nand_43.inv_2 in )
+    ( nand_43.nand2_2 out ) ;
+  - nand_43.nand_3
+    ( nand_43.inv_3 in )
+    ( nand_43.nand2_3 out ) ;
+  - nand_43.nand_4
+    ( nand_43.inv_4 in )
+    ( nand_43.nand2_4 out ) ;
+  - nand_43.out
+    ( inv_for_output_43 in )
+    ( nand_43.nand2_5 out ) ;
+  - nand_44.and_0
+    ( nand_44.inv_0 out )
+    ( nand_44.nand2_1 in_0 ) ;
+  - nand_44.and_1
+    ( nand_44.inv_1 out )
+    ( nand_44.nand2_2 in_0 ) ;
+  - nand_44.and_2
+    ( nand_44.inv_2 out )
+    ( nand_44.nand2_3 in_0 ) ;
+  - nand_44.and_3
+    ( nand_44.inv_3 out )
+    ( nand_44.nand2_4 in_0 ) ;
+  - nand_44.and_4
+    ( nand_44.inv_4 out )
+    ( nand_44.nand2_5 in_0 ) ;
+  - nand_44.nand_0
+    ( nand_44.inv_0 in )
+    ( nand_44.nand2_0 out ) ;
+  - nand_44.nand_1
+    ( nand_44.inv_1 in )
+    ( nand_44.nand2_1 out ) ;
+  - nand_44.nand_2
+    ( nand_44.inv_2 in )
+    ( nand_44.nand2_2 out ) ;
+  - nand_44.nand_3
+    ( nand_44.inv_3 in )
+    ( nand_44.nand2_3 out ) ;
+  - nand_44.nand_4
+    ( nand_44.inv_4 in )
+    ( nand_44.nand2_4 out ) ;
+  - nand_44.out
+    ( inv_for_output_44 in )
+    ( nand_44.nand2_5 out ) ;
+  - nand_45.and_0
+    ( nand_45.inv_0 out )
+    ( nand_45.nand2_1 in_0 ) ;
+  - nand_45.and_1
+    ( nand_45.inv_1 out )
+    ( nand_45.nand2_2 in_0 ) ;
+  - nand_45.and_2
+    ( nand_45.inv_2 out )
+    ( nand_45.nand2_3 in_0 ) ;
+  - nand_45.and_3
+    ( nand_45.inv_3 out )
+    ( nand_45.nand2_4 in_0 ) ;
+  - nand_45.and_4
+    ( nand_45.inv_4 out )
+    ( nand_45.nand2_5 in_0 ) ;
+  - nand_45.nand_0
+    ( nand_45.inv_0 in )
+    ( nand_45.nand2_0 out ) ;
+  - nand_45.nand_1
+    ( nand_45.inv_1 in )
+    ( nand_45.nand2_1 out ) ;
+  - nand_45.nand_2
+    ( nand_45.inv_2 in )
+    ( nand_45.nand2_2 out ) ;
+  - nand_45.nand_3
+    ( nand_45.inv_3 in )
+    ( nand_45.nand2_3 out ) ;
+  - nand_45.nand_4
+    ( nand_45.inv_4 in )
+    ( nand_45.nand2_4 out ) ;
+  - nand_45.out
+    ( inv_for_output_45 in )
+    ( nand_45.nand2_5 out ) ;
+  - nand_46.and_0
+    ( nand_46.inv_0 out )
+    ( nand_46.nand2_1 in_0 ) ;
+  - nand_46.and_1
+    ( nand_46.inv_1 out )
+    ( nand_46.nand2_2 in_0 ) ;
+  - nand_46.and_2
+    ( nand_46.inv_2 out )
+    ( nand_46.nand2_3 in_0 ) ;
+  - nand_46.and_3
+    ( nand_46.inv_3 out )
+    ( nand_46.nand2_4 in_0 ) ;
+  - nand_46.and_4
+    ( nand_46.inv_4 out )
+    ( nand_46.nand2_5 in_0 ) ;
+  - nand_46.nand_0
+    ( nand_46.inv_0 in )
+    ( nand_46.nand2_0 out ) ;
+  - nand_46.nand_1
+    ( nand_46.inv_1 in )
+    ( nand_46.nand2_1 out ) ;
+  - nand_46.nand_2
+    ( nand_46.inv_2 in )
+    ( nand_46.nand2_2 out ) ;
+  - nand_46.nand_3
+    ( nand_46.inv_3 in )
+    ( nand_46.nand2_3 out ) ;
+  - nand_46.nand_4
+    ( nand_46.inv_4 in )
+    ( nand_46.nand2_4 out ) ;
+  - nand_46.out
+    ( inv_for_output_46 in )
+    ( nand_46.nand2_5 out ) ;
+  - nand_47.and_0
+    ( nand_47.inv_0 out )
+    ( nand_47.nand2_1 in_0 ) ;
+  - nand_47.and_1
+    ( nand_47.inv_1 out )
+    ( nand_47.nand2_2 in_0 ) ;
+  - nand_47.and_2
+    ( nand_47.inv_2 out )
+    ( nand_47.nand2_3 in_0 ) ;
+  - nand_47.and_3
+    ( nand_47.inv_3 out )
+    ( nand_47.nand2_4 in_0 ) ;
+  - nand_47.and_4
+    ( nand_47.inv_4 out )
+    ( nand_47.nand2_5 in_0 ) ;
+  - nand_47.nand_0
+    ( nand_47.inv_0 in )
+    ( nand_47.nand2_0 out ) ;
+  - nand_47.nand_1
+    ( nand_47.inv_1 in )
+    ( nand_47.nand2_1 out ) ;
+  - nand_47.nand_2
+    ( nand_47.inv_2 in )
+    ( nand_47.nand2_2 out ) ;
+  - nand_47.nand_3
+    ( nand_47.inv_3 in )
+    ( nand_47.nand2_3 out ) ;
+  - nand_47.nand_4
+    ( nand_47.inv_4 in )
+    ( nand_47.nand2_4 out ) ;
+  - nand_47.out
+    ( inv_for_output_47 in )
+    ( nand_47.nand2_5 out ) ;
+  - nand_48.and_0
+    ( nand_48.inv_0 out )
+    ( nand_48.nand2_1 in_0 ) ;
+  - nand_48.and_1
+    ( nand_48.inv_1 out )
+    ( nand_48.nand2_2 in_0 ) ;
+  - nand_48.and_2
+    ( nand_48.inv_2 out )
+    ( nand_48.nand2_3 in_0 ) ;
+  - nand_48.and_3
+    ( nand_48.inv_3 out )
+    ( nand_48.nand2_4 in_0 ) ;
+  - nand_48.and_4
+    ( nand_48.inv_4 out )
+    ( nand_48.nand2_5 in_0 ) ;
+  - nand_48.nand_0
+    ( nand_48.inv_0 in )
+    ( nand_48.nand2_0 out ) ;
+  - nand_48.nand_1
+    ( nand_48.inv_1 in )
+    ( nand_48.nand2_1 out ) ;
+  - nand_48.nand_2
+    ( nand_48.inv_2 in )
+    ( nand_48.nand2_2 out ) ;
+  - nand_48.nand_3
+    ( nand_48.inv_3 in )
+    ( nand_48.nand2_3 out ) ;
+  - nand_48.nand_4
+    ( nand_48.inv_4 in )
+    ( nand_48.nand2_4 out ) ;
+  - nand_48.out
+    ( inv_for_output_48 in )
+    ( nand_48.nand2_5 out ) ;
+  - nand_49.and_0
+    ( nand_49.inv_0 out )
+    ( nand_49.nand2_1 in_0 ) ;
+  - nand_49.and_1
+    ( nand_49.inv_1 out )
+    ( nand_49.nand2_2 in_0 ) ;
+  - nand_49.and_2
+    ( nand_49.inv_2 out )
+    ( nand_49.nand2_3 in_0 ) ;
+  - nand_49.and_3
+    ( nand_49.inv_3 out )
+    ( nand_49.nand2_4 in_0 ) ;
+  - nand_49.and_4
+    ( nand_49.inv_4 out )
+    ( nand_49.nand2_5 in_0 ) ;
+  - nand_49.nand_0
+    ( nand_49.inv_0 in )
+    ( nand_49.nand2_0 out ) ;
+  - nand_49.nand_1
+    ( nand_49.inv_1 in )
+    ( nand_49.nand2_1 out ) ;
+  - nand_49.nand_2
+    ( nand_49.inv_2 in )
+    ( nand_49.nand2_2 out ) ;
+  - nand_49.nand_3
+    ( nand_49.inv_3 in )
+    ( nand_49.nand2_3 out ) ;
+  - nand_49.nand_4
+    ( nand_49.inv_4 in )
+    ( nand_49.nand2_4 out ) ;
+  - nand_49.out
+    ( inv_for_output_49 in )
+    ( nand_49.nand2_5 out ) ;
+  - nand_5.and_0
+    ( nand_5.inv_0 out )
+    ( nand_5.nand2_1 in_0 ) ;
+  - nand_5.and_1
+    ( nand_5.inv_1 out )
+    ( nand_5.nand2_2 in_0 ) ;
+  - nand_5.and_2
+    ( nand_5.inv_2 out )
+    ( nand_5.nand2_3 in_0 ) ;
+  - nand_5.and_3
+    ( nand_5.inv_3 out )
+    ( nand_5.nand2_4 in_0 ) ;
+  - nand_5.and_4
+    ( nand_5.inv_4 out )
+    ( nand_5.nand2_5 in_0 ) ;
+  - nand_5.nand_0
+    ( nand_5.inv_0 in )
+    ( nand_5.nand2_0 out ) ;
+  - nand_5.nand_1
+    ( nand_5.inv_1 in )
+    ( nand_5.nand2_1 out ) ;
+  - nand_5.nand_2
+    ( nand_5.inv_2 in )
+    ( nand_5.nand2_2 out ) ;
+  - nand_5.nand_3
+    ( nand_5.inv_3 in )
+    ( nand_5.nand2_3 out ) ;
+  - nand_5.nand_4
+    ( nand_5.inv_4 in )
+    ( nand_5.nand2_4 out ) ;
+  - nand_5.out
+    ( inv_for_output_5 in )
+    ( nand_5.nand2_5 out ) ;
+  - nand_50.and_0
+    ( nand_50.inv_0 out )
+    ( nand_50.nand2_1 in_0 ) ;
+  - nand_50.and_1
+    ( nand_50.inv_1 out )
+    ( nand_50.nand2_2 in_0 ) ;
+  - nand_50.and_2
+    ( nand_50.inv_2 out )
+    ( nand_50.nand2_3 in_0 ) ;
+  - nand_50.and_3
+    ( nand_50.inv_3 out )
+    ( nand_50.nand2_4 in_0 ) ;
+  - nand_50.and_4
+    ( nand_50.inv_4 out )
+    ( nand_50.nand2_5 in_0 ) ;
+  - nand_50.nand_0
+    ( nand_50.inv_0 in )
+    ( nand_50.nand2_0 out ) ;
+  - nand_50.nand_1
+    ( nand_50.inv_1 in )
+    ( nand_50.nand2_1 out ) ;
+  - nand_50.nand_2
+    ( nand_50.inv_2 in )
+    ( nand_50.nand2_2 out ) ;
+  - nand_50.nand_3
+    ( nand_50.inv_3 in )
+    ( nand_50.nand2_3 out ) ;
+  - nand_50.nand_4
+    ( nand_50.inv_4 in )
+    ( nand_50.nand2_4 out ) ;
+  - nand_50.out
+    ( inv_for_output_50 in )
+    ( nand_50.nand2_5 out ) ;
+  - nand_51.and_0
+    ( nand_51.inv_0 out )
+    ( nand_51.nand2_1 in_0 ) ;
+  - nand_51.and_1
+    ( nand_51.inv_1 out )
+    ( nand_51.nand2_2 in_0 ) ;
+  - nand_51.and_2
+    ( nand_51.inv_2 out )
+    ( nand_51.nand2_3 in_0 ) ;
+  - nand_51.and_3
+    ( nand_51.inv_3 out )
+    ( nand_51.nand2_4 in_0 ) ;
+  - nand_51.and_4
+    ( nand_51.inv_4 out )
+    ( nand_51.nand2_5 in_0 ) ;
+  - nand_51.nand_0
+    ( nand_51.inv_0 in )
+    ( nand_51.nand2_0 out ) ;
+  - nand_51.nand_1
+    ( nand_51.inv_1 in )
+    ( nand_51.nand2_1 out ) ;
+  - nand_51.nand_2
+    ( nand_51.inv_2 in )
+    ( nand_51.nand2_2 out ) ;
+  - nand_51.nand_3
+    ( nand_51.inv_3 in )
+    ( nand_51.nand2_3 out ) ;
+  - nand_51.nand_4
+    ( nand_51.inv_4 in )
+    ( nand_51.nand2_4 out ) ;
+  - nand_51.out
+    ( inv_for_output_51 in )
+    ( nand_51.nand2_5 out ) ;
+  - nand_52.and_0
+    ( nand_52.inv_0 out )
+    ( nand_52.nand2_1 in_0 ) ;
+  - nand_52.and_1
+    ( nand_52.inv_1 out )
+    ( nand_52.nand2_2 in_0 ) ;
+  - nand_52.and_2
+    ( nand_52.inv_2 out )
+    ( nand_52.nand2_3 in_0 ) ;
+  - nand_52.and_3
+    ( nand_52.inv_3 out )
+    ( nand_52.nand2_4 in_0 ) ;
+  - nand_52.and_4
+    ( nand_52.inv_4 out )
+    ( nand_52.nand2_5 in_0 ) ;
+  - nand_52.nand_0
+    ( nand_52.inv_0 in )
+    ( nand_52.nand2_0 out ) ;
+  - nand_52.nand_1
+    ( nand_52.inv_1 in )
+    ( nand_52.nand2_1 out ) ;
+  - nand_52.nand_2
+    ( nand_52.inv_2 in )
+    ( nand_52.nand2_2 out ) ;
+  - nand_52.nand_3
+    ( nand_52.inv_3 in )
+    ( nand_52.nand2_3 out ) ;
+  - nand_52.nand_4
+    ( nand_52.inv_4 in )
+    ( nand_52.nand2_4 out ) ;
+  - nand_52.out
+    ( inv_for_output_52 in )
+    ( nand_52.nand2_5 out ) ;
+  - nand_53.and_0
+    ( nand_53.inv_0 out )
+    ( nand_53.nand2_1 in_0 ) ;
+  - nand_53.and_1
+    ( nand_53.inv_1 out )
+    ( nand_53.nand2_2 in_0 ) ;
+  - nand_53.and_2
+    ( nand_53.inv_2 out )
+    ( nand_53.nand2_3 in_0 ) ;
+  - nand_53.and_3
+    ( nand_53.inv_3 out )
+    ( nand_53.nand2_4 in_0 ) ;
+  - nand_53.and_4
+    ( nand_53.inv_4 out )
+    ( nand_53.nand2_5 in_0 ) ;
+  - nand_53.nand_0
+    ( nand_53.inv_0 in )
+    ( nand_53.nand2_0 out ) ;
+  - nand_53.nand_1
+    ( nand_53.inv_1 in )
+    ( nand_53.nand2_1 out ) ;
+  - nand_53.nand_2
+    ( nand_53.inv_2 in )
+    ( nand_53.nand2_2 out ) ;
+  - nand_53.nand_3
+    ( nand_53.inv_3 in )
+    ( nand_53.nand2_3 out ) ;
+  - nand_53.nand_4
+    ( nand_53.inv_4 in )
+    ( nand_53.nand2_4 out ) ;
+  - nand_53.out
+    ( inv_for_output_53 in )
+    ( nand_53.nand2_5 out ) ;
+  - nand_54.and_0
+    ( nand_54.inv_0 out )
+    ( nand_54.nand2_1 in_0 ) ;
+  - nand_54.and_1
+    ( nand_54.inv_1 out )
+    ( nand_54.nand2_2 in_0 ) ;
+  - nand_54.and_2
+    ( nand_54.inv_2 out )
+    ( nand_54.nand2_3 in_0 ) ;
+  - nand_54.and_3
+    ( nand_54.inv_3 out )
+    ( nand_54.nand2_4 in_0 ) ;
+  - nand_54.and_4
+    ( nand_54.inv_4 out )
+    ( nand_54.nand2_5 in_0 ) ;
+  - nand_54.nand_0
+    ( nand_54.inv_0 in )
+    ( nand_54.nand2_0 out ) ;
+  - nand_54.nand_1
+    ( nand_54.inv_1 in )
+    ( nand_54.nand2_1 out ) ;
+  - nand_54.nand_2
+    ( nand_54.inv_2 in )
+    ( nand_54.nand2_2 out ) ;
+  - nand_54.nand_3
+    ( nand_54.inv_3 in )
+    ( nand_54.nand2_3 out ) ;
+  - nand_54.nand_4
+    ( nand_54.inv_4 in )
+    ( nand_54.nand2_4 out ) ;
+  - nand_54.out
+    ( inv_for_output_54 in )
+    ( nand_54.nand2_5 out ) ;
+  - nand_55.and_0
+    ( nand_55.inv_0 out )
+    ( nand_55.nand2_1 in_0 ) ;
+  - nand_55.and_1
+    ( nand_55.inv_1 out )
+    ( nand_55.nand2_2 in_0 ) ;
+  - nand_55.and_2
+    ( nand_55.inv_2 out )
+    ( nand_55.nand2_3 in_0 ) ;
+  - nand_55.and_3
+    ( nand_55.inv_3 out )
+    ( nand_55.nand2_4 in_0 ) ;
+  - nand_55.and_4
+    ( nand_55.inv_4 out )
+    ( nand_55.nand2_5 in_0 ) ;
+  - nand_55.nand_0
+    ( nand_55.inv_0 in )
+    ( nand_55.nand2_0 out ) ;
+  - nand_55.nand_1
+    ( nand_55.inv_1 in )
+    ( nand_55.nand2_1 out ) ;
+  - nand_55.nand_2
+    ( nand_55.inv_2 in )
+    ( nand_55.nand2_2 out ) ;
+  - nand_55.nand_3
+    ( nand_55.inv_3 in )
+    ( nand_55.nand2_3 out ) ;
+  - nand_55.nand_4
+    ( nand_55.inv_4 in )
+    ( nand_55.nand2_4 out ) ;
+  - nand_55.out
+    ( inv_for_output_55 in )
+    ( nand_55.nand2_5 out ) ;
+  - nand_56.and_0
+    ( nand_56.inv_0 out )
+    ( nand_56.nand2_1 in_0 ) ;
+  - nand_56.and_1
+    ( nand_56.inv_1 out )
+    ( nand_56.nand2_2 in_0 ) ;
+  - nand_56.and_2
+    ( nand_56.inv_2 out )
+    ( nand_56.nand2_3 in_0 ) ;
+  - nand_56.and_3
+    ( nand_56.inv_3 out )
+    ( nand_56.nand2_4 in_0 ) ;
+  - nand_56.and_4
+    ( nand_56.inv_4 out )
+    ( nand_56.nand2_5 in_0 ) ;
+  - nand_56.nand_0
+    ( nand_56.inv_0 in )
+    ( nand_56.nand2_0 out ) ;
+  - nand_56.nand_1
+    ( nand_56.inv_1 in )
+    ( nand_56.nand2_1 out ) ;
+  - nand_56.nand_2
+    ( nand_56.inv_2 in )
+    ( nand_56.nand2_2 out ) ;
+  - nand_56.nand_3
+    ( nand_56.inv_3 in )
+    ( nand_56.nand2_3 out ) ;
+  - nand_56.nand_4
+    ( nand_56.inv_4 in )
+    ( nand_56.nand2_4 out ) ;
+  - nand_56.out
+    ( inv_for_output_56 in )
+    ( nand_56.nand2_5 out ) ;
+  - nand_57.and_0
+    ( nand_57.inv_0 out )
+    ( nand_57.nand2_1 in_0 ) ;
+  - nand_57.and_1
+    ( nand_57.inv_1 out )
+    ( nand_57.nand2_2 in_0 ) ;
+  - nand_57.and_2
+    ( nand_57.inv_2 out )
+    ( nand_57.nand2_3 in_0 ) ;
+  - nand_57.and_3
+    ( nand_57.inv_3 out )
+    ( nand_57.nand2_4 in_0 ) ;
+  - nand_57.and_4
+    ( nand_57.inv_4 out )
+    ( nand_57.nand2_5 in_0 ) ;
+  - nand_57.nand_0
+    ( nand_57.inv_0 in )
+    ( nand_57.nand2_0 out ) ;
+  - nand_57.nand_1
+    ( nand_57.inv_1 in )
+    ( nand_57.nand2_1 out ) ;
+  - nand_57.nand_2
+    ( nand_57.inv_2 in )
+    ( nand_57.nand2_2 out ) ;
+  - nand_57.nand_3
+    ( nand_57.inv_3 in )
+    ( nand_57.nand2_3 out ) ;
+  - nand_57.nand_4
+    ( nand_57.inv_4 in )
+    ( nand_57.nand2_4 out ) ;
+  - nand_57.out
+    ( inv_for_output_57 in )
+    ( nand_57.nand2_5 out ) ;
+  - nand_58.and_0
+    ( nand_58.inv_0 out )
+    ( nand_58.nand2_1 in_0 ) ;
+  - nand_58.and_1
+    ( nand_58.inv_1 out )
+    ( nand_58.nand2_2 in_0 ) ;
+  - nand_58.and_2
+    ( nand_58.inv_2 out )
+    ( nand_58.nand2_3 in_0 ) ;
+  - nand_58.and_3
+    ( nand_58.inv_3 out )
+    ( nand_58.nand2_4 in_0 ) ;
+  - nand_58.and_4
+    ( nand_58.inv_4 out )
+    ( nand_58.nand2_5 in_0 ) ;
+  - nand_58.nand_0
+    ( nand_58.inv_0 in )
+    ( nand_58.nand2_0 out ) ;
+  - nand_58.nand_1
+    ( nand_58.inv_1 in )
+    ( nand_58.nand2_1 out ) ;
+  - nand_58.nand_2
+    ( nand_58.inv_2 in )
+    ( nand_58.nand2_2 out ) ;
+  - nand_58.nand_3
+    ( nand_58.inv_3 in )
+    ( nand_58.nand2_3 out ) ;
+  - nand_58.nand_4
+    ( nand_58.inv_4 in )
+    ( nand_58.nand2_4 out ) ;
+  - nand_58.out
+    ( inv_for_output_58 in )
+    ( nand_58.nand2_5 out ) ;
+  - nand_59.and_0
+    ( nand_59.inv_0 out )
+    ( nand_59.nand2_1 in_0 ) ;
+  - nand_59.and_1
+    ( nand_59.inv_1 out )
+    ( nand_59.nand2_2 in_0 ) ;
+  - nand_59.and_2
+    ( nand_59.inv_2 out )
+    ( nand_59.nand2_3 in_0 ) ;
+  - nand_59.and_3
+    ( nand_59.inv_3 out )
+    ( nand_59.nand2_4 in_0 ) ;
+  - nand_59.and_4
+    ( nand_59.inv_4 out )
+    ( nand_59.nand2_5 in_0 ) ;
+  - nand_59.nand_0
+    ( nand_59.inv_0 in )
+    ( nand_59.nand2_0 out ) ;
+  - nand_59.nand_1
+    ( nand_59.inv_1 in )
+    ( nand_59.nand2_1 out ) ;
+  - nand_59.nand_2
+    ( nand_59.inv_2 in )
+    ( nand_59.nand2_2 out ) ;
+  - nand_59.nand_3
+    ( nand_59.inv_3 in )
+    ( nand_59.nand2_3 out ) ;
+  - nand_59.nand_4
+    ( nand_59.inv_4 in )
+    ( nand_59.nand2_4 out ) ;
+  - nand_59.out
+    ( inv_for_output_59 in )
+    ( nand_59.nand2_5 out ) ;
+  - nand_6.and_0
+    ( nand_6.inv_0 out )
+    ( nand_6.nand2_1 in_0 ) ;
+  - nand_6.and_1
+    ( nand_6.inv_1 out )
+    ( nand_6.nand2_2 in_0 ) ;
+  - nand_6.and_2
+    ( nand_6.inv_2 out )
+    ( nand_6.nand2_3 in_0 ) ;
+  - nand_6.and_3
+    ( nand_6.inv_3 out )
+    ( nand_6.nand2_4 in_0 ) ;
+  - nand_6.and_4
+    ( nand_6.inv_4 out )
+    ( nand_6.nand2_5 in_0 ) ;
+  - nand_6.nand_0
+    ( nand_6.inv_0 in )
+    ( nand_6.nand2_0 out ) ;
+  - nand_6.nand_1
+    ( nand_6.inv_1 in )
+    ( nand_6.nand2_1 out ) ;
+  - nand_6.nand_2
+    ( nand_6.inv_2 in )
+    ( nand_6.nand2_2 out ) ;
+  - nand_6.nand_3
+    ( nand_6.inv_3 in )
+    ( nand_6.nand2_3 out ) ;
+  - nand_6.nand_4
+    ( nand_6.inv_4 in )
+    ( nand_6.nand2_4 out ) ;
+  - nand_6.out
+    ( inv_for_output_6 in )
+    ( nand_6.nand2_5 out ) ;
+  - nand_60.and_0
+    ( nand_60.inv_0 out )
+    ( nand_60.nand2_1 in_0 ) ;
+  - nand_60.and_1
+    ( nand_60.inv_1 out )
+    ( nand_60.nand2_2 in_0 ) ;
+  - nand_60.and_2
+    ( nand_60.inv_2 out )
+    ( nand_60.nand2_3 in_0 ) ;
+  - nand_60.and_3
+    ( nand_60.inv_3 out )
+    ( nand_60.nand2_4 in_0 ) ;
+  - nand_60.and_4
+    ( nand_60.inv_4 out )
+    ( nand_60.nand2_5 in_0 ) ;
+  - nand_60.nand_0
+    ( nand_60.inv_0 in )
+    ( nand_60.nand2_0 out ) ;
+  - nand_60.nand_1
+    ( nand_60.inv_1 in )
+    ( nand_60.nand2_1 out ) ;
+  - nand_60.nand_2
+    ( nand_60.inv_2 in )
+    ( nand_60.nand2_2 out ) ;
+  - nand_60.nand_3
+    ( nand_60.inv_3 in )
+    ( nand_60.nand2_3 out ) ;
+  - nand_60.nand_4
+    ( nand_60.inv_4 in )
+    ( nand_60.nand2_4 out ) ;
+  - nand_60.out
+    ( inv_for_output_60 in )
+    ( nand_60.nand2_5 out ) ;
+  - nand_61.and_0
+    ( nand_61.inv_0 out )
+    ( nand_61.nand2_1 in_0 ) ;
+  - nand_61.and_1
+    ( nand_61.inv_1 out )
+    ( nand_61.nand2_2 in_0 ) ;
+  - nand_61.and_2
+    ( nand_61.inv_2 out )
+    ( nand_61.nand2_3 in_0 ) ;
+  - nand_61.and_3
+    ( nand_61.inv_3 out )
+    ( nand_61.nand2_4 in_0 ) ;
+  - nand_61.and_4
+    ( nand_61.inv_4 out )
+    ( nand_61.nand2_5 in_0 ) ;
+  - nand_61.nand_0
+    ( nand_61.inv_0 in )
+    ( nand_61.nand2_0 out ) ;
+  - nand_61.nand_1
+    ( nand_61.inv_1 in )
+    ( nand_61.nand2_1 out ) ;
+  - nand_61.nand_2
+    ( nand_61.inv_2 in )
+    ( nand_61.nand2_2 out ) ;
+  - nand_61.nand_3
+    ( nand_61.inv_3 in )
+    ( nand_61.nand2_3 out ) ;
+  - nand_61.nand_4
+    ( nand_61.inv_4 in )
+    ( nand_61.nand2_4 out ) ;
+  - nand_61.out
+    ( inv_for_output_61 in )
+    ( nand_61.nand2_5 out ) ;
+  - nand_62.and_0
+    ( nand_62.inv_0 out )
+    ( nand_62.nand2_1 in_0 ) ;
+  - nand_62.and_1
+    ( nand_62.inv_1 out )
+    ( nand_62.nand2_2 in_0 ) ;
+  - nand_62.and_2
+    ( nand_62.inv_2 out )
+    ( nand_62.nand2_3 in_0 ) ;
+  - nand_62.and_3
+    ( nand_62.inv_3 out )
+    ( nand_62.nand2_4 in_0 ) ;
+  - nand_62.and_4
+    ( nand_62.inv_4 out )
+    ( nand_62.nand2_5 in_0 ) ;
+  - nand_62.nand_0
+    ( nand_62.inv_0 in )
+    ( nand_62.nand2_0 out ) ;
+  - nand_62.nand_1
+    ( nand_62.inv_1 in )
+    ( nand_62.nand2_1 out ) ;
+  - nand_62.nand_2
+    ( nand_62.inv_2 in )
+    ( nand_62.nand2_2 out ) ;
+  - nand_62.nand_3
+    ( nand_62.inv_3 in )
+    ( nand_62.nand2_3 out ) ;
+  - nand_62.nand_4
+    ( nand_62.inv_4 in )
+    ( nand_62.nand2_4 out ) ;
+  - nand_62.out
+    ( inv_for_output_62 in )
+    ( nand_62.nand2_5 out ) ;
+  - nand_63.and_0
+    ( nand_63.inv_0 out )
+    ( nand_63.nand2_1 in_0 ) ;
+  - nand_63.and_1
+    ( nand_63.inv_1 out )
+    ( nand_63.nand2_2 in_0 ) ;
+  - nand_63.and_2
+    ( nand_63.inv_2 out )
+    ( nand_63.nand2_3 in_0 ) ;
+  - nand_63.and_3
+    ( nand_63.inv_3 out )
+    ( nand_63.nand2_4 in_0 ) ;
+  - nand_63.and_4
+    ( nand_63.inv_4 out )
+    ( nand_63.nand2_5 in_0 ) ;
+  - nand_63.nand_0
+    ( nand_63.inv_0 in )
+    ( nand_63.nand2_0 out ) ;
+  - nand_63.nand_1
+    ( nand_63.inv_1 in )
+    ( nand_63.nand2_1 out ) ;
+  - nand_63.nand_2
+    ( nand_63.inv_2 in )
+    ( nand_63.nand2_2 out ) ;
+  - nand_63.nand_3
+    ( nand_63.inv_3 in )
+    ( nand_63.nand2_3 out ) ;
+  - nand_63.nand_4
+    ( nand_63.inv_4 in )
+    ( nand_63.nand2_4 out ) ;
+  - nand_63.out
+    ( inv_for_output_63 in )
+    ( nand_63.nand2_5 out ) ;
+  - nand_7.and_0
+    ( nand_7.inv_0 out )
+    ( nand_7.nand2_1 in_0 ) ;
+  - nand_7.and_1
+    ( nand_7.inv_1 out )
+    ( nand_7.nand2_2 in_0 ) ;
+  - nand_7.and_2
+    ( nand_7.inv_2 out )
+    ( nand_7.nand2_3 in_0 ) ;
+  - nand_7.and_3
+    ( nand_7.inv_3 out )
+    ( nand_7.nand2_4 in_0 ) ;
+  - nand_7.and_4
+    ( nand_7.inv_4 out )
+    ( nand_7.nand2_5 in_0 ) ;
+  - nand_7.nand_0
+    ( nand_7.inv_0 in )
+    ( nand_7.nand2_0 out ) ;
+  - nand_7.nand_1
+    ( nand_7.inv_1 in )
+    ( nand_7.nand2_1 out ) ;
+  - nand_7.nand_2
+    ( nand_7.inv_2 in )
+    ( nand_7.nand2_2 out ) ;
+  - nand_7.nand_3
+    ( nand_7.inv_3 in )
+    ( nand_7.nand2_3 out ) ;
+  - nand_7.nand_4
+    ( nand_7.inv_4 in )
+    ( nand_7.nand2_4 out ) ;
+  - nand_7.out
+    ( inv_for_output_7 in )
+    ( nand_7.nand2_5 out ) ;
+  - nand_8.and_0
+    ( nand_8.inv_0 out )
+    ( nand_8.nand2_1 in_0 ) ;
+  - nand_8.and_1
+    ( nand_8.inv_1 out )
+    ( nand_8.nand2_2 in_0 ) ;
+  - nand_8.and_2
+    ( nand_8.inv_2 out )
+    ( nand_8.nand2_3 in_0 ) ;
+  - nand_8.and_3
+    ( nand_8.inv_3 out )
+    ( nand_8.nand2_4 in_0 ) ;
+  - nand_8.and_4
+    ( nand_8.inv_4 out )
+    ( nand_8.nand2_5 in_0 ) ;
+  - nand_8.nand_0
+    ( nand_8.inv_0 in )
+    ( nand_8.nand2_0 out ) ;
+  - nand_8.nand_1
+    ( nand_8.inv_1 in )
+    ( nand_8.nand2_1 out ) ;
+  - nand_8.nand_2
+    ( nand_8.inv_2 in )
+    ( nand_8.nand2_2 out ) ;
+  - nand_8.nand_3
+    ( nand_8.inv_3 in )
+    ( nand_8.nand2_3 out ) ;
+  - nand_8.nand_4
+    ( nand_8.inv_4 in )
+    ( nand_8.nand2_4 out ) ;
+  - nand_8.out
+    ( inv_for_output_8 in )
+    ( nand_8.nand2_5 out ) ;
+  - nand_9.and_0
+    ( nand_9.inv_0 out )
+    ( nand_9.nand2_1 in_0 ) ;
+  - nand_9.and_1
+    ( nand_9.inv_1 out )
+    ( nand_9.nand2_2 in_0 ) ;
+  - nand_9.and_2
+    ( nand_9.inv_2 out )
+    ( nand_9.nand2_3 in_0 ) ;
+  - nand_9.and_3
+    ( nand_9.inv_3 out )
+    ( nand_9.nand2_4 in_0 ) ;
+  - nand_9.and_4
+    ( nand_9.inv_4 out )
+    ( nand_9.nand2_5 in_0 ) ;
+  - nand_9.nand_0
+    ( nand_9.inv_0 in )
+    ( nand_9.nand2_0 out ) ;
+  - nand_9.nand_1
+    ( nand_9.inv_1 in )
+    ( nand_9.nand2_1 out ) ;
+  - nand_9.nand_2
+    ( nand_9.inv_2 in )
+    ( nand_9.nand2_2 out ) ;
+  - nand_9.nand_3
+    ( nand_9.inv_3 in )
+    ( nand_9.nand2_3 out ) ;
+  - nand_9.nand_4
+    ( nand_9.inv_4 in )
+    ( nand_9.nand2_4 out ) ;
+  - nand_9.out
+    ( inv_for_output_9 in )
+    ( nand_9.nand2_5 out ) ;
+END NETS
+
+END DESIGN

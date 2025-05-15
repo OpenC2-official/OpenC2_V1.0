@@ -1,0 +1,57 @@
+library(std_cell_lib) {
+  cell(inverter) {
+    area: 0.4788;
+    pin(in) { direction: input; }
+    pin(out) { direction: output;
+              function: "in'"; }
+  }
+  cell(nand2) {
+    area: 0.7182;
+    pin(in_0) { direction: input; }
+    pin(in_1) { direction: input; }
+    pin(out) { direction: output;
+              function: "(in_0*in_1)'"; }
+  }
+  cell(nor2) {
+    area: 0.7182;
+    pin(in_0) { direction: input; }
+    pin(in_1) { direction: input; }
+    pin(out) { direction: output;
+              function: "(in_0+in_1)'"; }
+  }
+  cell(xor2) {
+    area: 1.6758;
+    pin(in_0) { direction: input; }
+    pin(in_1) { direction: input; }
+    pin(out) { direction: output;
+              function: "(in_0^in_1)"; }
+  }
+  cell(dff) {
+    area: 6.3126;
+    ff(IQ, IQN) { clocked_on: "clk";
+                  next_state: "in"; 
+                  clear: "rst_b'"; }
+    pin(clk) { direction: input;
+                 clock: true; }
+    pin(rst_b) { direction: input; }             
+    pin(in) { direction: input; }
+    pin(out) { direction: output;
+              function: "IQ"; }
+  }
+  cell(buffer) {
+    area: 0.7182;
+    pin(in) { direction: input; }
+    pin(out) { direction: output;
+              function: "in"; }
+  }
+  cell(tieh) {
+    area: 0.4788;
+    pin(out) { direction: output;
+              function: "1"; }
+  }
+  cell(tiel) {
+    area: 0.4788;
+    pin(out) { direction: output;
+              function: "0"; }
+  }
+}

@@ -1,0 +1,4911 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN adder_tree_4bit_to_10bit ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 17290 86940 ) ;
+
+ROW CORE_ROW_0 CoreSite 0 0 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_1 CoreSite 0 1260 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_2 CoreSite 0 2520 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_3 CoreSite 0 3780 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_4 CoreSite 0 5040 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_5 CoreSite 0 6300 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_6 CoreSite 0 7560 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_7 CoreSite 0 8820 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_8 CoreSite 0 10080 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_9 CoreSite 0 11340 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_10 CoreSite 0 12600 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_11 CoreSite 0 13860 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_12 CoreSite 0 15120 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_13 CoreSite 0 16380 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_14 CoreSite 0 17640 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_15 CoreSite 0 18900 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_16 CoreSite 0 20160 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_17 CoreSite 0 21420 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_18 CoreSite 0 22680 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_19 CoreSite 0 23940 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_20 CoreSite 0 25200 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_21 CoreSite 0 26460 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_22 CoreSite 0 27720 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_23 CoreSite 0 28980 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_24 CoreSite 0 30240 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_25 CoreSite 0 31500 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_26 CoreSite 0 32760 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_27 CoreSite 0 34020 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_28 CoreSite 0 35280 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_29 CoreSite 0 36540 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_30 CoreSite 0 37800 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_31 CoreSite 0 39060 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_32 CoreSite 0 40320 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_33 CoreSite 0 41580 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_34 CoreSite 0 42840 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_35 CoreSite 0 44100 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_36 CoreSite 0 45360 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_37 CoreSite 0 46620 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_38 CoreSite 0 47880 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_39 CoreSite 0 49140 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_40 CoreSite 0 50400 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_41 CoreSite 0 51660 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_42 CoreSite 0 52920 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_43 CoreSite 0 54180 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_44 CoreSite 0 55440 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_45 CoreSite 0 56700 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_46 CoreSite 0 57960 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_47 CoreSite 0 59220 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_48 CoreSite 0 60480 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_49 CoreSite 0 61740 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_50 CoreSite 0 63000 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_51 CoreSite 0 64260 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_52 CoreSite 0 65520 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_53 CoreSite 0 66780 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_54 CoreSite 0 68040 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_55 CoreSite 0 69300 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_56 CoreSite 0 70560 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_57 CoreSite 0 71820 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_58 CoreSite 0 73080 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_59 CoreSite 0 74340 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_60 CoreSite 0 75600 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_61 CoreSite 0 76860 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_62 CoreSite 0 78120 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_63 CoreSite 0 79380 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_64 CoreSite 0 80640 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_65 CoreSite 0 81900 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_66 CoreSite 0 83160 N DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_67 CoreSite 0 84420 FS DO 91 BY 1 STEP 190 0 ;
+ROW CORE_ROW_68 CoreSite 0 85680 N DO 91 BY 1 STEP 190 0 ;
+
+TRACKS X 95 DO 90 STEP 190 LAYER metal3 ;
+TRACKS Y 70 DO 620 STEP 140 LAYER metal3 ;
+TRACKS Y 210 DO 309 STEP 280 LAYER metal4 ;
+TRACKS X 285 DO 59 STEP 285 LAYER metal4 ;
+TRACKS X 285 DO 59 STEP 285 LAYER metal5 ;
+TRACKS Y 210 DO 309 STEP 280 LAYER metal5 ;
+TRACKS Y 210 DO 309 STEP 280 LAYER metal6 ;
+TRACKS X 285 DO 59 STEP 285 LAYER metal6 ;
+
+PINS 267 ;
+  - in_0<0> + NET in_0<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 86835 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_0<1> + NET in_0<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 86555 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_0<2> + NET in_0<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 86275 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_0<3> + NET in_0<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 85995 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_10<0> + NET in_10<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 74235 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_10<1> + NET in_10<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 73955 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_10<2> + NET in_10<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 73675 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_10<3> + NET in_10<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 73395 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_11<0> + NET in_11<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 72975 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_11<1> + NET in_11<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 72695 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_11<2> + NET in_11<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 72415 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_11<3> + NET in_11<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 72135 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_12<0> + NET in_12<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 71715 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_12<1> + NET in_12<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 71435 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_12<2> + NET in_12<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 71155 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_12<3> + NET in_12<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 70875 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_13<0> + NET in_13<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 70455 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_13<1> + NET in_13<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 70175 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_13<2> + NET in_13<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 69895 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_13<3> + NET in_13<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 69615 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_14<0> + NET in_14<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 69195 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_14<1> + NET in_14<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 68915 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_14<2> + NET in_14<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 68635 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_14<3> + NET in_14<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 68355 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_15<0> + NET in_15<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 67935 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_15<1> + NET in_15<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 67655 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_15<2> + NET in_15<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 67375 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_15<3> + NET in_15<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 67095 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_16<0> + NET in_16<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 66675 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_16<1> + NET in_16<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 66395 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_16<2> + NET in_16<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 66115 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_16<3> + NET in_16<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 65835 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_17<0> + NET in_17<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 65415 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_17<1> + NET in_17<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 65135 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_17<2> + NET in_17<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 64855 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_17<3> + NET in_17<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 64575 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_18<0> + NET in_18<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 64155 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_18<1> + NET in_18<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 63875 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_18<2> + NET in_18<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 63595 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_18<3> + NET in_18<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 63315 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_19<0> + NET in_19<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 62895 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_19<1> + NET in_19<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 62615 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_19<2> + NET in_19<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 62335 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_19<3> + NET in_19<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 62055 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_1<0> + NET in_1<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 85575 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_1<1> + NET in_1<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 85295 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_1<2> + NET in_1<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 85015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_1<3> + NET in_1<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 84735 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_20<0> + NET in_20<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 61635 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_20<1> + NET in_20<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 61355 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_20<2> + NET in_20<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 61075 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_20<3> + NET in_20<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 60795 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_21<0> + NET in_21<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 60375 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_21<1> + NET in_21<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 60095 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_21<2> + NET in_21<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 59815 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_21<3> + NET in_21<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 59535 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_22<0> + NET in_22<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 59115 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_22<1> + NET in_22<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 58835 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_22<2> + NET in_22<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 58555 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_22<3> + NET in_22<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 58275 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_23<0> + NET in_23<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 57855 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_23<1> + NET in_23<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 57575 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_23<2> + NET in_23<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 57295 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_23<3> + NET in_23<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 57015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_24<0> + NET in_24<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 56595 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_24<1> + NET in_24<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 56315 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_24<2> + NET in_24<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 56035 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_24<3> + NET in_24<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 55755 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_25<0> + NET in_25<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 55335 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_25<1> + NET in_25<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 55055 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_25<2> + NET in_25<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 54775 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_25<3> + NET in_25<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 54495 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_26<0> + NET in_26<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 54075 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_26<1> + NET in_26<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 53795 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_26<2> + NET in_26<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 53515 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_26<3> + NET in_26<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 53235 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_27<0> + NET in_27<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 52815 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_27<1> + NET in_27<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 52535 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_27<2> + NET in_27<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 52255 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_27<3> + NET in_27<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 51975 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_28<0> + NET in_28<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 51555 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_28<1> + NET in_28<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 51275 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_28<2> + NET in_28<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 50995 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_28<3> + NET in_28<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 50715 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_29<0> + NET in_29<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 50295 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_29<1> + NET in_29<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 50015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_29<2> + NET in_29<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 49735 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_29<3> + NET in_29<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 49455 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_2<0> + NET in_2<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 84315 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_2<1> + NET in_2<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 84035 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_2<2> + NET in_2<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 83755 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_2<3> + NET in_2<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 83475 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_30<0> + NET in_30<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 49035 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_30<1> + NET in_30<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 48755 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_30<2> + NET in_30<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 48475 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_30<3> + NET in_30<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 48195 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_31<0> + NET in_31<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 47775 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_31<1> + NET in_31<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 47495 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_31<2> + NET in_31<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 47215 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_31<3> + NET in_31<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 46935 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_32<0> + NET in_32<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 46515 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_32<1> + NET in_32<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 46235 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_32<2> + NET in_32<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 45955 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_32<3> + NET in_32<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 45675 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_33<0> + NET in_33<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 45255 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_33<1> + NET in_33<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 44975 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_33<2> + NET in_33<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 44695 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_33<3> + NET in_33<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 44415 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_34<0> + NET in_34<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 43995 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_34<1> + NET in_34<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 43715 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_34<2> + NET in_34<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 43435 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_34<3> + NET in_34<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 43155 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_35<0> + NET in_35<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 42735 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_35<1> + NET in_35<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 42455 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_35<2> + NET in_35<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 42175 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_35<3> + NET in_35<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 41895 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_36<0> + NET in_36<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 41475 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_36<1> + NET in_36<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 41195 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_36<2> + NET in_36<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 40915 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_36<3> + NET in_36<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 40635 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_37<0> + NET in_37<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 40215 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_37<1> + NET in_37<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 39935 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_37<2> + NET in_37<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 39655 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_37<3> + NET in_37<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 39375 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_38<0> + NET in_38<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 38955 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_38<1> + NET in_38<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 38675 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_38<2> + NET in_38<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 38395 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_38<3> + NET in_38<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 38115 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_39<0> + NET in_39<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 37695 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_39<1> + NET in_39<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 37415 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_39<2> + NET in_39<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 37135 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_39<3> + NET in_39<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 36855 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_3<0> + NET in_3<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 83055 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_3<1> + NET in_3<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 82775 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_3<2> + NET in_3<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 82495 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_3<3> + NET in_3<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 82215 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_40<0> + NET in_40<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 36435 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_40<1> + NET in_40<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 36155 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_40<2> + NET in_40<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 35875 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_40<3> + NET in_40<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 35595 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_41<0> + NET in_41<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 35175 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_41<1> + NET in_41<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 34895 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_41<2> + NET in_41<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 34615 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_41<3> + NET in_41<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 34335 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_42<0> + NET in_42<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 33915 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_42<1> + NET in_42<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 33635 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_42<2> + NET in_42<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 33355 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_42<3> + NET in_42<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 33075 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_43<0> + NET in_43<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 32655 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_43<1> + NET in_43<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 32375 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_43<2> + NET in_43<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 32095 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_43<3> + NET in_43<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 31815 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_44<0> + NET in_44<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 31395 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_44<1> + NET in_44<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 31115 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_44<2> + NET in_44<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 30835 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_44<3> + NET in_44<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 30555 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_45<0> + NET in_45<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 30135 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_45<1> + NET in_45<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 29855 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_45<2> + NET in_45<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 29575 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_45<3> + NET in_45<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 29295 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_46<0> + NET in_46<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 28875 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_46<1> + NET in_46<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 28595 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_46<2> + NET in_46<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 28315 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_46<3> + NET in_46<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 28035 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_47<0> + NET in_47<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 27615 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_47<1> + NET in_47<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 27335 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_47<2> + NET in_47<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 27055 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_47<3> + NET in_47<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 26775 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_48<0> + NET in_48<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 26355 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_48<1> + NET in_48<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 26075 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_48<2> + NET in_48<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 25795 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_48<3> + NET in_48<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 25515 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_49<0> + NET in_49<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 25095 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_49<1> + NET in_49<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 24815 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_49<2> + NET in_49<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 24535 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_49<3> + NET in_49<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 24255 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_4<0> + NET in_4<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 81795 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_4<1> + NET in_4<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 81515 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_4<2> + NET in_4<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 81235 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_4<3> + NET in_4<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 80955 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_50<0> + NET in_50<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 23835 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_50<1> + NET in_50<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 23555 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_50<2> + NET in_50<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 23275 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_50<3> + NET in_50<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 22995 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_51<0> + NET in_51<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 22575 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_51<1> + NET in_51<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 22295 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_51<2> + NET in_51<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 22015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_51<3> + NET in_51<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 21735 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_52<0> + NET in_52<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 21315 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_52<1> + NET in_52<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 21035 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_52<2> + NET in_52<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 20755 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_52<3> + NET in_52<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 20475 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_53<0> + NET in_53<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 20055 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_53<1> + NET in_53<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 19775 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_53<2> + NET in_53<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 19495 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_53<3> + NET in_53<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 19215 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_54<0> + NET in_54<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 18795 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_54<1> + NET in_54<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 18515 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_54<2> + NET in_54<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 18235 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_54<3> + NET in_54<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17955 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_55<0> + NET in_55<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17535 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_55<1> + NET in_55<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 17255 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_55<2> + NET in_55<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16975 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_55<3> + NET in_55<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16695 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_56<0> + NET in_56<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 16275 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_56<1> + NET in_56<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15995 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_56<2> + NET in_56<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15715 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_56<3> + NET in_56<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15435 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_57<0> + NET in_57<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 15015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_57<1> + NET in_57<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 14735 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_57<2> + NET in_57<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 14455 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_57<3> + NET in_57<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 14175 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_58<0> + NET in_58<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 13755 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_58<1> + NET in_58<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 13475 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_58<2> + NET in_58<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 13195 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_58<3> + NET in_58<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 12915 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_59<0> + NET in_59<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 12495 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_59<1> + NET in_59<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 12215 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_59<2> + NET in_59<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 11935 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_59<3> + NET in_59<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 11655 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_5<0> + NET in_5<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 80535 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_5<1> + NET in_5<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 80255 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_5<2> + NET in_5<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 79975 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_5<3> + NET in_5<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 79695 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_60<0> + NET in_60<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 11235 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_60<1> + NET in_60<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 10955 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_60<2> + NET in_60<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 10675 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_60<3> + NET in_60<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 10395 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_61<0> + NET in_61<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 9975 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_61<1> + NET in_61<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 9695 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_61<2> + NET in_61<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 9415 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_61<3> + NET in_61<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 9135 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_62<0> + NET in_62<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 8715 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_62<1> + NET in_62<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 8435 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_62<2> + NET in_62<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 8155 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_62<3> + NET in_62<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 7875 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_63<0> + NET in_63<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 7455 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_63<1> + NET in_63<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 7175 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_63<2> + NET in_63<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 6895 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_63<3> + NET in_63<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 6615 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_6<0> + NET in_6<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 79275 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_6<1> + NET in_6<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 78995 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_6<2> + NET in_6<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 78715 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_6<3> + NET in_6<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 78435 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_7<0> + NET in_7<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 78015 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_7<1> + NET in_7<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 77735 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_7<2> + NET in_7<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 77455 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_7<3> + NET in_7<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 77175 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_8<0> + NET in_8<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 76755 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_8<1> + NET in_8<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 76475 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_8<2> + NET in_8<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 76195 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_8<3> + NET in_8<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75915 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_9<0> + NET in_9<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75495 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_9<1> + NET in_9<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 75215 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_9<2> + NET in_9<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 74935 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - in_9<3> + NET in_9<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 0 74655 ) N 
+    + LAYER metal3 ( 0 0 ) ( 70 70 ) ; 
+  - out<0> + NET out<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 14465 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<1> + NET out<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 13040 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<2> + NET out<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 11615 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<3> + NET out<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10190 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<4> + NET out<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 8765 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<5> + NET out<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 7340 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<6> + NET out<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 5915 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<7> + NET out<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 4490 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<8> + NET out<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 3065 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - out<9> + NET out<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 1640 0 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 6440 ) ; 
+  - sign_weight + NET sign_weight 
+    + DIRECTION INPUT 
+    + PLACED ( 17030 -140 ) N 
+    + LAYER metal4 ( 0 0 ) ( 140 87080 ) ; 
+END PINS
+
+COMPONENTS 372 ;
+  - adder_4bit_0.fa_1 full_adder
+    + PLACED ( -10830 84420 ) FS ;
+  - adder_4bit_0.fa_2 full_adder
+    + PLACED ( -7790 84420 ) FS ;
+  - adder_4bit_0.fa_3 full_adder
+    + PLACED ( -4750 84420 ) FS ;
+  - adder_4bit_0.fa_4 adder_sign_extension
+    + PLACED ( -1710 84420 ) FS ;
+  - adder_4bit_0.ha_0 half_adder
+    + PLACED ( -12920 84420 ) FS ;
+  - adder_4bit_1.fa_1 full_adder
+    + PLACED ( -10830 81900 ) FS ;
+  - adder_4bit_1.fa_2 full_adder
+    + PLACED ( -7790 81900 ) FS ;
+  - adder_4bit_1.fa_3 full_adder
+    + PLACED ( -4750 81900 ) FS ;
+  - adder_4bit_1.fa_4 adder_sign_extension
+    + PLACED ( -1710 81900 ) FS ;
+  - adder_4bit_1.ha_0 half_adder
+    + PLACED ( -12920 81900 ) FS ;
+  - adder_4bit_10.fa_1 full_adder
+    + PLACED ( -10830 59220 ) FS ;
+  - adder_4bit_10.fa_2 full_adder
+    + PLACED ( -7790 59220 ) FS ;
+  - adder_4bit_10.fa_3 full_adder
+    + PLACED ( -4750 59220 ) FS ;
+  - adder_4bit_10.fa_4 adder_sign_extension
+    + PLACED ( -1710 59220 ) FS ;
+  - adder_4bit_10.ha_0 half_adder
+    + PLACED ( -12920 59220 ) FS ;
+  - adder_4bit_11.fa_1 full_adder
+    + PLACED ( -10830 56700 ) FS ;
+  - adder_4bit_11.fa_2 full_adder
+    + PLACED ( -7790 56700 ) FS ;
+  - adder_4bit_11.fa_3 full_adder
+    + PLACED ( -4750 56700 ) FS ;
+  - adder_4bit_11.fa_4 adder_sign_extension
+    + PLACED ( -1710 56700 ) FS ;
+  - adder_4bit_11.ha_0 half_adder
+    + PLACED ( -12920 56700 ) FS ;
+  - adder_4bit_12.fa_1 full_adder
+    + PLACED ( -10830 54180 ) FS ;
+  - adder_4bit_12.fa_2 full_adder
+    + PLACED ( -7790 54180 ) FS ;
+  - adder_4bit_12.fa_3 full_adder
+    + PLACED ( -4750 54180 ) FS ;
+  - adder_4bit_12.fa_4 adder_sign_extension
+    + PLACED ( -1710 54180 ) FS ;
+  - adder_4bit_12.ha_0 half_adder
+    + PLACED ( -12920 54180 ) FS ;
+  - adder_4bit_13.fa_1 full_adder
+    + PLACED ( -10830 51660 ) FS ;
+  - adder_4bit_13.fa_2 full_adder
+    + PLACED ( -7790 51660 ) FS ;
+  - adder_4bit_13.fa_3 full_adder
+    + PLACED ( -4750 51660 ) FS ;
+  - adder_4bit_13.fa_4 adder_sign_extension
+    + PLACED ( -1710 51660 ) FS ;
+  - adder_4bit_13.ha_0 half_adder
+    + PLACED ( -12920 51660 ) FS ;
+  - adder_4bit_14.fa_1 full_adder
+    + PLACED ( -10830 49140 ) FS ;
+  - adder_4bit_14.fa_2 full_adder
+    + PLACED ( -7790 49140 ) FS ;
+  - adder_4bit_14.fa_3 full_adder
+    + PLACED ( -4750 49140 ) FS ;
+  - adder_4bit_14.fa_4 adder_sign_extension
+    + PLACED ( -1710 49140 ) FS ;
+  - adder_4bit_14.ha_0 half_adder
+    + PLACED ( -12920 49140 ) FS ;
+  - adder_4bit_15.fa_1 full_adder
+    + PLACED ( -10830 46620 ) FS ;
+  - adder_4bit_15.fa_2 full_adder
+    + PLACED ( -7790 46620 ) FS ;
+  - adder_4bit_15.fa_3 full_adder
+    + PLACED ( -4750 46620 ) FS ;
+  - adder_4bit_15.fa_4 adder_sign_extension
+    + PLACED ( -1710 46620 ) FS ;
+  - adder_4bit_15.ha_0 half_adder
+    + PLACED ( -12920 46620 ) FS ;
+  - adder_4bit_16.fa_1 full_adder
+    + PLACED ( -10830 44100 ) FS ;
+  - adder_4bit_16.fa_2 full_adder
+    + PLACED ( -7790 44100 ) FS ;
+  - adder_4bit_16.fa_3 full_adder
+    + PLACED ( -4750 44100 ) FS ;
+  - adder_4bit_16.fa_4 adder_sign_extension
+    + PLACED ( -1710 44100 ) FS ;
+  - adder_4bit_16.ha_0 half_adder
+    + PLACED ( -12920 44100 ) FS ;
+  - adder_4bit_17.fa_1 full_adder
+    + PLACED ( -10830 41580 ) FS ;
+  - adder_4bit_17.fa_2 full_adder
+    + PLACED ( -7790 41580 ) FS ;
+  - adder_4bit_17.fa_3 full_adder
+    + PLACED ( -4750 41580 ) FS ;
+  - adder_4bit_17.fa_4 adder_sign_extension
+    + PLACED ( -1710 41580 ) FS ;
+  - adder_4bit_17.ha_0 half_adder
+    + PLACED ( -12920 41580 ) FS ;
+  - adder_4bit_18.fa_1 full_adder
+    + PLACED ( -10830 39060 ) FS ;
+  - adder_4bit_18.fa_2 full_adder
+    + PLACED ( -7790 39060 ) FS ;
+  - adder_4bit_18.fa_3 full_adder
+    + PLACED ( -4750 39060 ) FS ;
+  - adder_4bit_18.fa_4 adder_sign_extension
+    + PLACED ( -1710 39060 ) FS ;
+  - adder_4bit_18.ha_0 half_adder
+    + PLACED ( -12920 39060 ) FS ;
+  - adder_4bit_19.fa_1 full_adder
+    + PLACED ( -10830 36540 ) FS ;
+  - adder_4bit_19.fa_2 full_adder
+    + PLACED ( -7790 36540 ) FS ;
+  - adder_4bit_19.fa_3 full_adder
+    + PLACED ( -4750 36540 ) FS ;
+  - adder_4bit_19.fa_4 adder_sign_extension
+    + PLACED ( -1710 36540 ) FS ;
+  - adder_4bit_19.ha_0 half_adder
+    + PLACED ( -12920 36540 ) FS ;
+  - adder_4bit_2.fa_1 full_adder
+    + PLACED ( -10830 79380 ) FS ;
+  - adder_4bit_2.fa_2 full_adder
+    + PLACED ( -7790 79380 ) FS ;
+  - adder_4bit_2.fa_3 full_adder
+    + PLACED ( -4750 79380 ) FS ;
+  - adder_4bit_2.fa_4 adder_sign_extension
+    + PLACED ( -1710 79380 ) FS ;
+  - adder_4bit_2.ha_0 half_adder
+    + PLACED ( -12920 79380 ) FS ;
+  - adder_4bit_20.fa_1 full_adder
+    + PLACED ( -10830 34020 ) FS ;
+  - adder_4bit_20.fa_2 full_adder
+    + PLACED ( -7790 34020 ) FS ;
+  - adder_4bit_20.fa_3 full_adder
+    + PLACED ( -4750 34020 ) FS ;
+  - adder_4bit_20.fa_4 adder_sign_extension
+    + PLACED ( -1710 34020 ) FS ;
+  - adder_4bit_20.ha_0 half_adder
+    + PLACED ( -12920 34020 ) FS ;
+  - adder_4bit_21.fa_1 full_adder
+    + PLACED ( -10830 31500 ) FS ;
+  - adder_4bit_21.fa_2 full_adder
+    + PLACED ( -7790 31500 ) FS ;
+  - adder_4bit_21.fa_3 full_adder
+    + PLACED ( -4750 31500 ) FS ;
+  - adder_4bit_21.fa_4 adder_sign_extension
+    + PLACED ( -1710 31500 ) FS ;
+  - adder_4bit_21.ha_0 half_adder
+    + PLACED ( -12920 31500 ) FS ;
+  - adder_4bit_22.fa_1 full_adder
+    + PLACED ( -10830 28980 ) FS ;
+  - adder_4bit_22.fa_2 full_adder
+    + PLACED ( -7790 28980 ) FS ;
+  - adder_4bit_22.fa_3 full_adder
+    + PLACED ( -4750 28980 ) FS ;
+  - adder_4bit_22.fa_4 adder_sign_extension
+    + PLACED ( -1710 28980 ) FS ;
+  - adder_4bit_22.ha_0 half_adder
+    + PLACED ( -12920 28980 ) FS ;
+  - adder_4bit_23.fa_1 full_adder
+    + PLACED ( -10830 26460 ) FS ;
+  - adder_4bit_23.fa_2 full_adder
+    + PLACED ( -7790 26460 ) FS ;
+  - adder_4bit_23.fa_3 full_adder
+    + PLACED ( -4750 26460 ) FS ;
+  - adder_4bit_23.fa_4 adder_sign_extension
+    + PLACED ( -1710 26460 ) FS ;
+  - adder_4bit_23.ha_0 half_adder
+    + PLACED ( -12920 26460 ) FS ;
+  - adder_4bit_24.fa_1 full_adder
+    + PLACED ( -10830 23940 ) FS ;
+  - adder_4bit_24.fa_2 full_adder
+    + PLACED ( -7790 23940 ) FS ;
+  - adder_4bit_24.fa_3 full_adder
+    + PLACED ( -4750 23940 ) FS ;
+  - adder_4bit_24.fa_4 adder_sign_extension
+    + PLACED ( -1710 23940 ) FS ;
+  - adder_4bit_24.ha_0 half_adder
+    + PLACED ( -12920 23940 ) FS ;
+  - adder_4bit_25.fa_1 full_adder
+    + PLACED ( -10830 21420 ) FS ;
+  - adder_4bit_25.fa_2 full_adder
+    + PLACED ( -7790 21420 ) FS ;
+  - adder_4bit_25.fa_3 full_adder
+    + PLACED ( -4750 21420 ) FS ;
+  - adder_4bit_25.fa_4 adder_sign_extension
+    + PLACED ( -1710 21420 ) FS ;
+  - adder_4bit_25.ha_0 half_adder
+    + PLACED ( -12920 21420 ) FS ;
+  - adder_4bit_26.fa_1 full_adder
+    + PLACED ( -10830 18900 ) FS ;
+  - adder_4bit_26.fa_2 full_adder
+    + PLACED ( -7790 18900 ) FS ;
+  - adder_4bit_26.fa_3 full_adder
+    + PLACED ( -4750 18900 ) FS ;
+  - adder_4bit_26.fa_4 adder_sign_extension
+    + PLACED ( -1710 18900 ) FS ;
+  - adder_4bit_26.ha_0 half_adder
+    + PLACED ( -12920 18900 ) FS ;
+  - adder_4bit_27.fa_1 full_adder
+    + PLACED ( -10830 16380 ) FS ;
+  - adder_4bit_27.fa_2 full_adder
+    + PLACED ( -7790 16380 ) FS ;
+  - adder_4bit_27.fa_3 full_adder
+    + PLACED ( -4750 16380 ) FS ;
+  - adder_4bit_27.fa_4 adder_sign_extension
+    + PLACED ( -1710 16380 ) FS ;
+  - adder_4bit_27.ha_0 half_adder
+    + PLACED ( -12920 16380 ) FS ;
+  - adder_4bit_28.fa_1 full_adder
+    + PLACED ( -10830 13860 ) FS ;
+  - adder_4bit_28.fa_2 full_adder
+    + PLACED ( -7790 13860 ) FS ;
+  - adder_4bit_28.fa_3 full_adder
+    + PLACED ( -4750 13860 ) FS ;
+  - adder_4bit_28.fa_4 adder_sign_extension
+    + PLACED ( -1710 13860 ) FS ;
+  - adder_4bit_28.ha_0 half_adder
+    + PLACED ( -12920 13860 ) FS ;
+  - adder_4bit_29.fa_1 full_adder
+    + PLACED ( -10830 11340 ) FS ;
+  - adder_4bit_29.fa_2 full_adder
+    + PLACED ( -7790 11340 ) FS ;
+  - adder_4bit_29.fa_3 full_adder
+    + PLACED ( -4750 11340 ) FS ;
+  - adder_4bit_29.fa_4 adder_sign_extension
+    + PLACED ( -1710 11340 ) FS ;
+  - adder_4bit_29.ha_0 half_adder
+    + PLACED ( -12920 11340 ) FS ;
+  - adder_4bit_3.fa_1 full_adder
+    + PLACED ( -10830 76860 ) FS ;
+  - adder_4bit_3.fa_2 full_adder
+    + PLACED ( -7790 76860 ) FS ;
+  - adder_4bit_3.fa_3 full_adder
+    + PLACED ( -4750 76860 ) FS ;
+  - adder_4bit_3.fa_4 adder_sign_extension
+    + PLACED ( -1710 76860 ) FS ;
+  - adder_4bit_3.ha_0 half_adder
+    + PLACED ( -12920 76860 ) FS ;
+  - adder_4bit_30.fa_1 full_adder
+    + PLACED ( -10830 8820 ) FS ;
+  - adder_4bit_30.fa_2 full_adder
+    + PLACED ( -7790 8820 ) FS ;
+  - adder_4bit_30.fa_3 full_adder
+    + PLACED ( -4750 8820 ) FS ;
+  - adder_4bit_30.fa_4 adder_sign_extension
+    + PLACED ( -1710 8820 ) FS ;
+  - adder_4bit_30.ha_0 half_adder
+    + PLACED ( -12920 8820 ) FS ;
+  - adder_4bit_31.fa_1 full_adder
+    + PLACED ( -10830 6300 ) FS ;
+  - adder_4bit_31.fa_2 full_adder
+    + PLACED ( -7790 6300 ) FS ;
+  - adder_4bit_31.fa_3 full_adder
+    + PLACED ( -4750 6300 ) FS ;
+  - adder_4bit_31.fa_4 adder_sign_extension
+    + PLACED ( -1710 6300 ) FS ;
+  - adder_4bit_31.ha_0 half_adder
+    + PLACED ( -12920 6300 ) FS ;
+  - adder_4bit_4.fa_1 full_adder
+    + PLACED ( -10830 74340 ) FS ;
+  - adder_4bit_4.fa_2 full_adder
+    + PLACED ( -7790 74340 ) FS ;
+  - adder_4bit_4.fa_3 full_adder
+    + PLACED ( -4750 74340 ) FS ;
+  - adder_4bit_4.fa_4 adder_sign_extension
+    + PLACED ( -1710 74340 ) FS ;
+  - adder_4bit_4.ha_0 half_adder
+    + PLACED ( -12920 74340 ) FS ;
+  - adder_4bit_5.fa_1 full_adder
+    + PLACED ( -10830 71820 ) FS ;
+  - adder_4bit_5.fa_2 full_adder
+    + PLACED ( -7790 71820 ) FS ;
+  - adder_4bit_5.fa_3 full_adder
+    + PLACED ( -4750 71820 ) FS ;
+  - adder_4bit_5.fa_4 adder_sign_extension
+    + PLACED ( -1710 71820 ) FS ;
+  - adder_4bit_5.ha_0 half_adder
+    + PLACED ( -12920 71820 ) FS ;
+  - adder_4bit_6.fa_1 full_adder
+    + PLACED ( -10830 69300 ) FS ;
+  - adder_4bit_6.fa_2 full_adder
+    + PLACED ( -7790 69300 ) FS ;
+  - adder_4bit_6.fa_3 full_adder
+    + PLACED ( -4750 69300 ) FS ;
+  - adder_4bit_6.fa_4 adder_sign_extension
+    + PLACED ( -1710 69300 ) FS ;
+  - adder_4bit_6.ha_0 half_adder
+    + PLACED ( -12920 69300 ) FS ;
+  - adder_4bit_7.fa_1 full_adder
+    + PLACED ( -10830 66780 ) FS ;
+  - adder_4bit_7.fa_2 full_adder
+    + PLACED ( -7790 66780 ) FS ;
+  - adder_4bit_7.fa_3 full_adder
+    + PLACED ( -4750 66780 ) FS ;
+  - adder_4bit_7.fa_4 adder_sign_extension
+    + PLACED ( -1710 66780 ) FS ;
+  - adder_4bit_7.ha_0 half_adder
+    + PLACED ( -12920 66780 ) FS ;
+  - adder_4bit_8.fa_1 full_adder
+    + PLACED ( -10830 64260 ) FS ;
+  - adder_4bit_8.fa_2 full_adder
+    + PLACED ( -7790 64260 ) FS ;
+  - adder_4bit_8.fa_3 full_adder
+    + PLACED ( -4750 64260 ) FS ;
+  - adder_4bit_8.fa_4 adder_sign_extension
+    + PLACED ( -1710 64260 ) FS ;
+  - adder_4bit_8.ha_0 half_adder
+    + PLACED ( -12920 64260 ) FS ;
+  - adder_4bit_9.fa_1 full_adder
+    + PLACED ( -10830 61740 ) FS ;
+  - adder_4bit_9.fa_2 full_adder
+    + PLACED ( -7790 61740 ) FS ;
+  - adder_4bit_9.fa_3 full_adder
+    + PLACED ( -4750 61740 ) FS ;
+  - adder_4bit_9.fa_4 adder_sign_extension
+    + PLACED ( -1710 61740 ) FS ;
+  - adder_4bit_9.ha_0 half_adder
+    + PLACED ( -12920 61740 ) FS ;
+  - adder_5bit_0.fa_1 full_adder
+    + PLACED ( 2090 83160 ) N ;
+  - adder_5bit_0.fa_2 full_adder
+    + PLACED ( 5130 83160 ) N ;
+  - adder_5bit_0.fa_3 full_adder
+    + PLACED ( 8170 83160 ) N ;
+  - adder_5bit_0.fa_4 full_adder
+    + PLACED ( 11210 83160 ) N ;
+  - adder_5bit_0.fa_5 adder_sign_extension
+    + PLACED ( 14250 83160 ) N ;
+  - adder_5bit_0.ha_0 half_adder
+    + PLACED ( 0 83160 ) N ;
+  - adder_5bit_1.fa_1 full_adder
+    + PLACED ( 2090 78120 ) N ;
+  - adder_5bit_1.fa_2 full_adder
+    + PLACED ( 5130 78120 ) N ;
+  - adder_5bit_1.fa_3 full_adder
+    + PLACED ( 8170 78120 ) N ;
+  - adder_5bit_1.fa_4 full_adder
+    + PLACED ( 11210 78120 ) N ;
+  - adder_5bit_1.fa_5 adder_sign_extension
+    + PLACED ( 14250 78120 ) N ;
+  - adder_5bit_1.ha_0 half_adder
+    + PLACED ( 0 78120 ) N ;
+  - adder_5bit_10.fa_1 full_adder
+    + PLACED ( 2090 32760 ) N ;
+  - adder_5bit_10.fa_2 full_adder
+    + PLACED ( 5130 32760 ) N ;
+  - adder_5bit_10.fa_3 full_adder
+    + PLACED ( 8170 32760 ) N ;
+  - adder_5bit_10.fa_4 full_adder
+    + PLACED ( 11210 32760 ) N ;
+  - adder_5bit_10.fa_5 adder_sign_extension
+    + PLACED ( 14250 32760 ) N ;
+  - adder_5bit_10.ha_0 half_adder
+    + PLACED ( 0 32760 ) N ;
+  - adder_5bit_11.fa_1 full_adder
+    + PLACED ( 2090 27720 ) N ;
+  - adder_5bit_11.fa_2 full_adder
+    + PLACED ( 5130 27720 ) N ;
+  - adder_5bit_11.fa_3 full_adder
+    + PLACED ( 8170 27720 ) N ;
+  - adder_5bit_11.fa_4 full_adder
+    + PLACED ( 11210 27720 ) N ;
+  - adder_5bit_11.fa_5 adder_sign_extension
+    + PLACED ( 14250 27720 ) N ;
+  - adder_5bit_11.ha_0 half_adder
+    + PLACED ( 0 27720 ) N ;
+  - adder_5bit_12.fa_1 full_adder
+    + PLACED ( 2090 22680 ) N ;
+  - adder_5bit_12.fa_2 full_adder
+    + PLACED ( 5130 22680 ) N ;
+  - adder_5bit_12.fa_3 full_adder
+    + PLACED ( 8170 22680 ) N ;
+  - adder_5bit_12.fa_4 full_adder
+    + PLACED ( 11210 22680 ) N ;
+  - adder_5bit_12.fa_5 adder_sign_extension
+    + PLACED ( 14250 22680 ) N ;
+  - adder_5bit_12.ha_0 half_adder
+    + PLACED ( 0 22680 ) N ;
+  - adder_5bit_13.fa_1 full_adder
+    + PLACED ( 2090 17640 ) N ;
+  - adder_5bit_13.fa_2 full_adder
+    + PLACED ( 5130 17640 ) N ;
+  - adder_5bit_13.fa_3 full_adder
+    + PLACED ( 8170 17640 ) N ;
+  - adder_5bit_13.fa_4 full_adder
+    + PLACED ( 11210 17640 ) N ;
+  - adder_5bit_13.fa_5 adder_sign_extension
+    + PLACED ( 14250 17640 ) N ;
+  - adder_5bit_13.ha_0 half_adder
+    + PLACED ( 0 17640 ) N ;
+  - adder_5bit_14.fa_1 full_adder
+    + PLACED ( 2090 12600 ) N ;
+  - adder_5bit_14.fa_2 full_adder
+    + PLACED ( 5130 12600 ) N ;
+  - adder_5bit_14.fa_3 full_adder
+    + PLACED ( 8170 12600 ) N ;
+  - adder_5bit_14.fa_4 full_adder
+    + PLACED ( 11210 12600 ) N ;
+  - adder_5bit_14.fa_5 adder_sign_extension
+    + PLACED ( 14250 12600 ) N ;
+  - adder_5bit_14.ha_0 half_adder
+    + PLACED ( 0 12600 ) N ;
+  - adder_5bit_15.fa_1 full_adder
+    + PLACED ( 2090 7560 ) N ;
+  - adder_5bit_15.fa_2 full_adder
+    + PLACED ( 5130 7560 ) N ;
+  - adder_5bit_15.fa_3 full_adder
+    + PLACED ( 8170 7560 ) N ;
+  - adder_5bit_15.fa_4 full_adder
+    + PLACED ( 11210 7560 ) N ;
+  - adder_5bit_15.fa_5 adder_sign_extension
+    + PLACED ( 14250 7560 ) N ;
+  - adder_5bit_15.ha_0 half_adder
+    + PLACED ( 0 7560 ) N ;
+  - adder_5bit_2.fa_1 full_adder
+    + PLACED ( 2090 73080 ) N ;
+  - adder_5bit_2.fa_2 full_adder
+    + PLACED ( 5130 73080 ) N ;
+  - adder_5bit_2.fa_3 full_adder
+    + PLACED ( 8170 73080 ) N ;
+  - adder_5bit_2.fa_4 full_adder
+    + PLACED ( 11210 73080 ) N ;
+  - adder_5bit_2.fa_5 adder_sign_extension
+    + PLACED ( 14250 73080 ) N ;
+  - adder_5bit_2.ha_0 half_adder
+    + PLACED ( 0 73080 ) N ;
+  - adder_5bit_3.fa_1 full_adder
+    + PLACED ( 2090 68040 ) N ;
+  - adder_5bit_3.fa_2 full_adder
+    + PLACED ( 5130 68040 ) N ;
+  - adder_5bit_3.fa_3 full_adder
+    + PLACED ( 8170 68040 ) N ;
+  - adder_5bit_3.fa_4 full_adder
+    + PLACED ( 11210 68040 ) N ;
+  - adder_5bit_3.fa_5 adder_sign_extension
+    + PLACED ( 14250 68040 ) N ;
+  - adder_5bit_3.ha_0 half_adder
+    + PLACED ( 0 68040 ) N ;
+  - adder_5bit_4.fa_1 full_adder
+    + PLACED ( 2090 63000 ) N ;
+  - adder_5bit_4.fa_2 full_adder
+    + PLACED ( 5130 63000 ) N ;
+  - adder_5bit_4.fa_3 full_adder
+    + PLACED ( 8170 63000 ) N ;
+  - adder_5bit_4.fa_4 full_adder
+    + PLACED ( 11210 63000 ) N ;
+  - adder_5bit_4.fa_5 adder_sign_extension
+    + PLACED ( 14250 63000 ) N ;
+  - adder_5bit_4.ha_0 half_adder
+    + PLACED ( 0 63000 ) N ;
+  - adder_5bit_5.fa_1 full_adder
+    + PLACED ( 2090 57960 ) N ;
+  - adder_5bit_5.fa_2 full_adder
+    + PLACED ( 5130 57960 ) N ;
+  - adder_5bit_5.fa_3 full_adder
+    + PLACED ( 8170 57960 ) N ;
+  - adder_5bit_5.fa_4 full_adder
+    + PLACED ( 11210 57960 ) N ;
+  - adder_5bit_5.fa_5 adder_sign_extension
+    + PLACED ( 14250 57960 ) N ;
+  - adder_5bit_5.ha_0 half_adder
+    + PLACED ( 0 57960 ) N ;
+  - adder_5bit_6.fa_1 full_adder
+    + PLACED ( 2090 52920 ) N ;
+  - adder_5bit_6.fa_2 full_adder
+    + PLACED ( 5130 52920 ) N ;
+  - adder_5bit_6.fa_3 full_adder
+    + PLACED ( 8170 52920 ) N ;
+  - adder_5bit_6.fa_4 full_adder
+    + PLACED ( 11210 52920 ) N ;
+  - adder_5bit_6.fa_5 adder_sign_extension
+    + PLACED ( 14250 52920 ) N ;
+  - adder_5bit_6.ha_0 half_adder
+    + PLACED ( 0 52920 ) N ;
+  - adder_5bit_7.fa_1 full_adder
+    + PLACED ( 2090 47880 ) N ;
+  - adder_5bit_7.fa_2 full_adder
+    + PLACED ( 5130 47880 ) N ;
+  - adder_5bit_7.fa_3 full_adder
+    + PLACED ( 8170 47880 ) N ;
+  - adder_5bit_7.fa_4 full_adder
+    + PLACED ( 11210 47880 ) N ;
+  - adder_5bit_7.fa_5 adder_sign_extension
+    + PLACED ( 14250 47880 ) N ;
+  - adder_5bit_7.ha_0 half_adder
+    + PLACED ( 0 47880 ) N ;
+  - adder_5bit_8.fa_1 full_adder
+    + PLACED ( 2090 42840 ) N ;
+  - adder_5bit_8.fa_2 full_adder
+    + PLACED ( 5130 42840 ) N ;
+  - adder_5bit_8.fa_3 full_adder
+    + PLACED ( 8170 42840 ) N ;
+  - adder_5bit_8.fa_4 full_adder
+    + PLACED ( 11210 42840 ) N ;
+  - adder_5bit_8.fa_5 adder_sign_extension
+    + PLACED ( 14250 42840 ) N ;
+  - adder_5bit_8.ha_0 half_adder
+    + PLACED ( 0 42840 ) N ;
+  - adder_5bit_9.fa_1 full_adder
+    + PLACED ( 2090 37800 ) N ;
+  - adder_5bit_9.fa_2 full_adder
+    + PLACED ( 5130 37800 ) N ;
+  - adder_5bit_9.fa_3 full_adder
+    + PLACED ( 8170 37800 ) N ;
+  - adder_5bit_9.fa_4 full_adder
+    + PLACED ( 11210 37800 ) N ;
+  - adder_5bit_9.fa_5 adder_sign_extension
+    + PLACED ( 14250 37800 ) N ;
+  - adder_5bit_9.ha_0 half_adder
+    + PLACED ( 0 37800 ) N ;
+  - adder_6bit_0.fa_1 full_adder
+    + PLACED ( 15960 80640 ) N ;
+  - adder_6bit_0.fa_2 full_adder
+    + PLACED ( 19000 80640 ) N ;
+  - adder_6bit_0.fa_3 full_adder
+    + PLACED ( 22040 80640 ) N ;
+  - adder_6bit_0.fa_4 full_adder
+    + PLACED ( 25080 80640 ) N ;
+  - adder_6bit_0.fa_5 full_adder
+    + PLACED ( 28120 80640 ) N ;
+  - adder_6bit_0.fa_6 adder_sign_extension
+    + PLACED ( 31160 80640 ) N ;
+  - adder_6bit_0.ha_0 half_adder
+    + PLACED ( 13870 80640 ) N ;
+  - adder_6bit_1.fa_1 full_adder
+    + PLACED ( 15960 70560 ) N ;
+  - adder_6bit_1.fa_2 full_adder
+    + PLACED ( 19000 70560 ) N ;
+  - adder_6bit_1.fa_3 full_adder
+    + PLACED ( 22040 70560 ) N ;
+  - adder_6bit_1.fa_4 full_adder
+    + PLACED ( 25080 70560 ) N ;
+  - adder_6bit_1.fa_5 full_adder
+    + PLACED ( 28120 70560 ) N ;
+  - adder_6bit_1.fa_6 adder_sign_extension
+    + PLACED ( 31160 70560 ) N ;
+  - adder_6bit_1.ha_0 half_adder
+    + PLACED ( 13870 70560 ) N ;
+  - adder_6bit_2.fa_1 full_adder
+    + PLACED ( 15960 60480 ) N ;
+  - adder_6bit_2.fa_2 full_adder
+    + PLACED ( 19000 60480 ) N ;
+  - adder_6bit_2.fa_3 full_adder
+    + PLACED ( 22040 60480 ) N ;
+  - adder_6bit_2.fa_4 full_adder
+    + PLACED ( 25080 60480 ) N ;
+  - adder_6bit_2.fa_5 full_adder
+    + PLACED ( 28120 60480 ) N ;
+  - adder_6bit_2.fa_6 adder_sign_extension
+    + PLACED ( 31160 60480 ) N ;
+  - adder_6bit_2.ha_0 half_adder
+    + PLACED ( 13870 60480 ) N ;
+  - adder_6bit_3.fa_1 full_adder
+    + PLACED ( 15960 50400 ) N ;
+  - adder_6bit_3.fa_2 full_adder
+    + PLACED ( 19000 50400 ) N ;
+  - adder_6bit_3.fa_3 full_adder
+    + PLACED ( 22040 50400 ) N ;
+  - adder_6bit_3.fa_4 full_adder
+    + PLACED ( 25080 50400 ) N ;
+  - adder_6bit_3.fa_5 full_adder
+    + PLACED ( 28120 50400 ) N ;
+  - adder_6bit_3.fa_6 adder_sign_extension
+    + PLACED ( 31160 50400 ) N ;
+  - adder_6bit_3.ha_0 half_adder
+    + PLACED ( 13870 50400 ) N ;
+  - adder_6bit_4.fa_1 full_adder
+    + PLACED ( 15960 40320 ) N ;
+  - adder_6bit_4.fa_2 full_adder
+    + PLACED ( 19000 40320 ) N ;
+  - adder_6bit_4.fa_3 full_adder
+    + PLACED ( 22040 40320 ) N ;
+  - adder_6bit_4.fa_4 full_adder
+    + PLACED ( 25080 40320 ) N ;
+  - adder_6bit_4.fa_5 full_adder
+    + PLACED ( 28120 40320 ) N ;
+  - adder_6bit_4.fa_6 adder_sign_extension
+    + PLACED ( 31160 40320 ) N ;
+  - adder_6bit_4.ha_0 half_adder
+    + PLACED ( 13870 40320 ) N ;
+  - adder_6bit_5.fa_1 full_adder
+    + PLACED ( 15960 30240 ) N ;
+  - adder_6bit_5.fa_2 full_adder
+    + PLACED ( 19000 30240 ) N ;
+  - adder_6bit_5.fa_3 full_adder
+    + PLACED ( 22040 30240 ) N ;
+  - adder_6bit_5.fa_4 full_adder
+    + PLACED ( 25080 30240 ) N ;
+  - adder_6bit_5.fa_5 full_adder
+    + PLACED ( 28120 30240 ) N ;
+  - adder_6bit_5.fa_6 adder_sign_extension
+    + PLACED ( 31160 30240 ) N ;
+  - adder_6bit_5.ha_0 half_adder
+    + PLACED ( 13870 30240 ) N ;
+  - adder_6bit_6.fa_1 full_adder
+    + PLACED ( 15960 20160 ) N ;
+  - adder_6bit_6.fa_2 full_adder
+    + PLACED ( 19000 20160 ) N ;
+  - adder_6bit_6.fa_3 full_adder
+    + PLACED ( 22040 20160 ) N ;
+  - adder_6bit_6.fa_4 full_adder
+    + PLACED ( 25080 20160 ) N ;
+  - adder_6bit_6.fa_5 full_adder
+    + PLACED ( 28120 20160 ) N ;
+  - adder_6bit_6.fa_6 adder_sign_extension
+    + PLACED ( 31160 20160 ) N ;
+  - adder_6bit_6.ha_0 half_adder
+    + PLACED ( 13870 20160 ) N ;
+  - adder_6bit_7.fa_1 full_adder
+    + PLACED ( 15960 10080 ) N ;
+  - adder_6bit_7.fa_2 full_adder
+    + PLACED ( 19000 10080 ) N ;
+  - adder_6bit_7.fa_3 full_adder
+    + PLACED ( 22040 10080 ) N ;
+  - adder_6bit_7.fa_4 full_adder
+    + PLACED ( 25080 10080 ) N ;
+  - adder_6bit_7.fa_5 full_adder
+    + PLACED ( 28120 10080 ) N ;
+  - adder_6bit_7.fa_6 adder_sign_extension
+    + PLACED ( 31160 10080 ) N ;
+  - adder_6bit_7.ha_0 half_adder
+    + PLACED ( 13870 10080 ) N ;
+  - adder_7bit_0.fa_1 full_adder
+    + PLACED ( 30780 75600 ) N ;
+  - adder_7bit_0.fa_2 full_adder
+    + PLACED ( 33820 75600 ) N ;
+  - adder_7bit_0.fa_3 full_adder
+    + PLACED ( 36860 75600 ) N ;
+  - adder_7bit_0.fa_4 full_adder
+    + PLACED ( 39900 75600 ) N ;
+  - adder_7bit_0.fa_5 full_adder
+    + PLACED ( 42940 75600 ) N ;
+  - adder_7bit_0.fa_6 full_adder
+    + PLACED ( 45980 75600 ) N ;
+  - adder_7bit_0.fa_7 adder_sign_extension
+    + PLACED ( 49020 75600 ) N ;
+  - adder_7bit_0.ha_0 half_adder
+    + PLACED ( 28690 75600 ) N ;
+  - adder_7bit_1.fa_1 full_adder
+    + PLACED ( 30780 55440 ) N ;
+  - adder_7bit_1.fa_2 full_adder
+    + PLACED ( 33820 55440 ) N ;
+  - adder_7bit_1.fa_3 full_adder
+    + PLACED ( 36860 55440 ) N ;
+  - adder_7bit_1.fa_4 full_adder
+    + PLACED ( 39900 55440 ) N ;
+  - adder_7bit_1.fa_5 full_adder
+    + PLACED ( 42940 55440 ) N ;
+  - adder_7bit_1.fa_6 full_adder
+    + PLACED ( 45980 55440 ) N ;
+  - adder_7bit_1.fa_7 adder_sign_extension
+    + PLACED ( 49020 55440 ) N ;
+  - adder_7bit_1.ha_0 half_adder
+    + PLACED ( 28690 55440 ) N ;
+  - adder_7bit_2.fa_1 full_adder
+    + PLACED ( 30780 35280 ) N ;
+  - adder_7bit_2.fa_2 full_adder
+    + PLACED ( 33820 35280 ) N ;
+  - adder_7bit_2.fa_3 full_adder
+    + PLACED ( 36860 35280 ) N ;
+  - adder_7bit_2.fa_4 full_adder
+    + PLACED ( 39900 35280 ) N ;
+  - adder_7bit_2.fa_5 full_adder
+    + PLACED ( 42940 35280 ) N ;
+  - adder_7bit_2.fa_6 full_adder
+    + PLACED ( 45980 35280 ) N ;
+  - adder_7bit_2.fa_7 adder_sign_extension
+    + PLACED ( 49020 35280 ) N ;
+  - adder_7bit_2.ha_0 half_adder
+    + PLACED ( 28690 35280 ) N ;
+  - adder_7bit_3.fa_1 full_adder
+    + PLACED ( 30780 15120 ) N ;
+  - adder_7bit_3.fa_2 full_adder
+    + PLACED ( 33820 15120 ) N ;
+  - adder_7bit_3.fa_3 full_adder
+    + PLACED ( 36860 15120 ) N ;
+  - adder_7bit_3.fa_4 full_adder
+    + PLACED ( 39900 15120 ) N ;
+  - adder_7bit_3.fa_5 full_adder
+    + PLACED ( 42940 15120 ) N ;
+  - adder_7bit_3.fa_6 full_adder
+    + PLACED ( 45980 15120 ) N ;
+  - adder_7bit_3.fa_7 adder_sign_extension
+    + PLACED ( 49020 15120 ) N ;
+  - adder_7bit_3.ha_0 half_adder
+    + PLACED ( 28690 15120 ) N ;
+  - adder_8bit_0.fa_1 full_adder
+    + PLACED ( 46740 65520 ) N ;
+  - adder_8bit_0.fa_2 full_adder
+    + PLACED ( 49780 65520 ) N ;
+  - adder_8bit_0.fa_3 full_adder
+    + PLACED ( 52820 65520 ) N ;
+  - adder_8bit_0.fa_4 full_adder
+    + PLACED ( 55860 65520 ) N ;
+  - adder_8bit_0.fa_5 full_adder
+    + PLACED ( 58900 65520 ) N ;
+  - adder_8bit_0.fa_6 full_adder
+    + PLACED ( 61940 65520 ) N ;
+  - adder_8bit_0.fa_7 full_adder
+    + PLACED ( 64980 65520 ) N ;
+  - adder_8bit_0.fa_8 adder_sign_extension
+    + PLACED ( 68020 65520 ) N ;
+  - adder_8bit_0.ha_0 half_adder
+    + PLACED ( 44650 65520 ) N ;
+  - adder_8bit_1.fa_1 full_adder
+    + PLACED ( 46740 25200 ) N ;
+  - adder_8bit_1.fa_2 full_adder
+    + PLACED ( 49780 25200 ) N ;
+  - adder_8bit_1.fa_3 full_adder
+    + PLACED ( 52820 25200 ) N ;
+  - adder_8bit_1.fa_4 full_adder
+    + PLACED ( 55860 25200 ) N ;
+  - adder_8bit_1.fa_5 full_adder
+    + PLACED ( 58900 25200 ) N ;
+  - adder_8bit_1.fa_6 full_adder
+    + PLACED ( 61940 25200 ) N ;
+  - adder_8bit_1.fa_7 full_adder
+    + PLACED ( 64980 25200 ) N ;
+  - adder_8bit_1.fa_8 adder_sign_extension
+    + PLACED ( 68020 25200 ) N ;
+  - adder_8bit_1.ha_0 half_adder
+    + PLACED ( 44650 25200 ) N ;
+  - adder_9bit.fa_1 full_adder
+    + PLACED ( 63650 45360 ) N ;
+  - adder_9bit.fa_2 full_adder
+    + PLACED ( 66690 45360 ) N ;
+  - adder_9bit.fa_3 full_adder
+    + PLACED ( 69730 45360 ) N ;
+  - adder_9bit.fa_4 full_adder
+    + PLACED ( 72770 45360 ) N ;
+  - adder_9bit.fa_5 full_adder
+    + PLACED ( 75810 45360 ) N ;
+  - adder_9bit.fa_6 full_adder
+    + PLACED ( 78850 45360 ) N ;
+  - adder_9bit.fa_7 full_adder
+    + PLACED ( 81890 45360 ) N ;
+  - adder_9bit.fa_8 full_adder
+    + PLACED ( 84930 45360 ) N ;
+  - adder_9bit.fa_9 adder_sign_extension
+    + PLACED ( 87970 45360 ) N ;
+  - adder_9bit.ha_0 half_adder
+    + PLACED ( 61560 45360 ) N ;
+END COMPONENTS
+
+NETS 938 ;
+  - in_0<0>
+    ( PIN in_0<0> )
+    ( adder_4bit_0.ha_0 a ) ;
+  - in_0<1>
+    ( PIN in_0<1> )
+    ( adder_4bit_0.fa_1 a ) ;
+  - in_0<2>
+    ( PIN in_0<2> )
+    ( adder_4bit_0.fa_2 a ) ;
+  - in_0<3>
+    ( PIN in_0<3> )
+    ( adder_4bit_0.fa_3 a )
+    ( adder_4bit_0.fa_4 a ) ;
+  - in_10<0>
+    ( PIN in_10<0> )
+    ( adder_4bit_5.ha_0 a ) ;
+  - in_10<1>
+    ( PIN in_10<1> )
+    ( adder_4bit_5.fa_1 a ) ;
+  - in_10<2>
+    ( PIN in_10<2> )
+    ( adder_4bit_5.fa_2 a ) ;
+  - in_10<3>
+    ( PIN in_10<3> )
+    ( adder_4bit_5.fa_3 a )
+    ( adder_4bit_5.fa_4 a ) ;
+  - in_11<0>
+    ( PIN in_11<0> )
+    ( adder_4bit_5.ha_0 b ) ;
+  - in_11<1>
+    ( PIN in_11<1> )
+    ( adder_4bit_5.fa_1 b ) ;
+  - in_11<2>
+    ( PIN in_11<2> )
+    ( adder_4bit_5.fa_2 b ) ;
+  - in_11<3>
+    ( PIN in_11<3> )
+    ( adder_4bit_5.fa_3 b )
+    ( adder_4bit_5.fa_4 b ) ;
+  - in_12<0>
+    ( PIN in_12<0> )
+    ( adder_4bit_6.ha_0 a ) ;
+  - in_12<1>
+    ( PIN in_12<1> )
+    ( adder_4bit_6.fa_1 a ) ;
+  - in_12<2>
+    ( PIN in_12<2> )
+    ( adder_4bit_6.fa_2 a ) ;
+  - in_12<3>
+    ( PIN in_12<3> )
+    ( adder_4bit_6.fa_3 a )
+    ( adder_4bit_6.fa_4 a ) ;
+  - in_13<0>
+    ( PIN in_13<0> )
+    ( adder_4bit_6.ha_0 b ) ;
+  - in_13<1>
+    ( PIN in_13<1> )
+    ( adder_4bit_6.fa_1 b ) ;
+  - in_13<2>
+    ( PIN in_13<2> )
+    ( adder_4bit_6.fa_2 b ) ;
+  - in_13<3>
+    ( PIN in_13<3> )
+    ( adder_4bit_6.fa_3 b )
+    ( adder_4bit_6.fa_4 b ) ;
+  - in_14<0>
+    ( PIN in_14<0> )
+    ( adder_4bit_7.ha_0 a ) ;
+  - in_14<1>
+    ( PIN in_14<1> )
+    ( adder_4bit_7.fa_1 a ) ;
+  - in_14<2>
+    ( PIN in_14<2> )
+    ( adder_4bit_7.fa_2 a ) ;
+  - in_14<3>
+    ( PIN in_14<3> )
+    ( adder_4bit_7.fa_3 a )
+    ( adder_4bit_7.fa_4 a ) ;
+  - in_15<0>
+    ( PIN in_15<0> )
+    ( adder_4bit_7.ha_0 b ) ;
+  - in_15<1>
+    ( PIN in_15<1> )
+    ( adder_4bit_7.fa_1 b ) ;
+  - in_15<2>
+    ( PIN in_15<2> )
+    ( adder_4bit_7.fa_2 b ) ;
+  - in_15<3>
+    ( PIN in_15<3> )
+    ( adder_4bit_7.fa_3 b )
+    ( adder_4bit_7.fa_4 b ) ;
+  - in_16<0>
+    ( PIN in_16<0> )
+    ( adder_4bit_8.ha_0 a ) ;
+  - in_16<1>
+    ( PIN in_16<1> )
+    ( adder_4bit_8.fa_1 a ) ;
+  - in_16<2>
+    ( PIN in_16<2> )
+    ( adder_4bit_8.fa_2 a ) ;
+  - in_16<3>
+    ( PIN in_16<3> )
+    ( adder_4bit_8.fa_3 a )
+    ( adder_4bit_8.fa_4 a ) ;
+  - in_17<0>
+    ( PIN in_17<0> )
+    ( adder_4bit_8.ha_0 b ) ;
+  - in_17<1>
+    ( PIN in_17<1> )
+    ( adder_4bit_8.fa_1 b ) ;
+  - in_17<2>
+    ( PIN in_17<2> )
+    ( adder_4bit_8.fa_2 b ) ;
+  - in_17<3>
+    ( PIN in_17<3> )
+    ( adder_4bit_8.fa_3 b )
+    ( adder_4bit_8.fa_4 b ) ;
+  - in_18<0>
+    ( PIN in_18<0> )
+    ( adder_4bit_9.ha_0 a ) ;
+  - in_18<1>
+    ( PIN in_18<1> )
+    ( adder_4bit_9.fa_1 a ) ;
+  - in_18<2>
+    ( PIN in_18<2> )
+    ( adder_4bit_9.fa_2 a ) ;
+  - in_18<3>
+    ( PIN in_18<3> )
+    ( adder_4bit_9.fa_3 a )
+    ( adder_4bit_9.fa_4 a ) ;
+  - in_19<0>
+    ( PIN in_19<0> )
+    ( adder_4bit_9.ha_0 b ) ;
+  - in_19<1>
+    ( PIN in_19<1> )
+    ( adder_4bit_9.fa_1 b ) ;
+  - in_19<2>
+    ( PIN in_19<2> )
+    ( adder_4bit_9.fa_2 b ) ;
+  - in_19<3>
+    ( PIN in_19<3> )
+    ( adder_4bit_9.fa_3 b )
+    ( adder_4bit_9.fa_4 b ) ;
+  - in_1<0>
+    ( PIN in_1<0> )
+    ( adder_4bit_0.ha_0 b ) ;
+  - in_1<1>
+    ( PIN in_1<1> )
+    ( adder_4bit_0.fa_1 b ) ;
+  - in_1<2>
+    ( PIN in_1<2> )
+    ( adder_4bit_0.fa_2 b ) ;
+  - in_1<3>
+    ( PIN in_1<3> )
+    ( adder_4bit_0.fa_3 b )
+    ( adder_4bit_0.fa_4 b ) ;
+  - in_20<0>
+    ( PIN in_20<0> )
+    ( adder_4bit_10.ha_0 a ) ;
+  - in_20<1>
+    ( PIN in_20<1> )
+    ( adder_4bit_10.fa_1 a ) ;
+  - in_20<2>
+    ( PIN in_20<2> )
+    ( adder_4bit_10.fa_2 a ) ;
+  - in_20<3>
+    ( PIN in_20<3> )
+    ( adder_4bit_10.fa_3 a )
+    ( adder_4bit_10.fa_4 a ) ;
+  - in_21<0>
+    ( PIN in_21<0> )
+    ( adder_4bit_10.ha_0 b ) ;
+  - in_21<1>
+    ( PIN in_21<1> )
+    ( adder_4bit_10.fa_1 b ) ;
+  - in_21<2>
+    ( PIN in_21<2> )
+    ( adder_4bit_10.fa_2 b ) ;
+  - in_21<3>
+    ( PIN in_21<3> )
+    ( adder_4bit_10.fa_3 b )
+    ( adder_4bit_10.fa_4 b ) ;
+  - in_22<0>
+    ( PIN in_22<0> )
+    ( adder_4bit_11.ha_0 a ) ;
+  - in_22<1>
+    ( PIN in_22<1> )
+    ( adder_4bit_11.fa_1 a ) ;
+  - in_22<2>
+    ( PIN in_22<2> )
+    ( adder_4bit_11.fa_2 a ) ;
+  - in_22<3>
+    ( PIN in_22<3> )
+    ( adder_4bit_11.fa_3 a )
+    ( adder_4bit_11.fa_4 a ) ;
+  - in_23<0>
+    ( PIN in_23<0> )
+    ( adder_4bit_11.ha_0 b ) ;
+  - in_23<1>
+    ( PIN in_23<1> )
+    ( adder_4bit_11.fa_1 b ) ;
+  - in_23<2>
+    ( PIN in_23<2> )
+    ( adder_4bit_11.fa_2 b ) ;
+  - in_23<3>
+    ( PIN in_23<3> )
+    ( adder_4bit_11.fa_3 b )
+    ( adder_4bit_11.fa_4 b ) ;
+  - in_24<0>
+    ( PIN in_24<0> )
+    ( adder_4bit_12.ha_0 a ) ;
+  - in_24<1>
+    ( PIN in_24<1> )
+    ( adder_4bit_12.fa_1 a ) ;
+  - in_24<2>
+    ( PIN in_24<2> )
+    ( adder_4bit_12.fa_2 a ) ;
+  - in_24<3>
+    ( PIN in_24<3> )
+    ( adder_4bit_12.fa_3 a )
+    ( adder_4bit_12.fa_4 a ) ;
+  - in_25<0>
+    ( PIN in_25<0> )
+    ( adder_4bit_12.ha_0 b ) ;
+  - in_25<1>
+    ( PIN in_25<1> )
+    ( adder_4bit_12.fa_1 b ) ;
+  - in_25<2>
+    ( PIN in_25<2> )
+    ( adder_4bit_12.fa_2 b ) ;
+  - in_25<3>
+    ( PIN in_25<3> )
+    ( adder_4bit_12.fa_3 b )
+    ( adder_4bit_12.fa_4 b ) ;
+  - in_26<0>
+    ( PIN in_26<0> )
+    ( adder_4bit_13.ha_0 a ) ;
+  - in_26<1>
+    ( PIN in_26<1> )
+    ( adder_4bit_13.fa_1 a ) ;
+  - in_26<2>
+    ( PIN in_26<2> )
+    ( adder_4bit_13.fa_2 a ) ;
+  - in_26<3>
+    ( PIN in_26<3> )
+    ( adder_4bit_13.fa_3 a )
+    ( adder_4bit_13.fa_4 a ) ;
+  - in_27<0>
+    ( PIN in_27<0> )
+    ( adder_4bit_13.ha_0 b ) ;
+  - in_27<1>
+    ( PIN in_27<1> )
+    ( adder_4bit_13.fa_1 b ) ;
+  - in_27<2>
+    ( PIN in_27<2> )
+    ( adder_4bit_13.fa_2 b ) ;
+  - in_27<3>
+    ( PIN in_27<3> )
+    ( adder_4bit_13.fa_3 b )
+    ( adder_4bit_13.fa_4 b ) ;
+  - in_28<0>
+    ( PIN in_28<0> )
+    ( adder_4bit_14.ha_0 a ) ;
+  - in_28<1>
+    ( PIN in_28<1> )
+    ( adder_4bit_14.fa_1 a ) ;
+  - in_28<2>
+    ( PIN in_28<2> )
+    ( adder_4bit_14.fa_2 a ) ;
+  - in_28<3>
+    ( PIN in_28<3> )
+    ( adder_4bit_14.fa_3 a )
+    ( adder_4bit_14.fa_4 a ) ;
+  - in_29<0>
+    ( PIN in_29<0> )
+    ( adder_4bit_14.ha_0 b ) ;
+  - in_29<1>
+    ( PIN in_29<1> )
+    ( adder_4bit_14.fa_1 b ) ;
+  - in_29<2>
+    ( PIN in_29<2> )
+    ( adder_4bit_14.fa_2 b ) ;
+  - in_29<3>
+    ( PIN in_29<3> )
+    ( adder_4bit_14.fa_3 b )
+    ( adder_4bit_14.fa_4 b ) ;
+  - in_2<0>
+    ( PIN in_2<0> )
+    ( adder_4bit_1.ha_0 a ) ;
+  - in_2<1>
+    ( PIN in_2<1> )
+    ( adder_4bit_1.fa_1 a ) ;
+  - in_2<2>
+    ( PIN in_2<2> )
+    ( adder_4bit_1.fa_2 a ) ;
+  - in_2<3>
+    ( PIN in_2<3> )
+    ( adder_4bit_1.fa_3 a )
+    ( adder_4bit_1.fa_4 a ) ;
+  - in_30<0>
+    ( PIN in_30<0> )
+    ( adder_4bit_15.ha_0 a ) ;
+  - in_30<1>
+    ( PIN in_30<1> )
+    ( adder_4bit_15.fa_1 a ) ;
+  - in_30<2>
+    ( PIN in_30<2> )
+    ( adder_4bit_15.fa_2 a ) ;
+  - in_30<3>
+    ( PIN in_30<3> )
+    ( adder_4bit_15.fa_3 a )
+    ( adder_4bit_15.fa_4 a ) ;
+  - in_31<0>
+    ( PIN in_31<0> )
+    ( adder_4bit_15.ha_0 b ) ;
+  - in_31<1>
+    ( PIN in_31<1> )
+    ( adder_4bit_15.fa_1 b ) ;
+  - in_31<2>
+    ( PIN in_31<2> )
+    ( adder_4bit_15.fa_2 b ) ;
+  - in_31<3>
+    ( PIN in_31<3> )
+    ( adder_4bit_15.fa_3 b )
+    ( adder_4bit_15.fa_4 b ) ;
+  - in_32<0>
+    ( PIN in_32<0> )
+    ( adder_4bit_16.ha_0 a ) ;
+  - in_32<1>
+    ( PIN in_32<1> )
+    ( adder_4bit_16.fa_1 a ) ;
+  - in_32<2>
+    ( PIN in_32<2> )
+    ( adder_4bit_16.fa_2 a ) ;
+  - in_32<3>
+    ( PIN in_32<3> )
+    ( adder_4bit_16.fa_3 a )
+    ( adder_4bit_16.fa_4 a ) ;
+  - in_33<0>
+    ( PIN in_33<0> )
+    ( adder_4bit_16.ha_0 b ) ;
+  - in_33<1>
+    ( PIN in_33<1> )
+    ( adder_4bit_16.fa_1 b ) ;
+  - in_33<2>
+    ( PIN in_33<2> )
+    ( adder_4bit_16.fa_2 b ) ;
+  - in_33<3>
+    ( PIN in_33<3> )
+    ( adder_4bit_16.fa_3 b )
+    ( adder_4bit_16.fa_4 b ) ;
+  - in_34<0>
+    ( PIN in_34<0> )
+    ( adder_4bit_17.ha_0 a ) ;
+  - in_34<1>
+    ( PIN in_34<1> )
+    ( adder_4bit_17.fa_1 a ) ;
+  - in_34<2>
+    ( PIN in_34<2> )
+    ( adder_4bit_17.fa_2 a ) ;
+  - in_34<3>
+    ( PIN in_34<3> )
+    ( adder_4bit_17.fa_3 a )
+    ( adder_4bit_17.fa_4 a ) ;
+  - in_35<0>
+    ( PIN in_35<0> )
+    ( adder_4bit_17.ha_0 b ) ;
+  - in_35<1>
+    ( PIN in_35<1> )
+    ( adder_4bit_17.fa_1 b ) ;
+  - in_35<2>
+    ( PIN in_35<2> )
+    ( adder_4bit_17.fa_2 b ) ;
+  - in_35<3>
+    ( PIN in_35<3> )
+    ( adder_4bit_17.fa_3 b )
+    ( adder_4bit_17.fa_4 b ) ;
+  - in_36<0>
+    ( PIN in_36<0> )
+    ( adder_4bit_18.ha_0 a ) ;
+  - in_36<1>
+    ( PIN in_36<1> )
+    ( adder_4bit_18.fa_1 a ) ;
+  - in_36<2>
+    ( PIN in_36<2> )
+    ( adder_4bit_18.fa_2 a ) ;
+  - in_36<3>
+    ( PIN in_36<3> )
+    ( adder_4bit_18.fa_3 a )
+    ( adder_4bit_18.fa_4 a ) ;
+  - in_37<0>
+    ( PIN in_37<0> )
+    ( adder_4bit_18.ha_0 b ) ;
+  - in_37<1>
+    ( PIN in_37<1> )
+    ( adder_4bit_18.fa_1 b ) ;
+  - in_37<2>
+    ( PIN in_37<2> )
+    ( adder_4bit_18.fa_2 b ) ;
+  - in_37<3>
+    ( PIN in_37<3> )
+    ( adder_4bit_18.fa_3 b )
+    ( adder_4bit_18.fa_4 b ) ;
+  - in_38<0>
+    ( PIN in_38<0> )
+    ( adder_4bit_19.ha_0 a ) ;
+  - in_38<1>
+    ( PIN in_38<1> )
+    ( adder_4bit_19.fa_1 a ) ;
+  - in_38<2>
+    ( PIN in_38<2> )
+    ( adder_4bit_19.fa_2 a ) ;
+  - in_38<3>
+    ( PIN in_38<3> )
+    ( adder_4bit_19.fa_3 a )
+    ( adder_4bit_19.fa_4 a ) ;
+  - in_39<0>
+    ( PIN in_39<0> )
+    ( adder_4bit_19.ha_0 b ) ;
+  - in_39<1>
+    ( PIN in_39<1> )
+    ( adder_4bit_19.fa_1 b ) ;
+  - in_39<2>
+    ( PIN in_39<2> )
+    ( adder_4bit_19.fa_2 b ) ;
+  - in_39<3>
+    ( PIN in_39<3> )
+    ( adder_4bit_19.fa_3 b )
+    ( adder_4bit_19.fa_4 b ) ;
+  - in_3<0>
+    ( PIN in_3<0> )
+    ( adder_4bit_1.ha_0 b ) ;
+  - in_3<1>
+    ( PIN in_3<1> )
+    ( adder_4bit_1.fa_1 b ) ;
+  - in_3<2>
+    ( PIN in_3<2> )
+    ( adder_4bit_1.fa_2 b ) ;
+  - in_3<3>
+    ( PIN in_3<3> )
+    ( adder_4bit_1.fa_3 b )
+    ( adder_4bit_1.fa_4 b ) ;
+  - in_40<0>
+    ( PIN in_40<0> )
+    ( adder_4bit_20.ha_0 a ) ;
+  - in_40<1>
+    ( PIN in_40<1> )
+    ( adder_4bit_20.fa_1 a ) ;
+  - in_40<2>
+    ( PIN in_40<2> )
+    ( adder_4bit_20.fa_2 a ) ;
+  - in_40<3>
+    ( PIN in_40<3> )
+    ( adder_4bit_20.fa_3 a )
+    ( adder_4bit_20.fa_4 a ) ;
+  - in_41<0>
+    ( PIN in_41<0> )
+    ( adder_4bit_20.ha_0 b ) ;
+  - in_41<1>
+    ( PIN in_41<1> )
+    ( adder_4bit_20.fa_1 b ) ;
+  - in_41<2>
+    ( PIN in_41<2> )
+    ( adder_4bit_20.fa_2 b ) ;
+  - in_41<3>
+    ( PIN in_41<3> )
+    ( adder_4bit_20.fa_3 b )
+    ( adder_4bit_20.fa_4 b ) ;
+  - in_42<0>
+    ( PIN in_42<0> )
+    ( adder_4bit_21.ha_0 a ) ;
+  - in_42<1>
+    ( PIN in_42<1> )
+    ( adder_4bit_21.fa_1 a ) ;
+  - in_42<2>
+    ( PIN in_42<2> )
+    ( adder_4bit_21.fa_2 a ) ;
+  - in_42<3>
+    ( PIN in_42<3> )
+    ( adder_4bit_21.fa_3 a )
+    ( adder_4bit_21.fa_4 a ) ;
+  - in_43<0>
+    ( PIN in_43<0> )
+    ( adder_4bit_21.ha_0 b ) ;
+  - in_43<1>
+    ( PIN in_43<1> )
+    ( adder_4bit_21.fa_1 b ) ;
+  - in_43<2>
+    ( PIN in_43<2> )
+    ( adder_4bit_21.fa_2 b ) ;
+  - in_43<3>
+    ( PIN in_43<3> )
+    ( adder_4bit_21.fa_3 b )
+    ( adder_4bit_21.fa_4 b ) ;
+  - in_44<0>
+    ( PIN in_44<0> )
+    ( adder_4bit_22.ha_0 a ) ;
+  - in_44<1>
+    ( PIN in_44<1> )
+    ( adder_4bit_22.fa_1 a ) ;
+  - in_44<2>
+    ( PIN in_44<2> )
+    ( adder_4bit_22.fa_2 a ) ;
+  - in_44<3>
+    ( PIN in_44<3> )
+    ( adder_4bit_22.fa_3 a )
+    ( adder_4bit_22.fa_4 a ) ;
+  - in_45<0>
+    ( PIN in_45<0> )
+    ( adder_4bit_22.ha_0 b ) ;
+  - in_45<1>
+    ( PIN in_45<1> )
+    ( adder_4bit_22.fa_1 b ) ;
+  - in_45<2>
+    ( PIN in_45<2> )
+    ( adder_4bit_22.fa_2 b ) ;
+  - in_45<3>
+    ( PIN in_45<3> )
+    ( adder_4bit_22.fa_3 b )
+    ( adder_4bit_22.fa_4 b ) ;
+  - in_46<0>
+    ( PIN in_46<0> )
+    ( adder_4bit_23.ha_0 a ) ;
+  - in_46<1>
+    ( PIN in_46<1> )
+    ( adder_4bit_23.fa_1 a ) ;
+  - in_46<2>
+    ( PIN in_46<2> )
+    ( adder_4bit_23.fa_2 a ) ;
+  - in_46<3>
+    ( PIN in_46<3> )
+    ( adder_4bit_23.fa_3 a )
+    ( adder_4bit_23.fa_4 a ) ;
+  - in_47<0>
+    ( PIN in_47<0> )
+    ( adder_4bit_23.ha_0 b ) ;
+  - in_47<1>
+    ( PIN in_47<1> )
+    ( adder_4bit_23.fa_1 b ) ;
+  - in_47<2>
+    ( PIN in_47<2> )
+    ( adder_4bit_23.fa_2 b ) ;
+  - in_47<3>
+    ( PIN in_47<3> )
+    ( adder_4bit_23.fa_3 b )
+    ( adder_4bit_23.fa_4 b ) ;
+  - in_48<0>
+    ( PIN in_48<0> )
+    ( adder_4bit_24.ha_0 a ) ;
+  - in_48<1>
+    ( PIN in_48<1> )
+    ( adder_4bit_24.fa_1 a ) ;
+  - in_48<2>
+    ( PIN in_48<2> )
+    ( adder_4bit_24.fa_2 a ) ;
+  - in_48<3>
+    ( PIN in_48<3> )
+    ( adder_4bit_24.fa_3 a )
+    ( adder_4bit_24.fa_4 a ) ;
+  - in_49<0>
+    ( PIN in_49<0> )
+    ( adder_4bit_24.ha_0 b ) ;
+  - in_49<1>
+    ( PIN in_49<1> )
+    ( adder_4bit_24.fa_1 b ) ;
+  - in_49<2>
+    ( PIN in_49<2> )
+    ( adder_4bit_24.fa_2 b ) ;
+  - in_49<3>
+    ( PIN in_49<3> )
+    ( adder_4bit_24.fa_3 b )
+    ( adder_4bit_24.fa_4 b ) ;
+  - in_4<0>
+    ( PIN in_4<0> )
+    ( adder_4bit_2.ha_0 a ) ;
+  - in_4<1>
+    ( PIN in_4<1> )
+    ( adder_4bit_2.fa_1 a ) ;
+  - in_4<2>
+    ( PIN in_4<2> )
+    ( adder_4bit_2.fa_2 a ) ;
+  - in_4<3>
+    ( PIN in_4<3> )
+    ( adder_4bit_2.fa_3 a )
+    ( adder_4bit_2.fa_4 a ) ;
+  - in_50<0>
+    ( PIN in_50<0> )
+    ( adder_4bit_25.ha_0 a ) ;
+  - in_50<1>
+    ( PIN in_50<1> )
+    ( adder_4bit_25.fa_1 a ) ;
+  - in_50<2>
+    ( PIN in_50<2> )
+    ( adder_4bit_25.fa_2 a ) ;
+  - in_50<3>
+    ( PIN in_50<3> )
+    ( adder_4bit_25.fa_3 a )
+    ( adder_4bit_25.fa_4 a ) ;
+  - in_51<0>
+    ( PIN in_51<0> )
+    ( adder_4bit_25.ha_0 b ) ;
+  - in_51<1>
+    ( PIN in_51<1> )
+    ( adder_4bit_25.fa_1 b ) ;
+  - in_51<2>
+    ( PIN in_51<2> )
+    ( adder_4bit_25.fa_2 b ) ;
+  - in_51<3>
+    ( PIN in_51<3> )
+    ( adder_4bit_25.fa_3 b )
+    ( adder_4bit_25.fa_4 b ) ;
+  - in_52<0>
+    ( PIN in_52<0> )
+    ( adder_4bit_26.ha_0 a ) ;
+  - in_52<1>
+    ( PIN in_52<1> )
+    ( adder_4bit_26.fa_1 a ) ;
+  - in_52<2>
+    ( PIN in_52<2> )
+    ( adder_4bit_26.fa_2 a ) ;
+  - in_52<3>
+    ( PIN in_52<3> )
+    ( adder_4bit_26.fa_3 a )
+    ( adder_4bit_26.fa_4 a ) ;
+  - in_53<0>
+    ( PIN in_53<0> )
+    ( adder_4bit_26.ha_0 b ) ;
+  - in_53<1>
+    ( PIN in_53<1> )
+    ( adder_4bit_26.fa_1 b ) ;
+  - in_53<2>
+    ( PIN in_53<2> )
+    ( adder_4bit_26.fa_2 b ) ;
+  - in_53<3>
+    ( PIN in_53<3> )
+    ( adder_4bit_26.fa_3 b )
+    ( adder_4bit_26.fa_4 b ) ;
+  - in_54<0>
+    ( PIN in_54<0> )
+    ( adder_4bit_27.ha_0 a ) ;
+  - in_54<1>
+    ( PIN in_54<1> )
+    ( adder_4bit_27.fa_1 a ) ;
+  - in_54<2>
+    ( PIN in_54<2> )
+    ( adder_4bit_27.fa_2 a ) ;
+  - in_54<3>
+    ( PIN in_54<3> )
+    ( adder_4bit_27.fa_3 a )
+    ( adder_4bit_27.fa_4 a ) ;
+  - in_55<0>
+    ( PIN in_55<0> )
+    ( adder_4bit_27.ha_0 b ) ;
+  - in_55<1>
+    ( PIN in_55<1> )
+    ( adder_4bit_27.fa_1 b ) ;
+  - in_55<2>
+    ( PIN in_55<2> )
+    ( adder_4bit_27.fa_2 b ) ;
+  - in_55<3>
+    ( PIN in_55<3> )
+    ( adder_4bit_27.fa_3 b )
+    ( adder_4bit_27.fa_4 b ) ;
+  - in_56<0>
+    ( PIN in_56<0> )
+    ( adder_4bit_28.ha_0 a ) ;
+  - in_56<1>
+    ( PIN in_56<1> )
+    ( adder_4bit_28.fa_1 a ) ;
+  - in_56<2>
+    ( PIN in_56<2> )
+    ( adder_4bit_28.fa_2 a ) ;
+  - in_56<3>
+    ( PIN in_56<3> )
+    ( adder_4bit_28.fa_3 a )
+    ( adder_4bit_28.fa_4 a ) ;
+  - in_57<0>
+    ( PIN in_57<0> )
+    ( adder_4bit_28.ha_0 b ) ;
+  - in_57<1>
+    ( PIN in_57<1> )
+    ( adder_4bit_28.fa_1 b ) ;
+  - in_57<2>
+    ( PIN in_57<2> )
+    ( adder_4bit_28.fa_2 b ) ;
+  - in_57<3>
+    ( PIN in_57<3> )
+    ( adder_4bit_28.fa_3 b )
+    ( adder_4bit_28.fa_4 b ) ;
+  - in_58<0>
+    ( PIN in_58<0> )
+    ( adder_4bit_29.ha_0 a ) ;
+  - in_58<1>
+    ( PIN in_58<1> )
+    ( adder_4bit_29.fa_1 a ) ;
+  - in_58<2>
+    ( PIN in_58<2> )
+    ( adder_4bit_29.fa_2 a ) ;
+  - in_58<3>
+    ( PIN in_58<3> )
+    ( adder_4bit_29.fa_3 a )
+    ( adder_4bit_29.fa_4 a ) ;
+  - in_59<0>
+    ( PIN in_59<0> )
+    ( adder_4bit_29.ha_0 b ) ;
+  - in_59<1>
+    ( PIN in_59<1> )
+    ( adder_4bit_29.fa_1 b ) ;
+  - in_59<2>
+    ( PIN in_59<2> )
+    ( adder_4bit_29.fa_2 b ) ;
+  - in_59<3>
+    ( PIN in_59<3> )
+    ( adder_4bit_29.fa_3 b )
+    ( adder_4bit_29.fa_4 b ) ;
+  - in_5<0>
+    ( PIN in_5<0> )
+    ( adder_4bit_2.ha_0 b ) ;
+  - in_5<1>
+    ( PIN in_5<1> )
+    ( adder_4bit_2.fa_1 b ) ;
+  - in_5<2>
+    ( PIN in_5<2> )
+    ( adder_4bit_2.fa_2 b ) ;
+  - in_5<3>
+    ( PIN in_5<3> )
+    ( adder_4bit_2.fa_3 b )
+    ( adder_4bit_2.fa_4 b ) ;
+  - in_60<0>
+    ( PIN in_60<0> )
+    ( adder_4bit_30.ha_0 a ) ;
+  - in_60<1>
+    ( PIN in_60<1> )
+    ( adder_4bit_30.fa_1 a ) ;
+  - in_60<2>
+    ( PIN in_60<2> )
+    ( adder_4bit_30.fa_2 a ) ;
+  - in_60<3>
+    ( PIN in_60<3> )
+    ( adder_4bit_30.fa_3 a )
+    ( adder_4bit_30.fa_4 a ) ;
+  - in_61<0>
+    ( PIN in_61<0> )
+    ( adder_4bit_30.ha_0 b ) ;
+  - in_61<1>
+    ( PIN in_61<1> )
+    ( adder_4bit_30.fa_1 b ) ;
+  - in_61<2>
+    ( PIN in_61<2> )
+    ( adder_4bit_30.fa_2 b ) ;
+  - in_61<3>
+    ( PIN in_61<3> )
+    ( adder_4bit_30.fa_3 b )
+    ( adder_4bit_30.fa_4 b ) ;
+  - in_62<0>
+    ( PIN in_62<0> )
+    ( adder_4bit_31.ha_0 a ) ;
+  - in_62<1>
+    ( PIN in_62<1> )
+    ( adder_4bit_31.fa_1 a ) ;
+  - in_62<2>
+    ( PIN in_62<2> )
+    ( adder_4bit_31.fa_2 a ) ;
+  - in_62<3>
+    ( PIN in_62<3> )
+    ( adder_4bit_31.fa_3 a )
+    ( adder_4bit_31.fa_4 a ) ;
+  - in_63<0>
+    ( PIN in_63<0> )
+    ( adder_4bit_31.ha_0 b ) ;
+  - in_63<1>
+    ( PIN in_63<1> )
+    ( adder_4bit_31.fa_1 b ) ;
+  - in_63<2>
+    ( PIN in_63<2> )
+    ( adder_4bit_31.fa_2 b ) ;
+  - in_63<3>
+    ( PIN in_63<3> )
+    ( adder_4bit_31.fa_3 b )
+    ( adder_4bit_31.fa_4 b ) ;
+  - in_6<0>
+    ( PIN in_6<0> )
+    ( adder_4bit_3.ha_0 a ) ;
+  - in_6<1>
+    ( PIN in_6<1> )
+    ( adder_4bit_3.fa_1 a ) ;
+  - in_6<2>
+    ( PIN in_6<2> )
+    ( adder_4bit_3.fa_2 a ) ;
+  - in_6<3>
+    ( PIN in_6<3> )
+    ( adder_4bit_3.fa_3 a )
+    ( adder_4bit_3.fa_4 a ) ;
+  - in_7<0>
+    ( PIN in_7<0> )
+    ( adder_4bit_3.ha_0 b ) ;
+  - in_7<1>
+    ( PIN in_7<1> )
+    ( adder_4bit_3.fa_1 b ) ;
+  - in_7<2>
+    ( PIN in_7<2> )
+    ( adder_4bit_3.fa_2 b ) ;
+  - in_7<3>
+    ( PIN in_7<3> )
+    ( adder_4bit_3.fa_3 b )
+    ( adder_4bit_3.fa_4 b ) ;
+  - in_8<0>
+    ( PIN in_8<0> )
+    ( adder_4bit_4.ha_0 a ) ;
+  - in_8<1>
+    ( PIN in_8<1> )
+    ( adder_4bit_4.fa_1 a ) ;
+  - in_8<2>
+    ( PIN in_8<2> )
+    ( adder_4bit_4.fa_2 a ) ;
+  - in_8<3>
+    ( PIN in_8<3> )
+    ( adder_4bit_4.fa_3 a )
+    ( adder_4bit_4.fa_4 a ) ;
+  - in_9<0>
+    ( PIN in_9<0> )
+    ( adder_4bit_4.ha_0 b ) ;
+  - in_9<1>
+    ( PIN in_9<1> )
+    ( adder_4bit_4.fa_1 b ) ;
+  - in_9<2>
+    ( PIN in_9<2> )
+    ( adder_4bit_4.fa_2 b ) ;
+  - in_9<3>
+    ( PIN in_9<3> )
+    ( adder_4bit_4.fa_3 b )
+    ( adder_4bit_4.fa_4 b ) ;
+  - out<0>
+    ( PIN out<0> )
+    ( adder_9bit.ha_0 s ) ;
+  - out<1>
+    ( PIN out<1> )
+    ( adder_9bit.fa_1 s ) ;
+  - out<2>
+    ( PIN out<2> )
+    ( adder_9bit.fa_2 s ) ;
+  - out<3>
+    ( PIN out<3> )
+    ( adder_9bit.fa_3 s ) ;
+  - out<4>
+    ( PIN out<4> )
+    ( adder_9bit.fa_4 s ) ;
+  - out<5>
+    ( PIN out<5> )
+    ( adder_9bit.fa_5 s ) ;
+  - out<6>
+    ( PIN out<6> )
+    ( adder_9bit.fa_6 s ) ;
+  - out<7>
+    ( PIN out<7> )
+    ( adder_9bit.fa_7 s ) ;
+  - out<8>
+    ( PIN out<8> )
+    ( adder_9bit.fa_8 s ) ;
+  - out<9>
+    ( PIN out<9> )
+    ( adder_9bit.fa_9 s ) ;
+  - sign_weight
+    ( PIN sign_weight )
+    ( adder_4bit_0.fa_4 sign )
+    ( adder_4bit_1.fa_4 sign )
+    ( adder_4bit_10.fa_4 sign )
+    ( adder_4bit_11.fa_4 sign )
+    ( adder_4bit_12.fa_4 sign )
+    ( adder_4bit_13.fa_4 sign )
+    ( adder_4bit_14.fa_4 sign )
+    ( adder_4bit_15.fa_4 sign )
+    ( adder_4bit_16.fa_4 sign )
+    ( adder_4bit_17.fa_4 sign )
+    ( adder_4bit_18.fa_4 sign )
+    ( adder_4bit_19.fa_4 sign )
+    ( adder_4bit_2.fa_4 sign )
+    ( adder_4bit_20.fa_4 sign )
+    ( adder_4bit_21.fa_4 sign )
+    ( adder_4bit_22.fa_4 sign )
+    ( adder_4bit_23.fa_4 sign )
+    ( adder_4bit_24.fa_4 sign )
+    ( adder_4bit_25.fa_4 sign )
+    ( adder_4bit_26.fa_4 sign )
+    ( adder_4bit_27.fa_4 sign )
+    ( adder_4bit_28.fa_4 sign )
+    ( adder_4bit_29.fa_4 sign )
+    ( adder_4bit_3.fa_4 sign )
+    ( adder_4bit_30.fa_4 sign )
+    ( adder_4bit_31.fa_4 sign )
+    ( adder_4bit_4.fa_4 sign )
+    ( adder_4bit_5.fa_4 sign )
+    ( adder_4bit_6.fa_4 sign )
+    ( adder_4bit_7.fa_4 sign )
+    ( adder_4bit_8.fa_4 sign )
+    ( adder_4bit_9.fa_4 sign )
+    ( adder_5bit_0.fa_5 sign )
+    ( adder_5bit_1.fa_5 sign )
+    ( adder_5bit_10.fa_5 sign )
+    ( adder_5bit_11.fa_5 sign )
+    ( adder_5bit_12.fa_5 sign )
+    ( adder_5bit_13.fa_5 sign )
+    ( adder_5bit_14.fa_5 sign )
+    ( adder_5bit_15.fa_5 sign )
+    ( adder_5bit_2.fa_5 sign )
+    ( adder_5bit_3.fa_5 sign )
+    ( adder_5bit_4.fa_5 sign )
+    ( adder_5bit_5.fa_5 sign )
+    ( adder_5bit_6.fa_5 sign )
+    ( adder_5bit_7.fa_5 sign )
+    ( adder_5bit_8.fa_5 sign )
+    ( adder_5bit_9.fa_5 sign )
+    ( adder_6bit_0.fa_6 sign )
+    ( adder_6bit_1.fa_6 sign )
+    ( adder_6bit_2.fa_6 sign )
+    ( adder_6bit_3.fa_6 sign )
+    ( adder_6bit_4.fa_6 sign )
+    ( adder_6bit_5.fa_6 sign )
+    ( adder_6bit_6.fa_6 sign )
+    ( adder_6bit_7.fa_6 sign )
+    ( adder_7bit_0.fa_7 sign )
+    ( adder_7bit_1.fa_7 sign )
+    ( adder_7bit_2.fa_7 sign )
+    ( adder_7bit_3.fa_7 sign )
+    ( adder_8bit_0.fa_8 sign )
+    ( adder_8bit_1.fa_8 sign )
+    ( adder_9bit.fa_9 sign ) ;
+  - adder_4bit_0.c<0>
+    ( adder_4bit_0.fa_1 cin )
+    ( adder_4bit_0.ha_0 cout ) ;
+  - adder_4bit_0.c<1>
+    ( adder_4bit_0.fa_1 cout )
+    ( adder_4bit_0.fa_2 cin ) ;
+  - adder_4bit_0.c<2>
+    ( adder_4bit_0.fa_2 cout )
+    ( adder_4bit_0.fa_3 cin ) ;
+  - adder_4bit_0.c<3>
+    ( adder_4bit_0.fa_3 cout )
+    ( adder_4bit_0.fa_4 cin ) ;
+  - adder_4bit_0.s<0>
+    ( adder_4bit_0.ha_0 s )
+    ( adder_5bit_0.ha_0 a ) ;
+  - adder_4bit_0.s<1>
+    ( adder_4bit_0.fa_1 s )
+    ( adder_5bit_0.fa_1 a ) ;
+  - adder_4bit_0.s<2>
+    ( adder_4bit_0.fa_2 s )
+    ( adder_5bit_0.fa_2 a ) ;
+  - adder_4bit_0.s<3>
+    ( adder_4bit_0.fa_3 s )
+    ( adder_5bit_0.fa_3 a ) ;
+  - adder_4bit_0.s<4>
+    ( adder_4bit_0.fa_4 s )
+    ( adder_5bit_0.fa_4 a )
+    ( adder_5bit_0.fa_5 a ) ;
+  - adder_4bit_1.c<0>
+    ( adder_4bit_1.fa_1 cin )
+    ( adder_4bit_1.ha_0 cout ) ;
+  - adder_4bit_1.c<1>
+    ( adder_4bit_1.fa_1 cout )
+    ( adder_4bit_1.fa_2 cin ) ;
+  - adder_4bit_1.c<2>
+    ( adder_4bit_1.fa_2 cout )
+    ( adder_4bit_1.fa_3 cin ) ;
+  - adder_4bit_1.c<3>
+    ( adder_4bit_1.fa_3 cout )
+    ( adder_4bit_1.fa_4 cin ) ;
+  - adder_4bit_1.s<0>
+    ( adder_4bit_1.ha_0 s )
+    ( adder_5bit_0.ha_0 b ) ;
+  - adder_4bit_1.s<1>
+    ( adder_4bit_1.fa_1 s )
+    ( adder_5bit_0.fa_1 b ) ;
+  - adder_4bit_1.s<2>
+    ( adder_4bit_1.fa_2 s )
+    ( adder_5bit_0.fa_2 b ) ;
+  - adder_4bit_1.s<3>
+    ( adder_4bit_1.fa_3 s )
+    ( adder_5bit_0.fa_3 b ) ;
+  - adder_4bit_1.s<4>
+    ( adder_4bit_1.fa_4 s )
+    ( adder_5bit_0.fa_4 b )
+    ( adder_5bit_0.fa_5 b ) ;
+  - adder_4bit_10.c<0>
+    ( adder_4bit_10.fa_1 cin )
+    ( adder_4bit_10.ha_0 cout ) ;
+  - adder_4bit_10.c<1>
+    ( adder_4bit_10.fa_1 cout )
+    ( adder_4bit_10.fa_2 cin ) ;
+  - adder_4bit_10.c<2>
+    ( adder_4bit_10.fa_2 cout )
+    ( adder_4bit_10.fa_3 cin ) ;
+  - adder_4bit_10.c<3>
+    ( adder_4bit_10.fa_3 cout )
+    ( adder_4bit_10.fa_4 cin ) ;
+  - adder_4bit_10.s<0>
+    ( adder_4bit_10.ha_0 s )
+    ( adder_5bit_5.ha_0 a ) ;
+  - adder_4bit_10.s<1>
+    ( adder_4bit_10.fa_1 s )
+    ( adder_5bit_5.fa_1 a ) ;
+  - adder_4bit_10.s<2>
+    ( adder_4bit_10.fa_2 s )
+    ( adder_5bit_5.fa_2 a ) ;
+  - adder_4bit_10.s<3>
+    ( adder_4bit_10.fa_3 s )
+    ( adder_5bit_5.fa_3 a ) ;
+  - adder_4bit_10.s<4>
+    ( adder_4bit_10.fa_4 s )
+    ( adder_5bit_5.fa_4 a )
+    ( adder_5bit_5.fa_5 a ) ;
+  - adder_4bit_11.c<0>
+    ( adder_4bit_11.fa_1 cin )
+    ( adder_4bit_11.ha_0 cout ) ;
+  - adder_4bit_11.c<1>
+    ( adder_4bit_11.fa_1 cout )
+    ( adder_4bit_11.fa_2 cin ) ;
+  - adder_4bit_11.c<2>
+    ( adder_4bit_11.fa_2 cout )
+    ( adder_4bit_11.fa_3 cin ) ;
+  - adder_4bit_11.c<3>
+    ( adder_4bit_11.fa_3 cout )
+    ( adder_4bit_11.fa_4 cin ) ;
+  - adder_4bit_11.s<0>
+    ( adder_4bit_11.ha_0 s )
+    ( adder_5bit_5.ha_0 b ) ;
+  - adder_4bit_11.s<1>
+    ( adder_4bit_11.fa_1 s )
+    ( adder_5bit_5.fa_1 b ) ;
+  - adder_4bit_11.s<2>
+    ( adder_4bit_11.fa_2 s )
+    ( adder_5bit_5.fa_2 b ) ;
+  - adder_4bit_11.s<3>
+    ( adder_4bit_11.fa_3 s )
+    ( adder_5bit_5.fa_3 b ) ;
+  - adder_4bit_11.s<4>
+    ( adder_4bit_11.fa_4 s )
+    ( adder_5bit_5.fa_4 b )
+    ( adder_5bit_5.fa_5 b ) ;
+  - adder_4bit_12.c<0>
+    ( adder_4bit_12.fa_1 cin )
+    ( adder_4bit_12.ha_0 cout ) ;
+  - adder_4bit_12.c<1>
+    ( adder_4bit_12.fa_1 cout )
+    ( adder_4bit_12.fa_2 cin ) ;
+  - adder_4bit_12.c<2>
+    ( adder_4bit_12.fa_2 cout )
+    ( adder_4bit_12.fa_3 cin ) ;
+  - adder_4bit_12.c<3>
+    ( adder_4bit_12.fa_3 cout )
+    ( adder_4bit_12.fa_4 cin ) ;
+  - adder_4bit_12.s<0>
+    ( adder_4bit_12.ha_0 s )
+    ( adder_5bit_6.ha_0 a ) ;
+  - adder_4bit_12.s<1>
+    ( adder_4bit_12.fa_1 s )
+    ( adder_5bit_6.fa_1 a ) ;
+  - adder_4bit_12.s<2>
+    ( adder_4bit_12.fa_2 s )
+    ( adder_5bit_6.fa_2 a ) ;
+  - adder_4bit_12.s<3>
+    ( adder_4bit_12.fa_3 s )
+    ( adder_5bit_6.fa_3 a ) ;
+  - adder_4bit_12.s<4>
+    ( adder_4bit_12.fa_4 s )
+    ( adder_5bit_6.fa_4 a )
+    ( adder_5bit_6.fa_5 a ) ;
+  - adder_4bit_13.c<0>
+    ( adder_4bit_13.fa_1 cin )
+    ( adder_4bit_13.ha_0 cout ) ;
+  - adder_4bit_13.c<1>
+    ( adder_4bit_13.fa_1 cout )
+    ( adder_4bit_13.fa_2 cin ) ;
+  - adder_4bit_13.c<2>
+    ( adder_4bit_13.fa_2 cout )
+    ( adder_4bit_13.fa_3 cin ) ;
+  - adder_4bit_13.c<3>
+    ( adder_4bit_13.fa_3 cout )
+    ( adder_4bit_13.fa_4 cin ) ;
+  - adder_4bit_13.s<0>
+    ( adder_4bit_13.ha_0 s )
+    ( adder_5bit_6.ha_0 b ) ;
+  - adder_4bit_13.s<1>
+    ( adder_4bit_13.fa_1 s )
+    ( adder_5bit_6.fa_1 b ) ;
+  - adder_4bit_13.s<2>
+    ( adder_4bit_13.fa_2 s )
+    ( adder_5bit_6.fa_2 b ) ;
+  - adder_4bit_13.s<3>
+    ( adder_4bit_13.fa_3 s )
+    ( adder_5bit_6.fa_3 b ) ;
+  - adder_4bit_13.s<4>
+    ( adder_4bit_13.fa_4 s )
+    ( adder_5bit_6.fa_4 b )
+    ( adder_5bit_6.fa_5 b ) ;
+  - adder_4bit_14.c<0>
+    ( adder_4bit_14.fa_1 cin )
+    ( adder_4bit_14.ha_0 cout ) ;
+  - adder_4bit_14.c<1>
+    ( adder_4bit_14.fa_1 cout )
+    ( adder_4bit_14.fa_2 cin ) ;
+  - adder_4bit_14.c<2>
+    ( adder_4bit_14.fa_2 cout )
+    ( adder_4bit_14.fa_3 cin ) ;
+  - adder_4bit_14.c<3>
+    ( adder_4bit_14.fa_3 cout )
+    ( adder_4bit_14.fa_4 cin ) ;
+  - adder_4bit_14.s<0>
+    ( adder_4bit_14.ha_0 s )
+    ( adder_5bit_7.ha_0 a ) ;
+  - adder_4bit_14.s<1>
+    ( adder_4bit_14.fa_1 s )
+    ( adder_5bit_7.fa_1 a ) ;
+  - adder_4bit_14.s<2>
+    ( adder_4bit_14.fa_2 s )
+    ( adder_5bit_7.fa_2 a ) ;
+  - adder_4bit_14.s<3>
+    ( adder_4bit_14.fa_3 s )
+    ( adder_5bit_7.fa_3 a ) ;
+  - adder_4bit_14.s<4>
+    ( adder_4bit_14.fa_4 s )
+    ( adder_5bit_7.fa_4 a )
+    ( adder_5bit_7.fa_5 a ) ;
+  - adder_4bit_15.c<0>
+    ( adder_4bit_15.fa_1 cin )
+    ( adder_4bit_15.ha_0 cout ) ;
+  - adder_4bit_15.c<1>
+    ( adder_4bit_15.fa_1 cout )
+    ( adder_4bit_15.fa_2 cin ) ;
+  - adder_4bit_15.c<2>
+    ( adder_4bit_15.fa_2 cout )
+    ( adder_4bit_15.fa_3 cin ) ;
+  - adder_4bit_15.c<3>
+    ( adder_4bit_15.fa_3 cout )
+    ( adder_4bit_15.fa_4 cin ) ;
+  - adder_4bit_15.s<0>
+    ( adder_4bit_15.ha_0 s )
+    ( adder_5bit_7.ha_0 b ) ;
+  - adder_4bit_15.s<1>
+    ( adder_4bit_15.fa_1 s )
+    ( adder_5bit_7.fa_1 b ) ;
+  - adder_4bit_15.s<2>
+    ( adder_4bit_15.fa_2 s )
+    ( adder_5bit_7.fa_2 b ) ;
+  - adder_4bit_15.s<3>
+    ( adder_4bit_15.fa_3 s )
+    ( adder_5bit_7.fa_3 b ) ;
+  - adder_4bit_15.s<4>
+    ( adder_4bit_15.fa_4 s )
+    ( adder_5bit_7.fa_4 b )
+    ( adder_5bit_7.fa_5 b ) ;
+  - adder_4bit_16.c<0>
+    ( adder_4bit_16.fa_1 cin )
+    ( adder_4bit_16.ha_0 cout ) ;
+  - adder_4bit_16.c<1>
+    ( adder_4bit_16.fa_1 cout )
+    ( adder_4bit_16.fa_2 cin ) ;
+  - adder_4bit_16.c<2>
+    ( adder_4bit_16.fa_2 cout )
+    ( adder_4bit_16.fa_3 cin ) ;
+  - adder_4bit_16.c<3>
+    ( adder_4bit_16.fa_3 cout )
+    ( adder_4bit_16.fa_4 cin ) ;
+  - adder_4bit_16.s<0>
+    ( adder_4bit_16.ha_0 s )
+    ( adder_5bit_8.ha_0 a ) ;
+  - adder_4bit_16.s<1>
+    ( adder_4bit_16.fa_1 s )
+    ( adder_5bit_8.fa_1 a ) ;
+  - adder_4bit_16.s<2>
+    ( adder_4bit_16.fa_2 s )
+    ( adder_5bit_8.fa_2 a ) ;
+  - adder_4bit_16.s<3>
+    ( adder_4bit_16.fa_3 s )
+    ( adder_5bit_8.fa_3 a ) ;
+  - adder_4bit_16.s<4>
+    ( adder_4bit_16.fa_4 s )
+    ( adder_5bit_8.fa_4 a )
+    ( adder_5bit_8.fa_5 a ) ;
+  - adder_4bit_17.c<0>
+    ( adder_4bit_17.fa_1 cin )
+    ( adder_4bit_17.ha_0 cout ) ;
+  - adder_4bit_17.c<1>
+    ( adder_4bit_17.fa_1 cout )
+    ( adder_4bit_17.fa_2 cin ) ;
+  - adder_4bit_17.c<2>
+    ( adder_4bit_17.fa_2 cout )
+    ( adder_4bit_17.fa_3 cin ) ;
+  - adder_4bit_17.c<3>
+    ( adder_4bit_17.fa_3 cout )
+    ( adder_4bit_17.fa_4 cin ) ;
+  - adder_4bit_17.s<0>
+    ( adder_4bit_17.ha_0 s )
+    ( adder_5bit_8.ha_0 b ) ;
+  - adder_4bit_17.s<1>
+    ( adder_4bit_17.fa_1 s )
+    ( adder_5bit_8.fa_1 b ) ;
+  - adder_4bit_17.s<2>
+    ( adder_4bit_17.fa_2 s )
+    ( adder_5bit_8.fa_2 b ) ;
+  - adder_4bit_17.s<3>
+    ( adder_4bit_17.fa_3 s )
+    ( adder_5bit_8.fa_3 b ) ;
+  - adder_4bit_17.s<4>
+    ( adder_4bit_17.fa_4 s )
+    ( adder_5bit_8.fa_4 b )
+    ( adder_5bit_8.fa_5 b ) ;
+  - adder_4bit_18.c<0>
+    ( adder_4bit_18.fa_1 cin )
+    ( adder_4bit_18.ha_0 cout ) ;
+  - adder_4bit_18.c<1>
+    ( adder_4bit_18.fa_1 cout )
+    ( adder_4bit_18.fa_2 cin ) ;
+  - adder_4bit_18.c<2>
+    ( adder_4bit_18.fa_2 cout )
+    ( adder_4bit_18.fa_3 cin ) ;
+  - adder_4bit_18.c<3>
+    ( adder_4bit_18.fa_3 cout )
+    ( adder_4bit_18.fa_4 cin ) ;
+  - adder_4bit_18.s<0>
+    ( adder_4bit_18.ha_0 s )
+    ( adder_5bit_9.ha_0 a ) ;
+  - adder_4bit_18.s<1>
+    ( adder_4bit_18.fa_1 s )
+    ( adder_5bit_9.fa_1 a ) ;
+  - adder_4bit_18.s<2>
+    ( adder_4bit_18.fa_2 s )
+    ( adder_5bit_9.fa_2 a ) ;
+  - adder_4bit_18.s<3>
+    ( adder_4bit_18.fa_3 s )
+    ( adder_5bit_9.fa_3 a ) ;
+  - adder_4bit_18.s<4>
+    ( adder_4bit_18.fa_4 s )
+    ( adder_5bit_9.fa_4 a )
+    ( adder_5bit_9.fa_5 a ) ;
+  - adder_4bit_19.c<0>
+    ( adder_4bit_19.fa_1 cin )
+    ( adder_4bit_19.ha_0 cout ) ;
+  - adder_4bit_19.c<1>
+    ( adder_4bit_19.fa_1 cout )
+    ( adder_4bit_19.fa_2 cin ) ;
+  - adder_4bit_19.c<2>
+    ( adder_4bit_19.fa_2 cout )
+    ( adder_4bit_19.fa_3 cin ) ;
+  - adder_4bit_19.c<3>
+    ( adder_4bit_19.fa_3 cout )
+    ( adder_4bit_19.fa_4 cin ) ;
+  - adder_4bit_19.s<0>
+    ( adder_4bit_19.ha_0 s )
+    ( adder_5bit_9.ha_0 b ) ;
+  - adder_4bit_19.s<1>
+    ( adder_4bit_19.fa_1 s )
+    ( adder_5bit_9.fa_1 b ) ;
+  - adder_4bit_19.s<2>
+    ( adder_4bit_19.fa_2 s )
+    ( adder_5bit_9.fa_2 b ) ;
+  - adder_4bit_19.s<3>
+    ( adder_4bit_19.fa_3 s )
+    ( adder_5bit_9.fa_3 b ) ;
+  - adder_4bit_19.s<4>
+    ( adder_4bit_19.fa_4 s )
+    ( adder_5bit_9.fa_4 b )
+    ( adder_5bit_9.fa_5 b ) ;
+  - adder_4bit_2.c<0>
+    ( adder_4bit_2.fa_1 cin )
+    ( adder_4bit_2.ha_0 cout ) ;
+  - adder_4bit_2.c<1>
+    ( adder_4bit_2.fa_1 cout )
+    ( adder_4bit_2.fa_2 cin ) ;
+  - adder_4bit_2.c<2>
+    ( adder_4bit_2.fa_2 cout )
+    ( adder_4bit_2.fa_3 cin ) ;
+  - adder_4bit_2.c<3>
+    ( adder_4bit_2.fa_3 cout )
+    ( adder_4bit_2.fa_4 cin ) ;
+  - adder_4bit_2.s<0>
+    ( adder_4bit_2.ha_0 s )
+    ( adder_5bit_1.ha_0 a ) ;
+  - adder_4bit_2.s<1>
+    ( adder_4bit_2.fa_1 s )
+    ( adder_5bit_1.fa_1 a ) ;
+  - adder_4bit_2.s<2>
+    ( adder_4bit_2.fa_2 s )
+    ( adder_5bit_1.fa_2 a ) ;
+  - adder_4bit_2.s<3>
+    ( adder_4bit_2.fa_3 s )
+    ( adder_5bit_1.fa_3 a ) ;
+  - adder_4bit_2.s<4>
+    ( adder_4bit_2.fa_4 s )
+    ( adder_5bit_1.fa_4 a )
+    ( adder_5bit_1.fa_5 a ) ;
+  - adder_4bit_20.c<0>
+    ( adder_4bit_20.fa_1 cin )
+    ( adder_4bit_20.ha_0 cout ) ;
+  - adder_4bit_20.c<1>
+    ( adder_4bit_20.fa_1 cout )
+    ( adder_4bit_20.fa_2 cin ) ;
+  - adder_4bit_20.c<2>
+    ( adder_4bit_20.fa_2 cout )
+    ( adder_4bit_20.fa_3 cin ) ;
+  - adder_4bit_20.c<3>
+    ( adder_4bit_20.fa_3 cout )
+    ( adder_4bit_20.fa_4 cin ) ;
+  - adder_4bit_20.s<0>
+    ( adder_4bit_20.ha_0 s )
+    ( adder_5bit_10.ha_0 a ) ;
+  - adder_4bit_20.s<1>
+    ( adder_4bit_20.fa_1 s )
+    ( adder_5bit_10.fa_1 a ) ;
+  - adder_4bit_20.s<2>
+    ( adder_4bit_20.fa_2 s )
+    ( adder_5bit_10.fa_2 a ) ;
+  - adder_4bit_20.s<3>
+    ( adder_4bit_20.fa_3 s )
+    ( adder_5bit_10.fa_3 a ) ;
+  - adder_4bit_20.s<4>
+    ( adder_4bit_20.fa_4 s )
+    ( adder_5bit_10.fa_4 a )
+    ( adder_5bit_10.fa_5 a ) ;
+  - adder_4bit_21.c<0>
+    ( adder_4bit_21.fa_1 cin )
+    ( adder_4bit_21.ha_0 cout ) ;
+  - adder_4bit_21.c<1>
+    ( adder_4bit_21.fa_1 cout )
+    ( adder_4bit_21.fa_2 cin ) ;
+  - adder_4bit_21.c<2>
+    ( adder_4bit_21.fa_2 cout )
+    ( adder_4bit_21.fa_3 cin ) ;
+  - adder_4bit_21.c<3>
+    ( adder_4bit_21.fa_3 cout )
+    ( adder_4bit_21.fa_4 cin ) ;
+  - adder_4bit_21.s<0>
+    ( adder_4bit_21.ha_0 s )
+    ( adder_5bit_10.ha_0 b ) ;
+  - adder_4bit_21.s<1>
+    ( adder_4bit_21.fa_1 s )
+    ( adder_5bit_10.fa_1 b ) ;
+  - adder_4bit_21.s<2>
+    ( adder_4bit_21.fa_2 s )
+    ( adder_5bit_10.fa_2 b ) ;
+  - adder_4bit_21.s<3>
+    ( adder_4bit_21.fa_3 s )
+    ( adder_5bit_10.fa_3 b ) ;
+  - adder_4bit_21.s<4>
+    ( adder_4bit_21.fa_4 s )
+    ( adder_5bit_10.fa_4 b )
+    ( adder_5bit_10.fa_5 b ) ;
+  - adder_4bit_22.c<0>
+    ( adder_4bit_22.fa_1 cin )
+    ( adder_4bit_22.ha_0 cout ) ;
+  - adder_4bit_22.c<1>
+    ( adder_4bit_22.fa_1 cout )
+    ( adder_4bit_22.fa_2 cin ) ;
+  - adder_4bit_22.c<2>
+    ( adder_4bit_22.fa_2 cout )
+    ( adder_4bit_22.fa_3 cin ) ;
+  - adder_4bit_22.c<3>
+    ( adder_4bit_22.fa_3 cout )
+    ( adder_4bit_22.fa_4 cin ) ;
+  - adder_4bit_22.s<0>
+    ( adder_4bit_22.ha_0 s )
+    ( adder_5bit_11.ha_0 a ) ;
+  - adder_4bit_22.s<1>
+    ( adder_4bit_22.fa_1 s )
+    ( adder_5bit_11.fa_1 a ) ;
+  - adder_4bit_22.s<2>
+    ( adder_4bit_22.fa_2 s )
+    ( adder_5bit_11.fa_2 a ) ;
+  - adder_4bit_22.s<3>
+    ( adder_4bit_22.fa_3 s )
+    ( adder_5bit_11.fa_3 a ) ;
+  - adder_4bit_22.s<4>
+    ( adder_4bit_22.fa_4 s )
+    ( adder_5bit_11.fa_4 a )
+    ( adder_5bit_11.fa_5 a ) ;
+  - adder_4bit_23.c<0>
+    ( adder_4bit_23.fa_1 cin )
+    ( adder_4bit_23.ha_0 cout ) ;
+  - adder_4bit_23.c<1>
+    ( adder_4bit_23.fa_1 cout )
+    ( adder_4bit_23.fa_2 cin ) ;
+  - adder_4bit_23.c<2>
+    ( adder_4bit_23.fa_2 cout )
+    ( adder_4bit_23.fa_3 cin ) ;
+  - adder_4bit_23.c<3>
+    ( adder_4bit_23.fa_3 cout )
+    ( adder_4bit_23.fa_4 cin ) ;
+  - adder_4bit_23.s<0>
+    ( adder_4bit_23.ha_0 s )
+    ( adder_5bit_11.ha_0 b ) ;
+  - adder_4bit_23.s<1>
+    ( adder_4bit_23.fa_1 s )
+    ( adder_5bit_11.fa_1 b ) ;
+  - adder_4bit_23.s<2>
+    ( adder_4bit_23.fa_2 s )
+    ( adder_5bit_11.fa_2 b ) ;
+  - adder_4bit_23.s<3>
+    ( adder_4bit_23.fa_3 s )
+    ( adder_5bit_11.fa_3 b ) ;
+  - adder_4bit_23.s<4>
+    ( adder_4bit_23.fa_4 s )
+    ( adder_5bit_11.fa_4 b )
+    ( adder_5bit_11.fa_5 b ) ;
+  - adder_4bit_24.c<0>
+    ( adder_4bit_24.fa_1 cin )
+    ( adder_4bit_24.ha_0 cout ) ;
+  - adder_4bit_24.c<1>
+    ( adder_4bit_24.fa_1 cout )
+    ( adder_4bit_24.fa_2 cin ) ;
+  - adder_4bit_24.c<2>
+    ( adder_4bit_24.fa_2 cout )
+    ( adder_4bit_24.fa_3 cin ) ;
+  - adder_4bit_24.c<3>
+    ( adder_4bit_24.fa_3 cout )
+    ( adder_4bit_24.fa_4 cin ) ;
+  - adder_4bit_24.s<0>
+    ( adder_4bit_24.ha_0 s )
+    ( adder_5bit_12.ha_0 a ) ;
+  - adder_4bit_24.s<1>
+    ( adder_4bit_24.fa_1 s )
+    ( adder_5bit_12.fa_1 a ) ;
+  - adder_4bit_24.s<2>
+    ( adder_4bit_24.fa_2 s )
+    ( adder_5bit_12.fa_2 a ) ;
+  - adder_4bit_24.s<3>
+    ( adder_4bit_24.fa_3 s )
+    ( adder_5bit_12.fa_3 a ) ;
+  - adder_4bit_24.s<4>
+    ( adder_4bit_24.fa_4 s )
+    ( adder_5bit_12.fa_4 a )
+    ( adder_5bit_12.fa_5 a ) ;
+  - adder_4bit_25.c<0>
+    ( adder_4bit_25.fa_1 cin )
+    ( adder_4bit_25.ha_0 cout ) ;
+  - adder_4bit_25.c<1>
+    ( adder_4bit_25.fa_1 cout )
+    ( adder_4bit_25.fa_2 cin ) ;
+  - adder_4bit_25.c<2>
+    ( adder_4bit_25.fa_2 cout )
+    ( adder_4bit_25.fa_3 cin ) ;
+  - adder_4bit_25.c<3>
+    ( adder_4bit_25.fa_3 cout )
+    ( adder_4bit_25.fa_4 cin ) ;
+  - adder_4bit_25.s<0>
+    ( adder_4bit_25.ha_0 s )
+    ( adder_5bit_12.ha_0 b ) ;
+  - adder_4bit_25.s<1>
+    ( adder_4bit_25.fa_1 s )
+    ( adder_5bit_12.fa_1 b ) ;
+  - adder_4bit_25.s<2>
+    ( adder_4bit_25.fa_2 s )
+    ( adder_5bit_12.fa_2 b ) ;
+  - adder_4bit_25.s<3>
+    ( adder_4bit_25.fa_3 s )
+    ( adder_5bit_12.fa_3 b ) ;
+  - adder_4bit_25.s<4>
+    ( adder_4bit_25.fa_4 s )
+    ( adder_5bit_12.fa_4 b )
+    ( adder_5bit_12.fa_5 b ) ;
+  - adder_4bit_26.c<0>
+    ( adder_4bit_26.fa_1 cin )
+    ( adder_4bit_26.ha_0 cout ) ;
+  - adder_4bit_26.c<1>
+    ( adder_4bit_26.fa_1 cout )
+    ( adder_4bit_26.fa_2 cin ) ;
+  - adder_4bit_26.c<2>
+    ( adder_4bit_26.fa_2 cout )
+    ( adder_4bit_26.fa_3 cin ) ;
+  - adder_4bit_26.c<3>
+    ( adder_4bit_26.fa_3 cout )
+    ( adder_4bit_26.fa_4 cin ) ;
+  - adder_4bit_26.s<0>
+    ( adder_4bit_26.ha_0 s )
+    ( adder_5bit_13.ha_0 a ) ;
+  - adder_4bit_26.s<1>
+    ( adder_4bit_26.fa_1 s )
+    ( adder_5bit_13.fa_1 a ) ;
+  - adder_4bit_26.s<2>
+    ( adder_4bit_26.fa_2 s )
+    ( adder_5bit_13.fa_2 a ) ;
+  - adder_4bit_26.s<3>
+    ( adder_4bit_26.fa_3 s )
+    ( adder_5bit_13.fa_3 a ) ;
+  - adder_4bit_26.s<4>
+    ( adder_4bit_26.fa_4 s )
+    ( adder_5bit_13.fa_4 a )
+    ( adder_5bit_13.fa_5 a ) ;
+  - adder_4bit_27.c<0>
+    ( adder_4bit_27.fa_1 cin )
+    ( adder_4bit_27.ha_0 cout ) ;
+  - adder_4bit_27.c<1>
+    ( adder_4bit_27.fa_1 cout )
+    ( adder_4bit_27.fa_2 cin ) ;
+  - adder_4bit_27.c<2>
+    ( adder_4bit_27.fa_2 cout )
+    ( adder_4bit_27.fa_3 cin ) ;
+  - adder_4bit_27.c<3>
+    ( adder_4bit_27.fa_3 cout )
+    ( adder_4bit_27.fa_4 cin ) ;
+  - adder_4bit_27.s<0>
+    ( adder_4bit_27.ha_0 s )
+    ( adder_5bit_13.ha_0 b ) ;
+  - adder_4bit_27.s<1>
+    ( adder_4bit_27.fa_1 s )
+    ( adder_5bit_13.fa_1 b ) ;
+  - adder_4bit_27.s<2>
+    ( adder_4bit_27.fa_2 s )
+    ( adder_5bit_13.fa_2 b ) ;
+  - adder_4bit_27.s<3>
+    ( adder_4bit_27.fa_3 s )
+    ( adder_5bit_13.fa_3 b ) ;
+  - adder_4bit_27.s<4>
+    ( adder_4bit_27.fa_4 s )
+    ( adder_5bit_13.fa_4 b )
+    ( adder_5bit_13.fa_5 b ) ;
+  - adder_4bit_28.c<0>
+    ( adder_4bit_28.fa_1 cin )
+    ( adder_4bit_28.ha_0 cout ) ;
+  - adder_4bit_28.c<1>
+    ( adder_4bit_28.fa_1 cout )
+    ( adder_4bit_28.fa_2 cin ) ;
+  - adder_4bit_28.c<2>
+    ( adder_4bit_28.fa_2 cout )
+    ( adder_4bit_28.fa_3 cin ) ;
+  - adder_4bit_28.c<3>
+    ( adder_4bit_28.fa_3 cout )
+    ( adder_4bit_28.fa_4 cin ) ;
+  - adder_4bit_28.s<0>
+    ( adder_4bit_28.ha_0 s )
+    ( adder_5bit_14.ha_0 a ) ;
+  - adder_4bit_28.s<1>
+    ( adder_4bit_28.fa_1 s )
+    ( adder_5bit_14.fa_1 a ) ;
+  - adder_4bit_28.s<2>
+    ( adder_4bit_28.fa_2 s )
+    ( adder_5bit_14.fa_2 a ) ;
+  - adder_4bit_28.s<3>
+    ( adder_4bit_28.fa_3 s )
+    ( adder_5bit_14.fa_3 a ) ;
+  - adder_4bit_28.s<4>
+    ( adder_4bit_28.fa_4 s )
+    ( adder_5bit_14.fa_4 a )
+    ( adder_5bit_14.fa_5 a ) ;
+  - adder_4bit_29.c<0>
+    ( adder_4bit_29.fa_1 cin )
+    ( adder_4bit_29.ha_0 cout ) ;
+  - adder_4bit_29.c<1>
+    ( adder_4bit_29.fa_1 cout )
+    ( adder_4bit_29.fa_2 cin ) ;
+  - adder_4bit_29.c<2>
+    ( adder_4bit_29.fa_2 cout )
+    ( adder_4bit_29.fa_3 cin ) ;
+  - adder_4bit_29.c<3>
+    ( adder_4bit_29.fa_3 cout )
+    ( adder_4bit_29.fa_4 cin ) ;
+  - adder_4bit_29.s<0>
+    ( adder_4bit_29.ha_0 s )
+    ( adder_5bit_14.ha_0 b ) ;
+  - adder_4bit_29.s<1>
+    ( adder_4bit_29.fa_1 s )
+    ( adder_5bit_14.fa_1 b ) ;
+  - adder_4bit_29.s<2>
+    ( adder_4bit_29.fa_2 s )
+    ( adder_5bit_14.fa_2 b ) ;
+  - adder_4bit_29.s<3>
+    ( adder_4bit_29.fa_3 s )
+    ( adder_5bit_14.fa_3 b ) ;
+  - adder_4bit_29.s<4>
+    ( adder_4bit_29.fa_4 s )
+    ( adder_5bit_14.fa_4 b )
+    ( adder_5bit_14.fa_5 b ) ;
+  - adder_4bit_3.c<0>
+    ( adder_4bit_3.fa_1 cin )
+    ( adder_4bit_3.ha_0 cout ) ;
+  - adder_4bit_3.c<1>
+    ( adder_4bit_3.fa_1 cout )
+    ( adder_4bit_3.fa_2 cin ) ;
+  - adder_4bit_3.c<2>
+    ( adder_4bit_3.fa_2 cout )
+    ( adder_4bit_3.fa_3 cin ) ;
+  - adder_4bit_3.c<3>
+    ( adder_4bit_3.fa_3 cout )
+    ( adder_4bit_3.fa_4 cin ) ;
+  - adder_4bit_3.s<0>
+    ( adder_4bit_3.ha_0 s )
+    ( adder_5bit_1.ha_0 b ) ;
+  - adder_4bit_3.s<1>
+    ( adder_4bit_3.fa_1 s )
+    ( adder_5bit_1.fa_1 b ) ;
+  - adder_4bit_3.s<2>
+    ( adder_4bit_3.fa_2 s )
+    ( adder_5bit_1.fa_2 b ) ;
+  - adder_4bit_3.s<3>
+    ( adder_4bit_3.fa_3 s )
+    ( adder_5bit_1.fa_3 b ) ;
+  - adder_4bit_3.s<4>
+    ( adder_4bit_3.fa_4 s )
+    ( adder_5bit_1.fa_4 b )
+    ( adder_5bit_1.fa_5 b ) ;
+  - adder_4bit_30.c<0>
+    ( adder_4bit_30.fa_1 cin )
+    ( adder_4bit_30.ha_0 cout ) ;
+  - adder_4bit_30.c<1>
+    ( adder_4bit_30.fa_1 cout )
+    ( adder_4bit_30.fa_2 cin ) ;
+  - adder_4bit_30.c<2>
+    ( adder_4bit_30.fa_2 cout )
+    ( adder_4bit_30.fa_3 cin ) ;
+  - adder_4bit_30.c<3>
+    ( adder_4bit_30.fa_3 cout )
+    ( adder_4bit_30.fa_4 cin ) ;
+  - adder_4bit_30.s<0>
+    ( adder_4bit_30.ha_0 s )
+    ( adder_5bit_15.ha_0 a ) ;
+  - adder_4bit_30.s<1>
+    ( adder_4bit_30.fa_1 s )
+    ( adder_5bit_15.fa_1 a ) ;
+  - adder_4bit_30.s<2>
+    ( adder_4bit_30.fa_2 s )
+    ( adder_5bit_15.fa_2 a ) ;
+  - adder_4bit_30.s<3>
+    ( adder_4bit_30.fa_3 s )
+    ( adder_5bit_15.fa_3 a ) ;
+  - adder_4bit_30.s<4>
+    ( adder_4bit_30.fa_4 s )
+    ( adder_5bit_15.fa_4 a )
+    ( adder_5bit_15.fa_5 a ) ;
+  - adder_4bit_31.c<0>
+    ( adder_4bit_31.fa_1 cin )
+    ( adder_4bit_31.ha_0 cout ) ;
+  - adder_4bit_31.c<1>
+    ( adder_4bit_31.fa_1 cout )
+    ( adder_4bit_31.fa_2 cin ) ;
+  - adder_4bit_31.c<2>
+    ( adder_4bit_31.fa_2 cout )
+    ( adder_4bit_31.fa_3 cin ) ;
+  - adder_4bit_31.c<3>
+    ( adder_4bit_31.fa_3 cout )
+    ( adder_4bit_31.fa_4 cin ) ;
+  - adder_4bit_31.s<0>
+    ( adder_4bit_31.ha_0 s )
+    ( adder_5bit_15.ha_0 b ) ;
+  - adder_4bit_31.s<1>
+    ( adder_4bit_31.fa_1 s )
+    ( adder_5bit_15.fa_1 b ) ;
+  - adder_4bit_31.s<2>
+    ( adder_4bit_31.fa_2 s )
+    ( adder_5bit_15.fa_2 b ) ;
+  - adder_4bit_31.s<3>
+    ( adder_4bit_31.fa_3 s )
+    ( adder_5bit_15.fa_3 b ) ;
+  - adder_4bit_31.s<4>
+    ( adder_4bit_31.fa_4 s )
+    ( adder_5bit_15.fa_4 b )
+    ( adder_5bit_15.fa_5 b ) ;
+  - adder_4bit_4.c<0>
+    ( adder_4bit_4.fa_1 cin )
+    ( adder_4bit_4.ha_0 cout ) ;
+  - adder_4bit_4.c<1>
+    ( adder_4bit_4.fa_1 cout )
+    ( adder_4bit_4.fa_2 cin ) ;
+  - adder_4bit_4.c<2>
+    ( adder_4bit_4.fa_2 cout )
+    ( adder_4bit_4.fa_3 cin ) ;
+  - adder_4bit_4.c<3>
+    ( adder_4bit_4.fa_3 cout )
+    ( adder_4bit_4.fa_4 cin ) ;
+  - adder_4bit_4.s<0>
+    ( adder_4bit_4.ha_0 s )
+    ( adder_5bit_2.ha_0 a ) ;
+  - adder_4bit_4.s<1>
+    ( adder_4bit_4.fa_1 s )
+    ( adder_5bit_2.fa_1 a ) ;
+  - adder_4bit_4.s<2>
+    ( adder_4bit_4.fa_2 s )
+    ( adder_5bit_2.fa_2 a ) ;
+  - adder_4bit_4.s<3>
+    ( adder_4bit_4.fa_3 s )
+    ( adder_5bit_2.fa_3 a ) ;
+  - adder_4bit_4.s<4>
+    ( adder_4bit_4.fa_4 s )
+    ( adder_5bit_2.fa_4 a )
+    ( adder_5bit_2.fa_5 a ) ;
+  - adder_4bit_5.c<0>
+    ( adder_4bit_5.fa_1 cin )
+    ( adder_4bit_5.ha_0 cout ) ;
+  - adder_4bit_5.c<1>
+    ( adder_4bit_5.fa_1 cout )
+    ( adder_4bit_5.fa_2 cin ) ;
+  - adder_4bit_5.c<2>
+    ( adder_4bit_5.fa_2 cout )
+    ( adder_4bit_5.fa_3 cin ) ;
+  - adder_4bit_5.c<3>
+    ( adder_4bit_5.fa_3 cout )
+    ( adder_4bit_5.fa_4 cin ) ;
+  - adder_4bit_5.s<0>
+    ( adder_4bit_5.ha_0 s )
+    ( adder_5bit_2.ha_0 b ) ;
+  - adder_4bit_5.s<1>
+    ( adder_4bit_5.fa_1 s )
+    ( adder_5bit_2.fa_1 b ) ;
+  - adder_4bit_5.s<2>
+    ( adder_4bit_5.fa_2 s )
+    ( adder_5bit_2.fa_2 b ) ;
+  - adder_4bit_5.s<3>
+    ( adder_4bit_5.fa_3 s )
+    ( adder_5bit_2.fa_3 b ) ;
+  - adder_4bit_5.s<4>
+    ( adder_4bit_5.fa_4 s )
+    ( adder_5bit_2.fa_4 b )
+    ( adder_5bit_2.fa_5 b ) ;
+  - adder_4bit_6.c<0>
+    ( adder_4bit_6.fa_1 cin )
+    ( adder_4bit_6.ha_0 cout ) ;
+  - adder_4bit_6.c<1>
+    ( adder_4bit_6.fa_1 cout )
+    ( adder_4bit_6.fa_2 cin ) ;
+  - adder_4bit_6.c<2>
+    ( adder_4bit_6.fa_2 cout )
+    ( adder_4bit_6.fa_3 cin ) ;
+  - adder_4bit_6.c<3>
+    ( adder_4bit_6.fa_3 cout )
+    ( adder_4bit_6.fa_4 cin ) ;
+  - adder_4bit_6.s<0>
+    ( adder_4bit_6.ha_0 s )
+    ( adder_5bit_3.ha_0 a ) ;
+  - adder_4bit_6.s<1>
+    ( adder_4bit_6.fa_1 s )
+    ( adder_5bit_3.fa_1 a ) ;
+  - adder_4bit_6.s<2>
+    ( adder_4bit_6.fa_2 s )
+    ( adder_5bit_3.fa_2 a ) ;
+  - adder_4bit_6.s<3>
+    ( adder_4bit_6.fa_3 s )
+    ( adder_5bit_3.fa_3 a ) ;
+  - adder_4bit_6.s<4>
+    ( adder_4bit_6.fa_4 s )
+    ( adder_5bit_3.fa_4 a )
+    ( adder_5bit_3.fa_5 a ) ;
+  - adder_4bit_7.c<0>
+    ( adder_4bit_7.fa_1 cin )
+    ( adder_4bit_7.ha_0 cout ) ;
+  - adder_4bit_7.c<1>
+    ( adder_4bit_7.fa_1 cout )
+    ( adder_4bit_7.fa_2 cin ) ;
+  - adder_4bit_7.c<2>
+    ( adder_4bit_7.fa_2 cout )
+    ( adder_4bit_7.fa_3 cin ) ;
+  - adder_4bit_7.c<3>
+    ( adder_4bit_7.fa_3 cout )
+    ( adder_4bit_7.fa_4 cin ) ;
+  - adder_4bit_7.s<0>
+    ( adder_4bit_7.ha_0 s )
+    ( adder_5bit_3.ha_0 b ) ;
+  - adder_4bit_7.s<1>
+    ( adder_4bit_7.fa_1 s )
+    ( adder_5bit_3.fa_1 b ) ;
+  - adder_4bit_7.s<2>
+    ( adder_4bit_7.fa_2 s )
+    ( adder_5bit_3.fa_2 b ) ;
+  - adder_4bit_7.s<3>
+    ( adder_4bit_7.fa_3 s )
+    ( adder_5bit_3.fa_3 b ) ;
+  - adder_4bit_7.s<4>
+    ( adder_4bit_7.fa_4 s )
+    ( adder_5bit_3.fa_4 b )
+    ( adder_5bit_3.fa_5 b ) ;
+  - adder_4bit_8.c<0>
+    ( adder_4bit_8.fa_1 cin )
+    ( adder_4bit_8.ha_0 cout ) ;
+  - adder_4bit_8.c<1>
+    ( adder_4bit_8.fa_1 cout )
+    ( adder_4bit_8.fa_2 cin ) ;
+  - adder_4bit_8.c<2>
+    ( adder_4bit_8.fa_2 cout )
+    ( adder_4bit_8.fa_3 cin ) ;
+  - adder_4bit_8.c<3>
+    ( adder_4bit_8.fa_3 cout )
+    ( adder_4bit_8.fa_4 cin ) ;
+  - adder_4bit_8.s<0>
+    ( adder_4bit_8.ha_0 s )
+    ( adder_5bit_4.ha_0 a ) ;
+  - adder_4bit_8.s<1>
+    ( adder_4bit_8.fa_1 s )
+    ( adder_5bit_4.fa_1 a ) ;
+  - adder_4bit_8.s<2>
+    ( adder_4bit_8.fa_2 s )
+    ( adder_5bit_4.fa_2 a ) ;
+  - adder_4bit_8.s<3>
+    ( adder_4bit_8.fa_3 s )
+    ( adder_5bit_4.fa_3 a ) ;
+  - adder_4bit_8.s<4>
+    ( adder_4bit_8.fa_4 s )
+    ( adder_5bit_4.fa_4 a )
+    ( adder_5bit_4.fa_5 a ) ;
+  - adder_4bit_9.c<0>
+    ( adder_4bit_9.fa_1 cin )
+    ( adder_4bit_9.ha_0 cout ) ;
+  - adder_4bit_9.c<1>
+    ( adder_4bit_9.fa_1 cout )
+    ( adder_4bit_9.fa_2 cin ) ;
+  - adder_4bit_9.c<2>
+    ( adder_4bit_9.fa_2 cout )
+    ( adder_4bit_9.fa_3 cin ) ;
+  - adder_4bit_9.c<3>
+    ( adder_4bit_9.fa_3 cout )
+    ( adder_4bit_9.fa_4 cin ) ;
+  - adder_4bit_9.s<0>
+    ( adder_4bit_9.ha_0 s )
+    ( adder_5bit_4.ha_0 b ) ;
+  - adder_4bit_9.s<1>
+    ( adder_4bit_9.fa_1 s )
+    ( adder_5bit_4.fa_1 b ) ;
+  - adder_4bit_9.s<2>
+    ( adder_4bit_9.fa_2 s )
+    ( adder_5bit_4.fa_2 b ) ;
+  - adder_4bit_9.s<3>
+    ( adder_4bit_9.fa_3 s )
+    ( adder_5bit_4.fa_3 b ) ;
+  - adder_4bit_9.s<4>
+    ( adder_4bit_9.fa_4 s )
+    ( adder_5bit_4.fa_4 b )
+    ( adder_5bit_4.fa_5 b ) ;
+  - adder_5bit_0.c<0>
+    ( adder_5bit_0.fa_1 cin )
+    ( adder_5bit_0.ha_0 cout ) ;
+  - adder_5bit_0.c<1>
+    ( adder_5bit_0.fa_1 cout )
+    ( adder_5bit_0.fa_2 cin ) ;
+  - adder_5bit_0.c<2>
+    ( adder_5bit_0.fa_2 cout )
+    ( adder_5bit_0.fa_3 cin ) ;
+  - adder_5bit_0.c<3>
+    ( adder_5bit_0.fa_3 cout )
+    ( adder_5bit_0.fa_4 cin ) ;
+  - adder_5bit_0.c<4>
+    ( adder_5bit_0.fa_4 cout )
+    ( adder_5bit_0.fa_5 cin ) ;
+  - adder_5bit_0.s<0>
+    ( adder_5bit_0.ha_0 s )
+    ( adder_6bit_0.ha_0 a ) ;
+  - adder_5bit_0.s<1>
+    ( adder_5bit_0.fa_1 s )
+    ( adder_6bit_0.fa_1 a ) ;
+  - adder_5bit_0.s<2>
+    ( adder_5bit_0.fa_2 s )
+    ( adder_6bit_0.fa_2 a ) ;
+  - adder_5bit_0.s<3>
+    ( adder_5bit_0.fa_3 s )
+    ( adder_6bit_0.fa_3 a ) ;
+  - adder_5bit_0.s<4>
+    ( adder_5bit_0.fa_4 s )
+    ( adder_6bit_0.fa_4 a ) ;
+  - adder_5bit_0.s<5>
+    ( adder_5bit_0.fa_5 s )
+    ( adder_6bit_0.fa_5 a )
+    ( adder_6bit_0.fa_6 a ) ;
+  - adder_5bit_1.c<0>
+    ( adder_5bit_1.fa_1 cin )
+    ( adder_5bit_1.ha_0 cout ) ;
+  - adder_5bit_1.c<1>
+    ( adder_5bit_1.fa_1 cout )
+    ( adder_5bit_1.fa_2 cin ) ;
+  - adder_5bit_1.c<2>
+    ( adder_5bit_1.fa_2 cout )
+    ( adder_5bit_1.fa_3 cin ) ;
+  - adder_5bit_1.c<3>
+    ( adder_5bit_1.fa_3 cout )
+    ( adder_5bit_1.fa_4 cin ) ;
+  - adder_5bit_1.c<4>
+    ( adder_5bit_1.fa_4 cout )
+    ( adder_5bit_1.fa_5 cin ) ;
+  - adder_5bit_1.s<0>
+    ( adder_5bit_1.ha_0 s )
+    ( adder_6bit_0.ha_0 b ) ;
+  - adder_5bit_1.s<1>
+    ( adder_5bit_1.fa_1 s )
+    ( adder_6bit_0.fa_1 b ) ;
+  - adder_5bit_1.s<2>
+    ( adder_5bit_1.fa_2 s )
+    ( adder_6bit_0.fa_2 b ) ;
+  - adder_5bit_1.s<3>
+    ( adder_5bit_1.fa_3 s )
+    ( adder_6bit_0.fa_3 b ) ;
+  - adder_5bit_1.s<4>
+    ( adder_5bit_1.fa_4 s )
+    ( adder_6bit_0.fa_4 b ) ;
+  - adder_5bit_1.s<5>
+    ( adder_5bit_1.fa_5 s )
+    ( adder_6bit_0.fa_5 b )
+    ( adder_6bit_0.fa_6 b ) ;
+  - adder_5bit_10.c<0>
+    ( adder_5bit_10.fa_1 cin )
+    ( adder_5bit_10.ha_0 cout ) ;
+  - adder_5bit_10.c<1>
+    ( adder_5bit_10.fa_1 cout )
+    ( adder_5bit_10.fa_2 cin ) ;
+  - adder_5bit_10.c<2>
+    ( adder_5bit_10.fa_2 cout )
+    ( adder_5bit_10.fa_3 cin ) ;
+  - adder_5bit_10.c<3>
+    ( adder_5bit_10.fa_3 cout )
+    ( adder_5bit_10.fa_4 cin ) ;
+  - adder_5bit_10.c<4>
+    ( adder_5bit_10.fa_4 cout )
+    ( adder_5bit_10.fa_5 cin ) ;
+  - adder_5bit_10.s<0>
+    ( adder_5bit_10.ha_0 s )
+    ( adder_6bit_5.ha_0 a ) ;
+  - adder_5bit_10.s<1>
+    ( adder_5bit_10.fa_1 s )
+    ( adder_6bit_5.fa_1 a ) ;
+  - adder_5bit_10.s<2>
+    ( adder_5bit_10.fa_2 s )
+    ( adder_6bit_5.fa_2 a ) ;
+  - adder_5bit_10.s<3>
+    ( adder_5bit_10.fa_3 s )
+    ( adder_6bit_5.fa_3 a ) ;
+  - adder_5bit_10.s<4>
+    ( adder_5bit_10.fa_4 s )
+    ( adder_6bit_5.fa_4 a ) ;
+  - adder_5bit_10.s<5>
+    ( adder_5bit_10.fa_5 s )
+    ( adder_6bit_5.fa_5 a )
+    ( adder_6bit_5.fa_6 a ) ;
+  - adder_5bit_11.c<0>
+    ( adder_5bit_11.fa_1 cin )
+    ( adder_5bit_11.ha_0 cout ) ;
+  - adder_5bit_11.c<1>
+    ( adder_5bit_11.fa_1 cout )
+    ( adder_5bit_11.fa_2 cin ) ;
+  - adder_5bit_11.c<2>
+    ( adder_5bit_11.fa_2 cout )
+    ( adder_5bit_11.fa_3 cin ) ;
+  - adder_5bit_11.c<3>
+    ( adder_5bit_11.fa_3 cout )
+    ( adder_5bit_11.fa_4 cin ) ;
+  - adder_5bit_11.c<4>
+    ( adder_5bit_11.fa_4 cout )
+    ( adder_5bit_11.fa_5 cin ) ;
+  - adder_5bit_11.s<0>
+    ( adder_5bit_11.ha_0 s )
+    ( adder_6bit_5.ha_0 b ) ;
+  - adder_5bit_11.s<1>
+    ( adder_5bit_11.fa_1 s )
+    ( adder_6bit_5.fa_1 b ) ;
+  - adder_5bit_11.s<2>
+    ( adder_5bit_11.fa_2 s )
+    ( adder_6bit_5.fa_2 b ) ;
+  - adder_5bit_11.s<3>
+    ( adder_5bit_11.fa_3 s )
+    ( adder_6bit_5.fa_3 b ) ;
+  - adder_5bit_11.s<4>
+    ( adder_5bit_11.fa_4 s )
+    ( adder_6bit_5.fa_4 b ) ;
+  - adder_5bit_11.s<5>
+    ( adder_5bit_11.fa_5 s )
+    ( adder_6bit_5.fa_5 b )
+    ( adder_6bit_5.fa_6 b ) ;
+  - adder_5bit_12.c<0>
+    ( adder_5bit_12.fa_1 cin )
+    ( adder_5bit_12.ha_0 cout ) ;
+  - adder_5bit_12.c<1>
+    ( adder_5bit_12.fa_1 cout )
+    ( adder_5bit_12.fa_2 cin ) ;
+  - adder_5bit_12.c<2>
+    ( adder_5bit_12.fa_2 cout )
+    ( adder_5bit_12.fa_3 cin ) ;
+  - adder_5bit_12.c<3>
+    ( adder_5bit_12.fa_3 cout )
+    ( adder_5bit_12.fa_4 cin ) ;
+  - adder_5bit_12.c<4>
+    ( adder_5bit_12.fa_4 cout )
+    ( adder_5bit_12.fa_5 cin ) ;
+  - adder_5bit_12.s<0>
+    ( adder_5bit_12.ha_0 s )
+    ( adder_6bit_6.ha_0 a ) ;
+  - adder_5bit_12.s<1>
+    ( adder_5bit_12.fa_1 s )
+    ( adder_6bit_6.fa_1 a ) ;
+  - adder_5bit_12.s<2>
+    ( adder_5bit_12.fa_2 s )
+    ( adder_6bit_6.fa_2 a ) ;
+  - adder_5bit_12.s<3>
+    ( adder_5bit_12.fa_3 s )
+    ( adder_6bit_6.fa_3 a ) ;
+  - adder_5bit_12.s<4>
+    ( adder_5bit_12.fa_4 s )
+    ( adder_6bit_6.fa_4 a ) ;
+  - adder_5bit_12.s<5>
+    ( adder_5bit_12.fa_5 s )
+    ( adder_6bit_6.fa_5 a )
+    ( adder_6bit_6.fa_6 a ) ;
+  - adder_5bit_13.c<0>
+    ( adder_5bit_13.fa_1 cin )
+    ( adder_5bit_13.ha_0 cout ) ;
+  - adder_5bit_13.c<1>
+    ( adder_5bit_13.fa_1 cout )
+    ( adder_5bit_13.fa_2 cin ) ;
+  - adder_5bit_13.c<2>
+    ( adder_5bit_13.fa_2 cout )
+    ( adder_5bit_13.fa_3 cin ) ;
+  - adder_5bit_13.c<3>
+    ( adder_5bit_13.fa_3 cout )
+    ( adder_5bit_13.fa_4 cin ) ;
+  - adder_5bit_13.c<4>
+    ( adder_5bit_13.fa_4 cout )
+    ( adder_5bit_13.fa_5 cin ) ;
+  - adder_5bit_13.s<0>
+    ( adder_5bit_13.ha_0 s )
+    ( adder_6bit_6.ha_0 b ) ;
+  - adder_5bit_13.s<1>
+    ( adder_5bit_13.fa_1 s )
+    ( adder_6bit_6.fa_1 b ) ;
+  - adder_5bit_13.s<2>
+    ( adder_5bit_13.fa_2 s )
+    ( adder_6bit_6.fa_2 b ) ;
+  - adder_5bit_13.s<3>
+    ( adder_5bit_13.fa_3 s )
+    ( adder_6bit_6.fa_3 b ) ;
+  - adder_5bit_13.s<4>
+    ( adder_5bit_13.fa_4 s )
+    ( adder_6bit_6.fa_4 b ) ;
+  - adder_5bit_13.s<5>
+    ( adder_5bit_13.fa_5 s )
+    ( adder_6bit_6.fa_5 b )
+    ( adder_6bit_6.fa_6 b ) ;
+  - adder_5bit_14.c<0>
+    ( adder_5bit_14.fa_1 cin )
+    ( adder_5bit_14.ha_0 cout ) ;
+  - adder_5bit_14.c<1>
+    ( adder_5bit_14.fa_1 cout )
+    ( adder_5bit_14.fa_2 cin ) ;
+  - adder_5bit_14.c<2>
+    ( adder_5bit_14.fa_2 cout )
+    ( adder_5bit_14.fa_3 cin ) ;
+  - adder_5bit_14.c<3>
+    ( adder_5bit_14.fa_3 cout )
+    ( adder_5bit_14.fa_4 cin ) ;
+  - adder_5bit_14.c<4>
+    ( adder_5bit_14.fa_4 cout )
+    ( adder_5bit_14.fa_5 cin ) ;
+  - adder_5bit_14.s<0>
+    ( adder_5bit_14.ha_0 s )
+    ( adder_6bit_7.ha_0 a ) ;
+  - adder_5bit_14.s<1>
+    ( adder_5bit_14.fa_1 s )
+    ( adder_6bit_7.fa_1 a ) ;
+  - adder_5bit_14.s<2>
+    ( adder_5bit_14.fa_2 s )
+    ( adder_6bit_7.fa_2 a ) ;
+  - adder_5bit_14.s<3>
+    ( adder_5bit_14.fa_3 s )
+    ( adder_6bit_7.fa_3 a ) ;
+  - adder_5bit_14.s<4>
+    ( adder_5bit_14.fa_4 s )
+    ( adder_6bit_7.fa_4 a ) ;
+  - adder_5bit_14.s<5>
+    ( adder_5bit_14.fa_5 s )
+    ( adder_6bit_7.fa_5 a )
+    ( adder_6bit_7.fa_6 a ) ;
+  - adder_5bit_15.c<0>
+    ( adder_5bit_15.fa_1 cin )
+    ( adder_5bit_15.ha_0 cout ) ;
+  - adder_5bit_15.c<1>
+    ( adder_5bit_15.fa_1 cout )
+    ( adder_5bit_15.fa_2 cin ) ;
+  - adder_5bit_15.c<2>
+    ( adder_5bit_15.fa_2 cout )
+    ( adder_5bit_15.fa_3 cin ) ;
+  - adder_5bit_15.c<3>
+    ( adder_5bit_15.fa_3 cout )
+    ( adder_5bit_15.fa_4 cin ) ;
+  - adder_5bit_15.c<4>
+    ( adder_5bit_15.fa_4 cout )
+    ( adder_5bit_15.fa_5 cin ) ;
+  - adder_5bit_15.s<0>
+    ( adder_5bit_15.ha_0 s )
+    ( adder_6bit_7.ha_0 b ) ;
+  - adder_5bit_15.s<1>
+    ( adder_5bit_15.fa_1 s )
+    ( adder_6bit_7.fa_1 b ) ;
+  - adder_5bit_15.s<2>
+    ( adder_5bit_15.fa_2 s )
+    ( adder_6bit_7.fa_2 b ) ;
+  - adder_5bit_15.s<3>
+    ( adder_5bit_15.fa_3 s )
+    ( adder_6bit_7.fa_3 b ) ;
+  - adder_5bit_15.s<4>
+    ( adder_5bit_15.fa_4 s )
+    ( adder_6bit_7.fa_4 b ) ;
+  - adder_5bit_15.s<5>
+    ( adder_5bit_15.fa_5 s )
+    ( adder_6bit_7.fa_5 b )
+    ( adder_6bit_7.fa_6 b ) ;
+  - adder_5bit_2.c<0>
+    ( adder_5bit_2.fa_1 cin )
+    ( adder_5bit_2.ha_0 cout ) ;
+  - adder_5bit_2.c<1>
+    ( adder_5bit_2.fa_1 cout )
+    ( adder_5bit_2.fa_2 cin ) ;
+  - adder_5bit_2.c<2>
+    ( adder_5bit_2.fa_2 cout )
+    ( adder_5bit_2.fa_3 cin ) ;
+  - adder_5bit_2.c<3>
+    ( adder_5bit_2.fa_3 cout )
+    ( adder_5bit_2.fa_4 cin ) ;
+  - adder_5bit_2.c<4>
+    ( adder_5bit_2.fa_4 cout )
+    ( adder_5bit_2.fa_5 cin ) ;
+  - adder_5bit_2.s<0>
+    ( adder_5bit_2.ha_0 s )
+    ( adder_6bit_1.ha_0 a ) ;
+  - adder_5bit_2.s<1>
+    ( adder_5bit_2.fa_1 s )
+    ( adder_6bit_1.fa_1 a ) ;
+  - adder_5bit_2.s<2>
+    ( adder_5bit_2.fa_2 s )
+    ( adder_6bit_1.fa_2 a ) ;
+  - adder_5bit_2.s<3>
+    ( adder_5bit_2.fa_3 s )
+    ( adder_6bit_1.fa_3 a ) ;
+  - adder_5bit_2.s<4>
+    ( adder_5bit_2.fa_4 s )
+    ( adder_6bit_1.fa_4 a ) ;
+  - adder_5bit_2.s<5>
+    ( adder_5bit_2.fa_5 s )
+    ( adder_6bit_1.fa_5 a )
+    ( adder_6bit_1.fa_6 a ) ;
+  - adder_5bit_3.c<0>
+    ( adder_5bit_3.fa_1 cin )
+    ( adder_5bit_3.ha_0 cout ) ;
+  - adder_5bit_3.c<1>
+    ( adder_5bit_3.fa_1 cout )
+    ( adder_5bit_3.fa_2 cin ) ;
+  - adder_5bit_3.c<2>
+    ( adder_5bit_3.fa_2 cout )
+    ( adder_5bit_3.fa_3 cin ) ;
+  - adder_5bit_3.c<3>
+    ( adder_5bit_3.fa_3 cout )
+    ( adder_5bit_3.fa_4 cin ) ;
+  - adder_5bit_3.c<4>
+    ( adder_5bit_3.fa_4 cout )
+    ( adder_5bit_3.fa_5 cin ) ;
+  - adder_5bit_3.s<0>
+    ( adder_5bit_3.ha_0 s )
+    ( adder_6bit_1.ha_0 b ) ;
+  - adder_5bit_3.s<1>
+    ( adder_5bit_3.fa_1 s )
+    ( adder_6bit_1.fa_1 b ) ;
+  - adder_5bit_3.s<2>
+    ( adder_5bit_3.fa_2 s )
+    ( adder_6bit_1.fa_2 b ) ;
+  - adder_5bit_3.s<3>
+    ( adder_5bit_3.fa_3 s )
+    ( adder_6bit_1.fa_3 b ) ;
+  - adder_5bit_3.s<4>
+    ( adder_5bit_3.fa_4 s )
+    ( adder_6bit_1.fa_4 b ) ;
+  - adder_5bit_3.s<5>
+    ( adder_5bit_3.fa_5 s )
+    ( adder_6bit_1.fa_5 b )
+    ( adder_6bit_1.fa_6 b ) ;
+  - adder_5bit_4.c<0>
+    ( adder_5bit_4.fa_1 cin )
+    ( adder_5bit_4.ha_0 cout ) ;
+  - adder_5bit_4.c<1>
+    ( adder_5bit_4.fa_1 cout )
+    ( adder_5bit_4.fa_2 cin ) ;
+  - adder_5bit_4.c<2>
+    ( adder_5bit_4.fa_2 cout )
+    ( adder_5bit_4.fa_3 cin ) ;
+  - adder_5bit_4.c<3>
+    ( adder_5bit_4.fa_3 cout )
+    ( adder_5bit_4.fa_4 cin ) ;
+  - adder_5bit_4.c<4>
+    ( adder_5bit_4.fa_4 cout )
+    ( adder_5bit_4.fa_5 cin ) ;
+  - adder_5bit_4.s<0>
+    ( adder_5bit_4.ha_0 s )
+    ( adder_6bit_2.ha_0 a ) ;
+  - adder_5bit_4.s<1>
+    ( adder_5bit_4.fa_1 s )
+    ( adder_6bit_2.fa_1 a ) ;
+  - adder_5bit_4.s<2>
+    ( adder_5bit_4.fa_2 s )
+    ( adder_6bit_2.fa_2 a ) ;
+  - adder_5bit_4.s<3>
+    ( adder_5bit_4.fa_3 s )
+    ( adder_6bit_2.fa_3 a ) ;
+  - adder_5bit_4.s<4>
+    ( adder_5bit_4.fa_4 s )
+    ( adder_6bit_2.fa_4 a ) ;
+  - adder_5bit_4.s<5>
+    ( adder_5bit_4.fa_5 s )
+    ( adder_6bit_2.fa_5 a )
+    ( adder_6bit_2.fa_6 a ) ;
+  - adder_5bit_5.c<0>
+    ( adder_5bit_5.fa_1 cin )
+    ( adder_5bit_5.ha_0 cout ) ;
+  - adder_5bit_5.c<1>
+    ( adder_5bit_5.fa_1 cout )
+    ( adder_5bit_5.fa_2 cin ) ;
+  - adder_5bit_5.c<2>
+    ( adder_5bit_5.fa_2 cout )
+    ( adder_5bit_5.fa_3 cin ) ;
+  - adder_5bit_5.c<3>
+    ( adder_5bit_5.fa_3 cout )
+    ( adder_5bit_5.fa_4 cin ) ;
+  - adder_5bit_5.c<4>
+    ( adder_5bit_5.fa_4 cout )
+    ( adder_5bit_5.fa_5 cin ) ;
+  - adder_5bit_5.s<0>
+    ( adder_5bit_5.ha_0 s )
+    ( adder_6bit_2.ha_0 b ) ;
+  - adder_5bit_5.s<1>
+    ( adder_5bit_5.fa_1 s )
+    ( adder_6bit_2.fa_1 b ) ;
+  - adder_5bit_5.s<2>
+    ( adder_5bit_5.fa_2 s )
+    ( adder_6bit_2.fa_2 b ) ;
+  - adder_5bit_5.s<3>
+    ( adder_5bit_5.fa_3 s )
+    ( adder_6bit_2.fa_3 b ) ;
+  - adder_5bit_5.s<4>
+    ( adder_5bit_5.fa_4 s )
+    ( adder_6bit_2.fa_4 b ) ;
+  - adder_5bit_5.s<5>
+    ( adder_5bit_5.fa_5 s )
+    ( adder_6bit_2.fa_5 b )
+    ( adder_6bit_2.fa_6 b ) ;
+  - adder_5bit_6.c<0>
+    ( adder_5bit_6.fa_1 cin )
+    ( adder_5bit_6.ha_0 cout ) ;
+  - adder_5bit_6.c<1>
+    ( adder_5bit_6.fa_1 cout )
+    ( adder_5bit_6.fa_2 cin ) ;
+  - adder_5bit_6.c<2>
+    ( adder_5bit_6.fa_2 cout )
+    ( adder_5bit_6.fa_3 cin ) ;
+  - adder_5bit_6.c<3>
+    ( adder_5bit_6.fa_3 cout )
+    ( adder_5bit_6.fa_4 cin ) ;
+  - adder_5bit_6.c<4>
+    ( adder_5bit_6.fa_4 cout )
+    ( adder_5bit_6.fa_5 cin ) ;
+  - adder_5bit_6.s<0>
+    ( adder_5bit_6.ha_0 s )
+    ( adder_6bit_3.ha_0 a ) ;
+  - adder_5bit_6.s<1>
+    ( adder_5bit_6.fa_1 s )
+    ( adder_6bit_3.fa_1 a ) ;
+  - adder_5bit_6.s<2>
+    ( adder_5bit_6.fa_2 s )
+    ( adder_6bit_3.fa_2 a ) ;
+  - adder_5bit_6.s<3>
+    ( adder_5bit_6.fa_3 s )
+    ( adder_6bit_3.fa_3 a ) ;
+  - adder_5bit_6.s<4>
+    ( adder_5bit_6.fa_4 s )
+    ( adder_6bit_3.fa_4 a ) ;
+  - adder_5bit_6.s<5>
+    ( adder_5bit_6.fa_5 s )
+    ( adder_6bit_3.fa_5 a )
+    ( adder_6bit_3.fa_6 a ) ;
+  - adder_5bit_7.c<0>
+    ( adder_5bit_7.fa_1 cin )
+    ( adder_5bit_7.ha_0 cout ) ;
+  - adder_5bit_7.c<1>
+    ( adder_5bit_7.fa_1 cout )
+    ( adder_5bit_7.fa_2 cin ) ;
+  - adder_5bit_7.c<2>
+    ( adder_5bit_7.fa_2 cout )
+    ( adder_5bit_7.fa_3 cin ) ;
+  - adder_5bit_7.c<3>
+    ( adder_5bit_7.fa_3 cout )
+    ( adder_5bit_7.fa_4 cin ) ;
+  - adder_5bit_7.c<4>
+    ( adder_5bit_7.fa_4 cout )
+    ( adder_5bit_7.fa_5 cin ) ;
+  - adder_5bit_7.s<0>
+    ( adder_5bit_7.ha_0 s )
+    ( adder_6bit_3.ha_0 b ) ;
+  - adder_5bit_7.s<1>
+    ( adder_5bit_7.fa_1 s )
+    ( adder_6bit_3.fa_1 b ) ;
+  - adder_5bit_7.s<2>
+    ( adder_5bit_7.fa_2 s )
+    ( adder_6bit_3.fa_2 b ) ;
+  - adder_5bit_7.s<3>
+    ( adder_5bit_7.fa_3 s )
+    ( adder_6bit_3.fa_3 b ) ;
+  - adder_5bit_7.s<4>
+    ( adder_5bit_7.fa_4 s )
+    ( adder_6bit_3.fa_4 b ) ;
+  - adder_5bit_7.s<5>
+    ( adder_5bit_7.fa_5 s )
+    ( adder_6bit_3.fa_5 b )
+    ( adder_6bit_3.fa_6 b ) ;
+  - adder_5bit_8.c<0>
+    ( adder_5bit_8.fa_1 cin )
+    ( adder_5bit_8.ha_0 cout ) ;
+  - adder_5bit_8.c<1>
+    ( adder_5bit_8.fa_1 cout )
+    ( adder_5bit_8.fa_2 cin ) ;
+  - adder_5bit_8.c<2>
+    ( adder_5bit_8.fa_2 cout )
+    ( adder_5bit_8.fa_3 cin ) ;
+  - adder_5bit_8.c<3>
+    ( adder_5bit_8.fa_3 cout )
+    ( adder_5bit_8.fa_4 cin ) ;
+  - adder_5bit_8.c<4>
+    ( adder_5bit_8.fa_4 cout )
+    ( adder_5bit_8.fa_5 cin ) ;
+  - adder_5bit_8.s<0>
+    ( adder_5bit_8.ha_0 s )
+    ( adder_6bit_4.ha_0 a ) ;
+  - adder_5bit_8.s<1>
+    ( adder_5bit_8.fa_1 s )
+    ( adder_6bit_4.fa_1 a ) ;
+  - adder_5bit_8.s<2>
+    ( adder_5bit_8.fa_2 s )
+    ( adder_6bit_4.fa_2 a ) ;
+  - adder_5bit_8.s<3>
+    ( adder_5bit_8.fa_3 s )
+    ( adder_6bit_4.fa_3 a ) ;
+  - adder_5bit_8.s<4>
+    ( adder_5bit_8.fa_4 s )
+    ( adder_6bit_4.fa_4 a ) ;
+  - adder_5bit_8.s<5>
+    ( adder_5bit_8.fa_5 s )
+    ( adder_6bit_4.fa_5 a )
+    ( adder_6bit_4.fa_6 a ) ;
+  - adder_5bit_9.c<0>
+    ( adder_5bit_9.fa_1 cin )
+    ( adder_5bit_9.ha_0 cout ) ;
+  - adder_5bit_9.c<1>
+    ( adder_5bit_9.fa_1 cout )
+    ( adder_5bit_9.fa_2 cin ) ;
+  - adder_5bit_9.c<2>
+    ( adder_5bit_9.fa_2 cout )
+    ( adder_5bit_9.fa_3 cin ) ;
+  - adder_5bit_9.c<3>
+    ( adder_5bit_9.fa_3 cout )
+    ( adder_5bit_9.fa_4 cin ) ;
+  - adder_5bit_9.c<4>
+    ( adder_5bit_9.fa_4 cout )
+    ( adder_5bit_9.fa_5 cin ) ;
+  - adder_5bit_9.s<0>
+    ( adder_5bit_9.ha_0 s )
+    ( adder_6bit_4.ha_0 b ) ;
+  - adder_5bit_9.s<1>
+    ( adder_5bit_9.fa_1 s )
+    ( adder_6bit_4.fa_1 b ) ;
+  - adder_5bit_9.s<2>
+    ( adder_5bit_9.fa_2 s )
+    ( adder_6bit_4.fa_2 b ) ;
+  - adder_5bit_9.s<3>
+    ( adder_5bit_9.fa_3 s )
+    ( adder_6bit_4.fa_3 b ) ;
+  - adder_5bit_9.s<4>
+    ( adder_5bit_9.fa_4 s )
+    ( adder_6bit_4.fa_4 b ) ;
+  - adder_5bit_9.s<5>
+    ( adder_5bit_9.fa_5 s )
+    ( adder_6bit_4.fa_5 b )
+    ( adder_6bit_4.fa_6 b ) ;
+  - adder_6bit_0.c<0>
+    ( adder_6bit_0.fa_1 cin )
+    ( adder_6bit_0.ha_0 cout ) ;
+  - adder_6bit_0.c<1>
+    ( adder_6bit_0.fa_1 cout )
+    ( adder_6bit_0.fa_2 cin ) ;
+  - adder_6bit_0.c<2>
+    ( adder_6bit_0.fa_2 cout )
+    ( adder_6bit_0.fa_3 cin ) ;
+  - adder_6bit_0.c<3>
+    ( adder_6bit_0.fa_3 cout )
+    ( adder_6bit_0.fa_4 cin ) ;
+  - adder_6bit_0.c<4>
+    ( adder_6bit_0.fa_4 cout )
+    ( adder_6bit_0.fa_5 cin ) ;
+  - adder_6bit_0.c<5>
+    ( adder_6bit_0.fa_5 cout )
+    ( adder_6bit_0.fa_6 cin ) ;
+  - adder_6bit_0.s<0>
+    ( adder_6bit_0.ha_0 s )
+    ( adder_7bit_0.ha_0 a ) ;
+  - adder_6bit_0.s<1>
+    ( adder_6bit_0.fa_1 s )
+    ( adder_7bit_0.fa_1 a ) ;
+  - adder_6bit_0.s<2>
+    ( adder_6bit_0.fa_2 s )
+    ( adder_7bit_0.fa_2 a ) ;
+  - adder_6bit_0.s<3>
+    ( adder_6bit_0.fa_3 s )
+    ( adder_7bit_0.fa_3 a ) ;
+  - adder_6bit_0.s<4>
+    ( adder_6bit_0.fa_4 s )
+    ( adder_7bit_0.fa_4 a ) ;
+  - adder_6bit_0.s<5>
+    ( adder_6bit_0.fa_5 s )
+    ( adder_7bit_0.fa_5 a ) ;
+  - adder_6bit_0.s<6>
+    ( adder_6bit_0.fa_6 s )
+    ( adder_7bit_0.fa_6 a )
+    ( adder_7bit_0.fa_7 a ) ;
+  - adder_6bit_1.c<0>
+    ( adder_6bit_1.fa_1 cin )
+    ( adder_6bit_1.ha_0 cout ) ;
+  - adder_6bit_1.c<1>
+    ( adder_6bit_1.fa_1 cout )
+    ( adder_6bit_1.fa_2 cin ) ;
+  - adder_6bit_1.c<2>
+    ( adder_6bit_1.fa_2 cout )
+    ( adder_6bit_1.fa_3 cin ) ;
+  - adder_6bit_1.c<3>
+    ( adder_6bit_1.fa_3 cout )
+    ( adder_6bit_1.fa_4 cin ) ;
+  - adder_6bit_1.c<4>
+    ( adder_6bit_1.fa_4 cout )
+    ( adder_6bit_1.fa_5 cin ) ;
+  - adder_6bit_1.c<5>
+    ( adder_6bit_1.fa_5 cout )
+    ( adder_6bit_1.fa_6 cin ) ;
+  - adder_6bit_1.s<0>
+    ( adder_6bit_1.ha_0 s )
+    ( adder_7bit_0.ha_0 b ) ;
+  - adder_6bit_1.s<1>
+    ( adder_6bit_1.fa_1 s )
+    ( adder_7bit_0.fa_1 b ) ;
+  - adder_6bit_1.s<2>
+    ( adder_6bit_1.fa_2 s )
+    ( adder_7bit_0.fa_2 b ) ;
+  - adder_6bit_1.s<3>
+    ( adder_6bit_1.fa_3 s )
+    ( adder_7bit_0.fa_3 b ) ;
+  - adder_6bit_1.s<4>
+    ( adder_6bit_1.fa_4 s )
+    ( adder_7bit_0.fa_4 b ) ;
+  - adder_6bit_1.s<5>
+    ( adder_6bit_1.fa_5 s )
+    ( adder_7bit_0.fa_5 b ) ;
+  - adder_6bit_1.s<6>
+    ( adder_6bit_1.fa_6 s )
+    ( adder_7bit_0.fa_6 b )
+    ( adder_7bit_0.fa_7 b ) ;
+  - adder_6bit_2.c<0>
+    ( adder_6bit_2.fa_1 cin )
+    ( adder_6bit_2.ha_0 cout ) ;
+  - adder_6bit_2.c<1>
+    ( adder_6bit_2.fa_1 cout )
+    ( adder_6bit_2.fa_2 cin ) ;
+  - adder_6bit_2.c<2>
+    ( adder_6bit_2.fa_2 cout )
+    ( adder_6bit_2.fa_3 cin ) ;
+  - adder_6bit_2.c<3>
+    ( adder_6bit_2.fa_3 cout )
+    ( adder_6bit_2.fa_4 cin ) ;
+  - adder_6bit_2.c<4>
+    ( adder_6bit_2.fa_4 cout )
+    ( adder_6bit_2.fa_5 cin ) ;
+  - adder_6bit_2.c<5>
+    ( adder_6bit_2.fa_5 cout )
+    ( adder_6bit_2.fa_6 cin ) ;
+  - adder_6bit_2.s<0>
+    ( adder_6bit_2.ha_0 s )
+    ( adder_7bit_1.ha_0 a ) ;
+  - adder_6bit_2.s<1>
+    ( adder_6bit_2.fa_1 s )
+    ( adder_7bit_1.fa_1 a ) ;
+  - adder_6bit_2.s<2>
+    ( adder_6bit_2.fa_2 s )
+    ( adder_7bit_1.fa_2 a ) ;
+  - adder_6bit_2.s<3>
+    ( adder_6bit_2.fa_3 s )
+    ( adder_7bit_1.fa_3 a ) ;
+  - adder_6bit_2.s<4>
+    ( adder_6bit_2.fa_4 s )
+    ( adder_7bit_1.fa_4 a ) ;
+  - adder_6bit_2.s<5>
+    ( adder_6bit_2.fa_5 s )
+    ( adder_7bit_1.fa_5 a ) ;
+  - adder_6bit_2.s<6>
+    ( adder_6bit_2.fa_6 s )
+    ( adder_7bit_1.fa_6 a )
+    ( adder_7bit_1.fa_7 a ) ;
+  - adder_6bit_3.c<0>
+    ( adder_6bit_3.fa_1 cin )
+    ( adder_6bit_3.ha_0 cout ) ;
+  - adder_6bit_3.c<1>
+    ( adder_6bit_3.fa_1 cout )
+    ( adder_6bit_3.fa_2 cin ) ;
+  - adder_6bit_3.c<2>
+    ( adder_6bit_3.fa_2 cout )
+    ( adder_6bit_3.fa_3 cin ) ;
+  - adder_6bit_3.c<3>
+    ( adder_6bit_3.fa_3 cout )
+    ( adder_6bit_3.fa_4 cin ) ;
+  - adder_6bit_3.c<4>
+    ( adder_6bit_3.fa_4 cout )
+    ( adder_6bit_3.fa_5 cin ) ;
+  - adder_6bit_3.c<5>
+    ( adder_6bit_3.fa_5 cout )
+    ( adder_6bit_3.fa_6 cin ) ;
+  - adder_6bit_3.s<0>
+    ( adder_6bit_3.ha_0 s )
+    ( adder_7bit_1.ha_0 b ) ;
+  - adder_6bit_3.s<1>
+    ( adder_6bit_3.fa_1 s )
+    ( adder_7bit_1.fa_1 b ) ;
+  - adder_6bit_3.s<2>
+    ( adder_6bit_3.fa_2 s )
+    ( adder_7bit_1.fa_2 b ) ;
+  - adder_6bit_3.s<3>
+    ( adder_6bit_3.fa_3 s )
+    ( adder_7bit_1.fa_3 b ) ;
+  - adder_6bit_3.s<4>
+    ( adder_6bit_3.fa_4 s )
+    ( adder_7bit_1.fa_4 b ) ;
+  - adder_6bit_3.s<5>
+    ( adder_6bit_3.fa_5 s )
+    ( adder_7bit_1.fa_5 b ) ;
+  - adder_6bit_3.s<6>
+    ( adder_6bit_3.fa_6 s )
+    ( adder_7bit_1.fa_6 b )
+    ( adder_7bit_1.fa_7 b ) ;
+  - adder_6bit_4.c<0>
+    ( adder_6bit_4.fa_1 cin )
+    ( adder_6bit_4.ha_0 cout ) ;
+  - adder_6bit_4.c<1>
+    ( adder_6bit_4.fa_1 cout )
+    ( adder_6bit_4.fa_2 cin ) ;
+  - adder_6bit_4.c<2>
+    ( adder_6bit_4.fa_2 cout )
+    ( adder_6bit_4.fa_3 cin ) ;
+  - adder_6bit_4.c<3>
+    ( adder_6bit_4.fa_3 cout )
+    ( adder_6bit_4.fa_4 cin ) ;
+  - adder_6bit_4.c<4>
+    ( adder_6bit_4.fa_4 cout )
+    ( adder_6bit_4.fa_5 cin ) ;
+  - adder_6bit_4.c<5>
+    ( adder_6bit_4.fa_5 cout )
+    ( adder_6bit_4.fa_6 cin ) ;
+  - adder_6bit_4.s<0>
+    ( adder_6bit_4.ha_0 s )
+    ( adder_7bit_2.ha_0 a ) ;
+  - adder_6bit_4.s<1>
+    ( adder_6bit_4.fa_1 s )
+    ( adder_7bit_2.fa_1 a ) ;
+  - adder_6bit_4.s<2>
+    ( adder_6bit_4.fa_2 s )
+    ( adder_7bit_2.fa_2 a ) ;
+  - adder_6bit_4.s<3>
+    ( adder_6bit_4.fa_3 s )
+    ( adder_7bit_2.fa_3 a ) ;
+  - adder_6bit_4.s<4>
+    ( adder_6bit_4.fa_4 s )
+    ( adder_7bit_2.fa_4 a ) ;
+  - adder_6bit_4.s<5>
+    ( adder_6bit_4.fa_5 s )
+    ( adder_7bit_2.fa_5 a ) ;
+  - adder_6bit_4.s<6>
+    ( adder_6bit_4.fa_6 s )
+    ( adder_7bit_2.fa_6 a )
+    ( adder_7bit_2.fa_7 a ) ;
+  - adder_6bit_5.c<0>
+    ( adder_6bit_5.fa_1 cin )
+    ( adder_6bit_5.ha_0 cout ) ;
+  - adder_6bit_5.c<1>
+    ( adder_6bit_5.fa_1 cout )
+    ( adder_6bit_5.fa_2 cin ) ;
+  - adder_6bit_5.c<2>
+    ( adder_6bit_5.fa_2 cout )
+    ( adder_6bit_5.fa_3 cin ) ;
+  - adder_6bit_5.c<3>
+    ( adder_6bit_5.fa_3 cout )
+    ( adder_6bit_5.fa_4 cin ) ;
+  - adder_6bit_5.c<4>
+    ( adder_6bit_5.fa_4 cout )
+    ( adder_6bit_5.fa_5 cin ) ;
+  - adder_6bit_5.c<5>
+    ( adder_6bit_5.fa_5 cout )
+    ( adder_6bit_5.fa_6 cin ) ;
+  - adder_6bit_5.s<0>
+    ( adder_6bit_5.ha_0 s )
+    ( adder_7bit_2.ha_0 b ) ;
+  - adder_6bit_5.s<1>
+    ( adder_6bit_5.fa_1 s )
+    ( adder_7bit_2.fa_1 b ) ;
+  - adder_6bit_5.s<2>
+    ( adder_6bit_5.fa_2 s )
+    ( adder_7bit_2.fa_2 b ) ;
+  - adder_6bit_5.s<3>
+    ( adder_6bit_5.fa_3 s )
+    ( adder_7bit_2.fa_3 b ) ;
+  - adder_6bit_5.s<4>
+    ( adder_6bit_5.fa_4 s )
+    ( adder_7bit_2.fa_4 b ) ;
+  - adder_6bit_5.s<5>
+    ( adder_6bit_5.fa_5 s )
+    ( adder_7bit_2.fa_5 b ) ;
+  - adder_6bit_5.s<6>
+    ( adder_6bit_5.fa_6 s )
+    ( adder_7bit_2.fa_6 b )
+    ( adder_7bit_2.fa_7 b ) ;
+  - adder_6bit_6.c<0>
+    ( adder_6bit_6.fa_1 cin )
+    ( adder_6bit_6.ha_0 cout ) ;
+  - adder_6bit_6.c<1>
+    ( adder_6bit_6.fa_1 cout )
+    ( adder_6bit_6.fa_2 cin ) ;
+  - adder_6bit_6.c<2>
+    ( adder_6bit_6.fa_2 cout )
+    ( adder_6bit_6.fa_3 cin ) ;
+  - adder_6bit_6.c<3>
+    ( adder_6bit_6.fa_3 cout )
+    ( adder_6bit_6.fa_4 cin ) ;
+  - adder_6bit_6.c<4>
+    ( adder_6bit_6.fa_4 cout )
+    ( adder_6bit_6.fa_5 cin ) ;
+  - adder_6bit_6.c<5>
+    ( adder_6bit_6.fa_5 cout )
+    ( adder_6bit_6.fa_6 cin ) ;
+  - adder_6bit_6.s<0>
+    ( adder_6bit_6.ha_0 s )
+    ( adder_7bit_3.ha_0 a ) ;
+  - adder_6bit_6.s<1>
+    ( adder_6bit_6.fa_1 s )
+    ( adder_7bit_3.fa_1 a ) ;
+  - adder_6bit_6.s<2>
+    ( adder_6bit_6.fa_2 s )
+    ( adder_7bit_3.fa_2 a ) ;
+  - adder_6bit_6.s<3>
+    ( adder_6bit_6.fa_3 s )
+    ( adder_7bit_3.fa_3 a ) ;
+  - adder_6bit_6.s<4>
+    ( adder_6bit_6.fa_4 s )
+    ( adder_7bit_3.fa_4 a ) ;
+  - adder_6bit_6.s<5>
+    ( adder_6bit_6.fa_5 s )
+    ( adder_7bit_3.fa_5 a ) ;
+  - adder_6bit_6.s<6>
+    ( adder_6bit_6.fa_6 s )
+    ( adder_7bit_3.fa_6 a )
+    ( adder_7bit_3.fa_7 a ) ;
+  - adder_6bit_7.c<0>
+    ( adder_6bit_7.fa_1 cin )
+    ( adder_6bit_7.ha_0 cout ) ;
+  - adder_6bit_7.c<1>
+    ( adder_6bit_7.fa_1 cout )
+    ( adder_6bit_7.fa_2 cin ) ;
+  - adder_6bit_7.c<2>
+    ( adder_6bit_7.fa_2 cout )
+    ( adder_6bit_7.fa_3 cin ) ;
+  - adder_6bit_7.c<3>
+    ( adder_6bit_7.fa_3 cout )
+    ( adder_6bit_7.fa_4 cin ) ;
+  - adder_6bit_7.c<4>
+    ( adder_6bit_7.fa_4 cout )
+    ( adder_6bit_7.fa_5 cin ) ;
+  - adder_6bit_7.c<5>
+    ( adder_6bit_7.fa_5 cout )
+    ( adder_6bit_7.fa_6 cin ) ;
+  - adder_6bit_7.s<0>
+    ( adder_6bit_7.ha_0 s )
+    ( adder_7bit_3.ha_0 b ) ;
+  - adder_6bit_7.s<1>
+    ( adder_6bit_7.fa_1 s )
+    ( adder_7bit_3.fa_1 b ) ;
+  - adder_6bit_7.s<2>
+    ( adder_6bit_7.fa_2 s )
+    ( adder_7bit_3.fa_2 b ) ;
+  - adder_6bit_7.s<3>
+    ( adder_6bit_7.fa_3 s )
+    ( adder_7bit_3.fa_3 b ) ;
+  - adder_6bit_7.s<4>
+    ( adder_6bit_7.fa_4 s )
+    ( adder_7bit_3.fa_4 b ) ;
+  - adder_6bit_7.s<5>
+    ( adder_6bit_7.fa_5 s )
+    ( adder_7bit_3.fa_5 b ) ;
+  - adder_6bit_7.s<6>
+    ( adder_6bit_7.fa_6 s )
+    ( adder_7bit_3.fa_6 b )
+    ( adder_7bit_3.fa_7 b ) ;
+  - adder_7bit_0.c<0>
+    ( adder_7bit_0.fa_1 cin )
+    ( adder_7bit_0.ha_0 cout ) ;
+  - adder_7bit_0.c<1>
+    ( adder_7bit_0.fa_1 cout )
+    ( adder_7bit_0.fa_2 cin ) ;
+  - adder_7bit_0.c<2>
+    ( adder_7bit_0.fa_2 cout )
+    ( adder_7bit_0.fa_3 cin ) ;
+  - adder_7bit_0.c<3>
+    ( adder_7bit_0.fa_3 cout )
+    ( adder_7bit_0.fa_4 cin ) ;
+  - adder_7bit_0.c<4>
+    ( adder_7bit_0.fa_4 cout )
+    ( adder_7bit_0.fa_5 cin ) ;
+  - adder_7bit_0.c<5>
+    ( adder_7bit_0.fa_5 cout )
+    ( adder_7bit_0.fa_6 cin ) ;
+  - adder_7bit_0.c<6>
+    ( adder_7bit_0.fa_6 cout )
+    ( adder_7bit_0.fa_7 cin ) ;
+  - adder_7bit_0.s<0>
+    ( adder_7bit_0.ha_0 s )
+    ( adder_8bit_0.ha_0 a ) ;
+  - adder_7bit_0.s<1>
+    ( adder_7bit_0.fa_1 s )
+    ( adder_8bit_0.fa_1 a ) ;
+  - adder_7bit_0.s<2>
+    ( adder_7bit_0.fa_2 s )
+    ( adder_8bit_0.fa_2 a ) ;
+  - adder_7bit_0.s<3>
+    ( adder_7bit_0.fa_3 s )
+    ( adder_8bit_0.fa_3 a ) ;
+  - adder_7bit_0.s<4>
+    ( adder_7bit_0.fa_4 s )
+    ( adder_8bit_0.fa_4 a ) ;
+  - adder_7bit_0.s<5>
+    ( adder_7bit_0.fa_5 s )
+    ( adder_8bit_0.fa_5 a ) ;
+  - adder_7bit_0.s<6>
+    ( adder_7bit_0.fa_6 s )
+    ( adder_8bit_0.fa_6 a ) ;
+  - adder_7bit_0.s<7>
+    ( adder_7bit_0.fa_7 s )
+    ( adder_8bit_0.fa_7 a )
+    ( adder_8bit_0.fa_8 a ) ;
+  - adder_7bit_1.c<0>
+    ( adder_7bit_1.fa_1 cin )
+    ( adder_7bit_1.ha_0 cout ) ;
+  - adder_7bit_1.c<1>
+    ( adder_7bit_1.fa_1 cout )
+    ( adder_7bit_1.fa_2 cin ) ;
+  - adder_7bit_1.c<2>
+    ( adder_7bit_1.fa_2 cout )
+    ( adder_7bit_1.fa_3 cin ) ;
+  - adder_7bit_1.c<3>
+    ( adder_7bit_1.fa_3 cout )
+    ( adder_7bit_1.fa_4 cin ) ;
+  - adder_7bit_1.c<4>
+    ( adder_7bit_1.fa_4 cout )
+    ( adder_7bit_1.fa_5 cin ) ;
+  - adder_7bit_1.c<5>
+    ( adder_7bit_1.fa_5 cout )
+    ( adder_7bit_1.fa_6 cin ) ;
+  - adder_7bit_1.c<6>
+    ( adder_7bit_1.fa_6 cout )
+    ( adder_7bit_1.fa_7 cin ) ;
+  - adder_7bit_1.s<0>
+    ( adder_7bit_1.ha_0 s )
+    ( adder_8bit_0.ha_0 b ) ;
+  - adder_7bit_1.s<1>
+    ( adder_7bit_1.fa_1 s )
+    ( adder_8bit_0.fa_1 b ) ;
+  - adder_7bit_1.s<2>
+    ( adder_7bit_1.fa_2 s )
+    ( adder_8bit_0.fa_2 b ) ;
+  - adder_7bit_1.s<3>
+    ( adder_7bit_1.fa_3 s )
+    ( adder_8bit_0.fa_3 b ) ;
+  - adder_7bit_1.s<4>
+    ( adder_7bit_1.fa_4 s )
+    ( adder_8bit_0.fa_4 b ) ;
+  - adder_7bit_1.s<5>
+    ( adder_7bit_1.fa_5 s )
+    ( adder_8bit_0.fa_5 b ) ;
+  - adder_7bit_1.s<6>
+    ( adder_7bit_1.fa_6 s )
+    ( adder_8bit_0.fa_6 b ) ;
+  - adder_7bit_1.s<7>
+    ( adder_7bit_1.fa_7 s )
+    ( adder_8bit_0.fa_7 b )
+    ( adder_8bit_0.fa_8 b ) ;
+  - adder_7bit_2.c<0>
+    ( adder_7bit_2.fa_1 cin )
+    ( adder_7bit_2.ha_0 cout ) ;
+  - adder_7bit_2.c<1>
+    ( adder_7bit_2.fa_1 cout )
+    ( adder_7bit_2.fa_2 cin ) ;
+  - adder_7bit_2.c<2>
+    ( adder_7bit_2.fa_2 cout )
+    ( adder_7bit_2.fa_3 cin ) ;
+  - adder_7bit_2.c<3>
+    ( adder_7bit_2.fa_3 cout )
+    ( adder_7bit_2.fa_4 cin ) ;
+  - adder_7bit_2.c<4>
+    ( adder_7bit_2.fa_4 cout )
+    ( adder_7bit_2.fa_5 cin ) ;
+  - adder_7bit_2.c<5>
+    ( adder_7bit_2.fa_5 cout )
+    ( adder_7bit_2.fa_6 cin ) ;
+  - adder_7bit_2.c<6>
+    ( adder_7bit_2.fa_6 cout )
+    ( adder_7bit_2.fa_7 cin ) ;
+  - adder_7bit_2.s<0>
+    ( adder_7bit_2.ha_0 s )
+    ( adder_8bit_1.ha_0 a ) ;
+  - adder_7bit_2.s<1>
+    ( adder_7bit_2.fa_1 s )
+    ( adder_8bit_1.fa_1 a ) ;
+  - adder_7bit_2.s<2>
+    ( adder_7bit_2.fa_2 s )
+    ( adder_8bit_1.fa_2 a ) ;
+  - adder_7bit_2.s<3>
+    ( adder_7bit_2.fa_3 s )
+    ( adder_8bit_1.fa_3 a ) ;
+  - adder_7bit_2.s<4>
+    ( adder_7bit_2.fa_4 s )
+    ( adder_8bit_1.fa_4 a ) ;
+  - adder_7bit_2.s<5>
+    ( adder_7bit_2.fa_5 s )
+    ( adder_8bit_1.fa_5 a ) ;
+  - adder_7bit_2.s<6>
+    ( adder_7bit_2.fa_6 s )
+    ( adder_8bit_1.fa_6 a ) ;
+  - adder_7bit_2.s<7>
+    ( adder_7bit_2.fa_7 s )
+    ( adder_8bit_1.fa_7 a )
+    ( adder_8bit_1.fa_8 a ) ;
+  - adder_7bit_3.c<0>
+    ( adder_7bit_3.fa_1 cin )
+    ( adder_7bit_3.ha_0 cout ) ;
+  - adder_7bit_3.c<1>
+    ( adder_7bit_3.fa_1 cout )
+    ( adder_7bit_3.fa_2 cin ) ;
+  - adder_7bit_3.c<2>
+    ( adder_7bit_3.fa_2 cout )
+    ( adder_7bit_3.fa_3 cin ) ;
+  - adder_7bit_3.c<3>
+    ( adder_7bit_3.fa_3 cout )
+    ( adder_7bit_3.fa_4 cin ) ;
+  - adder_7bit_3.c<4>
+    ( adder_7bit_3.fa_4 cout )
+    ( adder_7bit_3.fa_5 cin ) ;
+  - adder_7bit_3.c<5>
+    ( adder_7bit_3.fa_5 cout )
+    ( adder_7bit_3.fa_6 cin ) ;
+  - adder_7bit_3.c<6>
+    ( adder_7bit_3.fa_6 cout )
+    ( adder_7bit_3.fa_7 cin ) ;
+  - adder_7bit_3.s<0>
+    ( adder_7bit_3.ha_0 s )
+    ( adder_8bit_1.ha_0 b ) ;
+  - adder_7bit_3.s<1>
+    ( adder_7bit_3.fa_1 s )
+    ( adder_8bit_1.fa_1 b ) ;
+  - adder_7bit_3.s<2>
+    ( adder_7bit_3.fa_2 s )
+    ( adder_8bit_1.fa_2 b ) ;
+  - adder_7bit_3.s<3>
+    ( adder_7bit_3.fa_3 s )
+    ( adder_8bit_1.fa_3 b ) ;
+  - adder_7bit_3.s<4>
+    ( adder_7bit_3.fa_4 s )
+    ( adder_8bit_1.fa_4 b ) ;
+  - adder_7bit_3.s<5>
+    ( adder_7bit_3.fa_5 s )
+    ( adder_8bit_1.fa_5 b ) ;
+  - adder_7bit_3.s<6>
+    ( adder_7bit_3.fa_6 s )
+    ( adder_8bit_1.fa_6 b ) ;
+  - adder_7bit_3.s<7>
+    ( adder_7bit_3.fa_7 s )
+    ( adder_8bit_1.fa_7 b )
+    ( adder_8bit_1.fa_8 b ) ;
+  - adder_8bit_0.c<0>
+    ( adder_8bit_0.fa_1 cin )
+    ( adder_8bit_0.ha_0 cout ) ;
+  - adder_8bit_0.c<1>
+    ( adder_8bit_0.fa_1 cout )
+    ( adder_8bit_0.fa_2 cin ) ;
+  - adder_8bit_0.c<2>
+    ( adder_8bit_0.fa_2 cout )
+    ( adder_8bit_0.fa_3 cin ) ;
+  - adder_8bit_0.c<3>
+    ( adder_8bit_0.fa_3 cout )
+    ( adder_8bit_0.fa_4 cin ) ;
+  - adder_8bit_0.c<4>
+    ( adder_8bit_0.fa_4 cout )
+    ( adder_8bit_0.fa_5 cin ) ;
+  - adder_8bit_0.c<5>
+    ( adder_8bit_0.fa_5 cout )
+    ( adder_8bit_0.fa_6 cin ) ;
+  - adder_8bit_0.c<6>
+    ( adder_8bit_0.fa_6 cout )
+    ( adder_8bit_0.fa_7 cin ) ;
+  - adder_8bit_0.c<7>
+    ( adder_8bit_0.fa_7 cout )
+    ( adder_8bit_0.fa_8 cin ) ;
+  - adder_8bit_0.s<0>
+    ( adder_8bit_0.ha_0 s )
+    ( adder_9bit.ha_0 a ) ;
+  - adder_8bit_0.s<1>
+    ( adder_8bit_0.fa_1 s )
+    ( adder_9bit.fa_1 a ) ;
+  - adder_8bit_0.s<2>
+    ( adder_8bit_0.fa_2 s )
+    ( adder_9bit.fa_2 a ) ;
+  - adder_8bit_0.s<3>
+    ( adder_8bit_0.fa_3 s )
+    ( adder_9bit.fa_3 a ) ;
+  - adder_8bit_0.s<4>
+    ( adder_8bit_0.fa_4 s )
+    ( adder_9bit.fa_4 a ) ;
+  - adder_8bit_0.s<5>
+    ( adder_8bit_0.fa_5 s )
+    ( adder_9bit.fa_5 a ) ;
+  - adder_8bit_0.s<6>
+    ( adder_8bit_0.fa_6 s )
+    ( adder_9bit.fa_6 a ) ;
+  - adder_8bit_0.s<7>
+    ( adder_8bit_0.fa_7 s )
+    ( adder_9bit.fa_7 a ) ;
+  - adder_8bit_0.s<8>
+    ( adder_8bit_0.fa_8 s )
+    ( adder_9bit.fa_8 a )
+    ( adder_9bit.fa_9 a ) ;
+  - adder_8bit_1.c<0>
+    ( adder_8bit_1.fa_1 cin )
+    ( adder_8bit_1.ha_0 cout ) ;
+  - adder_8bit_1.c<1>
+    ( adder_8bit_1.fa_1 cout )
+    ( adder_8bit_1.fa_2 cin ) ;
+  - adder_8bit_1.c<2>
+    ( adder_8bit_1.fa_2 cout )
+    ( adder_8bit_1.fa_3 cin ) ;
+  - adder_8bit_1.c<3>
+    ( adder_8bit_1.fa_3 cout )
+    ( adder_8bit_1.fa_4 cin ) ;
+  - adder_8bit_1.c<4>
+    ( adder_8bit_1.fa_4 cout )
+    ( adder_8bit_1.fa_5 cin ) ;
+  - adder_8bit_1.c<5>
+    ( adder_8bit_1.fa_5 cout )
+    ( adder_8bit_1.fa_6 cin ) ;
+  - adder_8bit_1.c<6>
+    ( adder_8bit_1.fa_6 cout )
+    ( adder_8bit_1.fa_7 cin ) ;
+  - adder_8bit_1.c<7>
+    ( adder_8bit_1.fa_7 cout )
+    ( adder_8bit_1.fa_8 cin ) ;
+  - adder_8bit_1.s<0>
+    ( adder_8bit_1.ha_0 s )
+    ( adder_9bit.ha_0 b ) ;
+  - adder_8bit_1.s<1>
+    ( adder_8bit_1.fa_1 s )
+    ( adder_9bit.fa_1 b ) ;
+  - adder_8bit_1.s<2>
+    ( adder_8bit_1.fa_2 s )
+    ( adder_9bit.fa_2 b ) ;
+  - adder_8bit_1.s<3>
+    ( adder_8bit_1.fa_3 s )
+    ( adder_9bit.fa_3 b ) ;
+  - adder_8bit_1.s<4>
+    ( adder_8bit_1.fa_4 s )
+    ( adder_9bit.fa_4 b ) ;
+  - adder_8bit_1.s<5>
+    ( adder_8bit_1.fa_5 s )
+    ( adder_9bit.fa_5 b ) ;
+  - adder_8bit_1.s<6>
+    ( adder_8bit_1.fa_6 s )
+    ( adder_9bit.fa_6 b ) ;
+  - adder_8bit_1.s<7>
+    ( adder_8bit_1.fa_7 s )
+    ( adder_9bit.fa_7 b ) ;
+  - adder_8bit_1.s<8>
+    ( adder_8bit_1.fa_8 s )
+    ( adder_9bit.fa_8 b )
+    ( adder_9bit.fa_9 b ) ;
+  - adder_9bit.c<0>
+    ( adder_9bit.fa_1 cin )
+    ( adder_9bit.ha_0 cout ) ;
+  - adder_9bit.c<1>
+    ( adder_9bit.fa_1 cout )
+    ( adder_9bit.fa_2 cin ) ;
+  - adder_9bit.c<2>
+    ( adder_9bit.fa_2 cout )
+    ( adder_9bit.fa_3 cin ) ;
+  - adder_9bit.c<3>
+    ( adder_9bit.fa_3 cout )
+    ( adder_9bit.fa_4 cin ) ;
+  - adder_9bit.c<4>
+    ( adder_9bit.fa_4 cout )
+    ( adder_9bit.fa_5 cin ) ;
+  - adder_9bit.c<5>
+    ( adder_9bit.fa_5 cout )
+    ( adder_9bit.fa_6 cin ) ;
+  - adder_9bit.c<6>
+    ( adder_9bit.fa_6 cout )
+    ( adder_9bit.fa_7 cin ) ;
+  - adder_9bit.c<7>
+    ( adder_9bit.fa_7 cout )
+    ( adder_9bit.fa_8 cin ) ;
+  - adder_9bit.c<8>
+    ( adder_9bit.fa_8 cout )
+    ( adder_9bit.fa_9 cin ) ;
+END NETS
+
+END DESIGN

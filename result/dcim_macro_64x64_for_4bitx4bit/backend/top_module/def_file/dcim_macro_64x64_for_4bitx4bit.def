@@ -1,0 +1,2063 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN dcim_macro_64x64_for_4bitx4bit ;
+UNITS DISTANCE MICRONS 2000 ;
+
+DIEAREA ( 0 0 ) ( 769120 209160 ) ;
+
+PINS 465 ;
+  - vdd + NET vdd 
+    + DIRECTION INOUT 
+    + PLACED ( -830 209090 ) N 
+    + LAYER metal1 ( 0 -209160 ) ( 140 140 )
+    + LAYER metal1 ( 140 0 ) ( 830 140 )
+    + LAYER metal1 ( 140 -5040 ) ( 830 -4900 )
+    + LAYER metal1 ( 140 -10080 ) ( 830 -9940 )
+    + LAYER metal1 ( 140 -15120 ) ( 830 -14980 )
+    + LAYER metal1 ( 140 -20160 ) ( 830 -20020 )
+    + LAYER metal1 ( 140 -25200 ) ( 830 -25060 )
+    + LAYER metal1 ( 140 -30240 ) ( 830 -30100 )
+    + LAYER metal1 ( 140 -35280 ) ( 830 -35140 )
+    + LAYER metal1 ( 140 -40320 ) ( 830 -40180 )
+    + LAYER metal1 ( 140 -45360 ) ( 830 -45220 )
+    + LAYER metal1 ( 140 -50400 ) ( 830 -50260 )
+    + LAYER metal1 ( 140 -55440 ) ( 830 -55300 )
+    + LAYER metal1 ( 140 -60480 ) ( 830 -60340 )
+    + LAYER metal1 ( 140 -65520 ) ( 830 -65380 )
+    + LAYER metal1 ( 140 -70560 ) ( 830 -70420 )
+    + LAYER metal1 ( 140 -75600 ) ( 830 -75460 )
+    + LAYER metal1 ( 140 -80640 ) ( 830 -80500 )
+    + LAYER metal1 ( 140 -85680 ) ( 830 -85540 )
+    + LAYER metal1 ( 140 -90720 ) ( 830 -90580 )
+    + LAYER metal1 ( 140 -95760 ) ( 830 -95620 )
+    + LAYER metal1 ( 140 -100800 ) ( 830 -100660 )
+    + LAYER metal1 ( 140 -105840 ) ( 830 -105700 )
+    + LAYER metal1 ( 140 -110880 ) ( 830 -110740 )
+    + LAYER metal1 ( 140 -115920 ) ( 830 -115780 )
+    + LAYER metal1 ( 140 -120960 ) ( 830 -120820 )
+    + LAYER metal1 ( 140 -126000 ) ( 830 -125860 )
+    + LAYER metal1 ( 140 -131040 ) ( 830 -130900 )
+    + LAYER metal1 ( 140 -136080 ) ( 830 -135940 )
+    + LAYER metal1 ( 140 -141120 ) ( 830 -140980 )
+    + LAYER metal1 ( 140 -146160 ) ( 830 -146020 )
+    + LAYER metal1 ( 140 -151200 ) ( 830 -151060 )
+    + LAYER metal1 ( 140 -156240 ) ( 830 -156100 )
+    + LAYER metal1 ( 140 -161280 ) ( 830 -161140 )
+    + LAYER metal1 ( 140 -166320 ) ( 830 -166180 )
+    + LAYER metal1 ( 140 -171360 ) ( 830 -171220 )
+    + LAYER metal1 ( 140 -176400 ) ( 830 -176260 )
+    + LAYER metal1 ( 140 -181440 ) ( 830 -181300 )
+    + LAYER metal1 ( 140 -186480 ) ( 830 -186340 )
+    + LAYER metal1 ( 140 -191520 ) ( 830 -191380 )
+    + LAYER metal1 ( 140 -196560 ) ( 830 -196420 )
+    + LAYER metal1 ( 140 -201600 ) ( 830 -201460 )
+    + LAYER metal1 ( 140 -206640 ) ( 830 -206500 ) ;
+  - gnd + NET gnd 
+    + DIRECTION INOUT 
+    + PLACED ( 769620 209090 ) N 
+    + LAYER metal1 ( 0 -209160 ) ( 140 140 )
+    + LAYER metal1 ( -500 -2520 ) ( 0 -2380 )
+    + LAYER metal1 ( -500 -7560 ) ( 0 -7420 )
+    + LAYER metal1 ( -500 -12600 ) ( 0 -12460 )
+    + LAYER metal1 ( -500 -17640 ) ( 0 -17500 )
+    + LAYER metal1 ( -500 -22680 ) ( 0 -22540 )
+    + LAYER metal1 ( -500 -27720 ) ( 0 -27580 )
+    + LAYER metal1 ( -500 -32760 ) ( 0 -32620 )
+    + LAYER metal1 ( -500 -37800 ) ( 0 -37660 )
+    + LAYER metal1 ( -500 -42840 ) ( 0 -42700 )
+    + LAYER metal1 ( -500 -47880 ) ( 0 -47740 )
+    + LAYER metal1 ( -500 -52920 ) ( 0 -52780 )
+    + LAYER metal1 ( -500 -57960 ) ( 0 -57820 )
+    + LAYER metal1 ( -500 -63000 ) ( 0 -62860 )
+    + LAYER metal1 ( -500 -68040 ) ( 0 -67900 )
+    + LAYER metal1 ( -500 -73080 ) ( 0 -72940 )
+    + LAYER metal1 ( -500 -78120 ) ( 0 -77980 )
+    + LAYER metal1 ( -500 -83160 ) ( 0 -83020 )
+    + LAYER metal1 ( -500 -88200 ) ( 0 -88060 )
+    + LAYER metal1 ( -500 -93240 ) ( 0 -93100 )
+    + LAYER metal1 ( -500 -98280 ) ( 0 -98140 )
+    + LAYER metal1 ( -500 -103320 ) ( 0 -103180 )
+    + LAYER metal1 ( -500 -108360 ) ( 0 -108220 )
+    + LAYER metal1 ( -500 -113400 ) ( 0 -113260 )
+    + LAYER metal1 ( -500 -118440 ) ( 0 -118300 )
+    + LAYER metal1 ( -500 -123480 ) ( 0 -123340 )
+    + LAYER metal1 ( -500 -128520 ) ( 0 -128380 )
+    + LAYER metal1 ( -500 -133560 ) ( 0 -133420 )
+    + LAYER metal1 ( -500 -138600 ) ( 0 -138460 )
+    + LAYER metal1 ( -500 -143640 ) ( 0 -143500 )
+    + LAYER metal1 ( -500 -148680 ) ( 0 -148540 )
+    + LAYER metal1 ( -500 -153720 ) ( 0 -153580 )
+    + LAYER metal1 ( -500 -158760 ) ( 0 -158620 )
+    + LAYER metal1 ( -500 -163800 ) ( 0 -163660 )
+    + LAYER metal1 ( -500 -168840 ) ( 0 -168700 )
+    + LAYER metal1 ( -500 -173880 ) ( 0 -173740 )
+    + LAYER metal1 ( -500 -178920 ) ( 0 -178780 )
+    + LAYER metal1 ( -500 -183960 ) ( 0 -183820 )
+    + LAYER metal1 ( -500 -189000 ) ( 0 -188860 )
+    + LAYER metal1 ( -500 -194040 ) ( 0 -193900 )
+    + LAYER metal1 ( -500 -199080 ) ( 0 -198940 )
+    + LAYER metal1 ( -500 -204120 ) ( 0 -203980 )
+    + LAYER metal1 ( -500 -209160 ) ( 0 -209020 ) ;
+  - in<0> + NET in<0> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 206850 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<1> + NET in<1> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 206290 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<2> + NET in<2> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 201810 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<3> + NET in<3> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 201250 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<4> + NET in<4> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 196770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<5> + NET in<5> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 196210 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<6> + NET in<6> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 191730 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<7> + NET in<7> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 191170 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<8> + NET in<8> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 186690 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<9> + NET in<9> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 186130 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<10> + NET in<10> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 181650 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<11> + NET in<11> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 181090 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<12> + NET in<12> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 176610 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<13> + NET in<13> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 176050 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<14> + NET in<14> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 171570 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<15> + NET in<15> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 171010 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<16> + NET in<16> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 166530 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<17> + NET in<17> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 165970 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<18> + NET in<18> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 161490 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<19> + NET in<19> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 160930 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<20> + NET in<20> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 156450 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<21> + NET in<21> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 155890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<22> + NET in<22> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 151410 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<23> + NET in<23> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 150850 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<24> + NET in<24> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 146370 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<25> + NET in<25> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 145810 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<26> + NET in<26> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 141330 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<27> + NET in<27> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 140770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<28> + NET in<28> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 136290 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<29> + NET in<29> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 135730 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<30> + NET in<30> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 131250 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<31> + NET in<31> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 130690 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<32> + NET in<32> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 126210 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<33> + NET in<33> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 125650 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<34> + NET in<34> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 121170 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<35> + NET in<35> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 120610 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<36> + NET in<36> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 116130 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<37> + NET in<37> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 115570 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<38> + NET in<38> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 111090 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<39> + NET in<39> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 110530 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<40> + NET in<40> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 106050 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<41> + NET in<41> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 105490 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<42> + NET in<42> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 101010 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<43> + NET in<43> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 100450 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<44> + NET in<44> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 95970 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<45> + NET in<45> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 95410 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<46> + NET in<46> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 90930 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<47> + NET in<47> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 90370 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<48> + NET in<48> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 85890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<49> + NET in<49> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 85330 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<50> + NET in<50> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 80850 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<51> + NET in<51> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 80290 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<52> + NET in<52> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 75810 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<53> + NET in<53> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 75250 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<54> + NET in<54> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 70770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<55> + NET in<55> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 70210 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<56> + NET in<56> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 65730 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<57> + NET in<57> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 65170 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<58> + NET in<58> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 60690 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<59> + NET in<59> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 60130 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<60> + NET in<60> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 55650 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<61> + NET in<61> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 55090 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<62> + NET in<62> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 50610 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - in<63> + NET in<63> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 50050 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - clk + NET clk 
+    + DIRECTION INPUT 
+    + PLACED ( -140 32410 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - sign_in + NET sign_in 
+    + DIRECTION INPUT 
+    + PLACED ( -140 34930 ) N 
+    + LAYER metal2 ( 0 0 ) ( 280 140 ) ; 
+  - din<0> + NET din<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 732380 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<0> + NET dout<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 733140 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<1> + NET din<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 729340 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<1> + NET dout<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 730100 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<2> + NET din<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 726300 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<2> + NET dout<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 727060 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<3> + NET din<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 723260 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<3> + NET dout<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 724020 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<4> + NET din<4> 
+    + DIRECTION INPUT 
+    + PLACED ( 685640 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<4> + NET dout<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 686400 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<5> + NET din<5> 
+    + DIRECTION INPUT 
+    + PLACED ( 682600 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<5> + NET dout<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 683360 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<6> + NET din<6> 
+    + DIRECTION INPUT 
+    + PLACED ( 679560 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<6> + NET dout<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 680320 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<7> + NET din<7> 
+    + DIRECTION INPUT 
+    + PLACED ( 676520 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<7> + NET dout<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 677280 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<8> + NET din<8> 
+    + DIRECTION INPUT 
+    + PLACED ( 638900 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<8> + NET dout<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 639660 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<9> + NET din<9> 
+    + DIRECTION INPUT 
+    + PLACED ( 635860 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<9> + NET dout<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 636620 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<10> + NET din<10> 
+    + DIRECTION INPUT 
+    + PLACED ( 632820 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<10> + NET dout<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 633580 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<11> + NET din<11> 
+    + DIRECTION INPUT 
+    + PLACED ( 629780 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<11> + NET dout<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 630540 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<12> + NET din<12> 
+    + DIRECTION INPUT 
+    + PLACED ( 592160 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<12> + NET dout<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 592920 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<13> + NET din<13> 
+    + DIRECTION INPUT 
+    + PLACED ( 589120 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<13> + NET dout<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 589880 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<14> + NET din<14> 
+    + DIRECTION INPUT 
+    + PLACED ( 586080 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<14> + NET dout<14> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 586840 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<15> + NET din<15> 
+    + DIRECTION INPUT 
+    + PLACED ( 583040 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<15> + NET dout<15> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 583800 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<16> + NET din<16> 
+    + DIRECTION INPUT 
+    + PLACED ( 545420 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<16> + NET dout<16> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 546180 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<17> + NET din<17> 
+    + DIRECTION INPUT 
+    + PLACED ( 542380 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<17> + NET dout<17> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 543140 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<18> + NET din<18> 
+    + DIRECTION INPUT 
+    + PLACED ( 539340 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<18> + NET dout<18> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 540100 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<19> + NET din<19> 
+    + DIRECTION INPUT 
+    + PLACED ( 536300 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<19> + NET dout<19> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 537060 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<20> + NET din<20> 
+    + DIRECTION INPUT 
+    + PLACED ( 498680 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<20> + NET dout<20> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 499440 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<21> + NET din<21> 
+    + DIRECTION INPUT 
+    + PLACED ( 495640 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<21> + NET dout<21> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 496400 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<22> + NET din<22> 
+    + DIRECTION INPUT 
+    + PLACED ( 492600 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<22> + NET dout<22> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 493360 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<23> + NET din<23> 
+    + DIRECTION INPUT 
+    + PLACED ( 489560 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<23> + NET dout<23> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 490320 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<24> + NET din<24> 
+    + DIRECTION INPUT 
+    + PLACED ( 451940 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<24> + NET dout<24> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 452700 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<25> + NET din<25> 
+    + DIRECTION INPUT 
+    + PLACED ( 448900 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<25> + NET dout<25> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 449660 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<26> + NET din<26> 
+    + DIRECTION INPUT 
+    + PLACED ( 445860 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<26> + NET dout<26> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 446620 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<27> + NET din<27> 
+    + DIRECTION INPUT 
+    + PLACED ( 442820 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<27> + NET dout<27> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 443580 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<28> + NET din<28> 
+    + DIRECTION INPUT 
+    + PLACED ( 405200 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<28> + NET dout<28> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 405960 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<29> + NET din<29> 
+    + DIRECTION INPUT 
+    + PLACED ( 402160 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<29> + NET dout<29> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 402920 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<30> + NET din<30> 
+    + DIRECTION INPUT 
+    + PLACED ( 399120 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<30> + NET dout<30> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 399880 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<31> + NET din<31> 
+    + DIRECTION INPUT 
+    + PLACED ( 396080 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<31> + NET dout<31> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 396840 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<32> + NET din<32> 
+    + DIRECTION INPUT 
+    + PLACED ( 358460 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<32> + NET dout<32> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 359220 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<33> + NET din<33> 
+    + DIRECTION INPUT 
+    + PLACED ( 355420 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<33> + NET dout<33> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 356180 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<34> + NET din<34> 
+    + DIRECTION INPUT 
+    + PLACED ( 352380 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<34> + NET dout<34> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 353140 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<35> + NET din<35> 
+    + DIRECTION INPUT 
+    + PLACED ( 349340 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<35> + NET dout<35> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 350100 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<36> + NET din<36> 
+    + DIRECTION INPUT 
+    + PLACED ( 311720 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<36> + NET dout<36> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 312480 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<37> + NET din<37> 
+    + DIRECTION INPUT 
+    + PLACED ( 308680 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<37> + NET dout<37> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 309440 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<38> + NET din<38> 
+    + DIRECTION INPUT 
+    + PLACED ( 305640 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<38> + NET dout<38> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 306400 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<39> + NET din<39> 
+    + DIRECTION INPUT 
+    + PLACED ( 302600 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<39> + NET dout<39> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 303360 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<40> + NET din<40> 
+    + DIRECTION INPUT 
+    + PLACED ( 264980 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<40> + NET dout<40> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 265740 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<41> + NET din<41> 
+    + DIRECTION INPUT 
+    + PLACED ( 261940 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<41> + NET dout<41> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 262700 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<42> + NET din<42> 
+    + DIRECTION INPUT 
+    + PLACED ( 258900 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<42> + NET dout<42> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 259660 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<43> + NET din<43> 
+    + DIRECTION INPUT 
+    + PLACED ( 255860 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<43> + NET dout<43> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 256620 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<44> + NET din<44> 
+    + DIRECTION INPUT 
+    + PLACED ( 218240 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<44> + NET dout<44> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 219000 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<45> + NET din<45> 
+    + DIRECTION INPUT 
+    + PLACED ( 215200 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<45> + NET dout<45> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 215960 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<46> + NET din<46> 
+    + DIRECTION INPUT 
+    + PLACED ( 212160 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<46> + NET dout<46> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 212920 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<47> + NET din<47> 
+    + DIRECTION INPUT 
+    + PLACED ( 209120 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<47> + NET dout<47> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 209880 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<48> + NET din<48> 
+    + DIRECTION INPUT 
+    + PLACED ( 171500 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<48> + NET dout<48> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 172260 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<49> + NET din<49> 
+    + DIRECTION INPUT 
+    + PLACED ( 168460 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<49> + NET dout<49> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 169220 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<50> + NET din<50> 
+    + DIRECTION INPUT 
+    + PLACED ( 165420 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<50> + NET dout<50> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 166180 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<51> + NET din<51> 
+    + DIRECTION INPUT 
+    + PLACED ( 162380 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<51> + NET dout<51> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 163140 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<52> + NET din<52> 
+    + DIRECTION INPUT 
+    + PLACED ( 124760 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<52> + NET dout<52> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 125520 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<53> + NET din<53> 
+    + DIRECTION INPUT 
+    + PLACED ( 121720 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<53> + NET dout<53> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 122480 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<54> + NET din<54> 
+    + DIRECTION INPUT 
+    + PLACED ( 118680 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<54> + NET dout<54> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 119440 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<55> + NET din<55> 
+    + DIRECTION INPUT 
+    + PLACED ( 115640 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<55> + NET dout<55> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 116400 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<56> + NET din<56> 
+    + DIRECTION INPUT 
+    + PLACED ( 78020 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<56> + NET dout<56> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 78780 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<57> + NET din<57> 
+    + DIRECTION INPUT 
+    + PLACED ( 74980 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<57> + NET dout<57> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 75740 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<58> + NET din<58> 
+    + DIRECTION INPUT 
+    + PLACED ( 71940 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<58> + NET dout<58> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 72700 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<59> + NET din<59> 
+    + DIRECTION INPUT 
+    + PLACED ( 68900 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<59> + NET dout<59> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 69660 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<60> + NET din<60> 
+    + DIRECTION INPUT 
+    + PLACED ( 31280 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<60> + NET dout<60> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 32040 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<61> + NET din<61> 
+    + DIRECTION INPUT 
+    + PLACED ( 28240 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<61> + NET dout<61> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 29000 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<62> + NET din<62> 
+    + DIRECTION INPUT 
+    + PLACED ( 25200 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<62> + NET dout<62> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 25960 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - din<63> + NET din<63> 
+    + DIRECTION INPUT 
+    + PLACED ( 22160 43890 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - dout<63> + NET dout<63> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 22920 35770 ) N 
+    + LAYER metal2 ( 0 0 ) ( 140 140 ) ; 
+  - wl_address<0> + NET wl_address<0> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 208670 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - wl_address<1> + NET wl_address<1> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 204470 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - wl_address<2> + NET wl_address<2> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 203630 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - wl_address<3> + NET wl_address<3> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 199430 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - wl_address<4> + NET wl_address<4> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 198590 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - wl_address<5> + NET wl_address<5> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 194390 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - rst + NET rst 
+    + DIRECTION INPUT 
+    + PLACED ( -140 35630 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - start + NET start 
+    + DIRECTION INPUT 
+    + PLACED ( -140 33110 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - r_w_cim<0> + NET r_w_cim<0> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 30030 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - r_w_cim<1> + NET r_w_cim<1> 
+    + DIRECTION INPUT 
+    + PLACED ( -140 28070 ) N 
+    + LAYER metal3 ( 0 0 ) ( 280 140 ) ; 
+  - out_15<13> + NET out_15<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 24560 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<12> + NET out_15<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 27410 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<11> + NET out_15<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 30260 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<10> + NET out_15<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 33110 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<9> + NET out_15<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 35960 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<8> + NET out_15<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 38810 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<7> + NET out_15<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 41660 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<6> + NET out_15<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 44510 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<5> + NET out_15<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 47360 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<4> + NET out_15<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 50210 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<3> + NET out_15<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 53060 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<2> + NET out_15<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 55910 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<1> + NET out_15<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 58760 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_15<0> + NET out_15<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 61610 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<15> + NET sign_out<15> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 67310 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_14<13> + NET out_14<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 71300 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<12> + NET out_14<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 74150 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<11> + NET out_14<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 77000 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<10> + NET out_14<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 79850 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<9> + NET out_14<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 82700 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<8> + NET out_14<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 85550 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<7> + NET out_14<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 88400 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<6> + NET out_14<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 91250 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<5> + NET out_14<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 94100 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<4> + NET out_14<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 96950 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<3> + NET out_14<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 99800 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<2> + NET out_14<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 102650 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<1> + NET out_14<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 105500 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_14<0> + NET out_14<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 108350 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<14> + NET sign_out<14> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 114050 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_13<13> + NET out_13<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 118040 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<12> + NET out_13<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 120890 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<11> + NET out_13<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 123740 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<10> + NET out_13<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 126590 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<9> + NET out_13<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 129440 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<8> + NET out_13<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 132290 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<7> + NET out_13<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 135140 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<6> + NET out_13<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 137990 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<5> + NET out_13<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 140840 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<4> + NET out_13<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 143690 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<3> + NET out_13<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 146540 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<2> + NET out_13<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 149390 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<1> + NET out_13<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 152240 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_13<0> + NET out_13<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 155090 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<13> + NET sign_out<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 160790 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_12<13> + NET out_12<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 164780 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<12> + NET out_12<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 167630 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<11> + NET out_12<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 170480 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<10> + NET out_12<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 173330 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<9> + NET out_12<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 176180 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<8> + NET out_12<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 179030 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<7> + NET out_12<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 181880 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<6> + NET out_12<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 184730 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<5> + NET out_12<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 187580 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<4> + NET out_12<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 190430 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<3> + NET out_12<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 193280 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<2> + NET out_12<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 196130 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<1> + NET out_12<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 198980 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_12<0> + NET out_12<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 201830 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<12> + NET sign_out<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 207530 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_11<13> + NET out_11<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 211520 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<12> + NET out_11<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 214370 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<11> + NET out_11<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 217220 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<10> + NET out_11<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 220070 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<9> + NET out_11<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 222920 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<8> + NET out_11<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 225770 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<7> + NET out_11<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 228620 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<6> + NET out_11<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 231470 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<5> + NET out_11<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 234320 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<4> + NET out_11<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 237170 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<3> + NET out_11<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 240020 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<2> + NET out_11<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 242870 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<1> + NET out_11<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 245720 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_11<0> + NET out_11<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 248570 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<11> + NET sign_out<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 254270 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_10<13> + NET out_10<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 258260 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<12> + NET out_10<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 261110 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<11> + NET out_10<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 263960 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<10> + NET out_10<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 266810 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<9> + NET out_10<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 269660 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<8> + NET out_10<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 272510 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<7> + NET out_10<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 275360 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<6> + NET out_10<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 278210 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<5> + NET out_10<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 281060 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<4> + NET out_10<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 283910 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<3> + NET out_10<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 286760 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<2> + NET out_10<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 289610 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<1> + NET out_10<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 292460 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_10<0> + NET out_10<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 295310 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<10> + NET sign_out<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 301010 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_9<13> + NET out_9<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 305000 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<12> + NET out_9<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 307850 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<11> + NET out_9<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 310700 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<10> + NET out_9<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 313550 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<9> + NET out_9<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 316400 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<8> + NET out_9<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 319250 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<7> + NET out_9<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 322100 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<6> + NET out_9<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 324950 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<5> + NET out_9<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 327800 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<4> + NET out_9<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 330650 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<3> + NET out_9<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 333500 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<2> + NET out_9<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 336350 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<1> + NET out_9<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 339200 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_9<0> + NET out_9<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 342050 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<9> + NET sign_out<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 347750 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_8<13> + NET out_8<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 351740 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<12> + NET out_8<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 354590 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<11> + NET out_8<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 357440 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<10> + NET out_8<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 360290 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<9> + NET out_8<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 363140 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<8> + NET out_8<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 365990 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<7> + NET out_8<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 368840 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<6> + NET out_8<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 371690 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<5> + NET out_8<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 374540 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<4> + NET out_8<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 377390 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<3> + NET out_8<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 380240 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<2> + NET out_8<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 383090 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<1> + NET out_8<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 385940 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_8<0> + NET out_8<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 388790 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<8> + NET sign_out<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 394490 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_7<13> + NET out_7<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 398480 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<12> + NET out_7<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 401330 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<11> + NET out_7<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 404180 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<10> + NET out_7<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 407030 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<9> + NET out_7<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 409880 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<8> + NET out_7<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 412730 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<7> + NET out_7<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 415580 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<6> + NET out_7<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 418430 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<5> + NET out_7<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 421280 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<4> + NET out_7<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 424130 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<3> + NET out_7<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 426980 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<2> + NET out_7<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 429830 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<1> + NET out_7<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 432680 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_7<0> + NET out_7<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 435530 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<7> + NET sign_out<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 441230 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_6<13> + NET out_6<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 445220 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<12> + NET out_6<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 448070 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<11> + NET out_6<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 450920 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<10> + NET out_6<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 453770 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<9> + NET out_6<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 456620 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<8> + NET out_6<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 459470 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<7> + NET out_6<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 462320 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<6> + NET out_6<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 465170 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<5> + NET out_6<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 468020 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<4> + NET out_6<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 470870 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<3> + NET out_6<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 473720 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<2> + NET out_6<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 476570 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<1> + NET out_6<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 479420 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_6<0> + NET out_6<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 482270 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<6> + NET sign_out<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 487970 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_5<13> + NET out_5<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 491960 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<12> + NET out_5<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 494810 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<11> + NET out_5<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 497660 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<10> + NET out_5<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 500510 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<9> + NET out_5<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 503360 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<8> + NET out_5<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 506210 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<7> + NET out_5<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 509060 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<6> + NET out_5<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 511910 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<5> + NET out_5<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 514760 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<4> + NET out_5<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 517610 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<3> + NET out_5<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 520460 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<2> + NET out_5<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 523310 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<1> + NET out_5<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 526160 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_5<0> + NET out_5<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 529010 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<5> + NET sign_out<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 534710 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_4<13> + NET out_4<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 538700 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<12> + NET out_4<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 541550 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<11> + NET out_4<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 544400 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<10> + NET out_4<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 547250 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<9> + NET out_4<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 550100 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<8> + NET out_4<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 552950 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<7> + NET out_4<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 555800 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<6> + NET out_4<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 558650 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<5> + NET out_4<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 561500 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<4> + NET out_4<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 564350 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<3> + NET out_4<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 567200 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<2> + NET out_4<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 570050 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<1> + NET out_4<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 572900 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_4<0> + NET out_4<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 575750 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<4> + NET sign_out<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 581450 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_3<13> + NET out_3<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 585440 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<12> + NET out_3<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 588290 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<11> + NET out_3<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 591140 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<10> + NET out_3<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 593990 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<9> + NET out_3<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 596840 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<8> + NET out_3<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 599690 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<7> + NET out_3<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 602540 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<6> + NET out_3<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 605390 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<5> + NET out_3<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 608240 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<4> + NET out_3<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 611090 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<3> + NET out_3<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 613940 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<2> + NET out_3<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 616790 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<1> + NET out_3<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 619640 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_3<0> + NET out_3<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 622490 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<3> + NET sign_out<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 628190 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_2<13> + NET out_2<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 632180 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<12> + NET out_2<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 635030 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<11> + NET out_2<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 637880 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<10> + NET out_2<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 640730 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<9> + NET out_2<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 643580 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<8> + NET out_2<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 646430 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<7> + NET out_2<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 649280 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<6> + NET out_2<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 652130 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<5> + NET out_2<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 654980 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<4> + NET out_2<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 657830 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<3> + NET out_2<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 660680 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<2> + NET out_2<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 663530 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<1> + NET out_2<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 666380 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_2<0> + NET out_2<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 669230 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<2> + NET sign_out<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 674930 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_1<13> + NET out_1<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 678920 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<12> + NET out_1<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 681770 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<11> + NET out_1<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 684620 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<10> + NET out_1<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 687470 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<9> + NET out_1<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 690320 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<8> + NET out_1<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 693170 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<7> + NET out_1<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 696020 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<6> + NET out_1<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 698870 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<5> + NET out_1<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 701720 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<4> + NET out_1<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 704570 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<3> + NET out_1<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 707420 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<2> + NET out_1<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 710270 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<1> + NET out_1<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 713120 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_1<0> + NET out_1<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 715970 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<1> + NET sign_out<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 721670 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - out_0<13> + NET out_0<13> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 725660 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<12> + NET out_0<12> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 728510 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<11> + NET out_0<11> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 731360 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<10> + NET out_0<10> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 734210 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<9> + NET out_0<9> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 737060 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<8> + NET out_0<8> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 739910 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<7> + NET out_0<7> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 742760 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<6> + NET out_0<6> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 745610 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<5> + NET out_0<5> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 748460 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<4> + NET out_0<4> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 751310 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<3> + NET out_0<3> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 754160 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<2> + NET out_0<2> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 757010 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<1> + NET out_0<1> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 759860 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - out_0<0> + NET out_0<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 762710 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 280 ) ; 
+  - sign_out<0> + NET sign_out<0> 
+    + DIRECTION OUTPUT 
+    + PLACED ( 768410 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<15> + NET sign_weight<15> 
+    + DIRECTION INPUT 
+    + PLACED ( 67500 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<14> + NET sign_weight<14> 
+    + DIRECTION INPUT 
+    + PLACED ( 114240 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<13> + NET sign_weight<13> 
+    + DIRECTION INPUT 
+    + PLACED ( 160980 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<12> + NET sign_weight<12> 
+    + DIRECTION INPUT 
+    + PLACED ( 207720 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<11> + NET sign_weight<11> 
+    + DIRECTION INPUT 
+    + PLACED ( 254460 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<10> + NET sign_weight<10> 
+    + DIRECTION INPUT 
+    + PLACED ( 301200 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<9> + NET sign_weight<9> 
+    + DIRECTION INPUT 
+    + PLACED ( 347940 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<8> + NET sign_weight<8> 
+    + DIRECTION INPUT 
+    + PLACED ( 394680 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<7> + NET sign_weight<7> 
+    + DIRECTION INPUT 
+    + PLACED ( 441420 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<6> + NET sign_weight<6> 
+    + DIRECTION INPUT 
+    + PLACED ( 488160 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<5> + NET sign_weight<5> 
+    + DIRECTION INPUT 
+    + PLACED ( 534900 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<4> + NET sign_weight<4> 
+    + DIRECTION INPUT 
+    + PLACED ( 581640 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<3> + NET sign_weight<3> 
+    + DIRECTION INPUT 
+    + PLACED ( 628380 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<2> + NET sign_weight<2> 
+    + DIRECTION INPUT 
+    + PLACED ( 675120 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<1> + NET sign_weight<1> 
+    + DIRECTION INPUT 
+    + PLACED ( 721860 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - sign_weight<0> + NET sign_weight<0> 
+    + DIRECTION INPUT 
+    + PLACED ( 768600 209160 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - busy + NET busy 
+    + DIRECTION OUTPUT 
+    + PLACED ( 5560 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - rd_data_enable + NET rd_data_enable 
+    + DIRECTION OUTPUT 
+    + PLACED ( 10690 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+  - cim_data_enable + NET cim_data_enable 
+    + DIRECTION OUTPUT 
+    + PLACED ( 15820 -280 ) N 
+    + LAYER metal4 ( 0 0 ) ( 280 560 ) ; 
+END PINS
+
+COMPONENTS 52 ;
+  - control control_for_4bit_input
+    + PLACED ( 0 0 ) N ;
+  - decoder decoder_6_to_64
+    + PLACED ( 0 47880 ) N ;
+  - driver driver_64x64
+    + PLACED ( 12540 47880 ) N ;
+  - driver_b driver_b_64x64
+    + PLACED ( 16340 47880 ) N ;
+  - sram_with_rw_15 sram_64x4_with_rw
+    + PLACED ( 21280 35280 ) N ;
+  - adder_tree_15 adder_tree_4bit_to_10bit
+    + PLACED ( 33440 35280 ) N ;
+  - accumulator_15 accumulator_10bit_to_14bit
+    + PLACED ( 21280 0 ) N ;
+  - sram_with_rw_14 sram_64x4_with_rw
+    + PLACED ( 68020 35280 ) N ;
+  - adder_tree_14 adder_tree_4bit_to_10bit
+    + PLACED ( 80180 35280 ) N ;
+  - accumulator_14 accumulator_10bit_to_14bit
+    + PLACED ( 68020 0 ) N ;
+  - sram_with_rw_13 sram_64x4_with_rw
+    + PLACED ( 114760 35280 ) N ;
+  - adder_tree_13 adder_tree_4bit_to_10bit
+    + PLACED ( 126920 35280 ) N ;
+  - accumulator_13 accumulator_10bit_to_14bit
+    + PLACED ( 114760 0 ) N ;
+  - sram_with_rw_12 sram_64x4_with_rw
+    + PLACED ( 161500 35280 ) N ;
+  - adder_tree_12 adder_tree_4bit_to_10bit
+    + PLACED ( 173660 35280 ) N ;
+  - accumulator_12 accumulator_10bit_to_14bit
+    + PLACED ( 161500 0 ) N ;
+  - sram_with_rw_11 sram_64x4_with_rw
+    + PLACED ( 208240 35280 ) N ;
+  - adder_tree_11 adder_tree_4bit_to_10bit
+    + PLACED ( 220400 35280 ) N ;
+  - accumulator_11 accumulator_10bit_to_14bit
+    + PLACED ( 208240 0 ) N ;
+  - sram_with_rw_10 sram_64x4_with_rw
+    + PLACED ( 254980 35280 ) N ;
+  - adder_tree_10 adder_tree_4bit_to_10bit
+    + PLACED ( 267140 35280 ) N ;
+  - accumulator_10 accumulator_10bit_to_14bit
+    + PLACED ( 254980 0 ) N ;
+  - sram_with_rw_9 sram_64x4_with_rw
+    + PLACED ( 301720 35280 ) N ;
+  - adder_tree_9 adder_tree_4bit_to_10bit
+    + PLACED ( 313880 35280 ) N ;
+  - accumulator_9 accumulator_10bit_to_14bit
+    + PLACED ( 301720 0 ) N ;
+  - sram_with_rw_8 sram_64x4_with_rw
+    + PLACED ( 348460 35280 ) N ;
+  - adder_tree_8 adder_tree_4bit_to_10bit
+    + PLACED ( 360620 35280 ) N ;
+  - accumulator_8 accumulator_10bit_to_14bit
+    + PLACED ( 348460 0 ) N ;
+  - sram_with_rw_7 sram_64x4_with_rw
+    + PLACED ( 395200 35280 ) N ;
+  - adder_tree_7 adder_tree_4bit_to_10bit
+    + PLACED ( 407360 35280 ) N ;
+  - accumulator_7 accumulator_10bit_to_14bit
+    + PLACED ( 395200 0 ) N ;
+  - sram_with_rw_6 sram_64x4_with_rw
+    + PLACED ( 441940 35280 ) N ;
+  - adder_tree_6 adder_tree_4bit_to_10bit
+    + PLACED ( 454100 35280 ) N ;
+  - accumulator_6 accumulator_10bit_to_14bit
+    + PLACED ( 441940 0 ) N ;
+  - sram_with_rw_5 sram_64x4_with_rw
+    + PLACED ( 488680 35280 ) N ;
+  - adder_tree_5 adder_tree_4bit_to_10bit
+    + PLACED ( 500840 35280 ) N ;
+  - accumulator_5 accumulator_10bit_to_14bit
+    + PLACED ( 488680 0 ) N ;
+  - sram_with_rw_4 sram_64x4_with_rw
+    + PLACED ( 535420 35280 ) N ;
+  - adder_tree_4 adder_tree_4bit_to_10bit
+    + PLACED ( 547580 35280 ) N ;
+  - accumulator_4 accumulator_10bit_to_14bit
+    + PLACED ( 535420 0 ) N ;
+  - sram_with_rw_3 sram_64x4_with_rw
+    + PLACED ( 582160 35280 ) N ;
+  - adder_tree_3 adder_tree_4bit_to_10bit
+    + PLACED ( 594320 35280 ) N ;
+  - accumulator_3 accumulator_10bit_to_14bit
+    + PLACED ( 582160 0 ) N ;
+  - sram_with_rw_2 sram_64x4_with_rw
+    + PLACED ( 628900 35280 ) N ;
+  - adder_tree_2 adder_tree_4bit_to_10bit
+    + PLACED ( 641060 35280 ) N ;
+  - accumulator_2 accumulator_10bit_to_14bit
+    + PLACED ( 628900 0 ) N ;
+  - sram_with_rw_1 sram_64x4_with_rw
+    + PLACED ( 675640 35280 ) N ;
+  - adder_tree_1 adder_tree_4bit_to_10bit
+    + PLACED ( 687800 35280 ) N ;
+  - accumulator_1 accumulator_10bit_to_14bit
+    + PLACED ( 675640 0 ) N ;
+  - sram_with_rw_0 sram_64x4_with_rw
+    + PLACED ( 722380 35280 ) N ;
+  - adder_tree_0 adder_tree_4bit_to_10bit
+    + PLACED ( 734540 35280 ) N ;
+  - accumulator_0 accumulator_10bit_to_14bit
+    + PLACED ( 722380 0 ) N ;
+END COMPONENTS
+
+END DESIGN

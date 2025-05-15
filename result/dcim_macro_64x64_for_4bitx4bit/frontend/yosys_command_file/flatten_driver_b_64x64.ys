@@ -1,0 +1,7 @@
+read_verilog results/dcim_macro_64x64_for_4bitx4bit/frontend/verilog_file/top_module/dcim_macro_64x64_for_4bitx4bit.v
+hierarchy -check -top driver_b_64x64
+blackbox inverter nand2 nor2 xor2 mux_2_1 half_adder full_adder adder_sign_extension dff dcim_bitcell sram_rw filler tiel tieh
+flatten
+splitnets -ports
+clean
+write_verilog results/dcim_macro_64x64_for_4bitx4bit/frontend/verilog_file/sub_modules/flatten/driver_b_64x64_flatten.v
